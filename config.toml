@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Colwich Elementary Spring Carnival 2022'
+theme = "ColwichTheme"
