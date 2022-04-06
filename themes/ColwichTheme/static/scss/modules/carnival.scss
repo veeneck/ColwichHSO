@@ -51,7 +51,7 @@ body {
 	}
 
 	@include contentFor(normal-screen) {
-			height: 80%;
+			height: 80vh;
 			padding: 50px;
 			top: 50%;
 	}
@@ -157,15 +157,6 @@ svg.ticket_cutout {
 	}
 }
 
-/// These are the callouts left and right of the tent graphic
-.presenting {
-	display: none;
-
-	@include contentFor(normal-screen) {
-		display: block;
-	}
-}
-
 .tents h1 {
 	width: 100%;
 	text-align: center;
@@ -242,6 +233,38 @@ svg.ticket_cutout {
 
 .pricingMax {
 	@include proseFont();
+}
+
+/// These are the callouts left and right of the tent graphic
+.presenting {
+	display: none;
+
+	@include contentFor(normal-screen) {
+		font-size: 35%;
+		display: block;
+		margin-top: 125px;
+		width: 100%;
+		text-align: center;
+		margin-left: 0px;
+		padding-right: 50px;
+	}
+}
+
+.presenting.left {
+	padding-right: 0px;
+	padding-left: 50px;
+}
+
+.presenting li {
+	list-style: none;
+	transform: rotate(-25deg);
+	text-align: center;
+	@include abrilFont();
+	margin-top: 50px;
+}
+
+.presenting.inverse li {
+	transform: rotate(25deg);
 }
 
 .attractions {

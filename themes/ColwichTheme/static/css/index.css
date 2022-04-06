@@ -1179,7 +1179,7 @@ body {
 }
 @media (min-width: 1080px) {
   .ticket {
-    height: 80%;
+    height: 80vh;
     padding: 50px;
     top: 50%;
   }
@@ -1301,15 +1301,6 @@ svg.ticket_cutout {
   }
 }
 
-.presenting {
-  display: none;
-}
-@media (min-width: 1080px) {
-  .presenting {
-    display: block;
-  }
-}
-
 .tents h1 {
   width: 100%;
   text-align: center;
@@ -1402,6 +1393,39 @@ svg.ticket_cutout {
 .pricingMax {
   font-family: "Trebuchet MS", sans-serif;
   font-display: swap;
+}
+
+.presenting {
+  display: none;
+}
+@media (min-width: 1080px) {
+  .presenting {
+    font-size: 35%;
+    display: block;
+    margin-top: 125px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+    padding-right: 50px;
+  }
+}
+
+.presenting.left {
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+.presenting li {
+  list-style: none;
+  transform: rotate(-25deg);
+  text-align: center;
+  font-family: "abril_fatfaceregular", sans-serif;
+  font-display: swap;
+  margin-top: 50px;
+}
+
+.presenting.inverse li {
+  transform: rotate(25deg);
 }
 
 .attractions {
