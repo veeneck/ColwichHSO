@@ -46,6 +46,10 @@ body {
 	color: #fff;
 	font: 1em trebuchet ms, verdana, sans-serif;
 
+	@include contentFor(mini-screen) {
+		height: 650px;
+	}
+
 	@include contentFor(normal-screen) {
 			height: 80%;
 			padding: 50px;
@@ -139,13 +143,12 @@ svg.ticket_cutout {
 	background-image: url("/images/tents.png");
 	background-repeat: no-repeat;
 	background-position: 50% 75%;
-	background-size: 75%;
+	background-size: auto 275px;
 	@include flex();
 	justify-content: center;
 
 	@include contentFor(mini-screen) {
-		background-size: 60%;
-		background-position: 50% 100%;
+		background-size: auto 400px;
 	}
 
 	@include contentFor(normal-screen) {
