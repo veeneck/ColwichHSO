@@ -1659,7 +1659,6 @@ section.carnivalInfo {
   display: block;
   position: relative;
   background-color: #FFF7E4;
-  padding-bottom: 50px;
 }
 
 .carnivalAttractions:before {
@@ -1715,7 +1714,19 @@ section.carnivalInfo {
 }
 
 .deal {
-  border: 2px solid #D7504A;
+  background-color: #D7504A;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.deal h7 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.deal p {
+  color: #fff;
+  font-size: 130%;
 }
 
 .detailCallout {

@@ -470,7 +470,7 @@ h6.needToKnow {
 	display: block;
 	position: relative;
 	background-color: #FFF7E4;
-	padding-bottom: 50px;
+	//padding-bottom: 50px;
 }
 
 
@@ -522,7 +522,19 @@ h6.needToKnow {
 }
 
 .deal {
-	border: 2px solid $redColor;
+	background-color: $redColor;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.deal h7 {
+	color: #fff;
+	margin-top: 20px;
+}
+
+.deal p {
+	color: #fff;
+	font-size: 130%;
 }
 
 .detailCallout {
