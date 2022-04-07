@@ -1184,7 +1184,8 @@ body {
 }
 @media (min-width: 1080px) {
   .ticket {
-    height: 750px;
+    height: 80vh;
+    max-height: 750px;
     padding: 30px;
   }
 }
@@ -1192,7 +1193,13 @@ body {
   .ticket {
     height: 80vh;
     padding: 50px;
-    top: 50%;
+    top: 0%;
+    transform: translate(-50%, 3%);
+  }
+}
+@media (min-width: 2000px) {
+  .ticket {
+    transform: translate(-50%, 5%);
   }
 }
 
@@ -1364,6 +1371,11 @@ svg.ticket_cutout {
     font-size: 80%;
   }
 }
+@media (min-width: 2000px) {
+  .tents h1 {
+    font-size: 90%;
+  }
+}
 
 .tents h2 {
   text-align: center;
@@ -1382,6 +1394,11 @@ svg.ticket_cutout {
     margin-bottom: -55px;
     font-size: 30%;
     margin-top: 90px !important;
+  }
+}
+@media (min-width: 2000px) {
+  .tents h2 {
+    font-size: 40%;
   }
 }
 
@@ -1409,6 +1426,11 @@ svg.ticket_cutout {
 @media (min-width: 1300px) {
   .details h3 {
     font-size: 45%;
+  }
+}
+@media (min-width: 2000px) {
+  .details h3 {
+    font-size: 55%;
   }
 }
 
