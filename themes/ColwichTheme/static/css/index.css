@@ -1703,8 +1703,12 @@ section.carnivalInfo {
   text-transform: uppercase;
   border-bottom: 1px dotted #D7504A;
   font-size: 120%;
-  margin-top: 50px;
   display: inline-block;
+  margin-top: 25px;
+}
+
+.carnivalAttractions h7.first {
+  margin-top: 50px;
 }
 
 .games {
@@ -1715,6 +1719,10 @@ section.carnivalInfo {
   font-weight: normal;
   margin-bottom: 0px;
   padding: 20px;
+}
+
+p.activities {
+  padding-bottom: 0px;
 }
 
 .deal {
