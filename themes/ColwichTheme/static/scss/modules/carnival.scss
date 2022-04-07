@@ -401,8 +401,10 @@ svg.ticket_cutout {
 	margin: 50px auto 0px auto;
 	padding: 0px 5% 0px 5%;
 	border-bottom: 2px dashed $redColor;
-	@include flex();
-	flex-wrap: wrap;
+	display: grid;
+	grid-template-columns: 47.5% 47.5%;
+	grid-auto-flow: dense;
+	column-gap:5%;
 	@include contentFor(normal-screen) {
 		margin-top: 75px;
 	}
@@ -412,10 +414,6 @@ section.carnivalInfo {
 	width: 100%;
 	margin-bottom: 50px;
 	box-sizing: border-box;
-
-	@include contentFor(normal-screen) {
-		width: 50%;
-	}
 }
 
 .needToKnow {

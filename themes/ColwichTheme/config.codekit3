@@ -100,6 +100,22 @@
       "oAP" : "\/layouts\/partials\/header.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/sponsorlist.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/sponsorlist.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/thanksto.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/thanksto.html",
+      "oF" : 0
+    },
     "\/LICENSE" : {
       "cB" : 0,
       "ft" : 8192,

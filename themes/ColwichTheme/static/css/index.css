@@ -1594,12 +1594,10 @@ svg.ticket_cutout {
   margin: 50px auto 0px auto;
   padding: 0px 5% 0px 5%;
   border-bottom: 2px dashed #D7504A;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 47.5% 47.5%;
+  grid-auto-flow: dense;
+  column-gap: 5%;
 }
 @media (min-width: 1080px) {
   .content {
@@ -1611,11 +1609,6 @@ section.carnivalInfo {
   width: 100%;
   margin-bottom: 50px;
   box-sizing: border-box;
-}
-@media (min-width: 1080px) {
-  section.carnivalInfo {
-    width: 50%;
-  }
 }
 
 @media (min-width: 1080px) {
