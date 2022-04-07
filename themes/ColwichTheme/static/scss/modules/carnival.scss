@@ -180,9 +180,11 @@ svg.ticket_cutout {
 
 	@include contentFor(mini-screen) {
 		background-size: auto 400px;
+		background-position: 50% 100%;
 	}
 
 	@include contentFor(normal-screen) {
+		background-position: 50% 140%;
 		background-size: auto 450px;
 	}
 
@@ -225,10 +227,11 @@ svg.ticket_cutout {
 	@include contentFor(normal-screen) {
 		margin-bottom: -55px;
 		font-size: 30%;
-		margin-top: 90px !important;
+		margin-top: 70px !important;
 	}
 	@include contentFor(xl-screen) {
 			font-size: 40%;
+			margin-top: 90px !important;
 	}
 }
 
@@ -328,10 +331,12 @@ svg.ticket_cutout {
 	@include contentFor(large-screen) {
 		font-size: 30%;
 		padding-right: 7%;
+		margin-top: 100px;
 	}
 
 	@include contentFor(xl-screen) {
 		font-size: 45%;
+		margin-top: 125px;
 	}
 }
 

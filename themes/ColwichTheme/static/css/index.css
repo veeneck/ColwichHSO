@@ -1337,10 +1337,12 @@ svg.ticket_cutout {
 @media (min-width: 765px) {
   .tents {
     background-size: auto 400px;
+    background-position: 50% 100%;
   }
 }
 @media (min-width: 1080px) {
   .tents {
+    background-position: 50% 140%;
     background-size: auto 450px;
   }
 }
@@ -1395,12 +1397,13 @@ svg.ticket_cutout {
   .tents h2 {
     margin-bottom: -55px;
     font-size: 30%;
-    margin-top: 90px !important;
+    margin-top: 70px !important;
   }
 }
 @media (min-width: 2000px) {
   .tents h2 {
     font-size: 40%;
+    margin-top: 90px !important;
   }
 }
 
@@ -1515,11 +1518,13 @@ svg.ticket_cutout {
   .presenting {
     font-size: 30%;
     padding-right: 7%;
+    margin-top: 100px;
   }
 }
 @media (min-width: 2000px) {
   .presenting {
     font-size: 45%;
+    margin-top: 125px;
   }
 }
 
