@@ -1191,6 +1191,7 @@ body {
 }
 @media (min-width: 1300px) {
   .ticket {
+    max-height: none;
     height: 80vh;
     padding: 50px;
     top: 0%;
@@ -1199,6 +1200,7 @@ body {
 }
 @media (min-width: 2000px) {
   .ticket {
+    max-height: 1700px;
     transform: translate(-50%, 5%);
   }
 }
@@ -1499,7 +1501,7 @@ svg.ticket_cutout {
   .presenting {
     font-size: 20%;
     display: block;
-    margin-top: 125px;
+    margin-top: 75px;
     width: 100%;
     text-align: center;
     margin-left: 0px;

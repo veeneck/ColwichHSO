@@ -61,6 +61,7 @@ body {
 	}
 
 	@include contentFor(large-screen) {
+			max-height: none;
 			height: 80vh;
 			padding: 50px;
 			top: 0%;
@@ -68,6 +69,7 @@ body {
 	}
 
 	@include contentFor(xl-screen) {
+			max-height: 1700px;
 			transform: translate(-50%,5%);
 	}
 }
@@ -314,7 +316,7 @@ svg.ticket_cutout {
 	@include contentFor(normal-screen) {
 		font-size: 20%;
 		display: block;
-		margin-top: 125px;
+		margin-top: 75px;
 		width: 100%;
 		text-align: center;
 		margin-left: 0px;
