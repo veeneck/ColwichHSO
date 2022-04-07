@@ -1592,7 +1592,7 @@ svg.ticket_cutout {
 /* --------------- SITE CONTENT ---------------*/
 .content {
   margin: 50px auto 0px auto;
-  padding: 0px 5% 75px 5%;
+  padding: 0px 5% 0px 5%;
   border-bottom: 2px dashed #D7504A;
   display: -webkit-box;
   display: -moz-box;
@@ -1628,6 +1628,10 @@ section.carnivalInfo {
   .content h6 {
     font-size: 140%;
   }
+}
+
+.content img {
+  margin-bottom: 0px;
 }
 
 .content p {

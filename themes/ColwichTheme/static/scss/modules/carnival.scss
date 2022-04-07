@@ -399,7 +399,7 @@ svg.ticket_cutout {
 
 .content {
 	margin: 50px auto 0px auto;
-	padding: 0px 5% 75px 5%;
+	padding: 0px 5% 0px 5%;
 	border-bottom: 2px dashed $redColor;
 	@include flex();
 	flex-wrap: wrap;
@@ -428,6 +428,10 @@ section.carnivalInfo {
 		font-size: 140%;
 
 	}
+}
+
+.content img {
+	margin-bottom: 0px;
 }
 
 .content p {
