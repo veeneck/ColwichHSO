@@ -55,6 +55,11 @@ body {
 	}
 
 	@include contentFor(normal-screen) {
+			height: 750px;
+			padding: 30px;
+	}
+
+	@include contentFor(large-screen) {
 			height: 80vh;
 			padding: 50px;
 			top: 50%;
@@ -89,10 +94,13 @@ body {
   padding: 5px 30px;
   position: absolute;
   text-align: center;
-  @include contentFor(normal-screen) {
-  	font-size: 20px;
+  @include contentFor(large-screen) {
+  	font-size: 15px;
   	outline: 2px dashed $redColor;
   	border: 5px solid $lightestTan;
+  }
+   @include contentFor(xl-screen) {
+  	font-size: 20px;
   }
 }
 
@@ -104,17 +112,25 @@ body {
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  top: 50px;
+  @include contentFor(normal-screen) {
+  	top: 30px;
+  }
+  @include contentFor(large-screen) {
+		top: 50px;
+	}
 }
 
 .inner_ticket:after {
 	@include contentFor(normal-screen) {
-	  bottom: 50px;
+		bottom: 30px;
 	  content: "LEARN MORE ▼";
 	  -webkit-transform: translateX(-50%) translateY(50%);
 	  -moz-transform: translateX(-50%) translateY(50%);
 	  transform: translateX(-50%) translateY(50%);
   }
+  @include contentFor(large-screen) {
+		bottom: 50px;
+	}
 }
 
 svg.ticket_cutout {
@@ -130,6 +146,9 @@ svg.ticket_cutout {
 		r: 30px;
 	}
 	@include contentFor(normal-screen) {
+		r: 30px;
+	}
+	@include contentFor(large-screen) {
 		r: 50px;
 	}
 }
@@ -156,6 +175,10 @@ svg.ticket_cutout {
 	}
 
 	@include contentFor(normal-screen) {
+		background-size: auto 450px;
+	}
+
+	@include contentFor(large-screen) {
 		background-position: 50% 120%;
 		background-size: auto 600px;
 	}
@@ -171,6 +194,9 @@ svg.ticket_cutout {
 			font-size: 60%;
 	}
 	@include contentFor(normal-screen) {
+			font-size: 70%;
+	}
+	@include contentFor(large-screen) {
 			font-size: 80%;
 	}
 }
@@ -199,7 +225,11 @@ svg.ticket_cutout {
 	margin-top: -30px;
 
 	@include contentFor(normal-screen) {
-		margin-top: 0px;
+		//margin-top: 0px;
+	}
+
+	@include contentFor(normal-screen) {
+		//margin-top: 0px;
 	}
 }
 
@@ -209,6 +239,19 @@ svg.ticket_cutout {
 	@include contentFor(mini-screen) {
 		font-size: 45%;
 	}
+	@include contentFor(normal-screen) {
+		font-size: 40%;
+	}
+	@include contentFor(large-screen) {
+		font-size: 45%;
+	}
+}
+
+.details p {
+	display: none;
+	@include contentFor(normal-screen) {
+		display: block;
+	}
 }
 
 .details p span {
@@ -217,6 +260,10 @@ svg.ticket_cutout {
 	padding: 10px 20px;
 	border-radius: 10px;
 	@include proseFont();
+	font-size: 80%;
+	@include contentFor(large-screen) {
+			font-size: 100%;
+	}
 }
 
 .pricing {
@@ -240,6 +287,9 @@ svg.ticket_cutout {
 
 .pricingMax {
 	@include proseFont();
+	@include contentFor(normal-screen) {
+		display: none;
+	}
 }
 
 /// These are the callouts left and right of the tent graphic
@@ -247,29 +297,45 @@ svg.ticket_cutout {
 	display: none;
 
 	@include contentFor(normal-screen) {
-		font-size: 30%;
+		font-size: 20%;
 		display: block;
 		margin-top: 125px;
 		width: 100%;
 		text-align: center;
 		margin-left: 0px;
-		padding-right: 7%;
+		padding-right: 4%;
 		color: $blueColor;
 		@include abrilFont();
+	}
+
+	@include contentFor(large-screen) {
+		font-size: 30%;
+		padding-right: 7%;
+	}
+
+	@include contentFor(xl-screen) {
+		font-size: 45%;
 	}
 }
 
 .presenting.left {
 	padding-right: 0px;
-	padding-left: 7%;
+	padding-left: 4%;
+	@include contentFor(large-screen) {
+		padding-left: 7%;
+	}
+
 }
 
 .presenting li {
 	list-style: none;
 	transform: rotate(-25deg);
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 70px;
 	text-shadow: 4px 4px 10px #fff;
+	@include contentFor(xl-screen) {
+		margin-top: 75px;
+	}
 }
 
 .presenting.inverse li {

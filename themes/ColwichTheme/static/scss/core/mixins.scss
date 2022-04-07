@@ -5,7 +5,13 @@
 
 @mixin contentFor($point) {
     // Full design
-    @if $point == large-screen {
+    @if $point == xl-screen {
+        @media (min-width: 2000px) {
+            @content;
+        }
+    }
+    // Full design
+    @else if $point == large-screen {
         @media (min-width: 1300px) {
             @content;
         }

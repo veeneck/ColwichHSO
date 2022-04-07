@@ -1184,6 +1184,12 @@ body {
 }
 @media (min-width: 1080px) {
   .ticket {
+    height: 750px;
+    padding: 30px;
+  }
+}
+@media (min-width: 1300px) {
+  .ticket {
     height: 80vh;
     padding: 50px;
     top: 50%;
@@ -1220,12 +1226,18 @@ body {
   position: absolute;
   text-align: center;
 }
-@media (min-width: 1080px) {
+@media (min-width: 1300px) {
+  .inner_ticket:before,
+.inner_ticket:after {
+    font-size: 15px;
+    outline: 2px dashed #D7504A;
+    border: 5px solid #FFF7E4;
+  }
+}
+@media (min-width: 2000px) {
   .inner_ticket:before,
 .inner_ticket:after {
     font-size: 20px;
-    outline: 2px dashed #D7504A;
-    border: 5px solid #FFF7E4;
   }
 }
 
@@ -1234,21 +1246,35 @@ body {
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  top: 50px;
 }
 @media (min-width: 765px) {
   .inner_ticket:before {
     content: "COLWICH ELEMENTARY HSO PRESENTS";
   }
 }
+@media (min-width: 1080px) {
+  .inner_ticket:before {
+    top: 30px;
+  }
+}
+@media (min-width: 1300px) {
+  .inner_ticket:before {
+    top: 50px;
+  }
+}
 
 @media (min-width: 1080px) {
   .inner_ticket:after {
-    bottom: 50px;
+    bottom: 30px;
     content: "LEARN MORE ▼";
     -webkit-transform: translateX(-50%) translateY(50%);
     -moz-transform: translateX(-50%) translateY(50%);
     transform: translateX(-50%) translateY(50%);
+  }
+}
+@media (min-width: 1300px) {
+  .inner_ticket:after {
+    bottom: 50px;
   }
 }
 
@@ -1270,6 +1296,11 @@ svg.ticket_cutout {
   }
 }
 @media (min-width: 1080px) {
+  .circle_cutout {
+    r: 30px;
+  }
+}
+@media (min-width: 1300px) {
   .circle_cutout {
     r: 50px;
   }
@@ -1301,6 +1332,11 @@ svg.ticket_cutout {
 }
 @media (min-width: 1080px) {
   .tents {
+    background-size: auto 450px;
+  }
+}
+@media (min-width: 1300px) {
+  .tents {
     background-position: 50% 120%;
     background-size: auto 600px;
   }
@@ -1319,6 +1355,11 @@ svg.ticket_cutout {
   }
 }
 @media (min-width: 1080px) {
+  .tents h1 {
+    font-size: 70%;
+  }
+}
+@media (min-width: 1300px) {
   .tents h1 {
     font-size: 80%;
   }
@@ -1351,12 +1392,6 @@ svg.ticket_cutout {
   font-display: swap;
   margin-top: -30px;
 }
-@media (min-width: 1080px) {
-  .details {
-    margin-top: 0px;
-  }
-}
-
 .details h3 {
   font-size: 25%;
   font-weight: normal !important;
@@ -1364,6 +1399,25 @@ svg.ticket_cutout {
 @media (min-width: 765px) {
   .details h3 {
     font-size: 45%;
+  }
+}
+@media (min-width: 1080px) {
+  .details h3 {
+    font-size: 40%;
+  }
+}
+@media (min-width: 1300px) {
+  .details h3 {
+    font-size: 45%;
+  }
+}
+
+.details p {
+  display: none;
+}
+@media (min-width: 1080px) {
+  .details p {
+    display: block;
   }
 }
 
@@ -1374,6 +1428,12 @@ svg.ticket_cutout {
   border-radius: 10px;
   font-family: "Trebuchet MS", sans-serif;
   font-display: swap;
+  font-size: 80%;
+}
+@media (min-width: 1300px) {
+  .details p span {
+    font-size: 100%;
+  }
 }
 
 .pricing {
@@ -1404,36 +1464,62 @@ svg.ticket_cutout {
   font-family: "Trebuchet MS", sans-serif;
   font-display: swap;
 }
+@media (min-width: 1080px) {
+  .pricingMax {
+    display: none;
+  }
+}
 
 .presenting {
   display: none;
 }
 @media (min-width: 1080px) {
   .presenting {
-    font-size: 30%;
+    font-size: 20%;
     display: block;
     margin-top: 125px;
     width: 100%;
     text-align: center;
     margin-left: 0px;
-    padding-right: 7%;
+    padding-right: 4%;
     color: #186363;
     font-family: "abril_fatfaceregular", sans-serif;
     font-display: swap;
   }
 }
+@media (min-width: 1300px) {
+  .presenting {
+    font-size: 30%;
+    padding-right: 7%;
+  }
+}
+@media (min-width: 2000px) {
+  .presenting {
+    font-size: 45%;
+  }
+}
 
 .presenting.left {
   padding-right: 0px;
-  padding-left: 7%;
+  padding-left: 4%;
+}
+@media (min-width: 1300px) {
+  .presenting.left {
+    padding-left: 7%;
+  }
 }
 
 .presenting li {
   list-style: none;
   transform: rotate(-25deg);
   text-align: center;
-  margin-top: 50px;
+  margin-top: 70px;
   text-shadow: 4px 4px 10px #fff;
+}
+@media (min-width: 2000px) {
+  .presenting li {
+    margin-top: 75px;
+  }
 }
 
 .presenting.inverse li {
