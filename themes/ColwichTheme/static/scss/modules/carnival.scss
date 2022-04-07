@@ -435,26 +435,27 @@ h6.needToKnow {
 	
 }
 
-.faqs {
-	padding: 100px 50px 0px 50px;
+.mainSponsors {
+	
 }
 
-.faqs h6 {
-	text-transform: uppercase;
-	width: 100%;
-	text-align: center;
-	font-size: 140%;
+.thanksTo {
+	
 }
 
-.faqs p {
-	@include proseFont();
-	font-family: "Trebuchet MS";
-	font-weight: bolder;
-	color: $darkTanFont;
-	font-size: 130%;
-	line-height: 2em;
-	margin-bottom: 50px;
-	padding: 10px 50px;
+.paymentType {
+	
+}
+
+.proceeds {
+	display: none;
+	@include contentFor(normal-screen) {
+		display: block;
+	}
+}
+
+.parking {
+	
 }
 
 .carnivalAttractions {
@@ -538,7 +539,7 @@ h6.needToKnow {
 .logos {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 	width: 100%;
 }
 
@@ -546,13 +547,12 @@ h6.needToKnow {
 	background-color: #FFF7E4;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 80%;
+	background-size: 60%;
 	border-radius: 10px;
-	width: 175px;
-	height: 175px;
+	width: 41%;
+	height: 75px;
 	padding: 10px;
-	margin: 10px;
-	position: relative;
+	margin: 5px 1%;
 }
 
 .doubleSponsor {
