@@ -1610,6 +1610,12 @@ svg.ticket_cutout {
 section.carnivalInfo {
   width: 100%;
   margin-bottom: 50px;
+  box-sizing: border-box;
+}
+@media (min-width: 1080px) {
+  section.carnivalInfo {
+    width: 50%;
+  }
 }
 
 @media (min-width: 1080px) {
@@ -1644,7 +1650,7 @@ section.carnivalInfo {
 }
 @media (min-width: 1080px) {
   .paymentTypes {
-    display: block;
+    display: inline-block;
   }
 }
 
@@ -1653,7 +1659,7 @@ section.carnivalInfo {
 }
 @media (min-width: 1080px) {
   .proceeds {
-    display: block;
+    display: inline-block;
   }
 }
 
@@ -1709,6 +1715,12 @@ section.carnivalInfo {
 
 .carnivalAttractions h7.first {
   margin-top: 50px;
+}
+
+@media (min-width: 765px) {
+  h7.foodHeader {
+    margin-top: 50px;
+  }
 }
 
 .games {
@@ -1781,6 +1793,7 @@ p.activities {
   margin: 0px 5px;
 }
 
+/* --------------- SPONSORS ---------------*/
 .sponsors {
   padding: 100px 0px 0px 0px;
   text-align: center;
@@ -1807,9 +1820,25 @@ p.activities {
   margin: 1% 1%;
   box-sizing: border-box;
 }
+@media (min-width: 35em) {
+  .sponsorLogo {
+    height: 150px;
+    background-size: 50%;
+  }
+}
+@media (min-width: 765px) {
+  .sponsorLogo {
+    width: 31%;
+  }
+}
 
 .doubleSponsor {
-  width: 390px;
+  width: 100%;
+}
+@media (min-width: 765px) {
+  .doubleSponsor {
+    width: 64.5%;
+  }
 }
 
 .fullSponsor {
