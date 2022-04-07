@@ -205,6 +205,7 @@ svg.ticket_cutout {
 	}
 	@include contentFor(normal-screen) {
 			font-size: 70%;
+			background-color: rgba(255, 247, 228, 0.7);
 	}
 	@include contentFor(large-screen) {
 			font-size: 80%;

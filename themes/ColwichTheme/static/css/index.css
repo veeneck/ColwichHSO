@@ -1368,6 +1368,7 @@ svg.ticket_cutout {
 @media (min-width: 1080px) {
   .tents h1 {
     font-size: 70%;
+    background-color: rgba(255, 247, 228, 0.7);
   }
 }
 @media (min-width: 1300px) {
