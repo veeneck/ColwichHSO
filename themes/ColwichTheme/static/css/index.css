@@ -1189,19 +1189,34 @@ body {
     padding: 30px;
   }
 }
+@media (min-width: 1080px) and (max-height: 750px) {
+  .ticket {
+    height: 750px;
+  }
+}
 @media (min-width: 1300px) {
   .ticket {
-    max-height: none;
+    max-height: 900px;
     height: 80vh;
     padding: 50px;
     top: 0%;
     transform: translate(-50%, 3%);
   }
 }
+@media (min-width: 1300px) and (max-height: 900px) {
+  .ticket {
+    height: 900px;
+  }
+}
 @media (min-width: 2000px) {
   .ticket {
-    max-height: 1700px;
+    max-height: 1000px;
     transform: translate(-50%, 5%);
+  }
+}
+@media (min-width: 2000px) and (max-height: 1000px) {
+  .ticket {
+    height: 1000px;
   }
 }
 
@@ -1342,7 +1357,7 @@ svg.ticket_cutout {
 }
 @media (min-width: 1080px) {
   .tents {
-    background-position: 50% 140%;
+    background-position: 50% 100%;
     background-size: auto 450px;
   }
 }
@@ -1352,7 +1367,6 @@ svg.ticket_cutout {
     background-size: auto 600px;
   }
 }
-
 .tents h1 {
   width: 100%;
   text-align: center;

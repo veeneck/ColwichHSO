@@ -58,19 +58,28 @@ body {
 			height: 80vh;
 			max-height: 750px;
 			padding: 30px;
+			@media (max-height: 750px) {
+    		height: 750px;
+    	}
 	}
 
 	@include contentFor(large-screen) {
-			max-height: none;
+			max-height: 900px;
 			height: 80vh;
 			padding: 50px;
 			top: 0%;
 			transform: translate(-50%,3%);
+			@media (max-height: 900px) {
+    		height: 900px;
+    	}
 	}
 
 	@include contentFor(xl-screen) {
-			max-height: 1700px;
+			max-height: 1000px;
 			transform: translate(-50%,5%);
+			@media (max-height: 1000px) {
+    		height: 1000px;
+    	}
 	}
 }
 
@@ -184,7 +193,7 @@ svg.ticket_cutout {
 	}
 
 	@include contentFor(normal-screen) {
-		background-position: 50% 140%;
+		background-position: 50% 100%;
 		background-size: auto 450px;
 	}
 
@@ -192,6 +201,10 @@ svg.ticket_cutout {
 		background-position: 50% 120%;
 		background-size: auto 600px;
 	}
+
+	@media (min-height: 2000px) {
+       
+  }
 }
 
 .tents h1 {
