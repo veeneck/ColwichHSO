@@ -1594,14 +1594,14 @@ svg.ticket_cutout {
   margin: 50px auto 0px auto;
   padding: 0px 5% 0px 5%;
   border-bottom: 2px dashed #D7504A;
-  display: grid;
-  grid-template-columns: 47.5% 47.5%;
-  grid-auto-flow: dense;
-  column-gap: 5%;
 }
 @media (min-width: 1080px) {
   .content {
     margin-top: 75px;
+    display: grid;
+    grid-template-columns: 47.5% 47.5%;
+    grid-auto-flow: dense;
+    column-gap: 5%;
   }
 }
 
