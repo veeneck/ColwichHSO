@@ -535,10 +535,30 @@ h6.needToKnow {
 	padding: 10px 20px;
 	border-radius: 10px;
 	@include proseFont();
+	display: inline-block;
+	margin: 5px;
+}
+
+
+.menuItem {
+	@include flex();
+	justify-content: space-between;
+	@include proseFont();
+	padding: 5px 20px;
+	margin-top: 15px;
+	color: $darkTanFont;
+}
+
+.itemTitle {
+	
+}
+
+.itemValue {
+	font-weight: bold;
 }
 
 .dots {
-	width: 40px;
+	flex-grow: 4;
 	display: inline-block;
 	border-bottom: 1px dotted $darkTanFont;
 	margin: 0px 5px;

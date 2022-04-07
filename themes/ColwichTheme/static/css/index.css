@@ -1729,10 +1729,30 @@ section.carnivalInfo {
   border-radius: 10px;
   font-family: "Trebuchet MS", sans-serif;
   font-display: swap;
+  display: inline-block;
+  margin: 5px;
+}
+
+.menuItem {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Trebuchet MS", sans-serif;
+  font-display: swap;
+  padding: 5px 20px;
+  margin-top: 15px;
+  color: #6D603F;
+}
+
+.itemValue {
+  font-weight: bold;
 }
 
 .dots {
-  width: 40px;
+  flex-grow: 4;
   display: inline-block;
   border-bottom: 1px dotted #6D603F;
   margin: 0px 5px;
