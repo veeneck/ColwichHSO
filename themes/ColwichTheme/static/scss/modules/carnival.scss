@@ -398,11 +398,14 @@ svg.ticket_cutout {
 /* --------------- SITE CONTENT ---------------*/
 
 .content {
-	margin: 7% auto 0px auto;
+	margin: 50px auto 0px auto;
 	padding: 0px 5% 75px 5%;
 	border-bottom: 2px dashed $redColor;
 	@include flex();
 	flex-wrap: wrap;
+	@include contentFor(normal-screen) {
+		margin-top: 75px;
+	}
 }
 
 section.carnivalInfo {
@@ -443,8 +446,11 @@ h6.needToKnow {
 	
 }
 
-.paymentType {
-	
+.paymentTypes {
+		display: none;
+		@include contentFor(normal-screen) {
+			display: block;
+		}
 }
 
 .proceeds {
@@ -474,7 +480,7 @@ h6.needToKnow {
   outline: 2px dashed #D7504A;
   color: #FFF;
   display: inline-block;
-  font-size: 20px;
+  font-size: 15px;
   left: 50%;
   padding: 5px 30px;
   position: absolute;
@@ -484,6 +490,14 @@ h6.needToKnow {
   transform: translateX(-50%) translateY(-50%);
   font-weight: normal;
   @include proseFont();
+    @include contentFor(large-screen) {
+  	font-size: 15px;
+  	outline: 2px dashed $redColor;
+  	border: 5px solid $lightestTan;
+  }
+   @include contentFor(xl-screen) {
+  	font-size: 20px;
+  }
 }
 
 .carnivalAttractions h7 {
@@ -492,7 +506,7 @@ h6.needToKnow {
 	text-transform: uppercase;
 	border-bottom: 1px dotted $redColor;
 	font-size: 120%;
-	margin-top: 75px;
+	margin-top: 50px;
 	display: inline-block;
 }
 
@@ -549,10 +563,11 @@ h6.needToKnow {
 	background-position: center;
 	background-size: 60%;
 	border-radius: 10px;
-	width: 41%;
-	height: 75px;
+	width: 48%;
+	height: 120px;
 	padding: 10px;
-	margin: 5px 1%;
+	margin: 1% 1%;
+	box-sizing: border-box;
 }
 
 .doubleSponsor {

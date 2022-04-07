@@ -1591,7 +1591,7 @@ svg.ticket_cutout {
 
 /* --------------- SITE CONTENT ---------------*/
 .content {
-  margin: 7% auto 0px auto;
+  margin: 50px auto 0px auto;
   padding: 0px 5% 75px 5%;
   border-bottom: 2px dashed #D7504A;
   display: -webkit-box;
@@ -1600,6 +1600,11 @@ svg.ticket_cutout {
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
+}
+@media (min-width: 1080px) {
+  .content {
+    margin-top: 75px;
+  }
 }
 
 section.carnivalInfo {
@@ -1630,6 +1635,15 @@ section.carnivalInfo {
   font-display: swap;
 }
 
+.paymentTypes {
+  display: none;
+}
+@media (min-width: 1080px) {
+  .paymentTypes {
+    display: block;
+  }
+}
+
 .proceeds {
   display: none;
 }
@@ -1654,7 +1668,7 @@ section.carnivalInfo {
   outline: 2px dashed #D7504A;
   color: #FFF;
   display: inline-block;
-  font-size: 20px;
+  font-size: 15px;
   left: 50%;
   padding: 5px 30px;
   position: absolute;
@@ -1666,6 +1680,18 @@ section.carnivalInfo {
   font-family: "Trebuchet MS", sans-serif;
   font-display: swap;
 }
+@media (min-width: 1300px) {
+  .carnivalAttractions:before {
+    font-size: 15px;
+    outline: 2px dashed #D7504A;
+    border: 5px solid #FFF7E4;
+  }
+}
+@media (min-width: 2000px) {
+  .carnivalAttractions:before {
+    font-size: 20px;
+  }
+}
 
 .carnivalAttractions h7 {
   font-family: "ryeregular", sans-serif;
@@ -1674,7 +1700,7 @@ section.carnivalInfo {
   text-transform: uppercase;
   border-bottom: 1px dotted #D7504A;
   font-size: 120%;
-  margin-top: 75px;
+  margin-top: 50px;
   display: inline-block;
 }
 
@@ -1732,10 +1758,11 @@ section.carnivalInfo {
   background-position: center;
   background-size: 60%;
   border-radius: 10px;
-  width: 41%;
-  height: 75px;
+  width: 48%;
+  height: 120px;
   padding: 10px;
-  margin: 5px 1%;
+  margin: 1% 1%;
+  box-sizing: border-box;
 }
 
 .doubleSponsor {
