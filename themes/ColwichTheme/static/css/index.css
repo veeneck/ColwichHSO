@@ -1725,6 +1725,29 @@ section.carnivalInfo {
   display: block;
   position: relative;
   background-color: #FFF7E4;
+  display: grid;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+@media (min-width: 1300px) {
+  .carnivalAttractions {
+    grid-template-columns: 60% 38%;
+    column-gap: 2%;
+    padding: 10px;
+  }
+}
+@media (min-width: 2000px) {
+  .carnivalAttractions {
+    grid-template-columns: 60% 35%;
+    column-gap: 5%;
+    padding: 20px;
+  }
+}
+
+.carnivalAttractions p {
+  font-weight: normal;
+  margin-bottom: 0px;
+  padding: 20px;
 }
 
 .carnivalAttractions:before {
@@ -1773,24 +1796,26 @@ section.carnivalInfo {
   margin-top: 50px;
 }
 
+@media (min-width: 1300px) {
+  .foodPrices {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 765px) {
   h7.foodHeader {
     margin-top: 50px;
   }
 }
 
-.games {
-  text-align: center;
-}
-
-.games p {
-  font-weight: normal;
-  margin-bottom: 0px;
-  padding: 20px;
-}
-
 p.activities {
   padding-bottom: 0px;
+  font-size: 100%;
 }
 
 .deal {
@@ -1801,6 +1826,22 @@ p.activities {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 100%;
+}
+@media (min-width: 1300px) {
+  .deal {
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .dealContents {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 }
 
 .deal h7 {
@@ -1831,8 +1872,9 @@ p.activities {
   font-display: swap;
   display: inline-block;
   margin: 5px;
+  font-size: 80%;
+  line-height: 1.5em;
 }
-
 .menuItem {
   display: -webkit-box;
   display: -moz-box;
