@@ -588,10 +588,10 @@ p.activities {
 .deal {
 	border-radius: 5px;
 	margin: 10px;
-	background-color: #C54944;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1200'%3E%3Cpath fill='none' stroke='%23D7504A' stroke-width='116.8' d='M0 0v5000M0 0l312.5 4687.5M0 0l625 4375M0 0l937.5 4062.5M0 0l1250 3750M0 0l1562.5 3437.5M0 0l1875 3125M0 0l2187.5 2812.5M0 0l2500 2500M0 0l2812.5 2187.5M0 0l3125 1875M0 0l3437.5 1562.5M0 0l3750 1250M0 0l4062.5 937.5M0 0l4375 625M0 0l4687.5 312.5M0 0h5000'/%3E%3C/svg%3E");
-	//background-attachment: fixed;
-	background-size: 100% 100%;
+background-color: #B7443F;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1200'%3E%3Cpath fill='none' stroke='%23D7504A' stroke-width='144.5' d='M0 0v5000M0 0l312.5 4687.5M0 0l625 4375M0 0l937.5 4062.5M0 0l1250 3750M0 0l1562.5 3437.5M0 0l1875 3125M0 0l2187.5 2812.5M0 0l2500 2500M0 0l2812.5 2187.5M0 0l3125 1875M0 0l3437.5 1562.5M0 0l3750 1250M0 0l4062.5 937.5M0 0l4375 625M0 0l4687.5 312.5M0 0h5000'/%3E%3C/svg%3E");
+
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 100% 100%;
 }
@@ -604,6 +604,10 @@ p.activities {
 .deal p {
 	color: #fff;
 	font-size: 110%;
+}
+
+.deal span {
+	@include circusFont();
 }
 
 .detailCallout {
