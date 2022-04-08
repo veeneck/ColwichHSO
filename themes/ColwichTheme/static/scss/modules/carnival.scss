@@ -456,13 +456,20 @@ section.carnivalInfo {
 }
 
 .content p a {
-	text-decoration: none;
-	border-bottom: 1px dotted $redColor;
 	color: $blueColor;
+	background-color: $lightestTan;
+	padding: 2px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	@include contentFor(normal-screen) {
+		text-decoration: underline;
+		padding: 5px 10px;
+	}
 }
 
 .content p a:hover {
-	border-bottom: 1px solid $redColor;
+	color: $redColor;
+	background-color: #fff;
 }
 
 h6.needToKnow {
