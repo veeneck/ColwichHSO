@@ -530,6 +530,13 @@ table {
   font-weight: normal;
   font-style: normal;
 }
+/* Define the "system" font family */
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
 /*------------------------------------*\
     # Simple Typography Settings
 \*------------------------------------*/
@@ -1483,7 +1490,7 @@ svg.ticket_cutout {
   color: #6D603F;
   padding: 10px 20px;
   border-radius: 10px;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "system";
   font-display: swap;
   font-size: 80%;
 }
@@ -1518,7 +1525,7 @@ svg.ticket_cutout {
 }
 
 .pricingMax {
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "system";
   font-display: swap;
 }
 @media (min-width: 1080px) {
@@ -1649,9 +1656,9 @@ section.carnivalInfo {
 }
 
 .content p {
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "system";
   font-display: swap;
-  line-height: 1.7em;
+  line-height: 1.8em;
 }
 @media (min-width: 1080px) {
   .content p {
@@ -1735,7 +1742,7 @@ section.carnivalInfo {
   -moz-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   font-weight: normal;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "system";
   font-display: swap;
 }
 @media (min-width: 1300px) {
@@ -1815,7 +1822,7 @@ p.activities {
   color: #6D603F;
   padding: 10px 20px;
   border-radius: 10px;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "system";
   font-display: swap;
   display: inline-block;
   margin: 5px;
@@ -1828,7 +1835,7 @@ p.activities {
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "system";
   font-display: swap;
   padding: 5px 20px;
   margin-top: 15px;
@@ -1902,7 +1909,7 @@ p.activities {
 
 .fullSponsor {
   width: 100%;
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "system";
   font-display: swap;
   height: auto;
   text-align: left;

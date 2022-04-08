@@ -22,6 +22,14 @@
 
 }
 
+/* Define the "system" font family */
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
 @mixin abrilFont {
     font-family: 'abril_fatfaceregular', sans-serif;
     font-display: swap;
@@ -33,7 +41,7 @@
 }
 
 @mixin proseFont {
-       font-family: "Trebuchet MS", sans-serif;
+       font-family: "system";
     font-display: swap;
 }
 

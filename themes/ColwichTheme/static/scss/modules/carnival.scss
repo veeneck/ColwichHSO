@@ -448,7 +448,7 @@ section.carnivalInfo {
 
 .content p {
 	@include proseFont();
-	line-height:1.7em;
+	line-height:1.8em;
 	@include contentFor(normal-screen) {
 		line-height: 1.9em;
 		font-size: 120%;
