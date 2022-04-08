@@ -753,7 +753,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	@include flex();
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	margin: 15px;
+	@include contentFor(normal-screen) {
+		margin: 15px;
+	}
 }
 
 .fullSponsor .sponsorWordCloud a {

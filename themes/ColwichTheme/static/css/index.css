@@ -1975,7 +1975,11 @@ p.activities {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 15px;
+}
+@media (min-width: 1080px) {
+  .fullSponsor .sponsorWordCloud {
+    margin: 15px;
+  }
 }
 
 .fullSponsor .sponsorWordCloud a {
