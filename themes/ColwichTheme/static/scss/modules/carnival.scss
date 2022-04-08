@@ -513,6 +513,10 @@ h6.needToKnow {
 	
 }
 
+.parking img {
+	width: 100%;
+}
+
 .carnivalAttractions {
 	border: 2px dashed $redColor;
 	border-radius: 20px;
@@ -740,36 +744,38 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .fullSponsor {
 	width: 100%;
 	@include proseFont();
-	height: auto;
 	text-align: left;
-	padding-bottom: 50px;
+	height: auto;
 }
 
-.fullSponsor ul {
-	list-style-type: none;
+.fullSponsor .sponsorWordCloud {
 	padding-left: 1%;
+	@include flex();
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 15px;
 }
 
-.fullSponsor ul li {
+.fullSponsor .sponsorWordCloud a {
 	list-style: none;
-	width:50%;
-  float:left;
   font-size: 12px;
+  text-decoration: none;
+	color: $darkTanFont;
+	padding: 10px;
+	border: 1px solid $darkestTan;
+	border-radius: 5px;
+	flex-grow: 1;
+  text-align: center;
+  margin: 5px;
   @include contentFor(normal-screen) {
   	font-size: 15px;
   }
   @include contentFor(xl-screen) {
   	font-size: 17px;
-  	width: 33%;
   }
 }
 
-.fullSponsor ul li a {
-	text-decoration: none;
-	color: $darkTanFont;
-}
-
-.fullSponsor ul li a:hover {
+.fullSponsor .sponsorWordCloud a:hover {
 	color: $blueColor;
 	text-decoration: underline;
 }

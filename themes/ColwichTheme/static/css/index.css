@@ -1719,6 +1719,10 @@ section.carnivalInfo {
   }
 }
 
+.parking img {
+  width: 100%;
+}
+
 .carnivalAttractions {
   border: 2px dashed #D7504A;
   border-radius: 20px;
@@ -1958,40 +1962,46 @@ p.activities {
   width: 100%;
   font-family: "system";
   font-display: swap;
-  height: auto;
   text-align: left;
-  padding-bottom: 50px;
+  height: auto;
 }
 
-.fullSponsor ul {
-  list-style-type: none;
+.fullSponsor .sponsorWordCloud {
   padding-left: 1%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15px;
 }
 
-.fullSponsor ul li {
+.fullSponsor .sponsorWordCloud a {
   list-style: none;
-  width: 50%;
-  float: left;
   font-size: 12px;
+  text-decoration: none;
+  color: #6D603F;
+  padding: 10px;
+  border: 1px solid #BCB196;
+  border-radius: 5px;
+  flex-grow: 1;
+  text-align: center;
+  margin: 5px;
 }
 @media (min-width: 1080px) {
-  .fullSponsor ul li {
+  .fullSponsor .sponsorWordCloud a {
     font-size: 15px;
   }
 }
 @media (min-width: 2000px) {
-  .fullSponsor ul li {
+  .fullSponsor .sponsorWordCloud a {
     font-size: 17px;
-    width: 33%;
   }
 }
 
-.fullSponsor ul li a {
-  text-decoration: none;
-  color: #6D603F;
-}
-
-.fullSponsor ul li a:hover {
+.fullSponsor .sponsorWordCloud a:hover {
   color: #186363;
   text-decoration: underline;
 }
