@@ -1984,20 +1984,15 @@ p.activities {
   text-decoration: none;
   color: #6D603F;
   padding: 10px;
-  border: 1px solid #BCB196;
+  border: 1px solid #F2E5C7;
   border-radius: 5px;
   flex-grow: 1;
   text-align: center;
   margin: 5px;
 }
-@media (min-width: 1080px) {
-  .fullSponsor .sponsorWordCloud a {
-    font-size: 15px;
-  }
-}
 @media (min-width: 2000px) {
   .fullSponsor .sponsorWordCloud a {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 

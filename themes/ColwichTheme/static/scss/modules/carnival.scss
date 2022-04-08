@@ -762,16 +762,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-decoration: none;
 	color: $darkTanFont;
 	padding: 10px;
-	border: 1px solid $darkestTan;
+	border: 1px solid $darkTan;
 	border-radius: 5px;
 	flex-grow: 1;
   text-align: center;
   margin: 5px;
-  @include contentFor(normal-screen) {
-  	font-size: 15px;
-  }
   @include contentFor(xl-screen) {
-  	font-size: 17px;
+  	font-size: 15px;
   }
 }
 
