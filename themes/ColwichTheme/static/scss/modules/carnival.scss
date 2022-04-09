@@ -241,6 +241,11 @@ svg.ticket_cutout {
 	@include contentFor(xl-screen) {
 			font-size: 90%;
 	}
+	 -webkit-animation-name: tada;
+  animation-name: tada;
+    animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .tents h2 {
