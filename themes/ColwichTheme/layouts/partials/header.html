@@ -13,6 +13,21 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/css/index.css" media="screen">
 
+   <!-- JS -->
+  <script src="/js/index-min.js" defer></script>
+
+  <!-- NoScript : Force pending animations and hidden content to instantly be visible if JS is disabled -->
+  <noscript>
+    <style>
+      .triggerMe {
+        visibility: visible !important;
+      }
+      .triggerMe::before {
+        visibility: visible !important;
+      }
+    </style>
+  </noscript>
+
   <!-- Fathom - beautiful, simple website analytics -->
   {{ if not .Site.IsServer }}
     <script src="https://cdn.usefathom.com/script.js" data-site="KENYJOPB" defer></script>
