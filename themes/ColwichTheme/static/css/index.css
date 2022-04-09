@@ -1703,11 +1703,22 @@ a.sponsorLogo:hover {
   text-align: center;
   margin: 5px;
 }
+@media (min-width: 1080px) {
+  .fullSponsor .sponsorWordCloud a {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+@media (min-width: 1300px) {
+  .fullSponsor .sponsorWordCloud a {
+    font-size: 15px;
+    padding: 15px;
+  }
+}
 
 .fullSponsor .sponsorWordCloud a:hover {
   color: #186363;
   text-decoration: underline;
-  font-size: 110%;
 }
 
 .icm {

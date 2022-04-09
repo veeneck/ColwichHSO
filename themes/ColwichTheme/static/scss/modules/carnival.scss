@@ -841,12 +841,20 @@ a.sponsorLogo:hover {
 	flex-grow: 1;
   text-align: center;
   margin: 5px;
+
+  @include contentFor(normal-screen) {
+		font-size: 14px;
+		padding: 12px;
+  }
+   @include contentFor(large-screen) {
+		font-size: 15px;
+		padding: 15px;
+  }
 }
 
 .fullSponsor .sponsorWordCloud a:hover {
 	color: $blueColor;
 	text-decoration: underline;
-	font-size: 110%;
 }
 
 
