@@ -1612,6 +1612,7 @@ p.activities {
   padding: 10px;
   margin: 1% 1%;
   box-sizing: border-box;
+  text-decoration: none;
   visibility: hidden;
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
