@@ -1631,6 +1631,21 @@ p.activities {
   }
 }
 
+a.sponsorLogo:hover {
+  background-size: 70%;
+  cursor: pointer;
+}
+@media (min-width: 35em) {
+  a.sponsorLogo:hover {
+    background-size: 60%;
+  }
+}
+@media (min-width: 2000px) {
+  a.sponsorLogo:hover {
+    background-size: 70%;
+  }
+}
+
 .sponsorLogo.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
