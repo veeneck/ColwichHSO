@@ -1153,6 +1153,27 @@ svg.ticket_cutout {
   }
 }
 
+.details p.subnote {
+  color: #6D603F;
+  border-radius: 10px;
+  font-family: "system";
+  font-display: swap;
+  font-size: 15%;
+  display: block;
+  margin-top: -10px;
+}
+@media (min-width: 50em) {
+  .details p.subnote {
+    margin-top: -30px;
+    padding-left: 70px;
+  }
+}
+@media (min-width: 1080px) {
+  .details p.subnote {
+    display: none;
+  }
+}
+
 .pricing {
   font-family: "ryeregular", sans-serif;
   font-display: swap;

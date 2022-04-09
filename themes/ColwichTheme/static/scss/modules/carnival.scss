@@ -324,6 +324,22 @@ svg.ticket_cutout {
 	}
 }
 
+.details p.subnote {
+	color: $darkTanFont;
+	border-radius: 10px;
+	@include proseFont();
+	font-size: 15%;
+	display: block;
+	margin-top: -10px;
+	@include contentFor(tablet-screen) {
+		margin-top: -30px;
+		padding-left: 70px;
+	}
+	@include contentFor(normal-screen) {
+		display: none;
+	}
+}
+
 .pricing {
 	@include circusFont();
 	color: $header-alt-color;
