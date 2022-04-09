@@ -558,6 +558,23 @@ h6.needToKnow {
 	width: 100%;
 }
 
+div.mapBorder {
+	padding: 20px;
+	margin-top: 50px;
+	background-color: $darkestTan;
+	border-radius: 20px;
+  border: 5px solid $lightestTan;
+}
+
+div.carnivalMap {
+	background-image: url("/images/map_small.png");
+	width: 100%;
+	height: 600px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .carnivalAttractions {
 	border: 2px dashed $redColor;
 	border-radius: 20px;

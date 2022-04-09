@@ -1410,6 +1410,23 @@ section.carnivalInfo {
   width: 100%;
 }
 
+div.mapBorder {
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #BCB196;
+  border-radius: 20px;
+  border: 5px solid #FFF7E4;
+}
+
+div.carnivalMap {
+  background-image: url("/images/map_small.png");
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .carnivalAttractions {
   border: 2px dashed #D7504A;
   border-radius: 20px;

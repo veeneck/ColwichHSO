@@ -385,6 +385,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/map_small.png" : {
+      "ft" : 32768,
+      "iS" : 11295380,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/map_small.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/map.png" : {
+      "ft" : 32768,
+      "iS" : 11295380,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/map.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/tents.png" : {
       "ft" : 32768,
       "iS" : 417525,
@@ -410,6 +436,17 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/static\/js\/index-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/static\/js\/index-min-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
     },
     "\/static\/js\/index.js" : {
       "bF" : 0,
@@ -548,7 +585,7 @@
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets_orange",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 671123250.62652099
+    "lastBuiltDate" : 671198261.13013601
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
