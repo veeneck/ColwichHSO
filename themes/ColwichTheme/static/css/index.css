@@ -782,6 +782,10 @@ img {
   animation-name: fadeOut;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #F2E5C7;
   padding: 0px;
@@ -1050,6 +1054,8 @@ svg.ticket_cutout {
 }
 @media (min-width: 1080px) {
   .tents h1 {
+    -webkit-animation-name: none;
+    animation-name: none;
     font-size: 70%;
     background-color: rgba(255, 247, 228, 0.7);
   }
@@ -1675,11 +1681,6 @@ p.activities {
   flex-grow: 1;
   text-align: center;
   margin: 5px;
-}
-@media (min-width: 2000px) {
-  .fullSponsor .sponsorWordCloud a {
-    font-size: 15px;
-  }
 }
 
 .fullSponsor .sponsorWordCloud a:hover {

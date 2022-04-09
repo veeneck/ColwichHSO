@@ -228,10 +228,19 @@ svg.ticket_cutout {
 	font-size: 45%;
 	font-weight: normal !important;
 	text-shadow: 4px 4px 10px #fff;
+
+	 -webkit-animation-name: tada;
+  animation-name: tada;
+    animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
 	@include contentFor(mini-screen) {
 			font-size: 60%;
 	}
 	@include contentFor(normal-screen) {
+		 	-webkit-animation-name: none;
+  		animation-name: none;
 			font-size: 70%;
 			background-color: rgba(255, 247, 228, 0.7);
 	}
@@ -241,11 +250,6 @@ svg.ticket_cutout {
 	@include contentFor(xl-screen) {
 			font-size: 90%;
 	}
-	 -webkit-animation-name: tada;
-  animation-name: tada;
-    animation-duration: 1.5s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
 }
 
 .tents h2 {
@@ -813,9 +817,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	flex-grow: 1;
   text-align: center;
   margin: 5px;
-  @include contentFor(xl-screen) {
-  	font-size: 15px;
-  }
 }
 
 .fullSponsor .sponsorWordCloud a:hover {
