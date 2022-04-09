@@ -1582,6 +1582,11 @@ p.activities {
 }
 
 /* --------------- SPONSORS ---------------*/
+.sponsorNote {
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+
 .sponsors {
   padding: 100px 0px 0px 0px;
   text-align: center;
