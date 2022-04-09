@@ -1421,10 +1421,15 @@ div.mapBorder {
 div.carnivalMap {
   background-image: url("/images/map_small.png");
   width: 100%;
-  height: 600px;
+  height: 350px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+@media (min-width: 1080px) {
+  div.carnivalMap {
+    height: 600px;
+  }
 }
 
 .carnivalAttractions {
