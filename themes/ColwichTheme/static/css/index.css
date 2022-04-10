@@ -1708,6 +1708,25 @@ p.activities {
   }
 }
 
+.sponsorLogoLarger {
+  background-size: 70%;
+}
+@media (min-width: 35em) {
+  .sponsorLogoLarger {
+    background-size: 60%;
+  }
+}
+@media (min-width: 1080px) {
+  .sponsorLogoLarger {
+    background-size: 70%;
+  }
+}
+@media (min-width: 1300px) {
+  .sponsorLogoLarger {
+    background-size: 70%;
+  }
+}
+
 a.sponsorLogo:hover {
   background-size: 70%;
   cursor: pointer;

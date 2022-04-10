@@ -841,6 +841,25 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 }
 
+.sponsorLogoLarger {
+	background-size: 70%;
+	@include contentFor(condensed-screen) {
+  	background-size: 60%;
+  }
+
+  @include contentFor(mini-screen) {
+
+  }
+
+  @include contentFor(normal-screen) {
+  	background-size: 70%;
+  }
+
+  @include contentFor(large-screen) {
+  	background-size: 70%;
+  }
+}
+
 a.sponsorLogo:hover {
 
 	background-size: 70%;
