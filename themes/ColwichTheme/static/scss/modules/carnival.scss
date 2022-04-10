@@ -431,6 +431,7 @@ svg.ticket_cutout {
 	@include contentFor(normal-screen) {
 		margin-top: 75px;
 		display: grid;
+		display: -ms-grid;
 		grid-template-columns: 47.5% 47.5%;
 		grid-auto-flow: dense;
 		column-gap:5%;
@@ -585,6 +586,7 @@ div.carnivalMap {
 	position: relative;
 	background-color: #FFF7E4;
 	display: grid;
+	display: -ms-grid;
 	grid-template-columns: 100%;
 	text-align: center;
 
