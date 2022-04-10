@@ -534,6 +534,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/static\/scss\/css\/photoswipe.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/scss\/css\/photoswipe-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/static\/scss\/index.scss" : {
       "aP" : 0,
       "bl" : 0,
