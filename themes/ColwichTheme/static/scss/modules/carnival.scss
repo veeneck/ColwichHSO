@@ -426,7 +426,7 @@ svg.ticket_cutout {
 .content {
 	margin: 50px auto 0px auto;
 	padding: 0px 5% 0px 5%;
-	border-bottom: 2px dashed $redColor;
+	border-bottom: 1px dashed $redColor;
 	@include contentFor(normal-screen) {
 		margin-top: 75px;
 		display: grid;
@@ -436,6 +436,7 @@ svg.ticket_cutout {
 	}
 	@include contentFor(large-screen) {
 			margin-top: 100px;
+			border-bottom: 2px dashed $redColor;
 	}
 	@include contentFor(xl-screen) {
 			margin-top: 150px;
