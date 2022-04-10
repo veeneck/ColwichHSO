@@ -48,6 +48,20 @@ function toggleQuestion(element) {
 	toggleClass(element.parentNode.nextElementSibling, "hide");
 }*/
 
+/* -------- TEMPORARY PARALLAX ON SCROLL -----------------*/
+
+
+function updateBackgroundSize() {
+	var doc = document.documentElement;
+
+	if(document.body.clientWidth < 500) {
+		var left = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
+		var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
+		var size = 800 + (top * 0.3);
+		document.body.style.backgroundSize ="auto " + size + "px";
+	}
+}
+
 /* -------- ELEMENTS SCROLL INTO VIEW -------------*/
  
 /// Check once on initial call for elements alreayd in view, and then the scroll / resize event will check the rest.
@@ -64,6 +78,7 @@ function bringElementsIntoView() {
 /// List of all things that we may want to check for inView animations
 function checkAllTriggers() {
 	checkIfTriggerIsInView(document.querySelectorAll('.triggerMe'));
+	updateBackgroundSize();
 }
 
 /// Loop through a node list and see if each element is in view. If so, add triggeredCSS3, which is the class used to animate.

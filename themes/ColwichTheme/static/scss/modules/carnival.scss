@@ -27,7 +27,6 @@ body {
 
 	background-repeat: no-repeat;
 	background-position: 50% -50px;
-
 	background-size: auto 800px;
 
 	@include contentFor(mini-screen) {
