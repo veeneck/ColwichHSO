@@ -818,6 +818,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   @include contentFor(large-screen) {
   	height: 200px;
   	background-size: 60%;
+  	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     height: 300px;
+		}
   }
 }
 

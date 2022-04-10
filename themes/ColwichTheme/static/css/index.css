@@ -1684,6 +1684,11 @@ p.activities {
     background-size: 60%;
   }
 }
+@media (min-width: 1300px) and (-ms-high-contrast: none), (min-width: 1300px) and (-ms-high-contrast: active) {
+  .sponsorLogo {
+    height: 300px;
+  }
+}
 
 a.sponsorLogo:hover {
   background-size: 70%;
