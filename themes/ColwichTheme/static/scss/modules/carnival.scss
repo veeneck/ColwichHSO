@@ -458,6 +458,16 @@ section.carnivalInfo {
 	}
 }
 
+.donate {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	background-color: $lightestTan;
+	border-radius: 5px;
+	max-width: 600px;
+	margin: 10px auto 10px auto;
+}
+
 .content h6 {
 	text-transform: uppercase;
 	width: 100%;
