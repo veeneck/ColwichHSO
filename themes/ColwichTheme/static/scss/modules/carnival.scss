@@ -601,7 +601,7 @@ div.carnivalMap {
 		grid-template-columns: 60% 38%;
 		column-gap:2%;
 		padding: 10px;
-		border: 1px dashed $redColor;
+		border: 2px dashed $redColor;
 	}
 
 	@include contentFor(xl-screen) {

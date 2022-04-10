@@ -1457,7 +1457,7 @@ div.carnivalMap {
     grid-template-columns: 60% 38%;
     column-gap: 2%;
     padding: 10px;
-    border: 1px dashed #D7504A;
+    border: 2px dashed #D7504A;
   }
 }
 @media (min-width: 2000px) {
