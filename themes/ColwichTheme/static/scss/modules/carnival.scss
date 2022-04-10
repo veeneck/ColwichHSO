@@ -811,7 +811,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   	width: 31%;
   }
 
-  @include contentFor(xl-screen) {
+  @include contentFor(normal-screen) {
+  	background-size: 70%;
+  }
+
+  @include contentFor(large-screen) {
   	height: 200px;
   	background-size: 60%;
   }

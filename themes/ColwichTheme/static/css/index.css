@@ -1673,7 +1673,12 @@ p.activities {
     width: 31%;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1080px) {
+  .sponsorLogo {
+    background-size: 70%;
+  }
+}
+@media (min-width: 1300px) {
   .sponsorLogo {
     height: 200px;
     background-size: 60%;
