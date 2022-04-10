@@ -588,7 +588,7 @@ div.carnivalMap {
 }
 
 .carnivalAttractions {
-	border: 2px dashed $redColor;
+	border: 1px dashed $redColor;
 	border-radius: 20px;
 	display: block;
 	position: relative;
@@ -601,6 +601,7 @@ div.carnivalMap {
 		grid-template-columns: 60% 38%;
 		column-gap:2%;
 		padding: 10px;
+		border: 1px dashed $redColor;
 	}
 
 	@include contentFor(xl-screen) {
@@ -619,7 +620,7 @@ div.carnivalMap {
 .carnivalAttractions:before {
 	background-color: #D7504A;
   border: 5px solid $darkTan;
-  outline: 2px dashed #D7504A;
+  outline: 1px dashed #D7504A;
   color: #FFF;
   display: inline-block;
   font-size: 15px;
