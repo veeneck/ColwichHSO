@@ -582,7 +582,9 @@ div.mapBorder {
   border: 5px solid $lightestTan;
 }
 
-div.carnivalMap {
+a.carnivalMap {
+	display: block;
+	text-decoration: none;
 	background-image: url("/images/carnivalmapsmall.jpg");
 	width: 100%;
 	height: 350px;
