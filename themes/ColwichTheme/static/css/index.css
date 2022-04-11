@@ -1436,7 +1436,7 @@ div.mapBorder {
 }
 
 div.carnivalMap {
-  background-image: url("/images/map_small.png");
+  background-image: url("/images/carnivalmapsmall.jpg");
   width: 100%;
   height: 350px;
   background-size: contain;

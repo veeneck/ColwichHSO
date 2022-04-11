@@ -216,6 +216,32 @@
       "oAP" : "\/static\/fonts\/rye-regular-webfont.woff2",
       "oF" : 0
     },
+    "\/static\/images\/carnivalmap.jpg" : {
+      "ft" : 16384,
+      "iS" : 2638782,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/carnivalmap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/carnivalmapsmall.jpg" : {
+      "ft" : 16384,
+      "iS" : 223352,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/carnivalmapsmall.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/logos\/bell.png" : {
       "ft" : 32768,
       "iS" : 15039,
