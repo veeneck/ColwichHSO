@@ -884,6 +884,25 @@ a.sponsorLogo:hover {
   }
 }
 
+a.sponsorLogoLarger:hover {
+	background-size: 80%;
+	@include contentFor(condensed-screen) {
+  	background-size: 70%;
+  }
+
+  @include contentFor(mini-screen) {
+
+  }
+
+  @include contentFor(normal-screen) {
+  	background-size: 80%;
+  }
+
+  @include contentFor(large-screen) {
+  	background-size: 80%;
+  }
+}
+
 .sponsorLogo.triggeredCSS3 {
 	-webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -985,6 +1004,10 @@ a.sponsorLogo:hover {
 
 .css {
 	background-image: url("/images/logos/css.png");
+}
+
+.ccf {
+	background-image: url("/images/logos/ccf.png");
 }
 
 .footer {

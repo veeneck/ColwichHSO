@@ -1747,6 +1747,25 @@ a.sponsorLogo:hover {
   }
 }
 
+a.sponsorLogoLarger:hover {
+  background-size: 80%;
+}
+@media (min-width: 35em) {
+  a.sponsorLogoLarger:hover {
+    background-size: 70%;
+  }
+}
+@media (min-width: 1080px) {
+  a.sponsorLogoLarger:hover {
+    background-size: 80%;
+  }
+}
+@media (min-width: 1300px) {
+  a.sponsorLogoLarger:hover {
+    background-size: 80%;
+  }
+}
+
 .sponsorLogo.triggeredCSS3 {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -1858,6 +1877,10 @@ a.sponsorLogo:hover {
 
 .css {
   background-image: url("/images/logos/css.png");
+}
+
+.ccf {
+  background-image: url("/images/logos/ccf.png");
 }
 
 .footer {
