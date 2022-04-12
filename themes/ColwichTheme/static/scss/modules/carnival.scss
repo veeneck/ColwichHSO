@@ -847,6 +847,25 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   }
 }
 
+.sponsorLogoSmaller {
+	background-size: 50%;
+	@include contentFor(condensed-screen) {
+  	background-size: 40%;
+  }
+
+  @include contentFor(mini-screen) {
+
+  }
+
+  @include contentFor(normal-screen) {
+  	background-size: 50%;
+  }
+
+  @include contentFor(large-screen) {
+  	background-size: 50%;
+  }
+}
+
 .sponsorLogoLarger {
 	background-size: 70%;
 	@include contentFor(condensed-screen) {

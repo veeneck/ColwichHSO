@@ -1713,6 +1713,25 @@ p.activities {
   }
 }
 
+.sponsorLogoSmaller {
+  background-size: 50%;
+}
+@media (min-width: 35em) {
+  .sponsorLogoSmaller {
+    background-size: 40%;
+  }
+}
+@media (min-width: 1080px) {
+  .sponsorLogoSmaller {
+    background-size: 50%;
+  }
+}
+@media (min-width: 1300px) {
+  .sponsorLogoSmaller {
+    background-size: 50%;
+  }
+}
+
 .sponsorLogoLarger {
   background-size: 70%;
 }
