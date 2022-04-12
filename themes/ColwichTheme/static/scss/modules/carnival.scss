@@ -504,6 +504,10 @@ section.carnivalInfo {
 	border-radius: 5px;
 	text-decoration: none;
 	box-shadow: 2px 2px 2px #fff;
+	 -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+
 	@include contentFor(normal-screen) {
 		text-decoration: underline;
 		padding: 5px 10px;

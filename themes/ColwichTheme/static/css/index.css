@@ -1364,6 +1364,9 @@ section.carnivalInfo {
   border-radius: 5px;
   text-decoration: none;
   box-shadow: 2px 2px 2px #fff;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
   -webkit-animation-duration: 1.5s;
   animation-duration: 1.5s;
   -webkit-animation-fill-mode: both;
