@@ -999,6 +999,22 @@ a.sponsorLogoLarger:hover {
 
 .cushman {
 	background-image: url("/images/logos/cushman.png");
+	background-size: 90%;
+	@include contentFor(condensed-screen) {
+  	background-size: 80%;
+  }
+
+  @include contentFor(mini-screen) {
+
+  }
+
+  @include contentFor(normal-screen) {
+  	background-size: 90%;
+  }
+
+  @include contentFor(large-screen) {
+  	background-size: 90%;
+  }
 }
 
 .lionsclub {
