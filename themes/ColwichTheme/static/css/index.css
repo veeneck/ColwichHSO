@@ -1872,6 +1872,22 @@ a.sponsorLogoLarger:hover {
 
 .cushman {
   background-image: url("/images/logos/cushman.png");
+  background-size: 85%;
+}
+@media (min-width: 35em) {
+  .cushman {
+    background-size: 75%;
+  }
+}
+@media (min-width: 1080px) {
+  .cushman {
+    background-size: 85%;
+  }
+}
+@media (min-width: 1300px) {
+  .cushman {
+    background-size: 85%;
+  }
 }
 
 .lionsclub {
