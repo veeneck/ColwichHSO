@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Trampoline Time
+body: 4 Ultimate passes to <a href="https://www.urbanair.com/kansas-wichita/">Urban Air</a>. Socks, drinks and a large pizza on them!
 price: '$000+'
 identifier: 5
 itemType: 'auction'

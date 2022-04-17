@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Photo Shoot
+body: Dress up and capture the moment with a Mini Session from <a href="https://terriwhitleyphotography.com">Terri Whitley Photography.</a>
 price: '$000+'
 identifier: 6
 itemType: 'auction'

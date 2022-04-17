@@ -30,7 +30,6 @@ function loadTriggersForPage() {
             gsap.from(el, {
                 scrollTrigger: {
                     trigger: el,
-                    start: "-=200%",
                     scrub: true,
                 },
                 scale: 0.8

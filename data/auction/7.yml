@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Go Chiefs!
+body: Show off the <a href="https://www.chiefs.com">home team</a> logos and colors with a cooler, hat and signed Blake Bell football.
 price: '$000+'
 identifier: 7
 itemType: 'auction'
