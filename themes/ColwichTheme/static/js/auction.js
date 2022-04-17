@@ -22,7 +22,7 @@ function loadPage() {
 
 
 function loadTriggersForPage() {
-    let elements = gsap.utils.toArray("section");
+    let elements = gsap.utils.toArray("section.auctionItem");
     elements.forEach((el, i) => {
 
         if(i > 1) {
