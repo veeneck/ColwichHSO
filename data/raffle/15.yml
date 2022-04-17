@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Dolls
+body:  Doll, blankets, doll clothes
 price: '$000+'
 identifier: '15'
 itemType: 'raffle'

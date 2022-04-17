@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Morning Brew
+body: Turn on your new coffee sign, grab some delicious Starbucks with a $25 gift card, and enjoy it in a <a href="https://wichita.colormemine.com">Color Me Mine</a> mug.
 price: '$000+'
 identifier: '14'
 itemType: 'raffle'

@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Painting TODO
+body: Art Easel and gnome painting 
 price: '$000+'
 identifier: '32'
 itemType: 'raffle'

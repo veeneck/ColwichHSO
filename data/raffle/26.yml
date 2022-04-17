@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Cowboy Fun TODO
+body: Cowtown tickets, Rodeo tickets, horse stuffed animal, book
 price: '$000+'
 identifier: '26'
 itemType: 'raffle'

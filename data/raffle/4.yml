@@ -1,5 +1,6 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Sports TODO
+body: $25 All Star gift card, water bottle,Freddy’s coupons, sunflower seeds and big league chew, Royal mug and Coasters, basketball and basketball keychain, picnic mat, badminton set, disc golf set, can slam, shuffleboard, soccer ball and football. 
 price: '$000+'
 identifier: '4'
 itemType: 'raffle'
+shout: 'fivesix'

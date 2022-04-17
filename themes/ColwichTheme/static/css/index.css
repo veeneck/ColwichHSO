@@ -2052,6 +2052,22 @@ a.sponsorLogoLarger:hover {
   content: "PRE-K & K";
 }
 
+.onetwo::before {
+  content: "1ST & 2ND";
+}
+
+.threefour::before {
+  content: "3RD & 4TH";
+}
+
+.fivesix::before {
+  content: "5TH & 6TH";
+}
+
+.seveneight::before {
+  content: "7TH & 8TH";
+}
+
 .cantmiss::before {
   content: "CAN'T MISS";
 }

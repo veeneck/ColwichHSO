@@ -1,5 +1,6 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Games & Hobbies
+body:  $10 Dairy Queen gift card, $25 Jump Start gift card, $30 Gambions gift card, gaming headset, lanyards, candy and snacks, wireless earbud case, popitz, clip on microphone, cookies, soda, spinning phone stand, foldable phone stand, bluetooth wireless earbuds, wireless headphones, wireless charging speakers, Pokemon card case, signes, Star Wars picture 
 price: '$000+'
 identifier: '5'
 itemType: 'raffle'
+shout: 'seveneight'

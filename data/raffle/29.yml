@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: Fashion Fun
+body: Enjoy a new purse and $25 gift card from <a href="https://molbelleboutique.com">MOLbell Boutique</a>. Dine at <a href="https://www.abuelos.com/restaurants/wichita-waterfront/">Abuelo's</a> with a $20 gift card.
 price: '$000+'
 identifier: '29'
 itemType: 'raffle'

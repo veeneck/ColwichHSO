@@ -1,5 +1,5 @@
-name: Item name
-body: 'This is an item description with a link'
+name: A Night To Relax
+body: One night stay at <a href="https://www.druryhotels.com">Drury Hotel</a> along with a massage at <a href="https://handandstone.com">Hand & Stone.</a> 
 price: '$000+'
 identifier: '23'
 itemType: 'raffle'
