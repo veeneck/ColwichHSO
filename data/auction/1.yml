@@ -1,0 +1,5 @@
+name: Item name
+body: 'This is an item description with a <a href="">link</a>'
+price: '$000+'
+identifier: '1'
+itemType: 'auction'

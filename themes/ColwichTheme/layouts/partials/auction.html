@@ -1,0 +1,53 @@
+<body class="auction">
+
+	<div class="content">
+
+		<div class="leftGrid">
+			<section class="carnivalInfo ">
+				<h6>
+					<b class="red">■</b> Silent Auction <b class="red">■</b>
+				</h6>
+				<p>Take an advance look at these <b>11</b> items you'll be able to bid on Carnival night. There's something for everyone. Or, jump down and see the <a href="#raffleItems" class="triggerMe">Raffle baskets.</a></p>
+			</section>
+	
+			{{ range .Site.Data.auction }}
+				{{ partial "auctionItem.html"  . }}
+			{{ end }}
+		
+		</div>
+
+		<div class="rightGrid">
+
+			<section id="raffleItems" class="carnivalInfo ">
+				<h6>
+					<b class="lightBlue">★</b> RAFFLE ITEMS <b class="lightBlue">★</b>
+				</h6>
+				<p>We've got a lot of great raffle baskets this year. Scroll down to check them out, or browse by category: 
+					<a href="" class="triggerMe">Date Night</a>&nbsp;<span class="lightBlue">//</span>  &nbsp;
+					<a href="" class="triggerMe">Spa & Wellness</a>&nbsp;<span class="lightBlue">//</span>&nbsp;
+					<a href="" class="triggerMe">Classroom Donations</a>&nbsp;<span class="lightBlue">//</span>&nbsp;
+					<a href="" class="triggerMe">Kitchen & Baking</a>&nbsp;<span class="lightBlue">//</span>&nbsp;
+					<a href="" class="triggerMe">Sports</a>&nbsp;<span class="lightBlue">//</span>&nbsp;
+					<a href="" class="triggerMe">Men's</a>
+				</p>
+			</section>
+			
+			{{ range .Site.Data.raffle }}
+				{{ partial "auctionItem.html"  . }}
+			{{ end }}
+		
+		</div>
+
+	</div>
+
+	<div class="footer">
+		<img src="/images/logos/hsocarnival.png" width="150px;" height="auto" alt="Carnival Logo"/>
+	</div>
+
+</body>
+
+<!-- JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+<script src="/js/auction-min.js" defer></script>
+

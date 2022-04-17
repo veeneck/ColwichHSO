@@ -1,0 +1,19 @@
+<section  class="auctionItem attention {{ .shout }}">
+	<img src="/images/{{ .itemType }}/{{ .identifier }}.jpg" />
+	<div class="price">
+		<div class="amount">{{ .price }}</div>
+		<div class="estimate">
+			{{ if eq "auction" .itemType }}
+				Starting Bid
+			{{ else }}
+				Estimated Value
+			{{ end }}
+	    </div>
+
+	</div>
+	<div class="desc">
+		<h7>{{ .name }}</h7>
+		<p>{{ .body }}</p>
+	
+	</div>
+</section>

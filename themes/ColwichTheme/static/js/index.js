@@ -5,7 +5,7 @@ ready(loadPage);
 /// We're using window load instead of DomContentLoaded so that the CSS animations play as expected.
 /// If the stylesheet isn't cached, sometimes the JS will trigger before the CSS loads, and some elements are hidden
 function ready(fn) {
-  if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading"){
+  if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
     fn();
   } else {
     window.addEventListener('load', fn);

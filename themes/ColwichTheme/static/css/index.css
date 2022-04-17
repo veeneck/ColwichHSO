@@ -792,7 +792,7 @@ body {
   margin: 0px;
 }
 
-/* --------------- CONSTANTS & COLORS ---------------*/
+/* --------------- CONSTANTS & COLORS --------------- */
 .lightBlue {
   color: #82C5B4;
 }
@@ -828,6 +828,11 @@ body {
   body {
     background-size: auto 1300px;
   }
+}
+
+body.auction {
+  background: none;
+  background-color: #F2E5C7;
 }
 
 /* --------------- TICKET SHAPE ---------------*/
@@ -1918,6 +1923,153 @@ a.sponsorLogoLarger:hover {
   background-image: url("/images/logos/ccf.png");
 }
 
+/* --------------- AUCTION ---------------*/
+.auctionItem {
+  border-radius: 20px;
+  display: block;
+  position: relative;
+  background-color: #FFF7E4;
+  display: grid;
+  grid-template-columns: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.auctionItem.attention {
+  border: 1px dashed #D7504A;
+}
+@media (min-width: 1300px) {
+  .auctionItem.attention {
+    border: 2px dashed #D7504A;
+  }
+}
+
+.auctionItem p {
+  font-weight: normal;
+  margin-bottom: 0px;
+  padding: 20px;
+}
+
+.auctionItem.attention:before {
+  background-color: #D7504A;
+  border: 5px solid #F2E5C7;
+  outline: 1px dashed #D7504A;
+  color: #FFF;
+  display: inline-block;
+  font-size: 15px;
+  left: 50%;
+  padding: 5px 30px;
+  position: absolute;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-weight: normal;
+  font-family: "system";
+  font-display: swap;
+}
+@media (min-width: 1300px) {
+  .auctionItem.attention:before {
+    font-size: 15px;
+    outline: 2px dashed #D7504A;
+    border: 5px solid #FFF7E4;
+  }
+}
+@media (min-width: 2000px) {
+  .auctionItem.attention:before {
+    font-size: 20px;
+  }
+}
+
+.auctionItem h7 {
+  font-family: "ryeregular", sans-serif;
+  font-display: swap;
+  color: #186363;
+  text-transform: uppercase;
+  border-bottom: 1px dotted #D7504A;
+  font-size: 120%;
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.auctionItem.attention h7 {
+  margin-top: 50px;
+}
+
+.auctionItem img {
+  margin-top: 0px;
+  border-radius: 20px 20px 0px 0px;
+  padding: 2px;
+  max-height: 40vh;
+  width: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.price {
+  margin-top: -40px;
+  text-align: left;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.price .amount {
+  background-color: #D7504A;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  font-family: "abril_fatfaceregular", sans-serif;
+  font-display: swap;
+  border: 2px solid #FFF3D9;
+}
+
+.price .estimate {
+  position: absolute;
+  bottom: 5px;
+  right: 25px;
+  font-family: "system";
+  font-display: swap;
+  font-weight: normal;
+  font-style: italic;
+  color: #6D603F;
+  font-size: 80%;
+}
+
+.desc h7 {
+  margin-top: 30px !important;
+}
+
+.desc p {
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.prek::before {
+  content: "PRE-K & K";
+}
+
+.cantmiss::before {
+  content: "CAN'T MISS";
+}
+
+.relax::before {
+  content: "RELAX";
+}
+
+.local::before {
+  content: "LOCAL";
+}
+
+.desc p a {
+  visibility: visible !important;
+  background-color: #F2E5C7;
+}
+
+/* --------------- FOOTER ---------------*/
 .footer {
   margin-top: 1px;
   padding: 20px;

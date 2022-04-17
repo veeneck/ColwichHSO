@@ -1,0 +1,6 @@
+name: Item name
+body: 'This is an item description with a link'
+price: '$000+'
+identifier: 7
+itemType: 'auction'
+shout: 'cantmiss'
