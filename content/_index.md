@@ -4,5 +4,7 @@ description: Come join us on April 29th from 5:00pm to 7:30pm. There are plenty 
 type: page
 date: 2014-03-27 14:59:46 +0000
 url: "/"
+fullUrl: "https://colwichhso.com"
+pageImage: "https://colwichhso.com/og_img.png"
 ---
 hello world
