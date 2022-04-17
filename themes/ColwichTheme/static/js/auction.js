@@ -25,7 +25,7 @@ function loadTriggersForPage() {
     let elements = gsap.utils.toArray("section.auctionItem");
     elements.forEach((el, i) => {
 
-        if(i > 1) {
+        if(i > 0) {
 
             gsap.from(el, {
                 scrollTrigger: {
