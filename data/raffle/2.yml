@@ -1,5 +1,7 @@
-name: Dunno
-body: 'This is an item description with a link'
+name: Cooking Fun!
+body: Taste from the pros with a $50 gift card to <a href="https://www.facebook.com/SimplySundayCakes/">Simply Sunday Cakes</a>. Then bake your own with two sets of bowls, pans, cookbooks, baking and decorating accessories.
 price: '$000+'
 identifier: '2'
 itemType: 'raffle'
+shout: 'onetwo'
+grouping: 4

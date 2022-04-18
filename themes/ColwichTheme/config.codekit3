@@ -388,6 +388,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/auction\/13.jpg" : {
+      "ft" : 16384,
+      "iS" : 6145357,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/13.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/carnivalmap.jpg" : {
       "ft" : 16384,
       "iS" : 2638782,
@@ -468,7 +481,7 @@
     },
     "\/static\/images\/logos\/css.png" : {
       "ft" : 32768,
-      "iS" : 413204,
+      "iS" : 302295,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/css.png",
       "oF" : 0,
@@ -481,7 +494,7 @@
     },
     "\/static\/images\/logos\/cushman.png" : {
       "ft" : 32768,
-      "iS" : 28319,
+      "iS" : 62028,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/cushman.png",
       "oF" : 0,
@@ -1063,6 +1076,17 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/static\/js\/auction-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/static\/js\/auction-min-min.js",
+      "oF" : 0,
+      "sC" : 0,
+      "tS" : 0
     },
     "\/static\/js\/auction.js" : {
       "bF" : 0,

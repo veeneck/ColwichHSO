@@ -1,5 +1,6 @@
-name: Baking?
-body: 'This is an item description with a link'
+name: Cake Starter
+body: After devouring your <a href="https://www.facebook.com/SimplySundayCakes/">Simply Sunday Cakes</a> ($50 gift card), turn on the oven for some more baking with two tupperware bowls, and various baking accessories.
 price: '$000+'
 identifier: '12'
 itemType: 'raffle'
+grouping: 5

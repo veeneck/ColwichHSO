@@ -1,5 +1,6 @@
-name: Dolls
-body:  Doll, blankets, doll clothes
+name: Dress Up!
+body:  Your little one will shower you with excitement when you come home with a new doll ready to be dressed up.
 price: '$000+'
 identifier: '15'
 itemType: 'raffle'
+grouping: 1

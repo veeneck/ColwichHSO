@@ -10,7 +10,7 @@
 				<p>Take an advance look at these <b>11</b> items you'll be able to bid on Carnival night. There's something for everyone. Or, jump down and see the <a href="#raffleItems" class="triggerMe">Raffle baskets.</a></p>
 			</section>
 	
-			{{ range .Site.Data.auction }}
+			{{ range (sort .Site.Data.auction "identifier") }}
 				{{ partial "auctionItem.html"  . }}
 			{{ end }}
 		
@@ -32,7 +32,7 @@
 				</p>
 			</section>
 		
-			{{ range .Site.Data.raffle }}
+			{{ range (sort .Site.Data.raffle "grouping") }}
 				{{ partial "auctionItem.html"  . }}
 			{{ end }}
 		
