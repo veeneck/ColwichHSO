@@ -2000,6 +2000,7 @@ a.sponsorLogoLarger:hover {
   border-radius: 20px 20px 0px 0px;
   padding: 2px;
   max-height: 40vh;
+  height: 40vh;
   width: 100%;
   object-fit: cover;
   box-sizing: border-box;
