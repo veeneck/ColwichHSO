@@ -15,3 +15,11 @@
 	
 	</div>
 </section>
+
+
+  <meta property="og:type" content="website">
+  <meta property="og:image:width" content="800">
+  <meta property="og:title" content="CES 2022 Auction: {{ .el.name }}">
+  <meta property="og:url" content="{{ .Params.fullUrl }}#item{{ .el.itemType }}">
+  <meta property="og:image" content="{{ .Params.fullUrl }}/images/{{ .el.itemType }}/{{ .el.identifier }}.jpg">
+  <meta property="og:description" content="{{ .el.body | safeHTML }}">
