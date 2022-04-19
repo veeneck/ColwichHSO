@@ -37,16 +37,23 @@ function loadTriggersForPage() {
 
         }
 
-        let els = gsap.utils.toArray("h7", el);
+        let els = gsap.utils.toArray("h7, p", el);
         els.forEach((innerEl, pos) => {
+
+            let distance = 20;
+            let scale = 0.8;
+            if(innerEl.tagName == "P") {
+                distance = 10;
+                scale = 0.9;
+            }
 
             gsap.from(innerEl, {
                 scrollTrigger: {
                     trigger: innerEl,
                     scrub: true
                 },
-                y: 20,
-                scale: 0.8
+                y: distance,
+                scale: scale
             })
 
         });
