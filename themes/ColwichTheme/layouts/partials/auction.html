@@ -12,8 +12,8 @@
 				<p>Take an advance look at these <b>11</b> items you'll be able to bid on Carnival night. There's something for everyone. Or, jump down and see the <a href="#raffleItems" class="triggerMe">Raffle baskets.</a></p>
 			</section>
 	
-			{{ range (sort .Site.Data.auction "identifier") }}
-				{{ partial "auctionItem.html"  . }}
+			{{ range $index, $el := (sort .Site.Data.auction "identifier") }}
+				{{ partial "auctionItem.html"  (dict "index" $index "el" $el) }}
 			{{ end }}
 		
 		</div>
@@ -38,7 +38,7 @@
 
 			{{ $.Scratch.Set "group" 1 }}
 		
-			{{ range (sort .Site.Data.raffle "grouping") }}
+			{{ range $index, $el := (sort .Site.Data.raffle "grouping") }}
 
 				{{ $id := "" }}
 
@@ -76,7 +76,7 @@
 					{{ $.Scratch.Set "group" .grouping }}
 				{{ end }}
 
-				{{ partial "auctionItem.html"  . }}
+				{{ partial "auctionItem.html"  (dict "index" $index "el" $el) }}
 			{{ end }}
 		
 		</div>

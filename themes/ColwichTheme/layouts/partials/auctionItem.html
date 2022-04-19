@@ -1,17 +1,17 @@
-<section  id="item{{ .itemType }}{{ .identifier }}" class="auctionItem attention {{ .shout }}">
-	<img src="/images/{{ .itemType }}/{{ .identifier }}.jpg" loading="lazy" />
+<section  id="item{{ .el.itemType }}{{ .el.identifier }}" class="auctionItem attention {{ .el.shout }}">
+	<img src="/images/{{ .el.itemType }}/{{ .el.identifier }}.jpg" loading="lazy" />
 	<div class="price">
-		{{ if eq "auction" .itemType }}
+		{{ if eq "auction" .el.itemType }}
 			<div class="amount silentItem">$</div>
-			<div class="estimate">Silent Auction</div>
+			<div class="estimate">Silent Auction #{{ add .index 1 }}</div>
 		{{ else }}
 			<div class="amount raffleItem">&nbsp;</div>
-			<div class="estimate">Raffle</div>
+			<div class="estimate">Raffle #{{ add .index 1 }}</div>
 		{{ end }}
 	</div>
 	<div class="desc">
-		<h7>{{ .name }}</h7>
-		<p>{{ .body | safeHTML }}</p>
+		<h7>{{ .el.name }}</h7>
+		<p>{{ .el.body | safeHTML }}</p>
 	
 	</div>
 </section>
