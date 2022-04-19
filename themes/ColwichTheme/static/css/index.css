@@ -2018,6 +2018,26 @@ a.backHome {
   box-sizing: border-box;
 }
 
+a.permalink {
+  color: #6D603F;
+  text-decoration: none;
+}
+
+a.permalink::before {
+  content: "";
+  background: url("/images/permalink.png");
+  /*url of image*/
+  height: 16px;
+  /*height of image*/
+  width: 33px;
+  /*width of image*/
+  position: absolute;
+  left: -20px;
+  top: -2px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .raffleCategories {
   display: -webkit-box;
   display: -moz-box;

@@ -3,10 +3,10 @@
 	<div class="price">
 		{{ if eq "auction" .el.itemType }}
 			<div class="amount silentItem">$</div>
-			<div class="estimate">Silent Auction #{{ add .index 1 }}</div>
+			<div class="estimate"><a href="#item{{ .el.itemType }}{{ .el.identifier }}" class="permalink">Silent Auction #{{ add .index 1 }}</a></div>
 		{{ else }}
 			<div class="amount raffleItem">&nbsp;</div>
-			<div class="estimate">Raffle #{{ add .index 1 }}</div>
+			<div class="estimate"><a href="#item{{ .el.itemType }}{{ .el.identifier }}" class="permalink">Raffle #{{ add .index 1 }}</a></div>
 		{{ end }}
 	</div>
 	<div class="desc">

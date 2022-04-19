@@ -635,6 +635,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/permalink.png" : {
+      "ft" : 32768,
+      "iS" : 3493,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/permalink.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/raffle\/.5~imageoptim.jpg" : {
       "ft" : 16384,
       "iS" : 221836,
