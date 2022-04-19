@@ -22,17 +22,58 @@
 				<h6>
 					<b class="lightBlue">★</b> RAFFLE ITEMS <b class="lightBlue">★</b>
 				</h6>
-				<p>We've got a lot of great raffle baskets this year. Scroll down to check them out, or browse by category: 
-					<a href="" class="triggerMe">Date Night</a>&nbsp;<span class="lightBlue">//</span>  &nbsp;
-					<a href="" class="triggerMe">Spa & Wellness</a>&nbsp;<span class="lightBlue">//</span>&nbsp;
-					<a href="" class="triggerMe">Classroom Donations</a>&nbsp;<span class="lightBlue">//</span>&nbsp;
-					<a href="" class="triggerMe">Kitchen & Baking</a>&nbsp;<span class="lightBlue">//</span>&nbsp;
-					<a href="" class="triggerMe">Sports</a>&nbsp;<span class="lightBlue">//</span>&nbsp;
-					<a href="" class="triggerMe">Men's</a>
+				<p>We've got a lot of great raffle baskets this year. Scroll down to check them out, or browse by category:</p>
+				<p class="raffleCategories"> 
+					<a href="#group2" class="triggerMe">Date Night</a>
+					<a href="#group3" class="triggerMe">Spa & Wellness</a>
+					<a href="#group4" class="triggerMe">Classroom Donations
+					<a href="#group8" class="triggerMe">Family Time</a>
+					<a href="#group5" class="triggerMe">Kitchen & Baking</a>
+					<a href="#group6" class="triggerMe">Sports</a>
+					<a href="#group7" class="triggerMe">Men's</a>
 				</p>
 			</section>
+
+			{{ $.Scratch.Set "group" 1 }}
 		
 			{{ range (sort .Site.Data.raffle "grouping") }}
+
+				{{ $id := "" }}
+
+				{{ with (eq .grouping 1) }}
+				  {{ $.Scratch.Set "title" "Misc" }}
+				{{ end }}
+				{{ with (eq .grouping 2) }}
+				  {{ $.Scratch.Set "title" "Date Night" }}
+				{{ end }}
+				{{ with (eq .grouping 3) }}
+				  {{ $.Scratch.Set "title" "Spa & Wellness" }}
+				{{ end }}
+				{{ with (eq .grouping 4) }}
+				  {{ $.Scratch.Set "title" "Classroom Donations" }}
+				{{ end }}
+				{{ with (eq .grouping 5) }}
+				  {{ $.Scratch.Set "title" "Kitchen & Baking" }}
+				{{ end }}
+				{{ with (eq .grouping 6) }}
+				  {{ $.Scratch.Set "title" "Sports" }}
+				{{ end }}
+				{{ with (eq .grouping 7) }}
+				  {{ $.Scratch.Set "title" "Men's" }}
+				{{ end }}
+				{{ with (eq .grouping 8) }}
+				  {{ $.Scratch.Set "title" "Family Time" }}
+				{{ end }}
+
+				{{ if ne ($.Scratch.Get "group") .grouping }}
+					<section id="group{{ .grouping }}" class="carnivalInfo ">
+						<h6 id="group{{ .grouping }}">
+							<b class="lightBlue">★</b> {{ $.Scratch.Get "title" }} <b class="lightBlue">★</b>
+						</h6>
+					</section>
+					{{ $.Scratch.Set "group" .grouping }}
+				{{ end }}
+
 				{{ partial "auctionItem.html"  . }}
 			{{ end }}
 		

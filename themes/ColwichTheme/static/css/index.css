@@ -2006,6 +2006,20 @@ a.sponsorLogoLarger:hover {
   box-sizing: border-box;
 }
 
+.raffleCategories {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.raffleCategories a {
+  margin-top: 15px;
+}
+
 .price {
   margin-top: -40px;
   text-align: left;

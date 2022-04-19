@@ -1126,6 +1126,16 @@ a.sponsorLogoLarger:hover {
 	box-sizing: border-box;
 }
 
+.raffleCategories {
+	@include flex();
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.raffleCategories a {
+	margin-top: 15px;
+}
+
 .price {
 	margin-top: -40px;
 	text-align: left;
