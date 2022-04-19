@@ -1148,25 +1148,34 @@ a.backHome {
 }
 
 .price {
-	margin-top: -40px;
+	margin-top: -30px;
 	text-align: left;
 	padding: 0px 20px;
 	position: relative;
 }
 
 .price .amount {
-	//background-color: $redColor;
-	//color: #fff;
+	background-color: $redColor;
+	color: #fff;
 	padding: 10px;
 	border-radius: 50%;
 	text-align: center;
-	width: 45px;
-	height: 45px;
-	line-height: 45px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
 	display: inline-block;
 	@include abrilFont();
-	//border: 2px solid $lightTan;
+	border: 2px solid $lightTan;
+	font-size: 150%;
 }
+
+.price .raffleItem {
+	background-image: url('/images/ticket.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 40px 40px;
+}
+
 
 .price .estimate {
 	position: absolute;

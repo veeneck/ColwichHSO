@@ -37,11 +37,11 @@ function loadTriggersForPage() {
 
         }
 
-        let els = gsap.utils.toArray("h7, p", el);
+        let els = gsap.utils.toArray(".price, h7, p", el);
         els.forEach((innerEl, pos) => {
 
             let distance = 20;
-            let scale = 0.8;
+            let scale = 1;
             if(innerEl.tagName == "P") {
                 distance = 10;
                 scale = 0.9;
