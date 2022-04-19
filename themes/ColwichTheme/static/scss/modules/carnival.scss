@@ -1133,8 +1133,8 @@ a.sponsorLogoLarger:hover {
 }
 
 .price .amount {
-	background-color: $redColor;
-	color: #fff;
+	//background-color: $redColor;
+	//color: #fff;
 	padding: 10px;
 	border-radius: 50%;
 	text-align: center;
@@ -1143,7 +1143,7 @@ a.sponsorLogoLarger:hover {
 	line-height: 45px;
 	display: inline-block;
 	@include abrilFont();
-	border: 2px solid $lightTan;
+	//border: 2px solid $lightTan;
 }
 
 .price .estimate {

@@ -37,7 +37,7 @@ function loadTriggersForPage() {
 
         }
 
-        let els = gsap.utils.toArray(".amount", el);
+        let els = gsap.utils.toArray("h7", el);
         els.forEach((innerEl, pos) => {
 
             gsap.from(innerEl, {
@@ -45,7 +45,8 @@ function loadTriggersForPage() {
                     trigger: innerEl,
                     scrub: true
                 },
-                y: 20
+                y: 20,
+                scale: 0.8
             })
 
         });

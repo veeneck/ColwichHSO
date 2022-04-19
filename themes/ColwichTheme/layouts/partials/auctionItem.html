@@ -1,12 +1,12 @@
 <section  id="item{{ .itemType }}{{ .identifier }}" class="auctionItem attention {{ .shout }}">
-	<img src="/images/{{ .itemType }}/{{ .identifier }}.jpg" />
+	<img src="/images/{{ .itemType }}/{{ .identifier }}.jpg" loading="lazy" />
 	<div class="price">
-		<div class="amount">{{ .price }}</div>
+		<div class="amount"></div>
 		<div class="estimate">
 			{{ if eq "auction" .itemType }}
-				Starting Bid
+				Auction
 			{{ else }}
-				Estimated Value
+				Raffle
 			{{ end }}
 	    </div>
 

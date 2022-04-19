@@ -2013,8 +2013,6 @@ a.sponsorLogoLarger:hover {
 }
 
 .price .amount {
-  background-color: #D7504A;
-  color: #fff;
   padding: 10px;
   border-radius: 50%;
   text-align: center;
@@ -2024,7 +2022,6 @@ a.sponsorLogoLarger:hover {
   display: inline-block;
   font-family: "abril_fatfaceregular", sans-serif;
   font-display: swap;
-  border: 2px solid #FFF3D9;
 }
 
 .price .estimate {
