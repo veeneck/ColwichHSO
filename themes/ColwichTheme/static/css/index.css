@@ -790,6 +790,11 @@ body {
   background-color: #F2E5C7;
   padding: 0px;
   margin: 0px;
+  position: relative;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 /* --------------- CONSTANTS & COLORS --------------- */
@@ -833,7 +838,6 @@ body {
 body.auction {
   background: none;
   background-color: #F2E5C7;
-  overflow-y: none;
 }
 
 /* --------------- TICKET SHAPE ---------------*/
