@@ -721,7 +721,7 @@
       "oAP" : "\/static\/images\/raffle\/2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -955,7 +955,7 @@
       "oAP" : "\/static\/images\/raffle\/IMG_3232.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1109,6 +1109,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.32~imageoptim.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/33.jpg" : {
+      "ft" : 16384,
+      "iS" : 5089533,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/33.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
