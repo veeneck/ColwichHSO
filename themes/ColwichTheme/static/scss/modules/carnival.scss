@@ -1052,6 +1052,17 @@ a.sponsorLogoLarger:hover {
 
 /* --------------- AUCTION ---------------*/
 
+a.backHome {
+	width: 100%;
+	background-color: $redColor;
+	width: 100%;
+	display: block;
+	@include proseFont();
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+}
+
 .auctionItem {
 	border-radius: 20px;
 	display: block;
