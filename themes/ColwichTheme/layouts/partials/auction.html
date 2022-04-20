@@ -5,7 +5,7 @@
 	<div class="content">
 
 		<div class="leftGrid">
-			<section class="carnivalInfo ">
+			<section class="carnivalInfo fullWidth">
 				<h6>
 					<b class="red">■</b> Silent Auction <b class="red">■</b>
 				</h6>
@@ -20,7 +20,7 @@
 
 		<div class="rightGrid">
 
-			<section id="raffleItems" class="carnivalInfo ">
+			<section id="raffleItems" class="carnivalInfo fullWidth">
 				<h6>
 					<b class="lightBlue">★</b> RAFFLE ITEMS <b class="lightBlue">★</b>
 				</h6>
@@ -68,7 +68,7 @@
 				{{ end }}
 
 				{{ if ne ($.Scratch.Get "group") .grouping }}
-					<section id="group{{ .grouping }}" class="carnivalInfo ">
+					<section id="group{{ .grouping }}" class="carnivalInfo  fullWidth">
 						<h6 id="group{{ .grouping }}">
 							<b class="lightBlue">★</b> {{ $.Scratch.Get "title" }} <b class="lightBlue">★</b>
 						</h6>

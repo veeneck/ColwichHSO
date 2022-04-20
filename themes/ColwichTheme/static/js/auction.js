@@ -15,6 +15,7 @@ function ready(fn) {
 }
 
 function loadPage() {
+    console.log(window.innerWidth);
     loadTriggersForPage();
 }
 
@@ -25,6 +26,11 @@ function loadTriggersForPage() {
     let elements = gsap.utils.toArray("section.auctionItem");
     elements.forEach((el, i) => {
 
+        let scale = 0.8;
+        if(window.innerWidth > 1080) {
+            scale = 1;
+        }
+
         if(i > 0) {
 
             gsap.from(el, {
@@ -32,7 +38,7 @@ function loadTriggersForPage() {
                     trigger: el,
                     scrub: true,
                 },
-                scale: 0.8
+                scale: scale
             });
 
         }
@@ -45,12 +51,18 @@ function loadTriggersForPage() {
                 distance = 30;
             }
 
+            let innerScale = 1;
+            if(window.innerWidth > 1080 && innerEl.tagName == "H7") {
+                innerScale = 0.8;
+            }
+
             gsap.from(innerEl, {
                 scrollTrigger: {
                     trigger: innerEl,
                     scrub: true
                 },
-                y: distance
+                y: distance,
+                scale: innerScale
             })
 
         });

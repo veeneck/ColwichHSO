@@ -1929,6 +1929,45 @@ a.sponsorLogoLarger:hover {
 }
 
 /* --------------- AUCTION ---------------*/
+.auction .content {
+  grid-template-columns: 100%;
+}
+
+.auction .leftGrid, .auction .rightGrid {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.auction .leftGrid section, .auction .rightGrid section {
+  width: 100%;
+}
+@media (min-width: 1080px) {
+  .auction .leftGrid section, .auction .rightGrid section {
+    width: 49%;
+  }
+}
+@media (min-width: 1300px) {
+  .auction .leftGrid section, .auction .rightGrid section {
+    width: 30%;
+  }
+}
+
+.auction section.fullWidth {
+  width: 100% !important;
+  margin-bottom: 50px !important;
+}
+@media (min-width: 1300px) {
+  .auction section.fullWidth {
+    text-align: center;
+  }
+}
+
 a.backHome {
   width: 100%;
   background-color: #D7504A;
@@ -1946,8 +1985,6 @@ a.backHome {
   display: block;
   position: relative;
   background-color: #FFF7E4;
-  display: grid;
-  grid-template-columns: 100%;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -2062,6 +2099,7 @@ a.permalink::before {
   text-align: left;
   padding: 0px 20px;
   position: relative;
+  width: 100%;
 }
 
 .price .amount {
@@ -2090,7 +2128,7 @@ a.permalink::before {
 .price .estimate {
   position: absolute;
   bottom: 5px;
-  right: 25px;
+  right: 60px;
   font-family: "system";
   font-display: swap;
   font-weight: normal;
