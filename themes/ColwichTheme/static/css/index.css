@@ -835,9 +835,13 @@ body {
   }
 }
 
-body.auction {
+body.auction, body.feedback {
   background: none;
   background-color: #F2E5C7;
+}
+
+iframe {
+  margin-bottom: 50px;
 }
 
 /* --------------- TICKET SHAPE ---------------*/

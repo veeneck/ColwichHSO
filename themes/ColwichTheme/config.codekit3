@@ -76,6 +76,14 @@
       "oAP" : "\/layouts\/404.html",
       "oF" : 0
     },
+    "\/layouts\/carnival\/single.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/carnival\/single.html",
+      "oF" : 0
+    },
     "\/layouts\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -106,6 +114,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/layouts\/partials\/content.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/feedback.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/feedback.html",
       "oF" : 0
     },
     "\/layouts\/partials\/footer.html" : {
