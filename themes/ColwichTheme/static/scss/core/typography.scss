@@ -6,20 +6,17 @@
 \*------------------------------------*/
 
 @font-face {
-    font-family: 'ryeregular';
-    src: url('/fonts/rye-regular-webfont.woff2') format('woff2'),
-         url('/fonts/rye-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'catamaran';
+    src: url('/fonts/Catamaran/static/Catamaran-Black.ttf');
+    font-weight: heavy;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'abril_fatfaceregular';
-    src: url('/fonts/abrilfatface-regular-webfont.woff2') format('woff2'),
-         url('/fonts/abrilfatface-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'rubik';
+    src: url('/fonts/Rubik/static/Rubik-Regular.ttf');
+    font-weight: heavy;
     font-style: normal;
-
 }
 
 /* Define the "system" font family */
@@ -30,42 +27,34 @@
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
-@mixin abrilFont {
-    font-family: 'abril_fatfaceregular', sans-serif;
-    font-display: swap;
-}
-
-@mixin circusFont {
-    font-family: 'ryeregular', sans-serif;
-    font-display: swap;
-}
-
 @mixin proseFont {
-       font-family: "system";
+    font-family: "system";
     font-display: swap;
 }
+
+
 
 /*------------------------------------*\
     # Simple Typography Settings
 \*------------------------------------*/
 
 // Font Family
-$font-family: 'abril_fatfaceregular', serif;
-$circus-font: 'ryeregular', serif;
+$font-family: 'rubik', serif;
+$callout-font: 'catamaran', serif;
 
 // Base Font for HTML
 $base-font-size: 16px;
 
 // Paragraph Styles
-$paragraph-color      : #505050;
+$paragraph-color      : #000;
 $paragraph-size       : rem(17px);
 $paragraph-line-height: 1.5em;
 $paragraph-margin     : 20px;
 
 // Header Styles
-$header-color      : #186363;
+$header-color      : #000;
 $header-alt-color : #D7504A;
-$header-size       : rem(80px);
+$header-size       : rem(40px);
 $header-line-height: 1.25em;
 $header-margin     : $paragraph-margin * 1.2;
 
@@ -119,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: $header-size;
     margin-bottom: $header-margin;
-    font-family: $circus-font;
+    font-family: $callout-font;
 
 }
 
@@ -148,25 +137,6 @@ h5 {
 h6 {
     font-size: calc($header-size / 2);
     margin-bottom: calc($header-margin / 2);
-}
-
-
-// Circus Size Letters
-
-.l_letter {
-    font-size: 120%;
-}
-
-.xl_letter {
-    font-size: 140%;
-}
-
-.m_letter {
-    font-size: 75%;
-}
-
-.s_letter {
-    font-size: 50%;
 }
 
 

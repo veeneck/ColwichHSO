@@ -6,5 +6,6 @@ date: 2014-03-27 14:59:46 +0000
 url: "/"
 fullUrl: "https://colwichhso.com"
 pageImage: "https://colwichhso.com/og_img.png"
+stylesheet: "/css/carnival.css"
 ---
 hello world

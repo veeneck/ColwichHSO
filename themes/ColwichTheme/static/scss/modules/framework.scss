@@ -1,0 +1,15 @@
+@import "achievements.scss";
+@import "calendar.scss";
+@import "donate.scss";
+@import "sponsors.scss";
+@import "hero.scss";
+
+section.module {
+	width: 100%;
+}
+
+.module .content {
+	width: 1200px;
+	min-height: 400px;
+	margin: 0 auto;
+}

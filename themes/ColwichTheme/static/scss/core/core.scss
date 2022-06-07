@@ -2,13 +2,14 @@
 @import "mixins.scss";
 @import "typography.scss";
 @import "animations.scss";
+@import "../modules/framework.scss";
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-	background-color: #F2E5C7;	
+	background-color: #FFF;	
 	padding: 0px;
 	margin: 0px;
 	position: relative

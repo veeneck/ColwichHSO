@@ -60,6 +60,14 @@
       "oAP" : "\/layouts\/_default\/list.html",
       "oF" : 0
     },
+    "\/layouts\/_default\/section.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/_default\/section.html",
+      "oF" : 0
+    },
     "\/layouts\/_default\/single.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -76,12 +84,60 @@
       "oAP" : "\/layouts\/404.html",
       "oF" : 0
     },
+    "\/layouts\/carnival\/baseof.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/carnival\/baseof.html",
+      "oF" : 0
+    },
+    "\/layouts\/carnival\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/carnival\/index.html",
+      "oF" : 0
+    },
+    "\/layouts\/carnival\/section.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/carnival\/section.html",
+      "oF" : 0
+    },
     "\/layouts\/carnival\/single.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/layouts\/carnival\/single.html",
+      "oF" : 0
+    },
+    "\/layouts\/events\/baseof.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/events\/baseof.html",
+      "oF" : 0
+    },
+    "\/layouts\/events\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/events\/index.html",
+      "oF" : 0
+    },
+    "\/layouts\/events\/section.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/events\/section.html",
       "oF" : 0
     },
     "\/layouts\/index.html" : {
@@ -132,20 +188,60 @@
       "oAP" : "\/layouts\/partials\/footer.html",
       "oF" : 0
     },
-    "\/layouts\/partials\/head.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layouts\/partials\/head.html",
-      "oF" : 0
-    },
     "\/layouts\/partials\/header.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/layouts\/partials\/header.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/hero.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/hero.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/modules\/achievements.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/achievements.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/modules\/calendar.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/calendar.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/modules\/donate.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/donate.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/modules\/footer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/footer.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/modules\/sponsors.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/sponsors.html",
       "oF" : 0
     },
     "\/layouts\/partials\/sponsorlist.html" : {
@@ -164,6 +260,38 @@
       "oAP" : "\/layouts\/partials\/thanksto.html",
       "oF" : 0
     },
+    "\/layouts\/redesign\/baseof.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/redesign\/baseof.html",
+      "oF" : 0
+    },
+    "\/layouts\/redesign\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/redesign\/index.html",
+      "oF" : 0
+    },
+    "\/layouts\/redesign\/section.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/redesign\/section.html",
+      "oF" : 0
+    },
+    "\/layouts\/redesign\/single.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/redesign\/single.html",
+      "oF" : 0
+    },
     "\/LICENSE" : {
       "cB" : 0,
       "ft" : 8192,
@@ -171,6 +299,18 @@
       "oA" : 0,
       "oAP" : "\/LICENSE",
       "oF" : 0
+    },
+    "\/static\/css\/carnival.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/css\/carnival-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/static\/css\/index.css" : {
       "aP" : 1,
@@ -198,6 +338,102 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/static\/fonts\/abrilfatface-regular-webfont.woff2",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/Catamaran-VariableFont_wght.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/Catamaran-VariableFont_wght.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/OFL.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/OFL.txt",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/README.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/README.txt",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-Black.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-Black.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-Bold.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-ExtraBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-ExtraBold.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-ExtraLight.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-ExtraLight.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-Light.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-Light.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-Medium.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-Medium.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-Regular.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-SemiBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-SemiBold.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Catamaran\/static\/Catamaran-Thin.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Catamaran\/static\/Catamaran-Thin.ttf",
       "oF" : 0
     },
     "\/static\/fonts\/roboto-regular-webfont.woff" : {
@@ -230,6 +466,150 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/static\/fonts\/roboto-thin-webfont.woff2",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/OFL.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/OFL.txt",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/README.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/README.txt",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/Rubik-Italic-VariableFont_wght.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/Rubik-Italic-VariableFont_wght.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/Rubik-VariableFont_wght.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/Rubik-VariableFont_wght.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-Black.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-Black.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-BlackItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-BlackItalic.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-Bold.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-BoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-BoldItalic.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-ExtraBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-ExtraBold.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-ExtraBoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-ExtraBoldItalic.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-Italic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-Italic.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-Light.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-Light.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-LightItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-LightItalic.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-Medium.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-Medium.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-MediumItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-MediumItalic.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-Regular.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-SemiBold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-SemiBold.ttf",
+      "oF" : 0
+    },
+    "\/static\/fonts\/Rubik\/static\/Rubik-SemiBoldItalic.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/fonts\/Rubik\/static\/Rubik-SemiBoldItalic.ttf",
       "oF" : 0
     },
     "\/static\/fonts\/rye-regular-webfont.woff" : {
@@ -276,7 +656,7 @@
     },
     "\/static\/images\/auction\/6.jpg" : {
       "ft" : 16384,
-      "iS" : 786784,
+      "iS" : 224075,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/6.jpg",
@@ -289,7 +669,7 @@
     },
     "\/static\/images\/auction\/7.jpg" : {
       "ft" : 16384,
-      "iS" : 651613,
+      "iS" : 848660,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/7.jpg",
@@ -341,7 +721,7 @@
     },
     "\/static\/images\/auction\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1636099,
+      "iS" : 1259667,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/12.jpg",
@@ -432,7 +812,7 @@
     },
     "\/static\/images\/logos\/css.png" : {
       "ft" : 32768,
-      "iS" : 413204,
+      "iS" : 302295,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/css.png",
       "oF" : 0,
@@ -679,7 +1059,7 @@
     },
     "\/static\/images\/raffle\/2.jpg" : {
       "ft" : 16384,
-      "iS" : 1680990,
+      "iS" : 1265316,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2.jpg",
@@ -692,7 +1072,7 @@
     },
     "\/static\/images\/raffle\/3.jpg" : {
       "ft" : 16384,
-      "iS" : 927508,
+      "iS" : 702536,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/3.jpg",
@@ -718,7 +1098,7 @@
     },
     "\/static\/images\/raffle\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 1807800,
+      "iS" : 1426089,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.5~imageoptim.jpg",
@@ -770,7 +1150,7 @@
     },
     "\/static\/images\/raffle\/9.jpg" : {
       "ft" : 16384,
-      "iS" : 1032925,
+      "iS" : 1379396,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/9.jpg",
@@ -809,7 +1189,7 @@
     },
     "\/static\/images\/raffle\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1501385,
+      "iS" : 1158614,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/12.jpg",
@@ -887,7 +1267,7 @@
     },
     "\/static\/images\/raffle\/18.jpg" : {
       "ft" : 16384,
-      "iS" : 1021248,
+      "iS" : 767111,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/18.jpg",
@@ -1043,7 +1423,7 @@
     },
     "\/static\/images\/raffle\/30.jpg" : {
       "ft" : 16384,
-      "iS" : 1225476,
+      "iS" : 1630499,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/30.jpg",
@@ -1306,6 +1686,21 @@
       "sC" : 0,
       "tS" : 0
     },
+    "\/static\/scss\/carnival.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/css\/carnival.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/static\/scss\/core\/animations.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1316,6 +1711,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/animations.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/core\/carnival_core.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/carnival_core.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/core\/carnival_typography.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/carnival_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1381,18 +1806,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/static\/scss\/css\/photoswipe.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/static\/scss\/css\/photoswipe-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/static\/scss\/index.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1408,7 +1821,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/static\/scss\/modules\/carnival.scss" : {
+    "\/static\/scss\/modules\/achievements.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1417,7 +1830,82 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/static\/scss\/css\/carnival.css",
+      "oAP" : "\/static\/scss\/css\/achievements.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/calendar.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/calendar.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/donate.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/donate.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/framework.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/framework.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/sponsors.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/sponsors.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

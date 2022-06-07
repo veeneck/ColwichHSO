@@ -1,0 +1,34 @@
+{{ define "main" -}}
+
+{{ partial "hero.html" . }}
+
+{{ range $key, $value := .Params.modules }}
+
+	{{ range where $.Site.Pages ".Params.id" $value }}
+
+		{{ $type := .Params.module_type }}
+
+		{{ if (eq $type "achievements") }}
+		    {{ partial "modules/achievements.html" (dict "module" . ) }}
+		{{ end }}
+
+		{{ if (eq $type "donate") }}
+		    {{ partial "modules/donate.html" (dict "module" . ) }}
+		{{ end }}
+
+		{{ if (eq $type "calendar") }}
+		    {{ partial "modules/calendar.html" (dict "module" . ) }}
+		{{ end }}
+
+		{{ if (eq $type "sponsors") }}
+		    {{ partial "modules/sponsors.html" (dict "module" . ) }}
+		{{ end }}
+
+		{{ if (eq $type "footer") }}
+		    {{ partial "modules/footer.html" (dict "module" . ) }}
+		{{ end }}
+		
+	{{ end }}
+{{ end }}
+
+{{- end }}

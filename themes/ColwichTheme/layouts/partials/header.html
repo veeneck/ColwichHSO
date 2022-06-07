@@ -12,7 +12,11 @@
   <meta name="Description" content="{{ .Description }}">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/index.css" media="screen">
+  {{ if not .Params.stylesheet }}
+    <link rel="stylesheet" href="/css/index.css" media="screen">
+  {{ else }}
+    <link rel="stylesheet" href="{{ .Params.stylesheet }}" media="screen">
+  {{ end }}
 
    <!-- JS -->
   <script src="/js/index-min.js" defer></script>
