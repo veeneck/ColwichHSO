@@ -7,8 +7,8 @@ url: "/redesign"
 fullUrl: "https://colwichhso.com/redesign"
 pageImage: "https://colwichhso.com/og_img.png"
 modules:
-- modules/common/calendar.md
 - modules/common/sponsors.md
+- modules/common/calendar.md
 - modules/common/achievements.md
 - modules/common/donate.md
 - modules/common/footer.md

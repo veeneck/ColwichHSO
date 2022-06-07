@@ -1,0 +1,27 @@
+.sponsors ul {
+	@include flex();
+	justify-content: center;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+.sponsors li {
+	list-style: none;
+	margin: 25px;
+}
+
+.sponsors img {
+	  filter: grayscale(100%);
+	  width: 150px;
+
+}
+
+.sponsors a:hover img {
+	filter: none;
+}
+
+.module.sponsors h3 {
+	margin-bottom: 25px;
+	width: 100%;
+	text-align: center;
+}

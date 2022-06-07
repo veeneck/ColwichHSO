@@ -1,0 +1,29 @@
+.hero h1 {
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
+}
+
+.hero p {
+	margin: 20px auto;
+	width: 600px;
+	text-align: center;
+}
+
+.hero p b {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.hero .callToAction {
+	width: 600px;
+	text-align: center;
+	margin: 25px auto 25px auto;
+}
+
+.heroImg {
+	margin: -300px auto 0 auto;
+	width: 1000px;
+	border-radius: 4px;
+	border: 20px solid #fff;
+}

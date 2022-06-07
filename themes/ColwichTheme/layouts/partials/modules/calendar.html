@@ -1,48 +1,11 @@
-<section class="module">
-	<div class="content">
-	  	<h2>2022-2023 Schedule</h2>
-		<h3>A Look at What We Have Planned.</h3>
-		<ul class="upcoming">
-			<li>
-				<h4>Event Name</h4>
-				<p>This is a description about the event we're talking about.</p>
-				<a href="/">Learn more</a>
-			</li>
-			<li>
-				<h4>Event Name</h4>
-				<p>This is a description about the event we're talking about.</p>
-				<a href="/">Learn more</a>
-			</li>
-			<li>
-				<h4>Event Name</h4>
-				<p>This is a description about the event we're talking about.</p>
-				<a href="/">Learn more</a>
-			</li>
-			<li>
-				<h4>Event Name</h4>
-				<p>This is a description about the event we're talking about.</p>
-				<a href="/">Learn more</a>
-			</li>
-			<li>
-				<h4>Event Name</h4>
-				<p>This is a description about the event we're talking about.</p>
-				<a href="/">Learn more</a>
-			</li>
-			<li>
-				<h4>Event Name</h4>
-				<p>This is a description about the event we're talking about.</p>
-				<a href="/">Learn more</a>
-			</li>
-			<li>
-				<h4>Event Name</h4>
-				<p>This is a description about the event we're talking about.</p>
-				<a href="/">Learn more</a>
-			</li>
-			<li>
-				<h4>Event Name</h4>
-				<p>This is a description about the event we're talking about.</p>
-				<a href="/">Learn more</a>
-			</li>
-		</ul>
-	</div>
-</section>
+<ul>
+	{{ $events := where site.RegularPages "Type" "events" }}
+	{{ $sortedPosts := (sort $events "Params.event_date" "asc") }}
+	{{ range first 12 $sortedPosts }}
+		<li>
+			<h4>{{ .Params.title }}</h4>
+			<p>{{ .Params.description }}</p>
+			<a href="{{ .Params.url }}">Learn more</a>
+		</li>
+	{{ end }}
+</ul>

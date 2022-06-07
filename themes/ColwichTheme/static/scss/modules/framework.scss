@@ -3,13 +3,40 @@
 @import "donate.scss";
 @import "sponsors.scss";
 @import "hero.scss";
+@import "navigation.scss";
 
 section.module {
-	width: 100%;
+	margin-top: 50px;
 }
 
 .module .content {
 	width: 1200px;
-	min-height: 400px;
 	margin: 0 auto;
+}
+
+.module h2, .module h3 {
+	width: 350px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.module h3 {
+	margin-bottom: 75px;
+}
+
+.blueBubble {
+	background-color: #e4f0fd;
+	margin: 50px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding-bottom: 300px;
+}
+
+.button {
+	border: 1px solid #000;
+	border-radius: 4px;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	display: inline-block;
 }

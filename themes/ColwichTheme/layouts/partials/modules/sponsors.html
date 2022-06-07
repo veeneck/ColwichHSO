@@ -1,5 +1,14 @@
-<section class="module">
-	<div class="content">
-		Sponsors Module!
-	</div>
-</section>
+<h3>{{ $.module.Params.subtitle }}</h3>
+
+<ul>
+	{{ $sponsors := where site.RegularPages "Type" "sponsor" }}
+	{{ range $sponsors }}
+		<li>
+			<a href="{{ .Params.website }}">
+			<img
+    			src="/images/sponsors/{{ .Params.logo }}"
+    			alt="{{ .Params.title }}" />
+    		</a>
+		</li>
+	{{ end }}
+</ul>

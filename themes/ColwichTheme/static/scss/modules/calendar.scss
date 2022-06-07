@@ -1,4 +1,4 @@
-.upcoming {
+.calendar ul {
 	@include flex();
 	justify-content: center;
 	flex-wrap: wrap;
@@ -6,7 +6,7 @@
 	margin-left: 0px;
 }
 
-.upcoming li {
+.calendar li {
 	list-style: none;
 	border-radius: 5px;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);

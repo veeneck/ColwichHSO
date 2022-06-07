@@ -6,27 +6,40 @@
 
 	{{ range where $.Site.Pages ".Params.id" $value }}
 
-		{{ $type := .Params.module_type }}
+		<section class="module {{ .Params.module_type }}">
 
-		{{ if (eq $type "achievements") }}
-		    {{ partial "modules/achievements.html" (dict "module" . ) }}
-		{{ end }}
+			<div class="content">
+	
+				{{ $type := .Params.module_type }}
 
-		{{ if (eq $type "donate") }}
-		    {{ partial "modules/donate.html" (dict "module" . ) }}
-		{{ end }}
+				{{ if .Params.has_header }}
+					<h2>{{ .Params.title }}</h2>
+					<h3>{{ .Params.subtitle }}</h3>
+				{{ end }}
 
-		{{ if (eq $type "calendar") }}
-		    {{ partial "modules/calendar.html" (dict "module" . ) }}
-		{{ end }}
+				{{ if (eq $type "achievements") }}
+				    {{ partial "modules/achievements.html" (dict "module" . ) }}
+				{{ end }}
 
-		{{ if (eq $type "sponsors") }}
-		    {{ partial "modules/sponsors.html" (dict "module" . ) }}
-		{{ end }}
+				{{ if (eq $type "donate") }}
+				    {{ partial "modules/donate.html" (dict "module" . ) }}
+				{{ end }}
 
-		{{ if (eq $type "footer") }}
-		    {{ partial "modules/footer.html" (dict "module" . ) }}
-		{{ end }}
+				{{ if (eq $type "calendar") }}
+				    {{ partial "modules/calendar.html" (dict "module" . ) }}
+				{{ end }}
+
+				{{ if (eq $type "sponsors") }}
+				    {{ partial "modules/sponsors.html" (dict "module" . ) }}
+				{{ end }}
+
+				{{ if (eq $type "footer") }}
+				    {{ partial "modules/footer.html" (dict "module" . ) }}
+				{{ end }}
+
+			<div>
+
+		</section>
 		
 	{{ end }}
 {{ end }}
