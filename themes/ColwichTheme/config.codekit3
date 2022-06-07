@@ -883,6 +883,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/logos\/hsologo.png" : {
+      "ft" : 32768,
+      "iS" : 208479,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/hsologo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/logos\/icm.jpg" : {
       "ft" : 16384,
       "iS" : 58353,

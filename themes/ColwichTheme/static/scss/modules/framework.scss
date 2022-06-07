@@ -5,6 +5,9 @@
 @import "hero.scss";
 @import "navigation.scss";
 
+$darkRed : #A62C2E;
+$lightRed : #E06769;
+
 section.module {
 	margin-top: 50px;
 }
@@ -25,18 +28,33 @@ section.module {
 }
 
 .blueBubble {
-	background-color: #e4f0fd;
+	background-color: #F5F5F5;
 	margin: 50px;
 	border-radius: 10px;
 	box-sizing: border-box;
 	padding-bottom: 300px;
+background-color: #F5F5F5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpath stroke='%23FFF' stroke-width='7.3' stroke-miterlimit='10' fill='none' d='M237.3-189.3c12 46.9-11.4 100.2-43.3 133.3c-36 37.3-62.4 77.8-67.4 131c-2.3 24.6 0 49.7-5.6 73.8c-12.7 54.7-89.1 81.8-132 109.7c-36.4 23.6-71.5 52.2-90.9 91l4.8 186.5c6.8-39.6 47.4-61 83.6-73.7 c53.2-18.7 110.5-27.1 161.2-54.4c43.6-23.6 82.4-62.1 96.4-111.7c14.3-51 1-105.1-4.4-157.8C231.1 56 263.8-17 334.8-56.8c62.4-35 128.7-67.4 194.8-94.8L646.7-93C592.2-53 531.5-21.8 477.5 18.7C428.9 55.1 392.7 110 375.4 168c-17.9 60.1-16.2 123.9-20.6 186.4c-5.4 77.7-25.6 158.3-86.3 211.7c-88.8 78.1-220.5 65.3-330 61.6l-21.4 132.5c207.8 90.2 490.1 42 558.1-202.9c26.2-94.2 13.2-195.1 32.3-291c14-70.2 47.5-137.9 98.3-188.7C663.4 20 895.5-53.1 938-68.4'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
 }
 
 .button {
-	border: 1px solid #000;
+	border: 1px solid $darkRed;
 	border-radius: 4px;
-	padding: 10px;
+	padding: 15px;
 	margin: 10px;
 	text-decoration: none;
 	display: inline-block;
+	box-shadow: 4px 4px 0px 0px $lightRed;
+	color: $darkRed;
+}
+
+.primary {
+	background-color: #fff;
+}
+
+.secondary {
+	border: none;
+	box-shadow: none;
 }
