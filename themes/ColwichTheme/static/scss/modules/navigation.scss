@@ -44,3 +44,47 @@ ul.navbar li span {
 .donate .button {
 	margin-top: -8px;
 }
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.dropbtn:hover {
+	color: #000;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 2;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0 15px 60px rgba(62,62,62,.102);
+  z-index: 2;
+  background-color: $darkRed;
+  border-radius: 4px;
+  width: 250px;
+  padding: 10px;
+  text-align: left;
+  margin-left: -62px;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: $lightRed; }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

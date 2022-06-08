@@ -1,0 +1,22 @@
+.achievements ul {
+	@include flex();
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+.achievements li {
+	list-style: none;
+	border-radius: 5px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+	padding: 20px;
+	width: 23%;
+	margin: 1%;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+.achievements .content {
+	padding-top: 75px;
+}

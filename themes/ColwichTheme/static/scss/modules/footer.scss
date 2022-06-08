@@ -1,0 +1,45 @@
+.footer {
+	padding: 50px 0px;
+}
+
+.footer .social {
+	@include flex();
+	justify-content: center;
+}
+
+.footer .logo {
+	width: 20%;
+	text-align: left;
+}
+
+.footer .social_links {
+	width: 80%;
+	@include flex();
+	justify-content: right;
+}
+
+.footer .social_links li {
+	list-style: none;
+}
+
+.footer_lists {
+	@include flex();
+	justify-content: center;
+}
+
+.footer_lists ul {
+	width: 25%;
+	box-sizing: border-box;
+	padding:5px;
+	font-weight: bold;
+}
+
+.footer_lists ul li {
+	list-style: none;
+	font-weight: normal;
+}
+
+
+.footer_lists ul li:first-child {
+	margin-top: 25px;
+}

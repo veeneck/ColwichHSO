@@ -1,0 +1,5 @@
+name: Achievement 2
+body: A short description about the achievement to showcase it.
+image: 'ces.jpg'
+featured: 1
+itemType: 'achievements'

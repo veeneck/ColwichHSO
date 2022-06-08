@@ -1,0 +1,10 @@
+<ul>
+{{ range $index, $el := (sort site.Data.achievements "featured") }}
+	<li>
+		<span class="counter">{{ add $index 1 }}</span>
+		<img src="/images/achievements/{{ $el.image }}" />
+		<h4>{{ $el.name }}</h4>
+		<p>{{ $el.body }}</p>
+	</li>
+{{ end }}
+</ul>

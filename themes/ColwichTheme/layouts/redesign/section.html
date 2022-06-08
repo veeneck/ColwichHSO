@@ -6,11 +6,19 @@
 
 	{{ range where $.Site.Pages ".Params.id" $value }}
 
+		{{ $type := .Params.module_type }}
+
+		{{ if (eq $type "achievements") }}
+
+		<section class="module {{ .Params.module_type }} yellowBubble">
+
+		{{ else }}
+
 		<section class="module {{ .Params.module_type }}">
 
+		{{ end }}
+
 			<div class="content">
-	
-				{{ $type := .Params.module_type }}
 
 				{{ if .Params.has_header }}
 					<h2>{{ .Params.title }}</h2>
@@ -37,7 +45,7 @@
 				    {{ partial "modules/footer.html" (dict "module" . ) }}
 				{{ end }}
 
-			<div>
+			</div>
 
 		</section>
 		
