@@ -816,6 +816,10 @@ img {
   box-sizing: border-box;
 }
 
+.donate {
+  text-align: center;
+}
+
 .sponsors ul {
   display: -webkit-box;
   display: -moz-box;
