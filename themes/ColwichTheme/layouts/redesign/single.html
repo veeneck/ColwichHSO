@@ -1,23 +1,5 @@
 {{ define "main" -}}
 
-HELLO
-
-	{{ if eq  $.Page.Params.url "/auction" }}
-
-		{{ partial "auction.html" . }}
-
-	{{ else if eq  $.Page.Params.url "/carnival/auction" }}
-
-		{{ partial "auction.html" . }}
-
-	{{ else if eq  $.Page.Params.url "/carnival/feedback" }}
-
-		{{ partial "feedback.html" . }}
-
-	{{ else }}
-
-		{{ partial "content.html" . }}
-
-	{{ end }}
+	{{ partial "content.html" . }}
 
 {{- end }}

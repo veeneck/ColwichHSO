@@ -1,1 +1,13 @@
-default section
+{{ define "main" -}}
+
+{{ if eq  $.Page.Params.url "/carnival" }}
+
+	{{ partial "carnival/home.html" . }}
+
+{{ else }}
+
+	{{ partial "content.html" . }}
+
+{{ end }}
+
+{{- end }}

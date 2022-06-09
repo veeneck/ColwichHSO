@@ -116,30 +116,6 @@
       "oAP" : "\/layouts\/carnival\/single.html",
       "oF" : 0
     },
-    "\/layouts\/events\/baseof.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layouts\/events\/baseof.html",
-      "oF" : 0
-    },
-    "\/layouts\/events\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layouts\/events\/index.html",
-      "oF" : 0
-    },
-    "\/layouts\/events\/section.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layouts\/events\/section.html",
-      "oF" : 0
-    },
     "\/layouts\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -162,6 +138,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/layouts\/partials\/auctionItem.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/carnival\/home.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/carnival\/home.html",
       "oF" : 0
     },
     "\/layouts\/partials\/content.html" : {
@@ -651,7 +635,7 @@
     },
     "\/static\/images\/auction\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 271753,
+      "iS" : 860225,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/5.jpg",
@@ -703,7 +687,7 @@
     },
     "\/static\/images\/auction\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 1290401,
+      "iS" : 967927,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/10.jpg",
@@ -1119,7 +1103,7 @@
     },
     "\/static\/images\/raffle\/4.jpg" : {
       "ft" : 16384,
-      "iS" : 547371,
+      "iS" : 725682,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/4.jpg",
@@ -1132,7 +1116,7 @@
     },
     "\/static\/images\/raffle\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 1426089,
+      "iS" : 1807800,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.5~imageoptim.jpg",
@@ -1197,7 +1181,7 @@
     },
     "\/static\/images\/raffle\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 1174856,
+      "iS" : 1551259,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/10.jpg",
@@ -1210,7 +1194,7 @@
     },
     "\/static\/images\/raffle\/11.jpg" : {
       "ft" : 16384,
-      "iS" : 1258669,
+      "iS" : 1646793,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.11~imageoptim.jpg",
@@ -1314,7 +1298,7 @@
     },
     "\/static\/images\/raffle\/19.jpg" : {
       "ft" : 16384,
-      "iS" : 1444266,
+      "iS" : 1106274,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/19.jpg",
@@ -1405,7 +1389,7 @@
     },
     "\/static\/images\/raffle\/26.jpg" : {
       "ft" : 16384,
-      "iS" : 1535525,
+      "iS" : 1160015,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.26~imageoptim.jpg",
@@ -1470,7 +1454,7 @@
     },
     "\/static\/images\/raffle\/31.jpg" : {
       "ft" : 16384,
-      "iS" : 1245777,
+      "iS" : 1650757,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/31.jpg",

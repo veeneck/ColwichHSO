@@ -1,197 +1,51 @@
-<body>
+{{ partial "hero.html" . }}
 
-<div class="hero">
+{{ range $key, $value := .Params.modules }}
 
-	<div class='ticket'>
-		<svg class="ticket_cutout">
-			<mask id='m' fill='#fff'>
-				<rect id='b' width='100%' height='100%'/>
-				<circle id="c" class='circle_cutout' r='50' fill='#000'/>
-				<use xlink:href='#c' x='100%'/>
-				<use xlink:href='#c' y='100%'/>
-				<use xlink:href='#c' x='100%' y='100%'/>
-			</mask>
-			<use xlink:href='#b' mask='url(#m)'/>
-		</svg>
+	{{ range where $.Site.Pages ".Params.id" $value }}
 
-		<div class="inner_ticket">
-			<div class="tents">
-				<ul class="presenting">
-					<li><b class="lightBlue">★</b> GAMES <b class="m_letter">&</b> PRIZES <b class="lightBlue">★</b></li>
-					<li class="smallerFont"><b class="red">■</b> DESSERT WALK <b class="red">■</b></li>
-					<li><b class="lightBlue">★</b> AUCTION <b class="m_letter">&</b> RAFFLE <b class="lightBlue">★</b></li>
-					<li class="smallerFont"><b class="red">■</b> BINGO<b class="red">■</b></li>
-				</ul>
-				<div class="shoutout">
-					<h2>= SPRING 2022 =</h2>
-				    <h1><span class="xl_letter">C</span><span class="l_letter">A</span>RNIV<span class="l_letter">A</span><span class="xl_letter">L</span></h1>
-				</div>
-				<ul class="presenting inverse left">
-					<li class="smallerFont"><b class="red">■</b> BOUNCE HOUSE <b class="red">■</b></li>
-					<li><b class="lightBlue">★</b>  FACE PAINT <b class="lightBlue">★</b></li>
-					<li class="smallerFont"><b class="red">■</b> FOOD <b class="m_letter">&</b> DRINK <b class="red">■</b></li>
-					<li><b class="lightBlue">★</b> BALLOON ANIMALS <b class="lightBlue">★</b></li>
-				</ul>
+		{{ $type := .Params.module_type }}
+
+		{{ if (eq $type "achievements") }}
+
+		<section class="module {{ .Params.module_type }} yellowBubble">
+
+		{{ else }}
+
+		<section class="module {{ .Params.module_type }}">
+
+		{{ end }}
+
+			<div class="content">
+
+				{{ if .Params.has_header }}
+					<h2>{{ .Params.title }}</h2>
+					<h3>{{ .Params.subtitle }}</h3>
+				{{ end }}
+
+				{{ if (eq $type "achievements") }}
+				    {{ partial "modules/achievements.html" (dict "module" . ) }}
+				{{ end }}
+
+				{{ if (eq $type "donate") }}
+				    {{ partial "modules/donate.html" (dict "module" . ) }}
+				{{ end }}
+
+				{{ if (eq $type "calendar") }}
+				    {{ partial "modules/calendar.html" (dict "module" . ) }}
+				{{ end }}
+
+				{{ if (eq $type "sponsors") }}
+				    {{ partial "modules/sponsors.html" (dict "module" . ) }}
+				{{ end }}
+
+				{{ if (eq $type "footer") }}
+				    {{ partial "modules/footer.html" (dict "module" . ) }}
+				{{ end }}
+
 			</div>
-			<div class="details ">
-					<h3>
-						APRIL 29<b class="s_letter">th</b> 
-						<span class="lightBlue">//</span> 
-						5:00<b class="s_letter">pm</b> - 7:30<b class="s_letter">pm</b> 
-						<span class="lightBlue pricingSlash">//</span> 
-						<span class="pricing">$10 <span class="s_letter">per child <span class="pricingMax">(max $30)</span></span></span>
-					</h3>
-					<p>
-						<span>Entry @ West School Entrance. Adults & Children under 2 get in free. Max $30 per family.</span>
-					</p>
-					<p class="subnote">Adults & Children under 2 free</p>
-				</div>
-		</div>
 
-	</div>
-
-</div>
-
-<div class="content">
-
-	<div class="leftGrid">
-
-		<section class="carnivalInfo needToKnow">
-			<h6>
-				<b class="lightBlue">★</b> NEED TO KNOW <b class="lightBlue">★</b>
-			</h6>
-			<p>See our <a href="#attractionAnchor" class="triggerMe">Food & Attractions</a> for menus, prices, important times & things to do. Entry at the <a href="#parkAnchor" class="triggerMe">West School Entrance</a>. Take an advance look at our <a href="/auction" class="triggerMe">Silent Auction & Raffle Items</a>. Adults and Children under 2 get in free. Max $30 per family for entry. Cash, Credit & Checks accepted. <b>100% of proceeds benefit the school and children.</b> <span class="donate" id="donate"><a data-url="https://square.link/u/PdHM3fyJ?src=embd" href="https://square.link/u/PdHM3fyJ?src=embed" class="triggerMe">Donations Welcome Here!</a></span></p>
 		</section>
-
-		<section class="carnivalInfo proceeds">
-			<h6>
-				<b class="lightBlue">★</b> How are the proceeds used? <b class="lightBlue">★</b>
-			</h6>
-			<p>All funds raised from this event will directly benefit your kids and the school. HSO pays for field trips, classroom improvements, teacher appreciation, and much more. Completely run by volunteers, HSO has no overhead. 100% of profits will be used to improve Colwich Elementary School. <a href="https://square.link/u/PdHM3fyJ?src=embed" class="triggerMe">Donations welcome!</a></p>
-		</section>
-
-		<section class="carnivalInfo mainSponsors hideLaptop" >
-			<h6>
-				<b class="red">■</b> Amazing Sponsors <b class="red">■</b>
-			</h6>
-			<p class="sponsorNote">Please show them your love & support!</p>
-			{{ partial "sponsorlist.html" . }}
-		</section>
-
-		<section id="attractionAnchor" class="carnivalInfo carnivalAttractions">
-			<div >
-				<h7 class="first">Games & Activites</h7>
-				<p class="activities">Bean Bag Toss <span class="lightBlue">//</span> Nerf Targets <span class="lightBlue">//</span> Plinko <span class="lightBlue">//</span> Football Toss <span class="lightBlue">//</span> Basketball Shot <span class="lightBlue">//</span> Bounce House <span class="lightBlue">//</span> Face Painting <span class="lightBlue">//</span> Balloon Animals <span class="lightBlue">//</span> Duck Pond <span class="lightBlue">//</span> Gone Fishing <span class="lightBlue">//</span> Snake In My Boot <span class="lightBlue">//</span> Pop Toss <span class="lightBlue">//</span> Dessert Walk    </p>
-				<p class="detailCallout" ><span>Tickets redeemed in prize room.</span></p>
-				<h7>Times</h7>
-				<div class="menuItem">
-					<span class="itemTitle">Bingo</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">5:30, 6:00, 6:30, 7:00</span>
-				</div>
-				<div class="menuItem">
-					<span class="itemTitle">Raffle</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">Winners drawn at 7:20</span>
-				</div>
-				<div class="menuItem">
-					<span class="itemTitle">Silent Auction</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">Ends at 7:20</span>
-				</div>
-				<p class="detailCallout" ><span>Max 30 people per Bingo. Winners do not need to be present for raffle or auction. <a href="/auction" class="triggerMe randa"><b class="lightBlue">★</b> View Raffle & Auction Items <b class="lightBlue">★</b></a></span></p>
-			</div>
-			<div class="foodPrices">
-				<div><h7 class="foodHeader">Food & Drinks</h7></div>
-				<div class="menuItem">
-					<span class="itemTitle">Water / Soda</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">$1.00</span>
-				</div>
-				<div class="menuItem">
-					<span class="itemTitle">Hot Dog</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">$2.00</span>
-				</div>
-				<div class="menuItem">
-					<span class="itemTitle">Nachos</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">$2.00</span>
-				</div>
-				<div class="menuItem">
-					<span class="itemTitle">Cotton Candy</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">$2.00</span>
-				</div>
-				<div class="menuItem">
-					<span class="itemTitle">Pickle</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">$1.00</span>
-				</div>
-				<div class="menuItem">
-					<span class="itemTitle">Candy</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">$1.00</span>
-				</div>
-				<div class="menuItem">
-					<span class="itemTitle">Snowcone</span>
-					<span class="dots"></span>
-					<span class="itemValue triggerMe">$4.00</span>
-				</div>
-				
-				<div class="deal">
-					<div class="dealContents">
-						<h7>Meal Deal</h7>
-						<p>Hot Dog, Chips & Drink for <span>$4.00</span></p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="parkAnchor" class="carnivalInfo parking">
-			<h6>
-				<b class="lightBlue">★</b> Where do I park? <b class="lightBlue">★</b>
-			</h6>
-			<p>Carnival will take place in Colwich Elementary School located at 401. S Marion St. Entry will be on the West side of the building where the pre-school classrooms are located. Parking will be available in that area. For more information, <a href="/images/carnivalmap.jpg" class="triggerMe">check out our Carnival Map!</a>
-			<div class="mapBorder">
-				<a class="carnivalMap" href="/images/carnivalmap.jpg">&nbsp</a>
-			</div>
-			</p>
-		</section>
-
-		<section class="carnivalInfo paymentTypes">
-			<h6>
-				<b class="red">■</b> Which payment types are accepted? <b class="red">■</b>
-			</h6>
-			<p>Cash, Credit Cards & Checks will be accepted at the entrance, concessions, and raffle / auction table. Entry is $10 per child. The maximum amount that one family will pay for entry is $30. Adults and children under 2 get free entry. </p>
-		</section>
-
-	</div>
-
-	<div class="rightGrid">
-
-		<section class="carnivalInfo mainSponsors hideMobile" >
-			<h6>
-				<b class="red">■</b> Amazing Sponsors <b class="red">■</b>
-			</h6>
-			<p class="sponsorNote">Please show them your love & support!</p>
-			{{ partial "sponsorlist.html" . }}
-		</section>
-
-		<section class="carnivalInfo thanksTo">
-			<h6>
-				<b class="red">♥ </b> With Thanks To <b class="red">♥ </b>
-			</h6>
-			<p class="sponsorNote">Our volunteers and additional sponsors!</p>
-			<div class="sponsorLogo fullSponsor triggerMe">
-				{{ partial "thanksto.html" . }}
-			</div>
-		</section>
-	</div>
-</div>
-
-<div class="footer">
-	<img src="/images/logos/hsocarnival.png" width="150px;" height="auto" alt="Carnival Logo" loading="lazy" />
-</div>
-
-</body>
+		
+	{{ end }}
+{{ end }}

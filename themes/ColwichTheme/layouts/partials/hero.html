@@ -3,14 +3,16 @@
 	{{ partial "modules/navigation.html" . }}
 
 	<div class="content">
-		<p><b>Colwich HSO</b></p>
-		<h1>Show Your Support For Colwich Elementary School</h1>
-		<p>The main way to get involved is to sync our calendar of events, which will keep you updated on all upcoming HSO activities.</p>
+		<p><b>{{ .Params.subtitle }}</b></p>
+		<h1>{{ .Params.shoutout }}</h1>
+		<p>{{ .Params.overview }}</p>
 		<div class="callToAction">
-			<a href="/" class="primary button">Download Our 2022-2023 Calendar</a>
+			<a href="{{ .Params.ctalink }}" class="primary button">{{ .Params.ctatext }}</a>
 		</div>
 		
 	</div>
 </section>
 
-<img class="heroImg" src="/images/ces.jpeg" />
+{{ if .Params.image }}
+<img class="heroImg" src="{{ .Params.image }}" />
+{{ end }}
