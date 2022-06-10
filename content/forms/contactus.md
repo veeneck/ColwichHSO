@@ -1,10 +1,10 @@
 ---
 title: CES HSO Contact Form
 description: Drop a note with any questions you may have.
-type: redesign
+type: forms
 date: 2022-06-03 14:59:46 +0000
-url: "/forms/contact"
-fullUrl: "https://colwichhso.com/forms/contact"
+url: "/forms/contactus"
+fullUrl: "https://colwichhso.com/forms/contactus"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Contact Us
 shoutout: Drop Us a Note With Any Questions or Feedback.

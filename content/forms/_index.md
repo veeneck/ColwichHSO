@@ -1,7 +1,7 @@
 ---
 title: All CES HSO Forms
 description: All of the forms that we use.
-type: meetings
+type: forms
 date: 2022-06-03 14:59:46 +0000
 url: "/forms"
 fullUrl: "https://colwichhso.com/forms"
