@@ -236,6 +236,14 @@
       "oAP" : "\/layouts\/partials\/modules\/sponsors.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/modules\/wufoo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/wufoo.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/sponsorlist.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -635,7 +643,7 @@
     },
     "\/static\/images\/auction\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 860225,
+      "iS" : 271753,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/5.jpg",
@@ -687,7 +695,7 @@
     },
     "\/static\/images\/auction\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 967927,
+      "iS" : 1290401,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/10.jpg",
@@ -1103,7 +1111,7 @@
     },
     "\/static\/images\/raffle\/4.jpg" : {
       "ft" : 16384,
-      "iS" : 725682,
+      "iS" : 547371,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/4.jpg",
@@ -1116,7 +1124,7 @@
     },
     "\/static\/images\/raffle\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 1807800,
+      "iS" : 1426089,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.5~imageoptim.jpg",
@@ -1181,7 +1189,7 @@
     },
     "\/static\/images\/raffle\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 1551259,
+      "iS" : 1174856,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/10.jpg",
@@ -1194,7 +1202,7 @@
     },
     "\/static\/images\/raffle\/11.jpg" : {
       "ft" : 16384,
-      "iS" : 1646793,
+      "iS" : 1258669,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.11~imageoptim.jpg",
@@ -1298,7 +1306,7 @@
     },
     "\/static\/images\/raffle\/19.jpg" : {
       "ft" : 16384,
-      "iS" : 1106274,
+      "iS" : 1444266,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/19.jpg",
@@ -1389,7 +1397,7 @@
     },
     "\/static\/images\/raffle\/26.jpg" : {
       "ft" : 16384,
-      "iS" : 1160015,
+      "iS" : 1535525,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.26~imageoptim.jpg",
@@ -1454,7 +1462,7 @@
     },
     "\/static\/images\/raffle\/31.jpg" : {
       "ft" : 16384,
-      "iS" : 1650757,
+      "iS" : 1245777,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/31.jpg",
