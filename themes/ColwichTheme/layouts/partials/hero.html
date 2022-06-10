@@ -3,9 +3,19 @@
 	{{ partial "modules/navigation.html" . }}
 
 	<div class="content">
+		{{ if .Params.event_date }}
+
+		<p><b>{{ .Params.event_date }}</b></p>
+		<h1>{{ .Params.title }}</h1>
+		<p>{{ .Params.description }}</p>
+
+		{{ else }}
+
 		<p><b>{{ .Params.subtitle }}</b></p>
 		<h1>{{ .Params.shoutout }}</h1>
 		<p>{{ .Params.overview }}</p>
+
+		{{ end }}
 		{{ if .Params.ctatext }}
 			<div class="callToAction">
 				<a href="{{ .Params.ctalink }}" class="primary button">{{ .Params.ctatext }}</a>

@@ -1,0 +1,32 @@
+.module.faq {
+	margin-top: -300px;
+}
+
+.faq .content {
+	column-count: 2;
+  	-webkit-column-count: 2;
+  	column-gap: 30px;
+ 	 -webkit-column-gap: 30px;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+.faqCard {
+	border-radius: 5px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+	padding: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	height: auto;
+	break-inside: avoid;
+  	-webkit-column-break-inside: avoid;
+  	background-color: #fff;
+}
+
+.faq .content div:not(:first-child) {
+	  margin-top: 30px;
+}
+
+.faq h4 {
+	color: $darkRed;
+}

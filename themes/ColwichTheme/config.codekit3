@@ -212,6 +212,14 @@
       "oAP" : "\/layouts\/partials\/modules\/donate.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/modules\/faq.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/faq.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/modules\/footer.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1983,6 +1991,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/donate.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/faq.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/faq.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
