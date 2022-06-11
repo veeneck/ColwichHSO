@@ -1,0 +1,22 @@
+{{ $month := newScratch }}
+{{ $month.Set "month" "" }}
+
+{{ $events := where site.RegularPages "Type" "events" }}
+{{ $sortedPosts := (sort $events "Params.event_date" "asc") }}
+{{ range $index, $event := $sortedPosts }}
+	{{ if ne $month (dateFormat "Jan" $event.Params.event_date) }}
+		{{ if ne $index 0}}
+			</ul>
+		{{ end }}
+		<h4>{{ dateFormat "Jan" $event.Params.event_date }}</h4>
+		<ul>
+		{{ $month = (dateFormat "Jan" $event.Params.event_date) }}
+	{{ end }}
+	<li>
+		<h5>{{ $event.Params.title }}</h5>
+		<p>{{ $event.Params.description }}</p>
+		<a href="{{ $event.Params.url }}">Learn more</a>
+	</li>
+{{ end }}
+</ul>
+

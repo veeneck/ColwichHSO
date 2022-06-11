@@ -1,8 +1,10 @@
 {{ range $index, $el := .faqs }}
 	{{ if $el.Params.question }}
+	<div class="faqCardContainer">
 		<div class="faqCard">
 			<h4>{{ $el.Params.question }}</h4>
 			<p>{{ $el.Content }}</p>
 		</div>
+	</div>
 	{{ end }}
 {{ end }}

@@ -40,6 +40,10 @@
 				    {{ partial "modules/calendar.html" (dict "module" . ) }}
 				{{ end }}
 
+				{{ if (eq $type "calendar_full") }}
+				    {{ partial "modules/calendar_full.html" (dict "module" . ) }}
+				{{ end }}
+
 				{{ if (eq $type "sponsors") }}
 				    {{ partial "modules/sponsors.html" (dict "module" . ) }}
 				{{ end }}

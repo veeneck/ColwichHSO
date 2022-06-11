@@ -12,7 +12,7 @@ overview: Click below to download our 2022-2023 calendar, which will keep your p
 ctatext: Sync Your Calendar
 ctalink: /redesign
 modules:
-- modules/common/calendar.md
+- modules/common/calendar_full.md
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md

@@ -196,6 +196,14 @@
       "oAP" : "\/layouts\/partials\/modules\/achievements.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/modules\/calendar_full.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/calendar_full.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/modules\/calendar.html" : {
       "cB" : 0,
       "ft" : 8192,

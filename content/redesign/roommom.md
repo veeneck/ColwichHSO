@@ -10,7 +10,7 @@ subtitle: Calling All Moms
 shoutout: Every Classroom Needs a Room Mom. We Need You!
 overview: Each year room moms are vital to HSO and organizing the activities for the school year.
 ctatext: Fill Out The Room Mom Form
-ctalink: /redesign
+ctalink: /forms/roommom
 modules:
 - modules/common/sponsors.md
 - modules/common/footer.md
