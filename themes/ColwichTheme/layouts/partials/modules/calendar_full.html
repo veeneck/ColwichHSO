@@ -8,8 +8,8 @@
 		{{ if ne $index 0}}
 			</ul>
 		{{ end }}
-		<h4>{{ dateFormat "Jan" $event.Params.event_date }}</h4>
 		<ul>
+		<li class="month"><h4>{{ dateFormat "Jan" $event.Params.event_date }}</h4></li>
 		{{ $month = (dateFormat "Jan" $event.Params.event_date) }}
 	{{ end }}
 	<li>

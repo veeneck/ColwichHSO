@@ -3,6 +3,10 @@
 	{{ $sortedPosts := (sort $events "Params.event_date" "asc") }}
 	{{ range first 12 $sortedPosts }}
 		<li>
+			<div class="date">
+				<span class="month">{{ dateFormat "Jan" .Params.event_date }}</span>
+				<span class="day">{{ dateFormat "1" .Params.event_date }}</span>
+			</div>
 			<h4>{{ .Params.title }}</h4>
 			<p>{{ .Params.description }}</p>
 			<a href="{{ .Params.url }}">Learn more</a>

@@ -8,15 +8,59 @@
 
 .achievements li {
 	list-style: none;
-	border-radius: 5px;
-	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 	padding: 20px;
 	width: 23%;
 	margin: 1%;
 	box-sizing: border-box;
-	background-color: #fff;
+	text-align: center;
 }
 
 .achievements .content {
 	padding-top: 75px;
+}
+.counter {
+	background-color: #fff;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	margin: -50px auto 0px auto;
+}
+
+.achievements li div {
+	padding: 30px 30px 0px 30px;
+	border-radius: 4px;
+	position: relative;
+	font-weight: bold;
+}
+
+.achievements li:nth-child(1)  div {
+    background-color: lightblue;
+    color: blue;
+}
+
+.achievements li:nth-child(2) div {
+    background-color: $lightRed;
+    color: $darkRed;
+}
+
+.achievements li:nth-child(3) div {
+    background-color: lightgreen;
+    color: green;
+}
+
+.achievements li:nth-child(4) div {
+    background-color: lightyellow;
+    color: brown;
+}
+
+.achievements li img {
+	border-radius: 4px 4px 0px 0px;
+	margin: 20px 0px 0px 0px;
+	height: 170px;
+	border-top: 5px solid #fff;
+	border-left: 5px solid #fff;
+	border-right: 5px solid #fff;
+	box-sizing: border-box;
 }

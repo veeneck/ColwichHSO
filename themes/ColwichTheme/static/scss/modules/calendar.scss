@@ -10,16 +10,41 @@
 	list-style: none;
 	border-radius: 5px;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
-	padding: 20px;
+	padding: 30px;
 	width: 30%;
 	margin: 1%;
 	box-sizing: border-box;
+}
+
+.calendar .date {
+	background-color: $darkRed;
+	color: #fff;
+	width: 50px;
+	border-radius: 4px;
+	border: 1px solid $darkRed;
+}
+
+.calendar .month {
+	padding: 10px;
+}
+
+.calendar .day {
+	display: block;
+	background: #fff;
+	color: #000;
+	width: 100%;
+	text-align: center;
+	padding: 5px 0px;
 }
 
 .calendar_full ul {
 	justify-content: left;
 }
 
+.calendar_full .month {
+	background-color: $darkRed;
+}
+
 .calendar_full h4 {
-color: $darkRed;
+color: #fff;
 }
