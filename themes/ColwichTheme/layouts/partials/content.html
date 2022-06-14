@@ -1,5 +1,7 @@
 {{ partial "hero.html" . }}
 
+{{ $pageParams := .Params }}
+
 {{ range $key, $value := .Params.modules }}
 
 	{{ range where $.Site.Pages ".Params.id" $value }}
@@ -8,11 +10,11 @@
 
 		{{ if (eq $type "achievements") }}
 
-		<section class="module {{ .Params.module_type }} yellowBubble">
+		<section class="module {{ .Params.module_type }} yellowBubble {{ if (eq $key 0) }}first{{ end }}">
 
 		{{ else }}
 
-		<section class="module {{ .Params.module_type }}">
+		<section class="module {{ .Params.module_type }} {{ if (eq $key 0) }}first{{ end }}">
 
 		{{ end }}
 
@@ -23,8 +25,12 @@
 					<h3>{{ .Params.subtitle }}</h3>
 				{{ end }}
 
+				{{ if (eq $type "featured_image") }}
+				    {{ partial "modules/featured_image.html" (dict "page" $pageParams ) }}
+				{{ end }}
+
 				{{ if eq $type "faq"}}
-					{{ $faqs := where .Site.Pages "Type" "faq" }}
+					{{ $faqs := where (where .Site.Pages "Type" "faq") ".Params.faq_category" $pageParams.faq_category }}
 					{{ partial "modules/faq.html" (dict "faqs" $faqs) }}
 				{{ end }}
 

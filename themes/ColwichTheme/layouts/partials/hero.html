@@ -5,7 +5,7 @@
 	<div class="content">
 		{{ if .Params.event_date }}
 
-		<p><b>{{ .Params.event_date }}</b></p>
+		<p><b>{{ dateFormat "January 1 at 3:00PM" .Params.event_date }}</b></p>
 		<h1>{{ .Params.title }}</h1>
 		<p>{{ .Params.description }}</p>
 
@@ -18,16 +18,12 @@
 		{{ end }}
 		{{ if .Params.ctatext }}
 			<div class="callToAction">
-				<a href="{{ .Params.ctalink }}" class="primary button">{{ .Params.ctatext }}</a>
+				<a href="{{ .Params.ctalink }}" class="primary button">{{ .Params.ctatext }}</a> <span class="more">or <a href="">Learn More</a></span>
 			</div>
 		{{ end }}
 		
 	</div>
 </section>
-
-{{ if .Params.image }}
-<img class="heroImg" src="{{ .Params.image }}" />
-{{ end }}
 
 
 {{ if .Params.formEmbed }}

@@ -894,6 +894,12 @@ img {
   color: #fff;
 }
 
+.fullCal {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
 .donate {
   text-align: center;
 }
@@ -931,32 +937,30 @@ img {
 
 .hero h1 {
   margin: 0 auto;
-  width: 600px;
+  width: 800px;
   text-align: center;
+  font-size: 350%;
 }
 
 .hero p {
   margin: 20px auto;
   width: 600px;
   text-align: center;
+  line-height: 35px;
 }
 
 .hero p b {
   margin-top: 50px;
   display: inline-block;
+  color: #A62C2E;
+  font-size: 120%;
+  font-weight: bolder;
 }
 
 .hero .callToAction {
   width: 600px;
   text-align: center;
   margin: 25px auto 25px auto;
-}
-
-.heroImg {
-  margin: -300px auto 0 auto;
-  width: 1000px;
-  border-radius: 4px;
-  border: 20px solid #fff;
 }
 
 .wufooForm {
@@ -966,6 +970,11 @@ img {
   border: 20px solid #fff;
   background-color: #fff;
   height: 1000px;
+}
+
+.more {
+  display: inline-block;
+  margin-left: 20px;
 }
 
 nav {
@@ -1074,10 +1083,6 @@ ul.navbar li span {
   display: block;
 }
 
-.module.faq {
-  margin-top: -300px;
-}
-
 .faq .content {
   column-count: 2;
   -webkit-column-count: 2;
@@ -1108,6 +1113,13 @@ ul.navbar li span {
 
 .faq h4 {
   color: #A62C2E;
+}
+
+.heroImg {
+  width: 1000px;
+  border-radius: 4px;
+  border: 20px solid #fff;
+  margin: 0 auto;
 }
 
 .footer {
@@ -1168,7 +1180,11 @@ ul.navbar li span {
 }
 
 section.module {
-  margin-top: 50px;
+  margin-top: 75px;
+}
+
+section.first {
+  margin-top: -300px;
 }
 
 .module .content {

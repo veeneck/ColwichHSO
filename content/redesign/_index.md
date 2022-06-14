@@ -13,8 +13,9 @@ ctatext: Download Our 2022-2023 Calendar
 ctalink: /redesign
 image: /images/ces.jpeg
 modules:
-- modules/common/sponsors.md
+- modules/common/featured_image.md
 - modules/common/calendar.md
+- modules/common/sponsors.md
 - modules/common/achievements.md
 - modules/common/donate.md
 - modules/common/footer.md

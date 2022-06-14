@@ -9,6 +9,7 @@ pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Frequently Asked Questions
 shoutout: You've Got Questions. We've Got Answers.
 overview: Check out the content below for answers to your burnign questions.
+faq_category: general
 modules:
 - modules/common/faq.md
 - modules/common/sponsors.md

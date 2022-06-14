@@ -9,10 +9,15 @@ $lightRed : #E06769;
 @import "hero.scss";
 @import "navigation.scss";
 @import "faq.scss";
+@import "images.scss";
 @import "footer.scss";
 
 section.module {
-	margin-top: 50px;
+	margin-top: 75px;
+}
+
+section.first {
+	margin-top: -300px;
 }
 
 .module .content {
