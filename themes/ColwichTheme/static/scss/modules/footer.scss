@@ -1,5 +1,10 @@
 .footer {
 	padding: 50px 0px;
+background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3ClinearGradient id='a' x1='0' y1='0' x2='1' y2='0' gradientUnits='objectBoundingBox'%3E%3Cstop offset='0' stop-color='%23000000'/%3E%3Cstop offset='1' stop-color='%23404040'/%3E%3C/linearGradient%3E%3Crect fill='url(%23a)' width='2000' height='1500'/%3E%3Cg %3E%3Ccircle fill='%23000000' fill-opacity='0.2' cx='0' cy='-640' r='1400'/%3E%3Ccircle fill='%23404040' fill-opacity='0.2' cx='2000' cy='-640' r='1400'/%3E%3Ccircle fill='%23121212' fill-opacity='0.2' cx='200' cy='-400' r='1400'/%3E%3Ccircle fill='%23343434' fill-opacity='0.2' cx='1800' cy='-400' r='1400'/%3E%3Ccircle fill='%231d1d1d' fill-opacity='0.2' cx='400' cy='-160' r='1400'/%3E%3Ccircle fill='%23282828' fill-opacity='0.2' cx='1600' cy='-160' r='1400'/%3E%3Ccircle fill='%23282828' fill-opacity='0.2' cx='600' cy='80' r='1400'/%3E%3Ccircle fill='%231d1d1d' fill-opacity='0.2' cx='1400' cy='80' r='1400'/%3E%3Ccircle fill='%23343434' fill-opacity='0.2' cx='800' cy='320' r='1400'/%3E%3Ccircle fill='%23121212' fill-opacity='0.2' cx='1200' cy='320' r='1400'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+	color: #FFF;
 }
 
 .footer .social {
@@ -32,11 +37,13 @@
 	box-sizing: border-box;
 	padding:5px;
 	font-weight: bold;
+	color: red;
 }
 
 .footer_lists ul li {
 	list-style: none;
 	font-weight: normal;
+	color: #fff;
 }
 
 

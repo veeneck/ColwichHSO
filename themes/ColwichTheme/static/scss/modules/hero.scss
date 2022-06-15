@@ -1,8 +1,14 @@
 .hero h1 {
 	margin: 0 auto;
-	width: 800px;
+	width: 900px;
 	text-align: center;
 	font-size: 350%;
+}
+
+.hero h1 img {
+    display: inline-block;
+    height: 75px;
+    margin: 0px 0px -15px;
 }
 
 .hero p {
@@ -15,7 +21,7 @@
 .hero p b {
 	margin-top: 50px;
 	display: inline-block;
-	color: $darkRed;
+	color: $red;
 	font-size: 120%;
 	font-weight: bolder;
 }
@@ -36,6 +42,7 @@
 }
 
 .more {
-	display: inline-block;
-	margin-left: 20px;
+	margin: 0 auto;
+	width: 600px;
+	text-align: center;
 }

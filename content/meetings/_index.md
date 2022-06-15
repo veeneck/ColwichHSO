@@ -11,7 +11,10 @@ shoutout: We would love to hear your input.
 overview: We run four main meetings each year. Please attend if possible, or look at the meeting minutes below.
 ctatext: View Meetings
 ctalink: /redesign
+image: "/images/events/hsomeeting1.jpg"
 modules:
+- modules/common/featured_image.md
+- modules/common/faq.md
 - modules/common/calendar.md
 - modules/common/sponsors.md
 - modules/common/donate.md

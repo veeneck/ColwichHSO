@@ -12,14 +12,15 @@
 		{{ else }}
 
 		<p><b>{{ .Params.subtitle }}</b></p>
-		<h1>{{ .Params.shoutout }}</h1>
-		<p>{{ .Params.overview }}</p>
+		<h1>{{ .Params.shoutout | safeHTML }} {{ if .Params.shoutout_icon }}<img src="{{ .Params.shoutout_icon }}" />{{ end }}</h1>
+		<p>{{ .Params.overview | safeHTML }}</p>
 
 		{{ end }}
 		{{ if .Params.ctatext }}
 			<div class="callToAction">
-				<a href="{{ .Params.ctalink }}" class="primary button">{{ .Params.ctatext }}</a> <span class="more">or <a href="">Learn More</a></span>
+				<a href="{{ .Params.ctalink }}" class="primary button"><img class="icon" src="/images/icons/{{ .Params.ctaicon }}.svg" /> {{ .Params.ctatext }}</a>
 			</div>
+			 <div class="more">or <a href="#section1">Learn More</a></div>
 		{{ end }}
 		
 	</div>

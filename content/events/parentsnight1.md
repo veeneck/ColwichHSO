@@ -1,5 +1,5 @@
 ---
-title: Parents Night Out
+title: Parents Night Out 🍿
 description: Enjoy the evening off while your kids hang out with their freinds at school.
 type: events
 event_date: 2022-10-15 1:00:00 +0000

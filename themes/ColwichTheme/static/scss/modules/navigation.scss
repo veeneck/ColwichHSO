@@ -2,6 +2,23 @@ nav {
 	padding: 50px;
 	@include flex();
 	justify-content: center;
+	font-weight: bold;
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+	
+	}
+
+	@include contentFor(large-screen) {
+
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 nav .logo {
@@ -23,6 +40,23 @@ nav .navbar {
 	width: 78%;
 	text-align: center;
 	font-size: 120%;
+	visibility: hidden;
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+		visibility: visible;
+	}
+
+	@include contentFor(large-screen) {
+
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 ul.navbar {
@@ -86,6 +120,7 @@ ul.navbar li span {
   padding: 16px 16px;
   text-decoration: none;
   display: block;
+  font-weight: normal;
 }
 
 .dropdown-content a:hover {background-color: $lightRed; }

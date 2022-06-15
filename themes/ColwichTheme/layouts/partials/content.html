@@ -10,11 +10,11 @@
 
 		{{ if (eq $type "achievements") }}
 
-		<section class="module {{ .Params.module_type }} yellowBubble {{ if (eq $key 0) }}first{{ end }}">
+		<section id="section{{ $key }}" class="module {{ .Params.module_type }} yellowBubble {{ if (eq $key 0) }}first{{ end }}">
 
 		{{ else }}
 
-		<section class="module {{ .Params.module_type }} {{ if (eq $key 0) }}first{{ end }}">
+		<section id="section{{ $key }}" class="module {{ .Params.module_type }} {{ if (eq $key 0) }}first{{ end }}">
 
 		{{ end }}
 

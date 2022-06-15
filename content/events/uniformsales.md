@@ -1,5 +1,5 @@
 ---
-title: Used Uniform Sales
+title: Used Uniform Sales 👚
 description: Prepare for the new school year with our used uniform sales.
 type: events
 event_date: 2022-08-02 15:00:00 +0000
@@ -17,5 +17,10 @@ modules:
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md
+polaroid: 
+- /images/events/uniformsale.jpg
+- /images/events/uniformsale.jpg
+- /images/events/uniformsale.jpg
+- /images/events/uniformsale.jpg
 ---
 This is where the full text description of the event will go.
