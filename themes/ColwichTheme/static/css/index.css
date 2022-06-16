@@ -863,13 +863,17 @@ img {
   margin: 1%;
   box-sizing: border-box;
 }
-
+@media (min-width: 1300px) {
+  .calendar li, .calendar_full li {
+    width: 23%;
+  }
+}
 .calendar .date {
-  background-color: #A62C2E;
+  background-color: #C93234;
   color: #fff;
   width: 50px;
   border-radius: 4px;
-  border: 1px solid #A62C2E;
+  border: 1px solid #C93234;
 }
 
 .calendar .month {
@@ -890,7 +894,7 @@ img {
 }
 
 .calendar_full .month {
-  background-color: #A62C2E;
+  background-color: #C93234;
 }
 
 .calendar_full h4 {
@@ -992,7 +996,7 @@ img {
 }
 
 nav {
-  padding: 70px 50px 50px 50px;
+  padding: 80px 50px 50px 50px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1003,11 +1007,11 @@ nav {
 }
 nav .logo {
   width: 12%;
-  margin: -15px 0px 0px 0px;
+  margin: -30px 0px 0px 0px;
 }
 
 .logo img {
-  width: 150px;
+  width: 200px;
   margin: 0px;
 }
 
@@ -1045,6 +1049,8 @@ ul.navbar li {
 ul.navbar li span {
   font-size: 65%;
   padding-left: 5px;
+  color: #E7BC38;
+  text-stroke: 2px red;
 }
 
 .navbar a {
@@ -1053,7 +1059,7 @@ ul.navbar li span {
 }
 
 .donate .button {
-  margin-top: -8px;
+  margin-top: -15px;
 }
 
 .dropbtn {
@@ -1079,12 +1085,13 @@ ul.navbar li span {
   min-width: 160px;
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
   z-index: 2;
-  background-color: #A62C2E;
+  background-color: #C93234;
   border-radius: 4px;
   width: 250px;
   padding: 10px;
   text-align: left;
   margin-left: -62px;
+  border: 2px solid #000;
 }
 
 .dropdown-content a {
@@ -1123,7 +1130,7 @@ ul.navbar li span {
 
 .faqCard {
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
-  padding: 30px;
+  padding: 40px;
   border-radius: 5px;
 }
 
@@ -1132,7 +1139,15 @@ ul.navbar li span {
 }
 
 .faq h4 {
-  color: #A62C2E;
+  color: #C93234;
+}
+
+.faq ul li {
+  font-size: 120%;
+}
+
+.faq ul {
+  margin-left: 50px;
 }
 
 .module.featured_image .content {
@@ -1280,7 +1295,7 @@ section.module {
 }
 
 section.first {
-  margin-top: -250px;
+  margin-top: -200px;
 }
 
 .module .content {
@@ -1299,7 +1314,7 @@ section.first {
 }
 @media (min-width: 1300px) {
   .module .content {
-    width: 1200px;
+    width: 1600px;
   }
 }
 .module h2, .module h3 {
@@ -1350,7 +1365,7 @@ section.first {
 
 .button {
   border-radius: 30px;
-  padding: 20px 30px;
+  padding: 15px 20px 15px 15px;
   margin: 10px;
   text-decoration: none;
   display: inline-block;
@@ -1359,7 +1374,7 @@ section.first {
   line-height: 20px;
   font-weight: bold;
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
-  border-bottom: 2px solid #000;
+  border: 2px solid #000;
 }
 
 .button:hover {
@@ -1380,7 +1395,7 @@ section.first {
   width: 20px;
   height: 20px;
   line-height: 20px;
-  filter: invert(100%) sepia(0%) saturate(7497%) hue-rotate(158deg) brightness(102%) contrast(101%);
+  filter: invert(68%) sepia(63%) saturate(485%) hue-rotate(4deg) brightness(101%) contrast(87%);
   margin: 0px 10px -3px 10px;
 }
 

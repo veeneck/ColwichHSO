@@ -14,14 +14,30 @@
 	width: 30%;
 	margin: 1%;
 	box-sizing: border-box;
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+		
+	}
+
+	@include contentFor(large-screen) {
+		width: 23%;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .calendar .date {
-	background-color: $darkRed;
+	background-color: $red;
 	color: #fff;
 	width: 50px;
 	border-radius: 4px;
-	border: 1px solid $darkRed;
+	border: 1px solid $red;
 }
 
 .calendar .month {
@@ -42,7 +58,7 @@
 }
 
 .calendar_full .month {
-	background-color: $darkRed;
+	background-color: $red;
 }
 
 .calendar_full h4 {

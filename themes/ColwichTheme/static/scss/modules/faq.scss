@@ -22,7 +22,7 @@
 
 .faqCard {
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
-	padding: 30px;
+	padding: 40px;
 	border-radius: 5px;
 }
 
@@ -31,5 +31,13 @@
 }
 
 .faq h4 {
-	color: $darkRed;
+	color: $red;
+}
+
+.faq ul li {
+	font-size: 120%;
+}
+
+.faq ul {
+	margin-left: 50px;
 }
