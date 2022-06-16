@@ -12,10 +12,14 @@
 }
 
 .hero p {
-	margin: 20px auto;
+	margin: 0px auto;
 	width: 600px;
 	text-align: center;
 	line-height: 35px;
+}
+
+.hero .summary {
+	margin-top: 20px;
 }
 
 .hero p b {

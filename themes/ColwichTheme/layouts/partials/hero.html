@@ -7,13 +7,13 @@
 
 		<p><b>{{ dateFormat "January 1 at 3:00PM" .Params.event_date }}</b></p>
 		<h1>{{ .Params.title }}</h1>
-		<p>{{ .Params.description }}</p>
+		<p class="summary">{{ .Params.description }}</p>
 
 		{{ else }}
 
 		<p><b>{{ .Params.subtitle }}</b></p>
 		<h1>{{ .Params.shoutout | safeHTML }} {{ if .Params.shoutout_icon }}<img src="{{ .Params.shoutout_icon }}" />{{ end }}</h1>
-		<p>{{ .Params.overview | safeHTML }}</p>
+		<p class="summary">{{ .Params.overview | safeHTML }}</p>
 
 		{{ end }}
 		{{ if .Params.ctatext }}

@@ -4,7 +4,7 @@ id: modules/common/calendar.md
 type: module
 module_type: calendar
 link: "/about/"
-subtitle: "A LOOK AT WHAT WE HAVE PLANNED."
+subtitle: "A look at what we have planned."
 has_header: true
 ---
 Module content text assuming that there is a sub page.
