@@ -756,6 +756,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/carnival.jpg" : {
+      "ft" : 16384,
+      "iS" : 858305,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/carnival.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/carnivalmap.jpg" : {
       "ft" : 16384,
       "iS" : 2638782,
@@ -914,6 +927,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/static\/images\/icons\/donate.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/icons\/dove.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/icons\/dove.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

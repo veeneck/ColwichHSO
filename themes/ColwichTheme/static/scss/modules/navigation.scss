@@ -3,6 +3,8 @@ nav {
 	@include flex();
 	justify-content: center;
 	font-weight: bold;
+	position: relative;
+	z-index: 1;
 
 	@include contentFor(mini-screen) {
 

@@ -8,11 +8,12 @@
 	height: 400px;
 	border-radius: 4px;
 	border: 20px solid #fff;
+	border-bottom: 60px solid #fff;
 	margin: 0 auto;
 	z-index: 3;
 	position: relative;
 	object-fit: cover;
-		box-shadow: 0 15px 60px rgba(62,62,62,.102);
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 }
 
 .polaroid {
@@ -25,14 +26,15 @@
 	object-fit: cover;
 	border-radius: 4px;
 	border: 20px solid #fff;
+	border-bottom: 60px solid #fff;
 	position: absolute;
 	margin-top: 20px;
 	box-sizing: border-box;
-		box-shadow: 0 15px 60px rgba(62,62,62,.102);
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 }
 
 .polaroid img:before {
-	    content: "";
+	content: "";
     height: 25px;
     width: 80px;
     position: absolute;

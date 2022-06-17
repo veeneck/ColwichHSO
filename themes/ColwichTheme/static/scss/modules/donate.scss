@@ -1,3 +1,33 @@
 .donate {
 	text-align: center;
 }
+
+.donate ul {
+	@include flex();
+	justify-content: center;
+}
+
+.donate ul li {
+	list-style: none;
+	width: 20%;
+	margin: 50px 0px;
+}
+
+.donate li a {
+	width: 100px;
+	height: 100px;
+	background-color: $red;
+	border: 2px solid #000;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	line-height: 100px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+.donate .moduleCTA {
+	margin-top: 100px;
+}
