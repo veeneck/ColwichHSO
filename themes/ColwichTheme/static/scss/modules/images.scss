@@ -32,6 +32,22 @@
 	position: relative;
 	object-fit: cover;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+		width: 30%;
+	}
+
+	@include contentFor(large-screen) {
+		width: 30%;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .polaroid {

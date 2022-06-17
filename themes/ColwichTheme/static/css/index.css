@@ -1332,7 +1332,16 @@ ul.navbar li span {
   object-fit: cover;
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
 }
-
+@media (min-width: 1080px) {
+  .heroImg {
+    width: 30%;
+  }
+}
+@media (min-width: 1300px) {
+  .heroImg {
+    width: 30%;
+  }
+}
 .polaroid {
   position: relative;
 }
