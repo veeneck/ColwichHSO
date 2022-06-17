@@ -19,11 +19,27 @@ section.module {
 }
 
 section.first {
-	margin-top: -200px;
+	margin-top: -275px;
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+		
+	}
+
+	@include contentFor(large-screen) {
+		margin-top: -200px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .module .content {
-	width: 600px;
+	width: 100vw;
 	margin: 0 auto;
 
 	@include contentFor(mini-screen) {
@@ -127,7 +143,7 @@ a.highlighter::before {
 
 .button {
 	border-radius: 30px;
-	padding: 15px 20px 15px 15px;
+	padding: 10px 15px 10px 15px;
 	margin: 10px;
 	text-decoration: none;
 	display: inline-block;
@@ -137,7 +153,24 @@ a.highlighter::before {
 	line-height: 20px;
 	font-weight: bold;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
-	border: 2px solid #000;
+	border: 1px solid #000;
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		padding: 15px 20px 15px 15px;
+		border: 2px solid #000;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .button:hover {

@@ -1,5 +1,5 @@
 nav {
-	padding: 80px 50px 50px 50px;
+	padding: 50px 20px 20px 20px;
 	@include flex();
 	justify-content: center;
 	font-weight: bold;
@@ -15,7 +15,7 @@ nav {
 	}
 
 	@include contentFor(large-screen) {
-
+		padding: 80px 50px 50px 50px;
 	}
 
 	@include contentFor(xl-screen) {
@@ -24,8 +24,25 @@ nav {
 }
 
 nav .logo {
-	width: 12%;
+	width: 40%;
 	margin: -30px 0px 0px 0px;
+
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+	
+	}
+
+	@include contentFor(large-screen) {
+		width: 12%;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .logo img {
@@ -36,10 +53,29 @@ nav .logo {
 nav .donate {
 	width: 10%;
 	text-align: right;
+	visibility: hidden;
+		height: 0px;
+
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+	
+	}
+
+	@include contentFor(large-screen) {
+		visibility: visible;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 nav .navbar {
-	width: 78%;
+	width: 60%;
 	text-align: center;
 	font-size: 120%;
 	visibility: hidden;
@@ -53,7 +89,7 @@ nav .navbar {
 	}
 
 	@include contentFor(large-screen) {
-
+		width: 78%;
 	}
 
 	@include contentFor(xl-screen) {
@@ -70,6 +106,7 @@ ul.navbar {
 ul.navbar li {
 	list-style: none;
 	margin: 0px 20px;
+	height: 0px;
 }
 
 ul.navbar li span {

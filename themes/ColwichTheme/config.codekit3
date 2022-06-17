@@ -164,14 +164,6 @@
       "oAP" : "\/layouts\/partials\/feedback.html",
       "oF" : 0
     },
-    "\/layouts\/partials\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layouts\/partials\/footer.html",
-      "oF" : 0
-    },
     "\/layouts\/partials\/header.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -937,6 +929,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/static\/images\/icons\/dove.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/icons\/facebook.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/icons\/facebook.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1957,6 +1959,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/volunteer.jpg" : {
+      "ft" : 16384,
+      "iS" : 187855,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/volunteer.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

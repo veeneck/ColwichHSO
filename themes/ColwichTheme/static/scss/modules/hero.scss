@@ -1,39 +1,131 @@
 .hero h1 {
 	margin: 0 auto;
-	width: 900px;
+	width: 300px;
 	text-align: center;
-	font-size: 350%;
+	font-size: 170%;
+
+	@include contentFor(mini-screen) {
+		font-size: 350%;
+		width: 900px;
+	}
+
+	@include contentFor(normal-screen) {
+		font-size: 350%;
+		width: 900px;
+	}
+
+	@include contentFor(large-screen) {
+		font-size: 350%;
+		width: 900px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .hero h1 img {
     display: inline-block;
-    height: 75px;
-    margin: 0px 0px -15px;
+    height: 25px;
+    margin: 0px 0px -5px;
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		height: 75px;
+    	margin: 0px 0px -15px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .hero p {
 	margin: 0px auto;
-	width: 600px;
+	width: 300px;
 	text-align: center;
 	line-height: 35px;
+
+	@include contentFor(mini-screen) {
+		width: 600px;
+	}
+
+	@include contentFor(normal-screen) {
+		width: 600px;
+	}
+
+	@include contentFor(large-screen) {
+		width: 600px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .hero .summary {
 	margin-top: 20px;
+	display: none;
+
+	@include contentFor(large-screen) {
+		display: block;
+
+	}
+
 }
 
 .hero p b {
 	margin-top: 50px;
 	display: inline-block;
 	color: $red;
-	font-size: 120%;
+	font-size: 90%;
 	font-weight: bolder;
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+		
+	}
+
+	@include contentFor(large-screen) {
+		font-size: 120%;
+
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .hero .callToAction {
-	width: 600px;
+	width: 350px;
 	text-align: center;
 	margin: 25px auto 25px auto;
+
+	@include contentFor(mini-screen) {
+		width: 600px;
+	}
+
+	@include contentFor(normal-screen) {
+		width: 600px;
+	}
+
+	@include contentFor(large-screen) {
+		width: 600px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .wufooForm {
@@ -47,7 +139,23 @@
 
 .more {
 	margin: 0 auto;
-	width: 600px;
+	width: 300px;
 	text-align: center;
-	font-size: 120%;
+	font-size: 100%;
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: 600px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }

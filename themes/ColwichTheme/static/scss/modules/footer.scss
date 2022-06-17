@@ -27,6 +27,11 @@ background-size: cover;
 	list-style: none;
 }
 
+.footer .social_links li a {
+	text-decoration: none;
+	color: #fff;
+}
+
 .footer_lists {
 	@include flex();
 	justify-content: space-between;
