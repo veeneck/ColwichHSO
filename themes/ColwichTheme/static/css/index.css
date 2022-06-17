@@ -808,7 +808,7 @@ img {
 }
 
 .achievements li div {
-  padding: 30px 20px 20px 20px;
+  padding: 20px 10px 20px 10px;
   border-radius: 4px;
   position: relative;
   font-weight: bold;
@@ -838,13 +838,32 @@ img {
 .achievements li img {
   margin: 0px;
   border-radius: 4px 4px 0px 0px;
-  height: 170px;
+  height: 250px;
   width: 100%;
   object-fit: cover;
   border-top: 5px solid #fff;
   border-left: 5px solid #fff;
   border-right: 5px solid #fff;
   box-sizing: border-box;
+}
+
+.achievements .moduleCTA {
+  margin-top: 75px;
+}
+
+.achievements li p {
+  font-weight: normal;
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+  line-height: 30px;
+}
+
+.achievements p {
+  width: 800px;
+  margin: 0 auto;
+  line-height: 40px;
+  text-align: center;
 }
 
 .calendar ul, .calendar_full ul {
@@ -945,10 +964,17 @@ img {
   text-decoration: none;
   font-weight: bold;
   font-size: 150%;
+  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
 }
 
 .donate .moduleCTA {
   margin-top: 100px;
+}
+
+.donate p {
+  width: 800px;
+  margin: 0 auto;
+  line-height: 40px;
 }
 
 .sponsors ul {
@@ -1192,6 +1218,21 @@ ul.navbar li span {
   margin-top: 75px;
 }
 
+.tape {
+  position: relative;
+}
+.tape:before, .tape:after {
+  background: rgba(255, 255, 235, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  content: "";
+  display: block;
+  height: 35px;
+  position: absolute;
+  margin: auto;
+  width: 125px;
+  z-index: 4;
+}
+
 .heroImg {
   width: 30%;
   height: 400px;
@@ -1261,6 +1302,50 @@ ul.navbar li span {
   transform: rotate(20deg);
 }
 
+.img-tape--1:before {
+  left: 50%;
+  margin-left: -60px;
+  top: -15px;
+}
+.img-tape--1:after {
+  display: none;
+}
+
+.img-tape--2:before {
+  left: 32%;
+  top: 10px;
+  transform: rotate(-35deg);
+}
+.img-tape--2:after {
+  right: 32%;
+  top: 15px;
+  transform: rotate(45deg);
+}
+
+.img-tape--3:before {
+  left: -50px;
+  top: -5px;
+  transform: rotate(-45deg);
+}
+.img-tape--3:after {
+  bottom: -5px;
+  right: -50px;
+  transform: rotate(-35deg);
+}
+
+.img-tape--4:before {
+  left: -60px;
+  margin-top: -15px;
+  top: 50%;
+  transform: rotate(93deg);
+}
+.img-tape--4:after {
+  margin-top: -30px;
+  right: -60px;
+  top: 50%;
+  transform: rotate(89deg);
+}
+
 .footer {
   padding: 50px 0px;
   background-color: #000000;
@@ -1304,15 +1389,15 @@ ul.navbar li span {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer_lists ul {
-  width: 25%;
   box-sizing: border-box;
   padding: 5px;
   font-weight: bold;
   color: red;
+  margin: 20px;
 }
 
 .footer_lists ul li {
@@ -1416,6 +1501,7 @@ a.highlighter {
   padding: 5px 10px;
   text-decoration: none;
   position: relative;
+  white-space: nowrap;
 }
 
 a.highlighter::before {

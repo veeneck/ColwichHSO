@@ -26,8 +26,15 @@
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 150%;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 }
 
 .donate .moduleCTA {
 	margin-top: 100px;
+}
+
+.donate p {
+	width: 800px;
+	margin: 0 auto;
+	line-height: 40px;
 }

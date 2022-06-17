@@ -3,6 +3,24 @@
 	margin-top: 75px;
 }
 
+.tape {
+	
+  position: relative;
+
+  &:before,
+  &:after {
+    background: rgba(255,255,235,.6);
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    content: "";
+    display: block;
+    height: 35px;
+    position: absolute;
+    margin: auto;
+    width: 125px;
+    z-index: 4;
+  }
+}
+
 .heroImg {
 	width: 30%;
 	height: 400px;
@@ -71,4 +89,60 @@
 	left: 80%;
 	z-index: 1;
 	transform: rotate(20deg);
+}
+
+.img-tape--1 {
+  &:before {
+    left: 50%;
+    margin-left: -60px;
+    top: -15px;
+  }
+
+  &:after {
+    display: none;
+  }
+}
+
+.img-tape--2 {
+  &:before {
+    left: 32%;
+    top: 10px;
+    transform: rotate(-35deg);
+  }
+
+  &:after {
+    right: 32%;
+    top: 15px;
+    transform: rotate(45deg);
+  }
+}
+
+.img-tape--3 {
+  &:before {
+    left: -50px;
+    top: -5px;
+    transform: rotate(-45deg);
+  }
+
+  &:after {
+    bottom: -5px;
+    right: -50px;
+    transform: rotate(-35deg);
+  }
+}
+
+.img-tape--4 {
+  &:before {
+    left: -60px;
+    margin-top: -15px;
+    top: 50%;
+    transform: rotate(93deg);
+  }
+
+  &:after {
+    margin-top: -30px;
+    right: -60px;
+    top: 50%;
+    transform: rotate(89deg);
+  }
 }

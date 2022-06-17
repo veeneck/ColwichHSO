@@ -1,8 +1,7 @@
 <ul>
 {{ range $index, $el := (sort site.Data.achievements "featured") }}
 	<li>
-		<div>
-			<span class="counter">{{ add $index 1 }}</span>
+		<div class="tape img-tape--1">
 			<img src="{{ $el.image }}" />
 			<h4>{{ $el.name }}</h4>
 			<p>{{ $el.body }}</p>
@@ -10,6 +9,8 @@
 	</li>
 {{ end }}
 </ul>
+
+<p>We're always on the lookout for <a href="" class="highlighter">volunteers.</a> If you would like to make Colwich Elementary School, and the local community, a better place, please consider <a href="" class="highlighter">getting involved!</a><br />We would love to have you!</p>
 
 <div class="moduleCTA">
 <a class="button primary" href="/calendar"><img class="icon" src="/images/icons/dove.svg" /> See How You Can Help!</a>
