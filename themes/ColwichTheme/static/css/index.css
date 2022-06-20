@@ -1327,21 +1327,35 @@ ul.navbar li span {
 }
 
 .faq .content {
-  column-count: 2;
-  -webkit-column-count: 2;
-  column-gap: 30px;
-  -webkit-column-gap: 30px;
+  column-count: 1;
+  -webkit-column-count: 1;
+  column-gap: 10px;
+  -webkit-column-gap: 10px;
   padding: 0px;
   margin-left: 0px;
 }
-
+@media (min-width: 765px) {
+  .faq .content {
+    column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 30px;
+    -webkit-column-gap: 30px;
+  }
+}
 .faqCardContainer {
-  width: 100%;
+  width: 96%;
+  margin-left: 2%;
   box-sizing: border-box;
   height: auto;
   break-inside: avoid;
   -webkit-column-break-inside: avoid;
   background-color: #fff;
+}
+@media (min-width: 765px) {
+  .faqCardContainer {
+    margin-left: 0px;
+    width: 100%;
+  }
 }
 
 .faqCard {
@@ -1351,7 +1365,12 @@ ul.navbar li span {
 }
 
 .faq .content div:not(:first-child) {
-  margin-top: 30px;
+  margin-top: 10px;
+}
+@media (min-width: 765px) {
+  .faq .content div:not(:first-child) {
+    margin-top: 30px;
+  }
 }
 
 .faq h4 {
