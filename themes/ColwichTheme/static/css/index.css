@@ -776,19 +776,27 @@ img {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   padding: 0px;
   margin-left: 0px;
+}
+@media (min-width: 1080px) {
+  .achievements ul {
+    justify-content: center;
+  }
 }
 
 .achievements li {
   list-style: none;
   padding: 20px;
   width: 100%;
-  margin: 1%;
   box-sizing: border-box;
   text-align: center;
+}
+@media (min-width: 765px) {
+  .achievements li {
+    width: 48%;
+  }
 }
 @media (min-width: 1300px) {
   .achievements li {
@@ -871,6 +879,11 @@ img {
   line-height: 40px;
   text-align: center;
 }
+@media (min-width: 765px) {
+  .achievements p {
+    width: 700px;
+  }
+}
 @media (min-width: 1300px) {
   .achievements p {
     width: 800px;
@@ -896,6 +909,11 @@ img {
   width: 90%;
   margin: 1%;
   box-sizing: border-box;
+}
+@media (min-width: 765px) {
+  .calendar li, .calendar_full li {
+    width: 48%;
+  }
 }
 @media (min-width: 1080px) {
   .calendar li, .calendar_full li {
@@ -966,6 +984,12 @@ img {
   width: 50%;
   margin: 20px 0px;
 }
+@media (min-width: 765px) {
+  .donate ul li {
+    width: 33%;
+    margin: 40px 0px;
+  }
+}
 @media (min-width: 1300px) {
   .donate ul li {
     width: 20%;
@@ -997,6 +1021,11 @@ img {
   margin: 0 auto;
   line-height: 40px;
 }
+@media (min-width: 765px) {
+  .donate p {
+    width: 700px;
+  }
+}
 @media (min-width: 1300px) {
   .donate p {
     width: 800px;
@@ -1018,6 +1047,12 @@ img {
   list-style: none;
   margin: 10px;
   width: 30%;
+}
+@media (min-width: 765px) {
+  .sponsors li {
+    margin: 20px;
+    width: 30%;
+  }
 }
 @media (min-width: 1300px) {
   .sponsors li {
@@ -1043,8 +1078,8 @@ img {
 }
 @media (min-width: 765px) {
   .hero h1 {
-    font-size: 350%;
-    width: 900px;
+    font-size: 250%;
+    width: 700px;
   }
 }
 @media (min-width: 1080px) {
@@ -1526,6 +1561,7 @@ ul.navbar li span {
   display: -webkit-flex;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 20px;
 }
 
@@ -1581,6 +1617,11 @@ ul.navbar li span {
   margin: 20px;
   text-align: center;
   width: 100%;
+}
+@media (min-width: 765px) {
+  .footer_lists ul {
+    width: 45%;
+  }
 }
 @media (min-width: 1300px) {
   .footer_lists ul {

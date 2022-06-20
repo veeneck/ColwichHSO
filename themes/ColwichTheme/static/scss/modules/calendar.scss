@@ -16,7 +16,7 @@
 	box-sizing: border-box;
 
 	@include contentFor(mini-screen) {
-		
+		width: 48%;
 	}
 
 	@include contentFor(normal-screen) {

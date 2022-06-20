@@ -11,6 +11,11 @@
 	margin: 10px;
 	width: 30%;
 
+	@include contentFor(mini-screen) {
+		margin: 20px;
+		width: 30%;
+	}
+
 	@include contentFor(large-screen) {
 		margin: 40px;
 		width: 200px;

@@ -1,21 +1,23 @@
 .achievements ul {
 	@include flex();
-	justify-content: center;
 	flex-wrap: wrap;
 	padding: 0px;
 	margin-left: 0px;
+
+	@include contentFor(normal-screen) {
+		justify-content: center;
+	}
 }
 
 .achievements li {
 	list-style: none;
 	padding: 20px;
 	width: 100%;
-	margin: 1%;
 	box-sizing: border-box;
 	text-align: center;
 
 	@include contentFor(mini-screen) {
-		
+		width: 48%;
 	}
 
 	@include contentFor(normal-screen) {
@@ -107,7 +109,7 @@
 	text-align: center;
 
 	@include contentFor(mini-screen) {
-		
+		width: 700px;
 	}
 
 	@include contentFor(normal-screen) {

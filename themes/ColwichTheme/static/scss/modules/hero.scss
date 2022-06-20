@@ -5,8 +5,8 @@
 	font-size: 150%;
 
 	@include contentFor(mini-screen) {
-		font-size: 350%;
-		width: 900px;
+		font-size: 250%;
+		width: 700px;
 	}
 
 	@include contentFor(normal-screen) {

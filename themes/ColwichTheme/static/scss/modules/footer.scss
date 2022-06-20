@@ -10,6 +10,7 @@ background-size: cover;
 .footer .social {
 	@include flex();
 	justify-content: center;
+	align-items: center;
 	padding: 20px;
 }
 
@@ -83,7 +84,7 @@ background-size: cover;
 	width: 100%;
 
 	@include contentFor(mini-screen) {
-		
+		width: 45%;
 	}
 
 	@include contentFor(normal-screen) {
