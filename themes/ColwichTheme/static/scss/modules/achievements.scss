@@ -9,10 +9,26 @@
 .achievements li {
 	list-style: none;
 	padding: 20px;
-	width: 23%;
+	width: 100%;
 	margin: 1%;
 	box-sizing: border-box;
 	text-align: center;
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: 23%;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .achievements .content {

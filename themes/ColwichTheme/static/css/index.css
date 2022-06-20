@@ -785,12 +785,16 @@ img {
 .achievements li {
   list-style: none;
   padding: 20px;
-  width: 23%;
+  width: 100%;
   margin: 1%;
   box-sizing: border-box;
   text-align: center;
 }
-
+@media (min-width: 1300px) {
+  .achievements li {
+    width: 23%;
+  }
+}
 .achievements .content {
   padding-top: 75px;
 }
@@ -1642,7 +1646,7 @@ section.first {
 }
 
 .altBG {
-  margin: 50px;
+  margin: 50px 0px;
   border-radius: 10px;
   box-sizing: border-box;
   padding-bottom: 75px;
