@@ -1302,7 +1302,12 @@ ul.navbar li span {
 
 .module.featured_image .content {
   width: 100%;
-  margin-top: 75px;
+  margin-top: 50px;
+}
+@media (min-width: 1300px) {
+  .module.featured_image .content {
+    margin-top: 75px;
+  }
 }
 
 .tape {
@@ -1321,7 +1326,7 @@ ul.navbar li span {
 }
 
 .heroImg {
-  width: 80%;
+  width: 95%;
   height: 400px;
   border-radius: 4px;
   border: 20px solid #fff;
@@ -1331,6 +1336,7 @@ ul.navbar li span {
   position: relative;
   object-fit: cover;
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
+  box-sizing: border-box;
 }
 @media (min-width: 1080px) {
   .heroImg {
@@ -1339,7 +1345,7 @@ ul.navbar li span {
 }
 @media (min-width: 1300px) {
   .heroImg {
-    width: 30%;
+    width: 35%;
   }
 }
 .polaroid {
@@ -1420,7 +1426,7 @@ ul.navbar li span {
 .img-tape--2:before {
   left: 50%;
   margin-left: -60px;
-  top: -15px;
+  top: -20px;
 }
 .img-tape--2:after {
   visibility: hidden;
