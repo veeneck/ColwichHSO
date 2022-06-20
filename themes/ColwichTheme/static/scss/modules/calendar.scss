@@ -11,7 +11,7 @@
 	border-radius: 5px;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 	padding: 30px;
-	width: 30%;
+	width: 90%;
 	margin: 1%;
 	box-sizing: border-box;
 
@@ -20,7 +20,7 @@
 	}
 
 	@include contentFor(normal-screen) {
-		
+		width: 30%;
 	}
 
 	@include contentFor(large-screen) {

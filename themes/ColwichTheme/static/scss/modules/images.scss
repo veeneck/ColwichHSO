@@ -110,6 +110,19 @@
 	left: 10%;
 	z-index: 2;
 	transform: rotate(-15deg);
+	display: none;
+
+	@include contentFor(normal-screen) {
+		
+	}
+
+	@include contentFor(large-screen) {
+		display: block;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .polaroid img:nth-child(3) {
@@ -117,6 +130,19 @@
 	left: 60%;
 	z-index: 2;
 	transform: rotate(15deg);
+	display: none;
+
+	@include contentFor(normal-screen) {
+		
+	}
+
+	@include contentFor(large-screen) {
+		display: block;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .polaroid img:nth-child(4) {
