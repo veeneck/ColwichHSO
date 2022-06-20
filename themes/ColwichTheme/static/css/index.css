@@ -1526,23 +1526,34 @@ ul.navbar li span {
   display: -webkit-flex;
   display: flex;
   justify-content: center;
+  padding: 20px;
 }
 
 .footer .logo {
-  width: 20%;
+  width: 30%;
   text-align: left;
 }
-
+@media (min-width: 1300px) {
+  .footer .logo {
+    width: 20%;
+  }
+}
 .footer .social_links {
-  width: 80%;
+  width: 70%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   justify-content: right;
+  margin: 0;
 }
-
+@media (min-width: 1300px) {
+  .footer .social_links {
+    width: 80%;
+    margin: 20px 0px;
+  }
+}
 .footer .social_links li {
   list-style: none;
 }
@@ -1559,6 +1570,7 @@ ul.navbar li span {
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer_lists ul {
@@ -1567,8 +1579,15 @@ ul.navbar li span {
   font-weight: bold;
   color: red;
   margin: 20px;
+  text-align: center;
+  width: 100%;
 }
-
+@media (min-width: 1300px) {
+  .footer_lists ul {
+    width: auto;
+    text-align: left;
+  }
+}
 .footer_lists ul li {
   list-style: none;
   font-weight: normal;

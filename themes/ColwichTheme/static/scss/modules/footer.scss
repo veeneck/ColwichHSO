@@ -10,17 +10,52 @@ background-size: cover;
 .footer .social {
 	@include flex();
 	justify-content: center;
+	padding: 20px;
 }
 
 .footer .logo {
-	width: 20%;
+	width: 30%;
 	text-align: left;
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: 20%;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .footer .social_links {
-	width: 80%;
+	width: 70%;
 	@include flex();
 	justify-content: right;
+	margin: 0;
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: 80%;
+		margin: 20px 0px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .footer .social_links li {
@@ -35,6 +70,7 @@ background-size: cover;
 .footer_lists {
 	@include flex();
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .footer_lists ul {
@@ -43,6 +79,25 @@ background-size: cover;
 	font-weight: bold;
 	color: red;
 	margin: 20px;
+	text-align: center;
+	width: 100%;
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: auto;
+		text-align: left;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .footer_lists ul li {
