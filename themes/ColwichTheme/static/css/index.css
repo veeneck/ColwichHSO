@@ -993,16 +993,24 @@ img {
   justify-content: center;
   padding: 0px;
   margin-left: 0px;
+  flex-wrap: wrap;
 }
 
 .sponsors li {
   list-style: none;
-  margin: 40px;
+  margin: 10px;
+  width: 30%;
+}
+@media (min-width: 1300px) {
+  .sponsors li {
+    margin: 40px;
+    width: 200px;
+  }
 }
 
 .sponsors img {
   filter: grayscale(100%);
-  width: 200px;
+  width: 100%;
 }
 
 .sponsors a:hover img {
