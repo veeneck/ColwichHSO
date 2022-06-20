@@ -5,12 +5,31 @@
 .donate ul {
 	@include flex();
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .donate ul li {
 	list-style: none;
-	width: 20%;
-	margin: 50px 0px;
+	width: 50%;
+	margin: 20px 0px;
+
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: 20%;
+		margin: 50px 0px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 .donate li a {
@@ -34,7 +53,23 @@
 }
 
 .donate p {
-	width: 800px;
+	width: 300px;
 	margin: 0 auto;
 	line-height: 40px;
+
+	@include contentFor(mini-screen) {
+		
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: 800px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }

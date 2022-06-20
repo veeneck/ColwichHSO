@@ -866,12 +866,16 @@ img {
 }
 
 .achievements p {
-  width: 800px;
+  width: 300px;
   margin: 50px auto 0px auto;
   line-height: 40px;
   text-align: center;
 }
-
+@media (min-width: 1300px) {
+  .achievements p {
+    width: 800px;
+  }
+}
 .calendar ul, .calendar_full ul {
   display: -webkit-box;
   display: -moz-box;
@@ -954,14 +958,20 @@ img {
   display: -webkit-flex;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .donate ul li {
   list-style: none;
-  width: 20%;
-  margin: 50px 0px;
+  width: 50%;
+  margin: 20px 0px;
 }
-
+@media (min-width: 1300px) {
+  .donate ul li {
+    width: 20%;
+    margin: 50px 0px;
+  }
+}
 .donate li a {
   width: 125px;
   height: 125px;
@@ -983,11 +993,15 @@ img {
 }
 
 .donate p {
-  width: 800px;
+  width: 300px;
   margin: 0 auto;
   line-height: 40px;
 }
-
+@media (min-width: 1300px) {
+  .donate p {
+    width: 800px;
+  }
+}
 .sponsors ul {
   display: -webkit-box;
   display: -moz-box;
