@@ -11,11 +11,11 @@ nav {
 	}
 
 	@include contentFor(normal-screen) {
-	
+		padding: 80px 50px 50px 50px;
 	}
 
 	@include contentFor(large-screen) {
-		padding: 80px 50px 50px 50px;
+
 	}
 
 	@include contentFor(xl-screen) {

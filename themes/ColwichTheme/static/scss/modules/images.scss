@@ -39,15 +39,17 @@
 	box-sizing: border-box;
 
 	@include contentFor(mini-screen) {
-		
+		height: 700px;
 	}
 
 	@include contentFor(normal-screen) {
 		width: 30%;
+		height: 400px;
 	}
 
 	@include contentFor(large-screen) {
 		width: 35%;
+		height: 500px;
 	}
 
 	@include contentFor(xl-screen) {
@@ -93,10 +95,6 @@
 
 
 	@include contentFor(normal-screen) {
-		
-	}
-
-	@include contentFor(large-screen) {
 		display: block;
 	}
 
@@ -113,10 +111,6 @@
 	display: none;
 
 	@include contentFor(normal-screen) {
-		
-	}
-
-	@include contentFor(large-screen) {
 		display: block;
 	}
 
@@ -133,10 +127,6 @@
 	display: none;
 
 	@include contentFor(normal-screen) {
-		
-	}
-
-	@include contentFor(large-screen) {
 		display: block;
 	}
 
@@ -153,11 +143,11 @@
 	display: none;
 
 	@include contentFor(normal-screen) {
-		
+		display: block;
 	}
 
 	@include contentFor(large-screen) {
-		display: block;
+		
 	}
 
 	@include contentFor(xl-screen) {

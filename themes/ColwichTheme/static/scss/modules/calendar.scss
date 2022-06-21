@@ -24,11 +24,19 @@
 	}
 
 	@include contentFor(large-screen) {
-		width: 23%;
+		
 	}
 
 	@include contentFor(xl-screen) {
+		width: 23%;
+	}
+}
 
+.calendar li:nth-child(n+7) {
+	display: none;
+
+	@include contentFor(normal-screen) {
+		display: block;
 	}
 }
 

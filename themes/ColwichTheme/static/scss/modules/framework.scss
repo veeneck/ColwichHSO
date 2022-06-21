@@ -13,9 +13,25 @@ body section:nth-child(1) {
 }
 
 section.module {
-	margin-top: 150px;
+	margin-top: 75px;
 	z-index: 0;
 	position: relative;
+
+	@include contentFor(mini-screen) {
+		margin-top: 100px;
+	}
+
+	@include contentFor(normal-screen) {
+		margin-top: 125px;
+	}
+
+	@include contentFor(large-screen) {
+		margin-top: 150px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 section.first {
@@ -26,7 +42,7 @@ section.first {
 	}
 
 	@include contentFor(normal-screen) {
-		
+		margin-top: -200px;
 	}
 
 	@include contentFor(large-screen) {
@@ -43,7 +59,7 @@ section.first {
 	margin: 0 auto;
 
 	@include contentFor(mini-screen) {
-		width: 800px;
+		
 	}
 
 	@include contentFor(normal-screen) {
@@ -51,11 +67,11 @@ section.first {
 	}
 
 	@include contentFor(large-screen) {
-		width: 1600px;
+		width: 90vw;
 	}
 
 	@include contentFor(xl-screen) {
-
+		width: 1600px;
 	}
 
 }
