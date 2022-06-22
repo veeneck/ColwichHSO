@@ -14,39 +14,48 @@ function ready(fn) {
 
 function loadPage() {
 	bringElementsIntoView();
+	initMobileListeners();
 }
 
-/* -------- FAQ QUESTIONS -------- */
-/*
-/// Attach events to questions, and perform any code needed on load.
-function initFAQListeners() {
-	openQuestionIfInUrl();
-	var questions = document.querySelectorAll('.question');
-	Array.prototype.forEach.call(questions, function(question, i){
-		question.addEventListener('click', function(event) {
-			event.preventDefault();
-			toggleQuestion(this)
-			return false;
-		});
+/* -------- MOBILE MENU -------- */
+
+/// Toggle a classname whenever the hamburger menu is clicked to open and close the element.
+function initMobileListeners() {
+	var $menu = document.getElementById("menu");
+    var $menulink = document.querySelectorAll('.menu-link')[0];
+    var header = document.getElementsByTagName("header")[0];
+  
+	$menulink.addEventListener("click", function(event) {
+	  event.preventDefault();
+
+	  /// Set the hamburger icon to open
+	  toggleClass(this, 'open');
+
+	  /// The animations reverse each other. So open and closed are always toggled.
+	  toggleClass($menu, 'closed');
+
+	  /// Set the drop down menu to open
+	  addClass($menu, "open");
+
+	  /// On load, we don't want animations to play. This class prevents them, and is removed on first click.
+	  if(hasClass($menu, "firstView")) {
+	  	removeClass($menu, 'firstView');
+	  }
+
+	  // To make it look like the border moves, toggle noborder  with the above.
+	  /// On open, there is no delay. On close, it has to wait until the close animation finishes.
+	  if(hasClass($menu, 'closed')) {
+		  setTimeout(function() {
+	  		removeClass(header, 'noborder');
+		  }, 300);
+	  }
+	  else {
+	  	addClass(header, 'noborder');
+	  }
+
+	  return false;
 	});
 }
-
-/// If the URL has a hash (#) of the question ID, open that question immediately.
-function openQuestionIfInUrl() {
-	if(window.location.hash) {
-  		var el = document.querySelectorAll(window.location.hash)[0];
-  		if(hasClass(el, "question")) {
-  			toggleQuestion(el);
-  		}
-  	}
-}
-
-/// Open and close the questions by toggling the class name.
-function toggleQuestion(element) {
-	toggleClass(element, "arrow-right");
-	toggleClass(element, "arrow-down");
-	toggleClass(element.parentNode.nextElementSibling, "hide");
-}*/
 
 /* -------- TEMPORARY PARALLAX ON SCROLL -----------------*/
 

@@ -1,7 +1,6 @@
-nav {
+header {
 	padding: 50px 20px 20px 20px;
 	@include flex();
-	justify-content: center;
 	font-weight: bold;
 	position: relative;
 	z-index: 1;
@@ -12,6 +11,7 @@ nav {
 
 	@include contentFor(normal-screen) {
 		padding: 80px 50px 50px 50px;
+		justify-content: center;
 	}
 
 	@include contentFor(large-screen) {
@@ -23,8 +23,8 @@ nav {
 	}
 }
 
-nav .logo {
-	width: 40%;
+header .logo {
+	width: 50%;
 	margin: -30px 0px 0px 0px;
 
 
@@ -46,11 +46,11 @@ nav .logo {
 }
 
 .logo img {
-	width: 200px;
+	width: 150px;
 	margin: 0px;
 }
 
-nav .donate {
+header .donate {
 	width: 10%;
 	text-align: right;
 	visibility: hidden;
@@ -74,11 +74,13 @@ nav .donate {
 	}
 }
 
-nav .navbar {
-	width: 60%;
+header .nav {
+	width: 50%;
 	text-align: center;
 	font-size: 120%;
 	visibility: hidden;
+	position: relative;
+	z-index: 3;
 
 	@include contentFor(mini-screen) {
 
@@ -97,26 +99,27 @@ nav .navbar {
 	}
 }
 
-ul.navbar {
+ul.nav {
 	@include flex();
 	justify-content: center;
 	margin: 0px;
+	width: 100%;
 }
 
-ul.navbar li {
+ul.nav li {
 	list-style: none;
 	margin: 0px 20px;
 	height: 0px;
 }
 
-ul.navbar li span {
+ul.nav li span {
 	font-size: 65%;
 	padding-left: 5px;
 	color: $gold;
 	text-stroke: 2px red;
 }
 
-.navbar a {
+.nav a {
 	text-decoration: none;
 	color: #000;
 }
@@ -169,4 +172,235 @@ ul.navbar li span {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/*-----------------Dropdown Menu---------------*/
+
+
+nav[role=navigation] {
+    @extend %clearfix;
+    //overflow: hidden;
+    width: 0px;
+    @include contentFor(normal-screen) {
+    	flex-grow: 5;
+        height: 89px;
+    }
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-transform-style: preserve-3d;
+}
+
+div.menu-link {
+    padding: 1em;
+    color: $darkRed;
+
+    @include contentFor(normal-screen) {
+        display: none;
+    }
+}
+
+/*----------------------- Hamburger Functionality ------------------------------ */
+
+/// Credit: https://codepen.io/bradfrost/pen/sHvaz
+
+.firstView {
+    animation-name: none !important;
+    visibility: hidden !important;
+     @include contentFor(normal-screen) {
+        visibility: visible !important;
+    }
+}
+
+
+// When we want nav to appear, change the height
+nav[role=navigation].open {
+    margin-bottom: 10px;
+    margin-top: 63px;
+    width: 100%;
+    position: absolute;
+    border-bottom: 3px solid $red;
+    background-color: #fff;
+     -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+    @include contentFor(normal-screen) {
+        -webkit-animation-name: none;
+        animation-name: none;
+    }
+    visibility: visible;
+    //z-index: 5;
+}
+
+nav[role=navigation].closed {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+      -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+ul.nav {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-transform-style: preserve-3d;
+}
+
+.closed ul.nav {
+      -webkit-animation-name: fadeOutUp !important;
+    animation-name: fadeOutUp  !important;
+    -webkit-animation-delay: 0s   !important;
+    animation-delay: 0s   !important;
+     @include contentFor(normal-screen) {
+        -webkit-animation-name: none !important;
+        animation-name: none  !important;
+    }
+}
+
+.open ul.nav {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 22px;
+            -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+    @include contentFor(normal-screen) {
+        -webkit-animation-name: none;
+        animation-name: none;
+    }
+}
+
+.open ul.nav li {
+	display: block !important;
+    margin: 25px 0px;
+}
+
+.open .volunteerlist {
+	order: 2;
+}
+
+ul.nav li.facebookmobile {
+	@include contentFor(normal-screen) {
+		display: none !important;
+	}
+}
+
+.fbtext {
+    @include contentFor(normal-screen) {
+        display: none;
+    }
+    margin-right: 10px;
+}
+
+.facebook a:after {
+    content:'\0048';
+    font-size: 25px !important;
+    margin-top: -2px;
+    @include contentFor(normal-screen) {
+        font-size: 32px !important;
+        margin-top: 0px;
+    }
+    vertical-align: middle;
+    color: #3B5998; 
+    display: inline-block;
+   font-family: 'fnse';
+   font-style: normal;
+   font-weight: normal;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+    speak: none;
+   text-transform: none;
+}
+
+.open .volunteerlist, .open .reachout {
+	margin-top: 15px;
+}
+
+
+/*----------------- Hamburger Animation -----------------*/
+
+/// Credit: https://codepen.io/mblode/pen/evjfn
+
+
+@mixin btn($left, $top) {
+    width: 20px;
+    top: $top;
+    right: $left;
+    transition-duration: 0.5s;
+    position: absolute;
+}
+
+@mixin icon($height, $width) {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: $height;
+    width: $width;
+    top: 25px;
+    background-color: $red;
+}
+
+@mixin icon-before($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $red;
+    content: "";
+    top: $top;
+}
+
+@mixin icon-after($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $red;
+    content: "";
+    top: $top;
+}
+
+div.menu-link {
+    @include btn(25px, 25px);
+    @include contentFor(normal-screen) {
+         @include btn(20px, 20px);
+    }
+
+    .icon {
+        filter: none;
+        @include icon(4px, 30px);
+
+        &:before {
+            @include icon-before(4px, 30px, -10px);
+        }
+
+        &:after {
+            @include icon-after(4px, 30px, 10px);
+        }
+    }
+
+    &.open {
+        .icon {
+            transition-duration: 0.5s;
+            background: transparent;
+
+            &:before {
+                transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);
+            }
+
+            &:after {
+                transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px);
+            }
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
 }
