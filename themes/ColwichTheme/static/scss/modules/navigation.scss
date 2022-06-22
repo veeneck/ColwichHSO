@@ -365,6 +365,7 @@ ul.nav li.facebookmobile {
     width: $width;
     top: 25px;
     background-color: $red;
+    border: 1px solid #000;
 }
 
 @mixin icon-before($height, $width, $top) {
@@ -375,6 +376,8 @@ ul.nav li.facebookmobile {
     background-color: $red;
     content: "";
     top: $top;
+    left: -1px;
+    border: 1px solid #000;
 }
 
 @mixin icon-after($height, $width, $top) {
@@ -385,6 +388,8 @@ ul.nav li.facebookmobile {
     background-color: $red;
     content: "";
     top: $top;
+    left: -1px;
+    border: 1px solid #000;
 }
 
 div.menu-link {
