@@ -1420,10 +1420,10 @@ div.menu-link {
 }
 
 nav[role=navigation].open {
-  margin-bottom: 10px;
-  margin-top: 63px;
   width: 100%;
   position: absolute;
+  top: 0px;
+  left: 0px;
   border-bottom: 3px solid #C93234;
   background-color: #fff;
   -webkit-animation-name: fadeInDown;
