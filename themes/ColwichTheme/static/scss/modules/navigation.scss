@@ -393,7 +393,7 @@ ul.nav li.facebookmobile {
 }
 
 div.menu-link {
-    @include btn(20px, 15px);
+    @include btn(30px, 15px);
     @include contentFor(normal-screen) {
          @include btn(20px, 20px);
     }

@@ -1538,7 +1538,7 @@ ul.nav {
 div.menu-link {
   width: 20px;
   top: 15px;
-  right: 20px;
+  right: 30px;
   transition-duration: 0.5s;
   position: absolute;
 }
