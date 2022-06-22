@@ -7,7 +7,7 @@ url: "/redesign"
 fullUrl: "https://colwichhso.com/redesign"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Colwich HSO
-shoutout: Show Your Support For <br />Colwich Elementary School
+shoutout: Show Support For <br />Colwich Elementary School
 shoutout_icon: /images/mascot.png
 overview: The main way to get involved is to sync our calendar of events, which will keep you updated on all upcoming HSO activities.
 ctatext: Download 2022-2023 Calendar

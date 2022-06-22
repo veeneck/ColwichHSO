@@ -1101,7 +1101,7 @@ img {
   margin: 0 auto;
   width: 300px;
   text-align: center;
-  font-size: 150%;
+  font-size: 175%;
 }
 @media (min-width: 765px) {
   .hero h1 {
@@ -1123,7 +1123,7 @@ img {
 }
 .hero h1 img {
   display: inline-block;
-  height: 25px;
+  height: 30px;
   margin: 0px 0px -5px;
 }
 @media (min-width: 765px) {
@@ -1172,7 +1172,7 @@ img {
   margin-top: 50px;
   display: inline-block;
   color: #C93234;
-  font-size: 90%;
+  font-size: 100%;
   font-weight: bolder;
 }
 @media (min-width: 1300px) {
