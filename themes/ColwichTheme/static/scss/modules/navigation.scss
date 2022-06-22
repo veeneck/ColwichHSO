@@ -46,8 +46,24 @@ header .logo {
 }
 
 .logo img {
-	width: 150px;
+	width: 125px;
 	margin: 0px;
+
+	@include contentFor(mini-screen) {
+		width: 150px;
+	}
+
+	@include contentFor(normal-screen) {
+		width: 175px;
+	}
+
+	@include contentFor(large-screen) {
+		width: 200px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
 }
 
 header .donate {
@@ -367,7 +383,7 @@ ul.nav li.facebookmobile {
 }
 
 div.menu-link {
-    @include btn(25px, 25px);
+    @include btn(20px, 20px);
     @include contentFor(normal-screen) {
          @include btn(20px, 20px);
     }
