@@ -1537,7 +1537,7 @@ ul.nav {
 /*----------------- Hamburger Animation -----------------*/
 div.menu-link {
   width: 20px;
-  top: 20px;
+  top: 15px;
   right: 20px;
   transition-duration: 0.5s;
   position: absolute;
@@ -1568,7 +1568,7 @@ div.menu-link .icon:before {
   height: 4px;
   background-color: #C93234;
   content: "";
-  top: -10px;
+  top: -11px;
   left: -1px;
   border: 1px solid #000;
 }
@@ -1579,13 +1579,14 @@ div.menu-link .icon:after {
   height: 4px;
   background-color: #C93234;
   content: "";
-  top: 10px;
+  top: 9px;
   left: -1px;
   border: 1px solid #000;
 }
 div.menu-link.open .icon {
   transition-duration: 0.5s;
   background: transparent;
+  border: none;
 }
 div.menu-link.open .icon:before {
   transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);

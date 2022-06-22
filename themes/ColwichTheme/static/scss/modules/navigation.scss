@@ -375,7 +375,7 @@ ul.nav li.facebookmobile {
     height: $height;
     background-color: $red;
     content: "";
-    top: $top;
+    top: $top - 1;
     left: -1px;
     border: 1px solid #000;
 }
@@ -387,13 +387,13 @@ ul.nav li.facebookmobile {
     height: $height;
     background-color: $red;
     content: "";
-    top: $top;
+    top: $top - 1;
     left: -1px;
     border: 1px solid #000;
 }
 
 div.menu-link {
-    @include btn(20px, 20px);
+    @include btn(20px, 15px);
     @include contentFor(normal-screen) {
          @include btn(20px, 20px);
     }
@@ -415,6 +415,7 @@ div.menu-link {
         .icon {
             transition-duration: 0.5s;
             background: transparent;
+            border: none;
 
             &:before {
                 transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);
