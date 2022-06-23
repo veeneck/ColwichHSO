@@ -125,7 +125,8 @@ function loadTriggersForPage() {
     var triggerMap = {
         "hero" : setHeroTriggers,
         "calendar" : setCalendarTriggers,
-        "achievements" : setAchievementTriggers
+        "achievements" : setAchievementTriggers,
+        "donate" : setDonateTriggers
     };
 
     const sections = document.getElementsByTagName('section');
@@ -137,6 +138,8 @@ function loadTriggersForPage() {
         	}
 				}
     }
+
+    setHighlightTriggers();
 }
 
 
@@ -173,9 +176,51 @@ function setAchievementTriggers(section) {
                 trigger: el,
                 scrub: true,
             },
-            x: "-200"
+            y: "+20",
+            scale: 0.8
         });  
     }); 
+}
+
+function setDonateTriggers(section) {
+
+    let elements = gsap.utils.toArray(".donate li");
+    elements.forEach((el, i) => {
+
+        let scale = 0.8;
+        if(window.innerWidth > 1080) {
+            scale = 1;
+        }
+
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                scrub: true,
+            },
+            scale: scale
+        });  
+    });     
+}
+
+function setHighlightTriggers() {
+
+	let elements = gsap.utils.toArray(".highlighter");
+  elements.forEach((el, i) => {
+
+  	if(i == 0) {
+  		setTimeout(() => {
+  			el.classList.add("active");
+			}, 500);
+  	}
+  	else {
+	  	ScrollTrigger.create({
+		    trigger: el,
+		    start: "-200px center",
+		    onEnter: () => el.classList.add("active")
+		  });
+		}
+  });
+
 }
 
 /* -------- UTILITY -------- */
