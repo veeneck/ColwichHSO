@@ -140,6 +140,7 @@ function loadTriggersForPage() {
     }
 
     setHighlightTriggers();
+    setButtonTriggers();
 }
 
 
@@ -220,6 +221,22 @@ function setHighlightTriggers() {
 		}
   });
 
+}
+
+function setButtonTriggers() {
+	let elements = gsap.utils.toArray(".button");
+  elements.forEach((el, i) => {
+
+  	if(i > 1) {
+   			gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                scrub: true,
+            },
+            y: "20px"
+        });  
+		}
+  });
 }
 
 /* -------- UTILITY -------- */
