@@ -182,24 +182,22 @@ function setAchievementTriggers(section) {
     }); 
 }
 
-function setDonateTriggers(section) {
+function setDonateTriggers(section) {   
 
-    let elements = gsap.utils.toArray(".donate li");
-    elements.forEach((el, i) => {
+    let links = gsap.utils.toArray(".donate li a");
+    links.forEach((el, i) => {
 
-        let scale = 0.8;
-        if(window.innerWidth > 1080) {
-            scale = 1;
-        }
+        let scale = 0;
 
         gsap.from(el, {
             scrollTrigger: {
                 trigger: el,
                 scrub: true,
+                end: "-50px"
             },
-            scale: scale
+            autoAlpha: 0
         });  
-    });     
+    }); 
 }
 
 function setHighlightTriggers() {
@@ -224,7 +222,7 @@ function setHighlightTriggers() {
 }
 
 function setButtonTriggers() {
-	let elements = gsap.utils.toArray(".button");
+	let elements = gsap.utils.toArray(".button .icon");
   elements.forEach((el, i) => {
 
   	if(i > 1) {
@@ -232,8 +230,9 @@ function setButtonTriggers() {
             scrollTrigger: {
                 trigger: el,
                 scrub: true,
+                end: "-50px"
             },
-            y: "20px"
+            x: "-50px"
         });  
 		}
   });

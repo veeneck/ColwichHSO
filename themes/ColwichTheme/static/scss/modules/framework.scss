@@ -230,7 +230,7 @@ a.highlighter.active::before {
 }
 
 .buttonText {
-	padding: 10px 15px 10px 5px;
+	padding: 15px 15px 15px 5px;
 	display: inline-block;
 
 	@include contentFor(large-screen) {
