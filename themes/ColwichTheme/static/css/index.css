@@ -2037,6 +2037,15 @@ section.module {
   }
 }
 
+.module h3 {
+  font-size: 7.5vw;
+}
+@media (min-width: 1080px) {
+  .module h3 {
+    font-size: inherit;
+  }
+}
+
 .module h2, .module h3 {
   width: 90%;
   margin: 0 auto;
@@ -2054,6 +2063,11 @@ section.module {
 
 .altBG h3 {
   color: #fff;
+}
+@media (min-width: 1080px) {
+  .altBG h3 {
+    width: 1000px;
+  }
 }
 
 .module h3 {

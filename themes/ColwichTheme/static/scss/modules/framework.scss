@@ -77,6 +77,14 @@ section.first {
 
 }
 
+.module h3 {
+	font-size: 7.5vw;
+
+	@include contentFor(normal-screen) {
+		font-size: inherit;
+	}
+}
+
 .module h2, .module h3 {
 	width: 90%;
 	margin: 0 auto;
@@ -93,6 +101,10 @@ section.first {
 
 .altBG h3 {
 	color: #fff;
+
+	@include contentFor(normal-screen) {
+		width: 1000px;
+	}
 }
 
 .module h3 {
