@@ -72,7 +72,7 @@
 
 .hero .summary {
 	margin-top: 20px;
-	display: none;
+	//display: none;
 
 	@include contentFor(large-screen) {
 		display: block;

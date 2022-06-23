@@ -1166,7 +1166,6 @@ img {
 }
 .hero .summary {
   margin-top: 20px;
-  display: none;
 }
 @media (min-width: 1300px) {
   .hero .summary {
@@ -1953,6 +1952,7 @@ section.module {
   margin-top: 75px;
   z-index: 0;
   position: relative;
+  min-height: 100vh;
 }
 @media (min-width: 765px) {
   section.module {
@@ -1968,9 +1968,6 @@ section.module {
   section.module {
     margin-top: 150px;
   }
-}
-section.first {
-  margin-top: -275px;
 }
 @media (min-width: 1080px) {
   section.first {
