@@ -27,7 +27,7 @@
 .hero h1 img {
     display: block;
     height: 35px;
-    margin: 0px auto;
+    margin: 10px auto;
 
 	@include contentFor(mini-screen) {
 		height: 35px;
