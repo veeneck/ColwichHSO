@@ -140,6 +140,14 @@
       "oAP" : "\/layouts\/partials\/auctionItem.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/button.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/button.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/carnival\/home.html" : {
       "cB" : 0,
       "ft" : 8192,

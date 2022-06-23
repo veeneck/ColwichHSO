@@ -2148,7 +2148,7 @@ a.highlighter::before {
   width: 20px;
   height: 20px;
   line-height: 20px;
-  filter: invert(68%) sepia(63%) saturate(485%) hue-rotate(4deg) brightness(101%) contrast(87%);
+  filter: brightness(0) invert(1);
   margin: 0px 10px -3px 10px;
 }
 

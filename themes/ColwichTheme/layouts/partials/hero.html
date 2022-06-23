@@ -18,7 +18,7 @@
 		{{ end }}
 		{{ if .Params.ctatext }}
 			<div class="callToAction">
-				<a href="{{ .Params.ctalink }}" class="primary button"><span class="iconContainer"><img class="icon" src="/images/icons/{{ .Params.ctaicon }}.svg" /></span><span class="buttonText">{{ .Params.ctatext }}</span></a>
+				{{ partial "button.html"  (dict "link" .Params.ctalink "class" "primary" "icon" .Params.ctaicon "text" .Params.ctatext) }}
 			</div>
 			 <div class="more">or <a href="#section1" class="highlighter">Learn More</a></div>
 		{{ end }}
