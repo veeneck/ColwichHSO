@@ -3,6 +3,7 @@
 	width: 300px;
 	text-align: center;
 	font-size: 175%;
+	color:#fff;
 
 	@include contentFor(mini-screen) {
 		font-size: 250%;
