@@ -1074,6 +1074,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/logos\/hsowhite.png" : {
+      "ft" : 32768,
+      "iS" : 55518,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/hsowhite.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/logos\/icm.jpg" : {
       "ft" : 16384,
       "iS" : 58353,
