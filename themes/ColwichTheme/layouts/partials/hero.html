@@ -18,7 +18,7 @@
 		{{ end }}
 		{{ if .Params.ctatext }}
 			<div class="callToAction">
-				<a href="{{ .Params.ctalink }}" class="primary button"><img class="icon" src="/images/icons/{{ .Params.ctaicon }}.svg" /> {{ .Params.ctatext }}</a>
+				<a href="{{ .Params.ctalink }}" class="primary button"><span class="iconContainer"><img class="icon" src="/images/icons/{{ .Params.ctaicon }}.svg" /></span><span class="buttonText">{{ .Params.ctatext }}</span></a>
 			</div>
 			 <div class="more">or <a href="#section1" class="highlighter">Learn More</a></div>
 		{{ end }}

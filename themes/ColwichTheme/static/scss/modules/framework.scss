@@ -163,8 +163,7 @@ a.highlighter::before {
 }
 
 .button {
-	border-radius: 30px;
-	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
 	margin: 10px;
 	text-decoration: none;
 	display: inline-block;
@@ -186,12 +185,33 @@ a.highlighter::before {
 	}
 
 	@include contentFor(large-screen) {
-		padding: 15px 20px 15px 15px;
 		border: 2px solid #000;
 	}
 
 	@include contentFor(xl-screen) {
 
+	}
+}
+
+.buttonText {
+	padding: 10px 15px 10px 15px;
+	display: inline-block;
+
+	@include contentFor(large-screen) {
+		padding: 15px 20px 15px 15px;
+	}
+}
+
+.iconContainer {
+	height: 100%;
+	border-right: 1px solid #000;
+	background-color: #000;
+	display: inline-block;
+	padding: 10px 5px 10px 5px;
+
+	@include contentFor(large-screen) {
+		padding: 15px 10px 15px 10px;
+		border-right: 2px solid #000;
 	}
 }
 
