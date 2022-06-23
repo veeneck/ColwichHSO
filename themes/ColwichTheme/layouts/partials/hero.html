@@ -7,7 +7,7 @@
 
 		<p><b>{{ dateFormat "January 2 at 3:00PM" .Params.event_date }}</b></p>
 		<h1>{{ .Params.title }}</h1>
-		<p class="summary">{{ .Content | safeHTML }}</p>
+		<p class="summary"><mark>{{ .Content | safeHTML }}</mark></p>
 
 		{{ else }}
 
