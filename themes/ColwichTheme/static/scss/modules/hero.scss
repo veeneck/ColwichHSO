@@ -2,7 +2,7 @@
 	margin: 0 auto;
 	width: 300px;
 	text-align: center;
-	font-size: 175%;
+	font-size: 200%;
 
 	@include contentFor(mini-screen) {
 		font-size: 250%;
