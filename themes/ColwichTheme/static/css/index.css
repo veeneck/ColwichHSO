@@ -1124,7 +1124,6 @@ img {
   width: 300px;
   text-align: center;
   font-size: 200%;
-  white-space: nowrap;
 }
 @media (min-width: 765px) {
   .hero h1 {
