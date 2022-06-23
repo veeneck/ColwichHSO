@@ -1124,6 +1124,7 @@ img {
   width: 300px;
   text-align: center;
   font-size: 200%;
+  white-space: nowrap;
 }
 @media (min-width: 765px) {
   .hero h1 {
@@ -1145,7 +1146,7 @@ img {
 }
 .hero h1 img {
   display: inline-block;
-  height: 30px;
+  height: 35px;
   margin: 0px 0px -5px;
 }
 @media (min-width: 765px) {

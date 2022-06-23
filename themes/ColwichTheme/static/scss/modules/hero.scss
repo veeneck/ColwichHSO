@@ -3,6 +3,7 @@
 	width: 300px;
 	text-align: center;
 	font-size: 200%;
+	white-space: nowrap; 
 
 	@include contentFor(mini-screen) {
 		font-size: 250%;
@@ -26,7 +27,7 @@
 
 .hero h1 img {
     display: inline-block;
-    height: 30px;
+    height: 35px;
     margin: 0px 0px -5px;
 
 	@include contentFor(mini-screen) {
