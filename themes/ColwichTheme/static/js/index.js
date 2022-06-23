@@ -176,7 +176,6 @@ function setAchievementTriggers(section) {
                 trigger: el,
                 scrub: true,
             },
-            y: "+20",
             scale: 0.8
         });  
     }); 
@@ -215,7 +214,7 @@ function setHighlightTriggers() {
   	else {
 	  	ScrollTrigger.create({
 		    trigger: el,
-		    start: "-200px center",
+		    start: "-100px center",
 		    onEnter: () => el.classList.add("active")
 		  });
 		}
