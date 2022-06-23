@@ -1565,7 +1565,7 @@ div.menu-link .icon {
   height: 4px;
   width: 30px;
   top: 25px;
-  background-color: #C93234;
+  background-color: #fff;
   border: 1px solid #000;
 }
 div.menu-link .icon:before {
@@ -1573,7 +1573,7 @@ div.menu-link .icon:before {
   position: absolute;
   width: 30px;
   height: 4px;
-  background-color: #C93234;
+  background-color: #fff;
   content: "";
   top: -11px;
   left: -1px;
@@ -1584,7 +1584,7 @@ div.menu-link .icon:after {
   position: absolute;
   width: 30px;
   height: 4px;
-  background-color: #C93234;
+  background-color: #fff;
   content: "";
   top: 9px;
   left: -1px;
