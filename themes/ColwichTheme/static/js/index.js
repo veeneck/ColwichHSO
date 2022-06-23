@@ -124,7 +124,8 @@ function loadTriggersForPage() {
 
     var triggerMap = {
         "hero" : setHeroTriggers,
-        "calendar" : setCalendarTriggers
+        "calendar" : setCalendarTriggers,
+        "achievements" : setAchievementTriggers
     };
 
     const sections = document.getElementsByTagName('section');
@@ -161,6 +162,20 @@ function setCalendarTriggers(section) {
             scale: scale
         });  
     });     
+}
+
+function setAchievementTriggers(section) {
+	  let elements = gsap.utils.toArray(".achievements li");
+    elements.forEach((el, i) => {
+
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                scrub: true,
+            },
+            x: "-200"
+        });  
+    }); 
 }
 
 /* -------- UTILITY -------- */
