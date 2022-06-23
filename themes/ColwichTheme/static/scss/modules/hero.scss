@@ -78,7 +78,12 @@
 		display: block;
 
 	}
+}
 
+mark {
+	background-color: #fff;
+	padding: 5px;
+	-webkit-box-decoration-break: clone;
 }
 
 .hero p b {
