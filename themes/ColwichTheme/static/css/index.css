@@ -177,7 +177,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4705882353rem;
+  font-size: 1.1875rem;
   margin-bottom: 18.4615384615px;
   color: #C93234;
   font-family: "rubik", serif;
@@ -2042,7 +2042,13 @@ section.module {
 }
 @media (min-width: 1080px) {
   .module h3 {
-    font-size: inherit;
+    font-size: 2.0833333333rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .module h2 {
+    font-size: 120%;
   }
 }
 

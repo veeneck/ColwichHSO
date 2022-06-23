@@ -81,7 +81,14 @@ section.first {
 	font-size: 7.5vw;
 
 	@include contentFor(normal-screen) {
-		font-size: inherit;
+		font-size: calc($header-size / 1.2);
+	}
+}
+
+.module h2 {
+	@include contentFor(large-screen) {
+		font-size: 120%;
+
 	}
 }
 
