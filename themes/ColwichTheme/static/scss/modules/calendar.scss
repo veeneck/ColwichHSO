@@ -45,7 +45,11 @@
 	color: #fff;
 	width: 50px;
 	border-radius: 4px;
-	border: 2px solid #000;
+	border: 1px solid #000;
+
+	@include contentFor(normal-screen) {
+		border: 2px solid #000;
+	}
 }
 
 .calendar .month {

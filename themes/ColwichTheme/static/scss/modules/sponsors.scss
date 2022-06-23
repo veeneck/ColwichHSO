@@ -8,8 +8,12 @@
 
 .sponsors li {
 	list-style: none;
-	margin: 10px;
-	width: 30%;
+	margin: 1%;
+	width: 45%;
+	padding: 30px;
+	box-sizing: border-box;
+		border-radius: 5px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 
 	@include contentFor(mini-screen) {
 		margin: 20px;
@@ -17,7 +21,7 @@
 	}
 
 	@include contentFor(large-screen) {
-		margin: 40px;
+		margin: 30px;
 		width: 200px;
 	}
 }
@@ -25,6 +29,7 @@
 .sponsors ul img {
 	filter: grayscale(100%);
 	width: 100%;
+	height: 60px;
 }
 
 .sponsors ul a:hover img {
@@ -34,7 +39,7 @@
 .sponsors p {
 	text-align: center;
 	width: 90%;
-	margin: 0 auto;
+	margin: 50px auto;
 	line-height: 40px;
 
 	@include contentFor(mini-screen) {

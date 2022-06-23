@@ -79,16 +79,19 @@ section.first {
 
 .module h3 {
 	font-size: 7.5vw;
+	display: none;
 
 	@include contentFor(normal-screen) {
 		font-size: calc($header-size / 1.2);
+		display: block;
 	}
 }
 
 .module h2 {
-	@include contentFor(large-screen) {
+	display: none;
+	@include contentFor(normal-screen) {
 		font-size: 120%;
-
+		display: block;
 	}
 }
 

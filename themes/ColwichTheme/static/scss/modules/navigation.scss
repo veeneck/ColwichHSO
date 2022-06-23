@@ -288,7 +288,6 @@ ul.nav {
 	visibility: visible;
     margin: 0 auto;
     width: 100%;
-    text-align: center;
     padding-top: 22px;
             -webkit-animation-name: fadeInDown;
         animation-name: fadeInDown;
@@ -298,6 +297,12 @@ ul.nav {
         -webkit-animation-name: none;
         animation-name: none;
     }
+
+	height: 100%;
+	align-content: center;
+	width: 50%;
+	text-align: left;
+
 }
 
 .open ul.nav li {

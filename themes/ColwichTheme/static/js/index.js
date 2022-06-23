@@ -193,7 +193,7 @@ function setDonateTriggers(section) {
             scrollTrigger: {
                 trigger: el,
                 scrub: true,
-                end: "-50px"
+                start: "-100px center",
             },
             autoAlpha: 0
         });  
@@ -230,9 +230,9 @@ function setButtonTriggers() {
             scrollTrigger: {
                 trigger: el,
                 scrub: true,
-                end: "-50px"
+                end: "-300px"
             },
-            x: "-50px"
+            x: "-40px"
         });  
 		}
   });
