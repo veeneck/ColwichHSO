@@ -240,9 +240,11 @@ div.menu-link {
 // When we want nav to appear, change the height
 nav[role=navigation].open {
     width: 100%;
+    height: 100vh;
     position: absolute;
     top: 0px;
     left: 0px;
+    box-sizing: border-box;
     border-bottom: 3px solid $red;
     background-color: #fff;
      -webkit-animation-name: fadeInDown;
