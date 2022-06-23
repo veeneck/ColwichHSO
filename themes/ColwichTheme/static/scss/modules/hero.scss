@@ -90,7 +90,7 @@ mark {
 	margin-top: 50px;
 	display: inline-block;
 	color: $red;
-	font-size: 90%;
+	font-size: 100%;
 	font-weight: bold;
 
 	@include contentFor(mini-screen) {
