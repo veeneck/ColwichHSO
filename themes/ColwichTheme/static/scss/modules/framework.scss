@@ -77,9 +77,13 @@ section.first {
 }
 
 .module h2, .module h3 {
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	text-align: center;
+
+	@include contentFor(normal-screen) {
+		width: 1000px;
+	}
 }
 
 .altBG h2, .altBG h3 {

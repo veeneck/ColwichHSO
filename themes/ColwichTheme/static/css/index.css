@@ -1997,9 +1997,14 @@ section.first {
 }
 
 .module h2, .module h3 {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
+}
+@media (min-width: 1080px) {
+  .module h2, .module h3 {
+    width: 1000px;
+  }
 }
 
 .altBG h2, .altBG h3 {
