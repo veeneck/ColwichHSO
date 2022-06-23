@@ -1240,7 +1240,7 @@ mark {
   margin: 0 auto;
   width: 300px;
   text-align: center;
-  font-size: 100%;
+  font-size: 115%;
 }
 @media (min-width: 1300px) {
   .more {
@@ -2130,7 +2130,7 @@ a.highlighter.active::before {
   font-weight: bold;
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
   border: 1px solid #000;
-  font-size: 90%;
+  font-size: 100%;
 }
 @media (min-width: 1080px) {
   .button {
