@@ -15,6 +15,7 @@ function ready(fn) {
 function loadPage() {
 	bringElementsIntoView();
 	initMobileListeners();
+	loadTriggersForPage();
 }
 
 /* -------- MOBILE MENU -------- */
@@ -114,6 +115,52 @@ function isScrolledIntoView(el, leading) {
     // Partially visible elements return true:
     var isVisible = elemTop < (window.innerHeight + leading) && elemBottom >= 0;
     return isVisible;
+}
+
+
+/* -------- SCROLLTRIGGER-------- */
+
+function loadTriggersForPage() {
+
+    var triggerMap = {
+        "hero" : setHeroTriggers,
+        "calendar" : setCalendarTriggers
+    };
+
+    const sections = document.getElementsByTagName('section');
+
+    for (const section of sections) {
+    		for (const name of section.classList) {
+					 if(name in triggerMap) {
+            triggerMap[name](section);
+        	}
+				}
+    }
+}
+
+
+function setHeroTriggers(section) {
+     
+}
+
+function setCalendarTriggers(section) {
+
+    let elements = gsap.utils.toArray(".calendar li");
+    elements.forEach((el, i) => {
+
+        let scale = 0.8;
+        if(window.innerWidth > 1080) {
+            scale = 1;
+        }
+
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                scrub: true,
+            },
+            scale: scale
+        });  
+    });     
 }
 
 /* -------- UTILITY -------- */
