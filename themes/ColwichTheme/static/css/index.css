@@ -1144,13 +1144,18 @@ img {
   }
 }
 .hero h1 img {
-  display: inline-block;
+  display: block;
   height: 35px;
-  margin: 0px 0px -5px;
+  margin: 0px auto;
 }
 @media (min-width: 765px) {
   .hero h1 img {
     height: 35px;
+  }
+}
+@media (min-width: 1080px) {
+  .hero h1 img {
+    display: inline-block;
   }
 }
 @media (min-width: 1300px) {
