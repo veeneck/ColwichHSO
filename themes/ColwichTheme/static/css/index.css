@@ -1123,7 +1123,7 @@ img {
   margin: 0 auto;
   width: 300px;
   text-align: center;
-  font-size: 8vw;
+  font-size: 7.5vw;
 }
 @media (min-width: 765px) {
   .hero h1 {
