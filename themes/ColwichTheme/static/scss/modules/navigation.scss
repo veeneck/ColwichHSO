@@ -248,7 +248,7 @@ a.dropbtn:hover span {
 .mobileMenuItem .icon, .mobileMenuFB .icon {
     margin-left: 0px;
 
-    @include contentFor(normal-screen) {
+    @include contentFor(xl-screen) {
         display: block;
         margin-top: 3px;
     }
@@ -265,7 +265,7 @@ ul.nav li.mobileMenuFB span {
     color: #000;
     font-size: 100%;
 
-    @include contentFor(normal-screen) {
+    @include contentFor(xl-screen) {
         display: none;
     }
 }

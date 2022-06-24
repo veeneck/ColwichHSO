@@ -1531,7 +1531,7 @@ a.dropbtn:hover span {
 .mobileMenuItem .icon, .mobileMenuFB .icon {
   margin-left: 0px;
 }
-@media (min-width: 1080px) {
+@media (min-width: 2000px) {
   .mobileMenuItem .icon, .mobileMenuFB .icon {
     display: block;
     margin-top: 3px;
@@ -1547,7 +1547,7 @@ ul.nav li.mobileMenuFB span {
   color: #000;
   font-size: 100%;
 }
-@media (min-width: 1080px) {
+@media (min-width: 2000px) {
   ul.nav li.mobileMenuFB span {
     display: none;
   }
