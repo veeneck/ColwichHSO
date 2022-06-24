@@ -1,3 +1,11 @@
+section.hero {
+	min-height: 700px;
+
+	@include contentFor(large-screen) {
+		padding-bottom: 300px !important;
+	}
+}
+
 .hero h1 {
 	margin: 0 auto;
 	width: 300px;

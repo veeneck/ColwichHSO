@@ -1,155 +1,131 @@
+/*-----------------MAIN NAV LAYOUT---------------*/
+
+
 header {
-	padding: 50px 20px 20px 20px;
-	@include flex();
-	font-weight: bold;
-	position: relative;
-	z-index: 1;
+    padding: 20px;
+    @include flex();
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
 
-	@include contentFor(mini-screen) {
+    @include contentFor(large-screen) {
+        padding: 50px;
+    }
 
-	}
-
-	@include contentFor(normal-screen) {
-		padding: 80px 50px 50px 50px;
-		justify-content: center;
-	}
-
-	@include contentFor(large-screen) {
-
-	}
-
-	@include contentFor(xl-screen) {
-
-	}
+    @include contentFor(xl-screen) {
+        padding: 50px;
+        justify-content: space-between;
+    }
 }
 
 header .logo {
-	width: 50%;
-	margin: -30px 0px 0px 0px;
+    width: 50%;
 
-
-	@include contentFor(mini-screen) {
-
-	}
-
-	@include contentFor(normal-screen) {
-	
-	}
-
-	@include contentFor(large-screen) {
-		width: 12%;
-	}
-
-	@include contentFor(xl-screen) {
-
-	}
+    @include contentFor(xl-screen) {
+        width: 13%;
+    }
 }
 
 .logo img {
-	width: 125px;
-	margin: 0px;
+    width: 125px;
+    margin: 0px;
 
-	@include contentFor(mini-screen) {
-		width: 150px;
-	}
+    @include contentFor(mini-screen) {
+        width: 150px;
+    }
 
-	@include contentFor(normal-screen) {
-		width: 175px;
-	}
+    @include contentFor(normal-screen) {
+        width: 175px;
+    }
 
-	@include contentFor(large-screen) {
-		width: 200px;
-	}
+    @include contentFor(large-screen) {
+        width: 200px;
+    }
 
-	@include contentFor(xl-screen) {
+    @include contentFor(xl-screen) {
 
-	}
+    }
 }
 
+// Only show donate button on XL screen.
 header .donate {
-	width: 10%;
-	text-align: right;
-	visibility: hidden;
-		height: 0px;
+    width: 0%;
+    text-align: right;
+    visibility: hidden;
+    height: 0px;
 
-
-	@include contentFor(mini-screen) {
-
-	}
-
-	@include contentFor(normal-screen) {
-	
-	}
-
-	@include contentFor(large-screen) {
-		visibility: visible;
-	}
-
-	@include contentFor(xl-screen) {
-
-	}
+    @include contentFor(xl-screen) {
+        visibility: visible;
+        width: 13%;
+    }
 }
 
-header .nav {
-	width: 50%;
-	text-align: center;
-	font-size: 120%;
-	visibility: hidden;
-	position: relative;
-	z-index: 3;
+// Only show navigation menu on XL screen.
+header ul.nav {
+    width: 50%;
+    text-align: center;
+    font-size: 120%;
+    visibility: hidden;
+    position: relative;
+    z-index: 3;
+    @include flex();
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100%;
 
-	@include contentFor(mini-screen) {
-
-	}
-
-	@include contentFor(normal-screen) {
-		visibility: visible;
-	}
-
-	@include contentFor(large-screen) {
-		width: 78%;
-	}
-
-	@include contentFor(xl-screen) {
-
-	}
+    @include contentFor(xl-screen) {
+        width: 100%;
+        visibility: visible;
+        height: 50px;
+        align-content: center;
+    }
 }
 
-ul.nav {
-	@include flex();
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: 0px;
-	width: 100%;
+
+/*-----------------NAV MENU STYLE---------------*/
+
+nav[role=navigation] {
+    @extend %clearfix;
+    width: 0px;
+    height: 0px;
+    @include contentFor(normal-screen) {
+        width: 100%;
+    }
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-transform-style: preserve-3d;
 }
 
 ul.nav li {
-	list-style: none;
-	margin: 0px 20px;
-	height: 0px;
+    list-style: none;
+    margin: 0px 20px;
+    height: 0px;
 }
 
 nav.open ul.nav li {
-	width: 100%;
+    width: 100%;
 }
 
 ul.nav li span {
-	font-size: 65%;
-	padding-left: 5px;
-	color: $gold;
-	text-stroke: 2px red;
+    font-size: 65%;
+    padding-left: 5px;
+    color: $gold;
+    text-stroke: 2px red;
 }
 
 .nav a {
-	text-decoration: none;
-	color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
-.donate .button {
-	margin-top: -15px;
-}
+/*-----------------FIRST LEVEL DROP DOWNS---------------*/
 
-.dropbtn {
+dropbtn {
   border: none;
   cursor: pointer;
   text-decoration: none;
@@ -157,7 +133,7 @@ ul.nav li span {
 }
 
 .dropbtn:hover {
-	color: #000;
+    color: #000;
 }
 
 .dropdown {
@@ -165,13 +141,13 @@ ul.nav li span {
 }
 
 .dropdown-content {
-  display: none;
-  min-width: 160px;
-  z-index: 2;
-  background-color: $red;
-  width: 250px;
-  padding: 10px;
-  text-align: left;
+    display: none;
+    min-width: 160px;
+    z-index: 2;
+    background-color: $red;
+    width: 250px;
+    padding: 10px;
+    text-align: left;
 
     @include contentFor(normal-screen) {
         border: 2px solid #000;
@@ -181,7 +157,7 @@ ul.nav li span {
         border-radius: 4px;
     }
 
-        -webkit-animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
     animation-duration: 0.3s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
@@ -198,7 +174,11 @@ ul.nav li span {
   font-weight: normal;
 }
 
-.dropdown-content a:hover {background-color: $lightRed; }
+.dropdown-content a:hover {
+    background-color: $lightRed; 
+}
+
+/*----------------------- MOIBLE MENU STYLING ------------------------------ */
 
 .subopen .dropdown-content {
   display: block;
@@ -275,38 +255,22 @@ ul.nav li.mobileMenuFB span {
 }
 
 
-/*-----------------Dropdown Menu---------------*/
+/*----------------------- Hamburger Functionality ------------------------------ */
 
-
-nav[role=navigation] {
-    @extend %clearfix;
-    //overflow: hidden;
-    width: 0px;
-    @include contentFor(normal-screen) {
-    	flex-grow: 5;
-        height: 89px;
-    }
-    -webkit-animation-duration: 0.2s;
-    animation-duration: 0.2s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
-    -webkit-transform-style: preserve-3d;
-}
+/// Credit: https://codepen.io/bradfrost/pen/sHvaz
 
 div.menu-link {
     padding: 1em;
     color: $darkRed;
+    width: 50%;
+    position: relative;
+    text-align: right;
 
-    @include contentFor(normal-screen) {
+    @include contentFor(xl-screen) {
         display: none;
+        width: 0px;
     }
 }
-
-/*----------------------- Hamburger Functionality ------------------------------ */
-
-/// Credit: https://codepen.io/bradfrost/pen/sHvaz
 
 .firstView {
     animation-name: none !important;
@@ -367,7 +331,7 @@ ul.nav {
 }
 
 .open ul.nav {
-	visibility: visible;
+    visibility: visible;
     margin: 0 auto;
     width: 100%;
     padding-left: 50px;
@@ -394,14 +358,14 @@ ul.nav {
 
     }
 
-	height: 100%;
-	align-content: center;
-	text-align: left;
+    height: 100%;
+    align-content: center;
+    text-align: left;
 
 }
 
 .open ul.nav li {
-	display: block !important;
+    display: block !important;
     margin: 25px 0px;
 }
 
@@ -411,11 +375,7 @@ ul.nav {
 
 
 @mixin btn($left, $top) {
-    width: 20px;
-    top: $top;
-    right: $left;
     transition-duration: 0.5s;
-    position: absolute;
 }
 
 @mixin icon($height, $width) {
@@ -423,7 +383,8 @@ ul.nav {
     position: absolute;
     height: $height;
     width: $width;
-    top: 25px;
+    top: 45%;
+    right: 0px;
     background-color: $red;
     border: 1px solid #000;
 }

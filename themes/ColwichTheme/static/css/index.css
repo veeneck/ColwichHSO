@@ -1129,6 +1129,15 @@ img {
     width: 800px;
   }
 }
+section.hero {
+  min-height: 700px;
+}
+@media (min-width: 1300px) {
+  section.hero {
+    padding-bottom: 300px !important;
+  }
+}
+
 .hero h1 {
   margin: 0 auto;
   width: 300px;
@@ -1262,8 +1271,9 @@ mark {
     width: 600px;
   }
 }
+/*-----------------MAIN NAV LAYOUT---------------*/
 header {
-  padding: 50px 20px 20px 20px;
+  padding: 20px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1273,21 +1283,27 @@ header {
   position: relative;
   z-index: 1;
 }
-@media (min-width: 1080px) {
+@media (min-width: 1300px) {
   header {
-    padding: 80px 50px 50px 50px;
-    justify-content: center;
+    padding: 50px;
   }
 }
+@media (min-width: 2000px) {
+  header {
+    padding: 50px;
+    justify-content: space-between;
+  }
+}
+
 header .logo {
   width: 50%;
-  margin: -30px 0px 0px 0px;
 }
-@media (min-width: 1300px) {
+@media (min-width: 2000px) {
   header .logo {
-    width: 12%;
+    width: 13%;
   }
 }
+
 .logo img {
   width: 125px;
   margin: 0px;
@@ -1308,35 +1324,25 @@ header .logo {
   }
 }
 header .donate {
-  width: 10%;
+  width: 0%;
   text-align: right;
   visibility: hidden;
   height: 0px;
 }
-@media (min-width: 1300px) {
+@media (min-width: 2000px) {
   header .donate {
     visibility: visible;
+    width: 13%;
   }
 }
-header .nav {
+
+header ul.nav {
   width: 50%;
   text-align: center;
   font-size: 120%;
   visibility: hidden;
   position: relative;
   z-index: 3;
-}
-@media (min-width: 1080px) {
-  header .nav {
-    visibility: visible;
-  }
-}
-@media (min-width: 1300px) {
-  header .nav {
-    width: 78%;
-  }
-}
-ul.nav {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1346,6 +1352,32 @@ ul.nav {
   flex-wrap: wrap;
   margin: 0px;
   width: 100%;
+}
+@media (min-width: 2000px) {
+  header ul.nav {
+    width: 100%;
+    visibility: visible;
+    height: 50px;
+    align-content: center;
+  }
+}
+
+/*-----------------NAV MENU STYLE---------------*/
+nav[role=navigation] {
+  width: 0px;
+  height: 0px;
+  -webkit-animation-duration: 0.2s;
+  animation-duration: 0.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-transform-style: preserve-3d;
+}
+@media (min-width: 1080px) {
+  nav[role=navigation] {
+    width: 100%;
+  }
 }
 
 ul.nav li {
@@ -1370,11 +1402,8 @@ ul.nav li span {
   color: #000;
 }
 
-.donate .button {
-  margin-top: -15px;
-}
-
-.dropbtn {
+/*-----------------FIRST LEVEL DROP DOWNS---------------*/
+dropbtn {
   border: none;
   cursor: pointer;
   text-decoration: none;
@@ -1427,6 +1456,7 @@ ul.nav li span {
   background-color: #E06769;
 }
 
+/*----------------------- MOIBLE MENU STYLING ------------------------------ */
 .subopen .dropdown-content {
   display: block;
   position: absolute;
@@ -1506,35 +1536,21 @@ ul.nav li.mobileMenuFB span {
   }
 }
 
-/*-----------------Dropdown Menu---------------*/
-nav[role=navigation] {
-  width: 0px;
-  -webkit-animation-duration: 0.2s;
-  animation-duration: 0.2s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-transform-style: preserve-3d;
-}
-@media (min-width: 1080px) {
-  nav[role=navigation] {
-    flex-grow: 5;
-    height: 89px;
-  }
-}
-
+/*----------------------- Hamburger Functionality ------------------------------ */
 div.menu-link {
   padding: 1em;
   color: #A62C2E;
+  width: 50%;
+  position: relative;
+  text-align: right;
 }
-@media (min-width: 1080px) {
+@media (min-width: 2000px) {
   div.menu-link {
     display: none;
+    width: 0px;
   }
 }
 
-/*----------------------- Hamburger Functionality ------------------------------ */
 .firstView {
   animation-name: none !important;
   visibility: hidden !important;
@@ -1626,19 +1642,11 @@ ul.nav {
 
 /*----------------- Hamburger Animation -----------------*/
 div.menu-link {
-  width: 20px;
-  top: 15px;
-  right: 30px;
   transition-duration: 0.5s;
-  position: absolute;
 }
 @media (min-width: 1080px) {
   div.menu-link {
-    width: 20px;
-    top: 20px;
-    right: 20px;
     transition-duration: 0.5s;
-    position: absolute;
   }
 }
 div.menu-link .icon {
@@ -1647,7 +1655,8 @@ div.menu-link .icon {
   position: absolute;
   height: 4px;
   width: 30px;
-  top: 25px;
+  top: 45%;
+  right: 0px;
   background-color: #C93234;
   border: 1px solid #000;
 }
@@ -2044,9 +2053,9 @@ body section:nth-child(1) {
 
 section.module {
   margin-top: 75px;
+  padding-bottom: 75px;
   z-index: 0;
   position: relative;
-  min-height: 100vh;
 }
 @media (min-width: 765px) {
   section.module {
