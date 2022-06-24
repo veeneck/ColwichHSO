@@ -282,3 +282,7 @@ a.highlighter.active::before {
 	filter: brightness(0) invert(1);
 	margin: 0px 10px -3px 10px;
 }
+
+.invertIcon {
+	filter: brightness(0);
+}
