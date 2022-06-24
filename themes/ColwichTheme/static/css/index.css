@@ -1252,12 +1252,14 @@ mark {
   }
 }
 .wufooForm {
-  margin: -300px auto 0 auto;
+  margin: -200px auto 0 auto;
+  position: relative;
+  z-index: 10;
   width: 1000px;
   border-radius: 4px;
   border: 20px solid #fff;
   background-color: #fff;
-  height: 1000px;
+  min-height: 500px;
 }
 
 .more {
@@ -1783,6 +1785,20 @@ div.menu-link:hover {
   }
 }
 
+section.module.featured_image.first {
+  margin-top: -275px;
+}
+@media (min-width: 1080px) {
+  section.module.featured_image.first {
+    margin-top: -200px;
+  }
+}
+@media (min-width: 1300px) {
+  section.module.featured_image.first {
+    margin-top: -200px;
+  }
+}
+
 .module.featured_image .content {
   width: 100%;
   margin-top: 50px;
@@ -2087,16 +2103,6 @@ section.module {
 @media (min-width: 1300px) {
   section.module {
     margin-top: 150px;
-  }
-}
-@media (min-width: 1080px) {
-  section.first {
-    margin-top: -200px;
-  }
-}
-@media (min-width: 1300px) {
-  section.first {
-    margin-top: -200px;
   }
 }
 .module .content {

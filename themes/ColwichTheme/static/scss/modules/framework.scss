@@ -43,11 +43,11 @@ section.first {
 	}
 
 	@include contentFor(normal-screen) {
-		margin-top: -200px;
+		//margin-top: -200px;
 	}
 
 	@include contentFor(large-screen) {
-		margin-top: -200px;
+		//margin-top: -200px;
 	}
 
 	@include contentFor(xl-screen) {
