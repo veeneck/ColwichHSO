@@ -29,6 +29,14 @@ function initMobileListeners() {
 	$menulink.addEventListener("click", function(event) {
 	  event.preventDefault();
 
+	  /// If the submenu is open, close it 
+	  if(hasClass(this, "open")) {
+		  let elements = gsap.utils.toArray(".topmenu");
+	    elements.forEach((el, i) => {
+	    		removeClass(el.parentNode, "subopen");
+	    });
+   }
+
 	  /// Set the hamburger icon to open
 	  toggleClass(this, 'open');
 
@@ -43,19 +51,25 @@ function initMobileListeners() {
 	  	removeClass($menu, 'firstView');
 	  }
 
-	  // To make it look like the border moves, toggle noborder  with the above.
-	  /// On open, there is no delay. On close, it has to wait until the close animation finishes.
-	  if(hasClass($menu, 'closed')) {
-		  setTimeout(function() {
-	  		removeClass(header, 'noborder');
-		  }, 300);
-	  }
-	  else {
-	  	addClass(header, 'noborder');
-	  }
-
 	  return false;
 	});
+
+	  let elements = gsap.utils.toArray(".topmenu");
+    elements.forEach((el, i) => {
+    	el.addEventListener("click", function(event) {
+    			toggleClass(this.parentNode, "subopen");
+    			return false;
+    	})
+    });
+
+    let backbtns = gsap.utils.toArray(".backBtn");
+    backbtns.forEach((el, i) => {
+    	el.addEventListener("click", function(event) {
+    			toggleClass(this.parentNode.parentNode, "subopen");
+    			return false;
+    	})
+    });
+
 }
 
 /* -------- TEMPORARY PARALLAX ON SCROLL -----------------*/
