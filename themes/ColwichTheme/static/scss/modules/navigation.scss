@@ -136,6 +136,10 @@ dropbtn {
     color: #000;
 }
 
+a.dropbtn:hover span {
+    color: $red;
+}
+
 .dropdown {
   display: inline-block;
 }
@@ -143,18 +147,20 @@ dropbtn {
 .dropdown-content {
     display: none;
     min-width: 160px;
-    z-index: 2;
+    z-index: 1;
     background-color: $red;
     width: 250px;
     padding: 10px;
     text-align: left;
 
-    @include contentFor(normal-screen) {
-        border: 2px solid #000;
+    @include contentFor(xl-screen) {
         margin-left: -62px;
+        margin-top: -5px;
         box-shadow: 0 15px 60px rgba(62,62,62,.102);
         position: absolute;
         border-radius: 4px;
+        padding: 30px;
+        background-color: #fff;
     }
 
     -webkit-animation-duration: 0.3s;
@@ -172,15 +178,25 @@ dropbtn {
   text-decoration: none;
   display: block;
   font-weight: normal;
+
+   @include contentFor(xl-screen) {
+    color: #000;
+   }
 }
 
 .dropdown-content a:hover {
-    background-color: $lightRed; 
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    @include contentFor(xl-screen) {
+        display: block;
+    }
 }
 
 /*----------------------- MOIBLE MENU STYLING ------------------------------ */
 
-.subopen .dropdown-content {
+.open .subopen .dropdown-content {
   display: block;
   position: absolute;
   top: 0;
@@ -202,21 +218,21 @@ dropbtn {
     }
 }
 
-.subopen a {
+.open .subopen a {
     width: 100%;
     padding: 10px;
     font-weight: bolder;
 }
 
-.backBtn {
+.dropdown-content a.backBtn {
     display: none;
 }
 
-.subopen .backBtn {
+.open .subopen .backBtn {
     display: block;
 }
 
-.subopen .backBtn {
+.open .subopen .backBtn {
     font-weight: normal;
 }
 
