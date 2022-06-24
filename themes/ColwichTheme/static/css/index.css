@@ -1448,6 +1448,11 @@ ul.nav li span {
   width: 100%;
   padding-left: 50px;
 }
+@media (min-width: 765px) {
+  .subopen .dropdown-content {
+    padding-left: 20%;
+  }
+}
 
 .subopen a {
   width: 100%;
@@ -1482,6 +1487,7 @@ ul.nav li span {
 @media (min-width: 1080px) {
   .mobileMenuItem .icon, .mobileMenuFB .icon {
     display: block;
+    margin-top: 3px;
   }
 }
 

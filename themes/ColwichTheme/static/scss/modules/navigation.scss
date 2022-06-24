@@ -216,6 +216,10 @@ ul.nav li span {
   margin: -20px 0px 0px 0px;
   width: 100%;
   padding-left: 50px;
+
+    @include contentFor(mini-screen) {
+       padding-left: 20%;
+    }
 }
 
 .subopen a {
@@ -250,6 +254,7 @@ ul.nav li span {
 
     @include contentFor(normal-screen) {
         display: block;
+        margin-top: 3px;
     }
 }
 
