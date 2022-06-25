@@ -76,7 +76,7 @@ section.module.featured_image.first {
 
 	@include contentFor(large-screen) {
 		width: 35%;
-		height: 500px;
+		height: 550px;
 	}
 
 	@include contentFor(xl-screen) {
@@ -90,7 +90,7 @@ section.module.featured_image.first {
 
 .polaroid img {
 	width: 30%;
-	height: 400px;
+	height: 550px;
 	object-fit: cover;
 	border-radius: 4px;
 	border: 20px solid #fff;

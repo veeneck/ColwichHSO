@@ -16,8 +16,11 @@
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 
 	@include contentFor(mini-screen) {
-		margin: 20px;
-		width: 30%;
+		width: 48%;
+	}
+
+	@include contentFor(tablet-screen) {
+		width: 31%;
 	}
 
 	@include contentFor(large-screen) {

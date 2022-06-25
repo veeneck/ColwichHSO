@@ -12,10 +12,10 @@ background-size: cover;
 	justify-content: center;
 	align-items: center;
 	padding: 20px;
+	flex-wrap: wrap;
 }
 
 .footer .logo {
-	width: 30%;
 	text-align: left;
 
 	@include contentFor(mini-screen) {
@@ -23,7 +23,7 @@ background-size: cover;
 	}
 
 	@include contentFor(normal-screen) {
-
+		width: 30%;
 	}
 
 	@include contentFor(large-screen) {
@@ -36,9 +36,9 @@ background-size: cover;
 }
 
 .footer .social_links {
-	width: 70%;
+	width: 100%;
 	@include flex();
-	justify-content: right;
+	justify-content: center;
 	margin: 0;
 
 	@include contentFor(mini-screen) {
@@ -46,7 +46,8 @@ background-size: cover;
 	}
 
 	@include contentFor(normal-screen) {
-
+		width: 70%;
+		justify-content: right;
 	}
 
 	@include contentFor(large-screen) {
@@ -70,8 +71,12 @@ background-size: cover;
 
 .footer_lists {
 	@include flex();
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
+
+	@include contentFor(mini-screen) {
+		justify-content: space-between;
+	}
 }
 
 .footer_lists ul {
@@ -84,7 +89,8 @@ background-size: cover;
 	width: 100%;
 
 	@include contentFor(mini-screen) {
-		width: 45%;
+		width: 48%;
+		margin:1%;
 	}
 
 	@include contentFor(normal-screen) {
@@ -110,4 +116,8 @@ background-size: cover;
 
 .footer_lists ul li:first-child {
 	margin-top: 25px;
+}
+
+hr {
+	background-color: #404040;
 }

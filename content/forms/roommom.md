@@ -7,7 +7,7 @@ url: "/forms/roommom"
 fullUrl: "https://colwichhso.com/forms/roommom"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Room Mom Application
-shoutout: We Need You! Apply Here.
+shoutout: We Need You!<br />Apply Here.
 overview: Thanks for considering the room mom position. Please fill out the form below with your contact and grade level details.
 modules:
 - modules/common/sponsors.md

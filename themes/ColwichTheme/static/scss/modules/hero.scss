@@ -111,7 +111,7 @@ mark {
 
 	@include contentFor(large-screen) {
 		font-size: 120%;
-
+		margin-top: 75px;
 	}
 
 	@include contentFor(xl-screen) {
@@ -145,11 +145,12 @@ mark {
 	margin: -200px auto 0 auto;
 	position: relative;
 	z-index: 10;
-	width: 1000px;
+	max-width: 1000px;
 	border-radius: 4px;
 	border: 20px solid #fff;
 	background-color: #fff;
 	min-height: 500px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 }
 
 .more {

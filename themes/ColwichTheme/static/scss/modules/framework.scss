@@ -13,7 +13,7 @@ body section:nth-child(1) {
 }
 
 section.module {
-	margin-top: 75px;
+	margin-top: 50px;
 	padding-bottom: 75px;
 	z-index: 0;
 	position: relative;
@@ -23,11 +23,11 @@ section.module {
 	}
 
 	@include contentFor(normal-screen) {
-		margin-top: 125px;
+		//margin-top: 125px;
 	}
 
 	@include contentFor(large-screen) {
-		margin-top: 150px;
+		//margin-top: 150px;
 	}
 
 	@include contentFor(xl-screen) {
@@ -81,7 +81,7 @@ section.first {
 	font-size: 7.5vw;
 	display: none;
 
-	@include contentFor(normal-screen) {
+	@include contentFor(mini-screen) {
 		font-size: calc($header-size / 1.2);
 		display: block;
 	}
@@ -89,7 +89,7 @@ section.first {
 
 .module h2 {
 	display: none;
-	@include contentFor(normal-screen) {
+	@include contentFor(mini-screen) {
 		font-size: 120%;
 		display: block;
 	}
