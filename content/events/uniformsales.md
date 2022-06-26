@@ -7,11 +7,11 @@ url: "/calendar/uniform"
 fullUrl: "https://colwichhso.com/calendar/uniform"
 pageImage: "https://colwichhso.com/og_img.png"
 faq_category: uniform
-ctatext: Sync With Your Calendar
+ctatext: Add To Your Calendar
 ctalink: /redesign
 ctaicon: calendar
-image: "/images/flyers/UniformSale.jpg"
-custom_class: show_image
+image: "/images/flyers/UniformSaleWeb.jpg"
+custom_class: "show_image event_uniform"
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -20,9 +20,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/flyers/UniformSale.jpg
-- /images/flyers/UniformSale.jpg
-- /images/flyers/UniformSale.jpg
-- /images/flyers/UniformSale.jpg
+- /images/flyers/UniformSaleWeb.jpg
+- /images/flyers/UniformSaleWeb.jpg
+- /images/flyers/UniformSaleWeb.jpg
+- /images/flyers/UniformSaleWeb.jpg
 ---
-Prepare for the new school year with our used uniform sales. <b>S</b>top by during enrollment on **August 2nd**, from **8am** to **8pm**, to shop used uniforms. [Want to sell? Check out the FAQ.]()
+Prepare for the new school year with our used uniform sales. Stop by during enrollment on **August 2nd**, from **8am** to **8pm**, to shop used uniforms.

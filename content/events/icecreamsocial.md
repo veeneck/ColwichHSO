@@ -7,9 +7,11 @@ url: "/calendar/icecream"
 fullUrl: "https://colwichhso.com/calendar/icecream"
 pageImage: "https://colwichhso.com/og_img.png"
 faq_category: icecream
-ctatext: Sync With Your Calendar
+ctatext: Add To Your Calendar
 ctalink: /redesign
-image: "/images/events/icecream.jpg"
+ctaicon: calendar
+image: "/images/flyers/IceCreamSocialWeb.jpg"
+custom_class: "show_image event_icecream"
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -17,5 +19,10 @@ modules:
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md
+polaroid: 
+- /images/flyers/IceCreamSocialWeb.jpg
+- /images/flyers/IceCreamSocialWeb.jpg
+- /images/flyers/IceCreamSocialWeb.jpg
+- /images/flyers/IceCreamSocialWeb.jpg
 ---
-This is where the full text description of the event will go.
+Back to School night! We hope to see you on **August 16th** between 3:00pm-6:00pm. Stop by and meet your teachers, staff and classmates!

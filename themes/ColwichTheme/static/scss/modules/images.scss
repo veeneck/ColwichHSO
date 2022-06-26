@@ -85,7 +85,7 @@ section.module.featured_image.first {
 	}
 
 	@include contentFor(xl-screen) {
-		height: 800px;
+		height: 1000px;
 	}
 }
 
@@ -117,7 +117,7 @@ section.module.featured_image.first {
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 
 	@include contentFor(xl-screen) {
-		height: 800px;
+		height: 1000px;
 	}
 }
 

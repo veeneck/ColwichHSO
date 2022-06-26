@@ -140,7 +140,8 @@ function loadTriggersForPage() {
         "hero" : setHeroTriggers,
         "calendar" : setCalendarTriggers,
         "achievements" : setAchievementTriggers,
-        "donate" : setDonateTriggers
+        "donate" : setDonateTriggers,
+        "faq" : setFAQTriggers
     };
 
     const sections = document.getElementsByTagName('section');
@@ -165,6 +166,26 @@ function setHeroTriggers(section) {
 function setCalendarTriggers(section) {
 
     let elements = gsap.utils.toArray(".calendar li");
+    elements.forEach((el, i) => {
+
+        let scale = 0.8;
+        if(window.innerWidth > 1080) {
+            scale = 1;
+        }
+
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                scrub: true,
+            },
+            scale: scale
+        });  
+    });     
+}
+
+function setFAQTriggers(section) {
+
+    let elements = gsap.utils.toArray(".faqCardContainer div");
     elements.forEach((el, i) => {
 
         let scale = 0.8;
