@@ -10,7 +10,8 @@ faq_category: uniform
 ctatext: Sync With Your Calendar
 ctalink: /redesign
 ctaicon: calendar
-image: "/images/events/uniformsale.jpg"
+image: "/images/flyers/UniformSale.jpg"
+custom_class: show_image
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -19,9 +20,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/events/uniformsale.jpg
-- /images/events/uniformsale.jpg
-- /images/events/uniformsale.jpg
-- /images/events/uniformsale.jpg
+- /images/flyers/UniformSale.jpg
+- /images/flyers/UniformSale.jpg
+- /images/flyers/UniformSale.jpg
+- /images/flyers/UniformSale.jpg
 ---
 Prepare for the new school year with our used uniform sales. <b>S</b>top by during enrollment on **August 2nd**, from **8am** to **8pm**, to shop used uniforms. [Want to sell? Check out the FAQ.]()

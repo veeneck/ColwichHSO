@@ -1783,16 +1783,27 @@ div.menu-link:hover {
 
 .module.featured_image {
   display: none;
+  padding-bottom: 0px;
 }
 @media (min-width: 1300px) {
   .module.featured_image {
     display: block;
     min-height: 400px;
+    padding-bottom: inherit;
   }
 }
 
+.module.featured_image.show_image {
+  display: block;
+}
+
 section.module.featured_image.first {
-  margin-top: -275px;
+  margin-top: -50px;
+}
+@media (min-width: 765px) {
+  section.module.featured_image.first {
+    margin-top: -100px;
+  }
 }
 @media (min-width: 1080px) {
   section.module.featured_image.first {
@@ -1831,35 +1842,43 @@ section.module.featured_image.first {
 }
 
 .heroImg {
-  width: 95%;
-  height: 400px;
-  border-radius: 4px;
-  border: 20px solid #fff;
-  border-bottom: 60px solid #fff;
+  width: 100%;
   margin: 0 auto;
   z-index: 3;
   position: relative;
   object-fit: cover;
-  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
   box-sizing: border-box;
-}
-@media (min-width: 765px) {
-  .heroImg {
-    height: 700px;
-  }
 }
 @media (min-width: 1080px) {
   .heroImg {
     width: 30%;
-    height: 400px;
+    border-radius: 4px;
+    border: 20px solid #fff;
+    border-bottom: 60px solid #fff;
+    box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
   }
 }
 @media (min-width: 1300px) {
   .heroImg {
     width: 35%;
-    height: 550px;
+    height: 600px;
   }
 }
+@media (min-width: 2000px) {
+  .heroImg {
+    height: 800px;
+  }
+}
+
+.flyer.tape:before, .flyer.tape:after {
+  display: none;
+}
+@media (min-width: 1080px) {
+  .flyer.tape:before, .flyer.tape:after {
+    display: block;
+  }
+}
+
 .polaroid {
   position: relative;
 }
@@ -1875,6 +1894,11 @@ section.module.featured_image.first {
   margin-top: 20px;
   box-sizing: border-box;
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
+}
+@media (min-width: 2000px) {
+  .polaroid img {
+    height: 800px;
+  }
 }
 
 .polaroid img:before {
@@ -1945,18 +1969,6 @@ section.module.featured_image.first {
   display: none;
 }
 
-.img-tape--2:before {
-  left: 0;
-  margin-left: -60px;
-  top: 0px;
-  transform: rotate(-35deg);
-}
-.img-tape--2:after {
-  right: 0;
-  top: 0px;
-  margin-right: -60px;
-  transform: rotate(45deg);
-}
 @media (min-width: 1300px) {
   .img-tape--2:before {
     left: 32%;

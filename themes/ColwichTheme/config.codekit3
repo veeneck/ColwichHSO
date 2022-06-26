@@ -912,6 +912,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/flyers\/UniformSale.jpg" : {
+      "ft" : 16384,
+      "iS" : 438045,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/UniformSale.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/icons\/back.svg" : {
       "ft" : 2097152,
       "miP" : 0,

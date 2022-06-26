@@ -2,18 +2,24 @@
 .module.featured_image {
 
 	display: none;
+	padding-bottom: 0px;
 	
 	@include contentFor(large-screen) {
 		display: block;
 		min-height: 400px;
+		padding-bottom: inherit;
 	}
 }
 
+.module.featured_image.show_image {
+	display: block;
+}
+
 section.module.featured_image.first {
-	margin-top: -275px;
+	margin-top: -50px;
 
 	@include contentFor(mini-screen) {
-		
+		margin-top: -100px;
 	}
 
 	@include contentFor(normal-screen) {
@@ -53,35 +59,45 @@ section.module.featured_image.first {
 }
 
 .heroImg {
-	width: 95%;
-	height: 400px;
-	border-radius: 4px;
-	border: 20px solid #fff;
-	border-bottom: 60px solid #fff;
+	width: 100%;
 	margin: 0 auto;
 	z-index: 3;
 	position: relative;
 	object-fit: cover;
-	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 	box-sizing: border-box;
 
 	@include contentFor(mini-screen) {
-		height: 700px;
+		//height: 700px;
 	}
 
 	@include contentFor(normal-screen) {
 		width: 30%;
-		height: 400px;
+		//height: 400px;
+		border-radius: 4px;
+		border: 20px solid #fff;
+		border-bottom: 60px solid #fff;
+		box-shadow: 0 15px 60px rgba(62,62,62,.102);
 	}
 
 	@include contentFor(large-screen) {
 		width: 35%;
-		height: 550px;
+		height: 600px;
 	}
 
 	@include contentFor(xl-screen) {
-
+		height: 800px;
 	}
+}
+
+.flyer.tape {
+
+  &:before,
+  &:after {
+	display: none;
+	@include contentFor(normal-screen) {
+		display: block;
+	}
+ }
 }
 
 .polaroid {
@@ -99,6 +115,10 @@ section.module.featured_image.first {
 	margin-top: 20px;
 	box-sizing: border-box;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+
+	@include contentFor(xl-screen) {
+		height: 800px;
+	}
 }
 
 .polaroid img:before {
@@ -196,20 +216,6 @@ section.module.featured_image.first {
 
 .img-tape--2 {
 	
-	  &:before {
-	    left: 0;
-	    margin-left: -60px;
-	    top: 0px;
-	    transform: rotate(-35deg);
-	  }
-
-	  &:after {
-	  	right: 0;
-	  	top: 0px;
-	  	margin-right: -60px;
-	  	transform: rotate(45deg);
-	  }
-
 
 	@include contentFor(large-screen) {
 
@@ -224,8 +230,6 @@ section.module.featured_image.first {
 	  }
 		
 	}
-
-
 }
 
 .img-tape--3 {
