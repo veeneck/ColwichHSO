@@ -63,7 +63,7 @@ section.module.featured_image.first {
 	margin: 0 auto;
 	z-index: 3;
 	position: relative;
-	object-fit: contain;
+	object-fit: cover;
 	box-sizing: border-box;
 	background-color: #fff;
 
@@ -90,6 +90,10 @@ section.module.featured_image.first {
 	}
 }
 
+.module.featured_image.show_image .heroImg, .module.featured_image.show_image .polaroid img {
+	object-fit: contain;
+}
+
 .flyer.tape {
 
   &:before,
@@ -108,7 +112,7 @@ section.module.featured_image.first {
 .polaroid img {
 	width: 30%;
 	height: 550px;
-	object-fit: contain;
+	object-fit: cover;
 	background-color: #fff;
 	border-radius: 4px;
 	border: 20px solid #fff;
