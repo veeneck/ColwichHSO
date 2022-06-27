@@ -1864,7 +1864,7 @@ section.module.featured_image.first {
     border-radius: 4px;
     border: 20px solid #fff;
     border-bottom: 60px solid #fff;
-    box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
+    box-shadow: 0 15px 60px rgba(62, 62, 62, 0.25);
   }
 }
 @media (min-width: 1300px) {
@@ -1903,7 +1903,7 @@ section.module.featured_image.first {
   position: absolute;
   margin-top: 20px;
   box-sizing: border-box;
-  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
+  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.25);
 }
 @media (min-width: 2000px) {
   .polaroid img {

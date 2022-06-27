@@ -3,8 +3,8 @@ title: Coffee With Cardinals ☕
 description: Get to know your teachers, school and fellow students at the beginning of the school year.
 type: events
 event_date: 2022-09-15 1:00:00 +0000
-url: "/calendar/coffee"
-fullUrl: "https://colwichhso.com/calendar/coffee"
+url: "/coffee"
+fullUrl: "https://colwichhso.com/coffee"
 pageImage: "https://colwichhso.com/images/flyers/CoffeeWithCardinalsOpenGraph.jpg"
 image: "/images/flyers/CoffeeWithCardinalsWeb.jpg"
 custom_class: "show_image event_coffee"
