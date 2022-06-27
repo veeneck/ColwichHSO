@@ -23,7 +23,7 @@ section.hero {
 	}
 
 	@include contentFor(large-screen) {
-		font-size: 350%;
+		font-size: 450%;
 		width: 900px;
 	}
 
@@ -84,7 +84,14 @@ section.hero {
 
 	@include contentFor(large-screen) {
 		display: block;
+		width: 600px;
 
+	}
+
+	@include contentFor(xl-screen) {
+		font-size: 130%;
+		line-height:45px;
+		width: 800px;
 	}
 }
 
@@ -110,7 +117,7 @@ mark {
 	}
 
 	@include contentFor(large-screen) {
-		font-size: 120%;
+		font-size: 150%;
 		margin-top: 75px;
 	}
 

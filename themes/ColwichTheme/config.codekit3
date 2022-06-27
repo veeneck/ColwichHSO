@@ -912,6 +912,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/flyers\/CoffeeWithCardinalsOpenGraph.jpg" : {
+      "ft" : 16384,
+      "iS" : 106219,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinalsOpenGraph.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.jpg" : {
       "ft" : 16384,
       "iS" : 295571,

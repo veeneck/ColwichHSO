@@ -220,6 +220,11 @@ a.highlighter.active::before {
 	@include contentFor(large-screen) {
 		padding: 15px 20px 15px 10px;
 	}
+
+
+	@include contentFor(xl-screen) {
+		font-size: 120%;
+	}
 }
 
 .iconContainer {

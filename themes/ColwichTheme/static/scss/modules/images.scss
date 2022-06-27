@@ -63,8 +63,9 @@ section.module.featured_image.first {
 	margin: 0 auto;
 	z-index: 3;
 	position: relative;
-	object-fit: cover;
+	object-fit: contain;
 	box-sizing: border-box;
+	background-color: #fff;
 
 	@include contentFor(mini-screen) {
 		//height: 700px;
@@ -107,7 +108,8 @@ section.module.featured_image.first {
 .polaroid img {
 	width: 30%;
 	height: 550px;
-	object-fit: cover;
+	object-fit: contain;
+	background-color: #fff;
 	border-radius: 4px;
 	border: 20px solid #fff;
 	border-bottom: 60px solid #fff;
