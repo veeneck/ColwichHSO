@@ -11,7 +11,10 @@ shoutout: We would love to hear your input.
 overview: We run four main meetings each year. Please attend if possible, or look at the meeting minutes below.
 ctatext: View Meetings
 ctalink: /redesign
-image: "/images/events/hsomeeting1.jpg"
+image: "/images/flyers/HSOMeetingSeptWeb.jpg"
+faq_category: meeting
+ctaicon: calendar
+custom_class: "show_image event_meeting"
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -19,5 +22,10 @@ modules:
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md
+polaroid: 
+- /images/flyers/HSOMeetingNovWeb.jpg
+- /images/flyers/HSOMeetingJanWeb.jpg
+- /images/flyers/HSOMeetingNovWeb.jpg
+- /images/flyers/HSOMeetingJanWeb.jpg
 ---
 Section Text

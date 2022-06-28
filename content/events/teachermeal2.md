@@ -6,5 +6,24 @@ event_date: 2023-02-10 1:00:00 +0000
 url: "/calendar/meals2"
 fullUrl: "https://colwichhso.com/calendar/meals2"
 pageImage: "https://colwichhso.com/og_img.png"
+faq_category: conference
+page_status: comingsoon
+ctatext: Add To Your Calendar
+ctalink: /redesign
+ctaicon: meal
+image: "/images/flyers/ConferenceMealWeb.jpg"
+custom_class: "show_image event_conference"
+modules:
+- modules/common/featured_image.md
+- modules/common/faq.md
+- modules/common/calendar.md
+- modules/common/sponsors.md
+- modules/common/donate.md
+- modules/common/footer.md
+polaroid: 
+- /images/flyers/ConferenceMealWeb.jpg
+- /images/flyers/ConferenceMealWeb.jpg
+- /images/flyers/ConferenceMealWeb.jpg
+- /images/flyers/ConferenceMealWeb.jpg
 ---
-This is where the full text description of the event will go.
+HSO supplies the food for the teacher's conferences throughout the year. Contact us if you would like to donate any tasty goodies along with the meal.

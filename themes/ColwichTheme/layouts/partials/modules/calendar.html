@@ -5,7 +5,7 @@
 		<li>
 			<div class="date">
 				<span class="month">{{ dateFormat "Jan" .Params.event_date }}</span>
-				<span class="day">{{ dateFormat "2" .Params.event_date }}</span>
+				<span class="day">{{ if eq .Params.page_status "comingsoon" }}TBD{{ else }}{{ dateFormat "2" .Params.event_date }}{{ end }}</span>
 			</div>
 			<h4>{{ .Params.title }}</h4>
 			<p>{{ .Params.description }}</p>
