@@ -1,5 +1,5 @@
 ---
-title: HSO Meeting
+title: HSO Meeting 🗓️
 description: Our fourth meeting of the year to kick things off.
 type: events
 event_date: 2023-05-06 6:00:00 +0000

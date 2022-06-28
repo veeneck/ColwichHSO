@@ -1,5 +1,5 @@
 ---
-title: Teacher Appreciation Week
+title: Teacher Appreciation Week 💖
 description: As the school year is ending, we take a full week to show our teachers love.
 type: events
 event_date: 2023-05-01 1:00:00 +0000

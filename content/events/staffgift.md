@@ -1,5 +1,5 @@
 ---
-title: Holidays Gifts
+title: Holidays Gifts 🎁
 description: We'll treat our teachers to a gift for the holidays.
 type: events
 event_date: 2022-12-15 1:00:00 +0000

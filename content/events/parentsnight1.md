@@ -11,6 +11,7 @@ custom_class: "show_image event_parentsnight"
 ctatext: SIGN UP YOUR CHILD
 ctalink: /redesign
 ctaicon: popcorn
+page_status: comingsoon
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

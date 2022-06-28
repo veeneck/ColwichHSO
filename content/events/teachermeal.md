@@ -1,5 +1,5 @@
 ---
-title: Conference Meals
+title: Conference Meals 🍽️
 description: We supply the food for the teachers conferences as a show of appreciation.
 type: events
 event_date: 2022-09-28 1:00:00 +0000
