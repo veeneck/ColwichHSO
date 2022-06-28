@@ -6,5 +6,6 @@ date: 2014-03-27 14:59:46 +0000
 url: "/carnival/auction"
 fullUrl: "https://colwichhso.com/carnival/auction"
 pageImage: "https://colwichhso.com/images/auction/7.jpg"
+stylesheet: "/css/carnival.css"
 ---
 hello world

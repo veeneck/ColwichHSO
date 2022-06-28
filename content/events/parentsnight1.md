@@ -10,7 +10,7 @@ image: "/images/flyers/ParentsNightOutWebOct.jpg"
 custom_class: "show_image event_parentsnight"
 ctatext: SIGN UP YOUR CHILD
 ctalink: /redesign
-ctaicon: calendar
+ctaicon: popcorn
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

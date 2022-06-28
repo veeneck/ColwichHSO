@@ -81,7 +81,7 @@ section.module.featured_image.first {
 	}
 
 	@include contentFor(large-screen) {
-		width: 35%;
+		width: 30%;
 		height: 600px;
 	}
 

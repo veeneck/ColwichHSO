@@ -680,7 +680,7 @@
     },
     "\/static\/images\/auction\/6.jpg" : {
       "ft" : 16384,
-      "iS" : 224075,
+      "iS" : 786784,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/6.jpg",
@@ -693,7 +693,7 @@
     },
     "\/static\/images\/auction\/7.jpg" : {
       "ft" : 16384,
-      "iS" : 651613,
+      "iS" : 848660,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/7.jpg",
@@ -719,7 +719,7 @@
     },
     "\/static\/images\/auction\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 1290401,
+      "iS" : 967927,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/10.jpg",
@@ -951,6 +951,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/flyers\/ComingSoonWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 2660207,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ComingSoonWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HomePageOG.jpg" : {
+      "ft" : 16384,
+      "iS" : 172391,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HomePageOG.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/IceCreamSocial.jpg" : {
       "ft" : 16384,
       "iS" : 1244454,
@@ -986,6 +1012,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/RoomParentWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 1435047,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/RoomParentWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1049,6 +1088,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/static\/images\/icons\/coin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/icons\/coin.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/static\/images\/icons\/donate.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1074,6 +1123,36 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/static\/images\/icons\/facebook.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/icons\/marquee.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/icons\/marquee.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/icons\/parent.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/icons\/parent.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/icons\/popcorn.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/icons\/popcorn.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1133,7 +1212,7 @@
     },
     "\/static\/images\/logos\/css.png" : {
       "ft" : 32768,
-      "iS" : 413204,
+      "iS" : 302295,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/css.png",
       "oF" : 0,
@@ -1352,6 +1431,84 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/photos\/cardinal.jpg" : {
+      "ft" : 16384,
+      "iS" : 617959,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/cardinal.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/cards.jpg" : {
+      "ft" : 16384,
+      "iS" : 474967,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/cards.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/front.jpg" : {
+      "ft" : 16384,
+      "iS" : 644665,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/front.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/goodvibes.jpg" : {
+      "ft" : 16384,
+      "iS" : 957272,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/goodvibes.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/gym.jpg" : {
+      "ft" : 16384,
+      "iS" : 503136,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/gym.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/progress.jpg" : {
+      "ft" : 16384,
+      "iS" : 664129,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/progress.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/raffle\/.5~imageoptim.jpg" : {
       "ft" : 16384,
       "iS" : 221836,
@@ -1471,7 +1628,7 @@
     },
     "\/static\/images\/raffle\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 1426089,
+      "iS" : 1807800,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.5~imageoptim.jpg",
@@ -1523,7 +1680,7 @@
     },
     "\/static\/images\/raffle\/9.jpg" : {
       "ft" : 16384,
-      "iS" : 1032925,
+      "iS" : 1379396,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/9.jpg",
@@ -1549,7 +1706,7 @@
     },
     "\/static\/images\/raffle\/11.jpg" : {
       "ft" : 16384,
-      "iS" : 1258669,
+      "iS" : 1646793,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.11~imageoptim.jpg",
@@ -1562,7 +1719,7 @@
     },
     "\/static\/images\/raffle\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1158614,
+      "iS" : 1501385,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/12.jpg",
@@ -1692,7 +1849,7 @@
     },
     "\/static\/images\/raffle\/22.jpg" : {
       "ft" : 16384,
-      "iS" : 1271705,
+      "iS" : 1677128,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/IMG_3236.jpg",
@@ -1731,7 +1888,7 @@
     },
     "\/static\/images\/raffle\/25.jpg" : {
       "ft" : 16384,
-      "iS" : 1382439,
+      "iS" : 1107148,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/25.jpg",
@@ -1757,7 +1914,7 @@
     },
     "\/static\/images\/raffle\/27.jpg" : {
       "ft" : 16384,
-      "iS" : 1588249,
+      "iS" : 1204992,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/27.jpg",
@@ -1796,7 +1953,7 @@
     },
     "\/static\/images\/raffle\/30.jpg" : {
       "ft" : 16384,
-      "iS" : 1225476,
+      "iS" : 1630499,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/30.jpg",
@@ -1809,7 +1966,7 @@
     },
     "\/static\/images\/raffle\/31.jpg" : {
       "ft" : 16384,
-      "iS" : 1245777,
+      "iS" : 1650757,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/31.jpg",

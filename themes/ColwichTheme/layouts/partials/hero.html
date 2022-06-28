@@ -3,24 +3,42 @@
 	{{ partial "modules/navigation.html" . }}
 
 	<div class="content">
-		{{ if .Params.event_date }}
 
-		<p><b>{{ dateFormat "January 2 at 3:00PM" .Params.event_date }}</b></p>
-		<h1>{{ .Params.title }}</h1>
-		<p class="summary"><mark>{{ .Content | plainify }}</mark></p>
+		{{ if eq .Params.page_status "comingsoon" }}
+
+			<p><b>Coming Soon</b></p>
+			<h1>{{ .Params.title }}</h1>
+			<p class="summary"><mark>We're still ironing out the details for this page. Check back soon!</mark></p>
+
+		{{ else if .Params.event_date }}
+
+			<p><b>{{ dateFormat "January 2 at 3:00PM" .Params.event_date }}</b></p>
+			<h1>{{ .Params.title }}</h1>
+			<p class="summary"><mark>{{ .Content | plainify | safeHTML }}</mark></p>
 
 		{{ else }}
 
-		<p><b>{{ .Params.subtitle }}</b></p>
-		<h1>{{ .Params.shoutout | safeHTML }} {{ if .Params.shoutout_icon }}<img src="{{ .Params.shoutout_icon }}" />{{ end }}</h1>
-		<p class="summary"><mark>{{ .Params.overview | safeHTML }}</mark></p>
+			<p><b>{{ .Params.subtitle }}</b></p>
+			<h1>{{ .Params.shoutout | safeHTML }} {{ if .Params.shoutout_icon }}<img src="{{ .Params.shoutout_icon }}" />{{ end }}</h1>
+			<p class="summary"><mark>{{ .Params.overview | safeHTML }}</mark></p>
 
 		{{ end }}
+
+		{{ if eq .Params.page_status "comingsoon" }}
+
+			<div class="callToAction">
+				{{ partial "button.html"  (dict "link" "#section1" "class" "primary" "icon" .Params.ctaicon "text" "Learn More") }}
+			</div>
+
+		{{ else }}
+
 		{{ if .Params.ctatext }}
 			<div class="callToAction">
 				{{ partial "button.html"  (dict "link" .Params.ctalink "class" "primary" "icon" .Params.ctaicon "text" .Params.ctatext) }}
 			</div>
 			 <div class="more">or <a href="#section1" class="highlighter">Learn More</a></div>
+		{{ end }}
+
 		{{ end }}
 		
 	</div>

@@ -1,12 +1,16 @@
 
 <div class="polaroid">
 	{{ range $key, $value := $.page.polaroid }}
-		<img src="{{ $value }}" />
+		{{ if eq $.page.page_status "comingsoon" }}
+			<img src="/images/flyers/ComingSoonWeb.jpg" />
+		{{ else }}
+			<img src="{{ $value }}" />
+		{{ end }}
 	{{ end }}
 </div>
 
 {{ if $.page.image }}
 <div class="flyer">
-<img class="heroImg" src="{{ $.page.image }}" />
+<img class="heroImg" src="{{ if eq $.page.page_status "comingsoon" }}/images/flyers/ComingSoonWeb.jpg{{ else }}{{ $.page.image }}{{ end }}" />
 </div>
 {{ end }}

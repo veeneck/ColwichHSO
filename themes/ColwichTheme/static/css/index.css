@@ -1730,6 +1730,17 @@ div.menu-link:hover {
   cursor: pointer;
 }
 
+@media (min-width: 1300px) {
+  .module.faq {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 2000px) {
+  .module.faq {
+    margin-top: 200px;
+  }
+}
+
 .faq .content {
   column-count: 1;
   -webkit-column-count: 1;
@@ -1740,8 +1751,8 @@ div.menu-link:hover {
 }
 @media (min-width: 765px) {
   .faq .content {
-    column-count: 2;
-    -webkit-column-count: 2;
+    column-count: 1;
+    -webkit-column-count: 1;
     column-gap: 30px;
     -webkit-column-gap: 30px;
   }
@@ -1869,7 +1880,7 @@ section.module.featured_image.first {
 }
 @media (min-width: 1300px) {
   .heroImg {
-    width: 35%;
+    width: 30%;
     height: 600px;
   }
 }
