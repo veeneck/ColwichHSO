@@ -50,6 +50,10 @@
 				    {{ partial "modules/calendar_full.html" (dict "module" . ) }}
 				{{ end }}
 
+				{{ if (eq $type "meeting_list") }}
+				    {{ partial "modules/meetings.html" (dict "module" . ) }}
+				{{ end }}
+
 				{{ if (eq $type "sponsors") }}
 				    {{ partial "modules/sponsors.html" (dict "module" . ) }}
 				{{ end }}

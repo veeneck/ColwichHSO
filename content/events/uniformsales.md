@@ -1,11 +1,11 @@
 ---
-title: Used Uniform Sales 👚
+title: CES Used Uniform Sale 👚
 description: Prepare for the new school year with our used uniform sales. 
 type: events
 event_date: 2022-08-02 08:00:00 +0000
 url: "/calendar/uniform"
 fullUrl: "https://colwichhso.com/calendar/uniform"
-pageImage: "https://colwichhso.com/og_img.png"
+pageImage: "https://colwichhso.com/images/flyers/UniformSaleOpenGraph.jpg"
 faq_category: uniform
 ctatext: Add To Your Calendar
 ctalink: /redesign

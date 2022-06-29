@@ -17,8 +17,8 @@ ctaicon: calendar
 custom_class: "show_image event_meeting"
 modules:
 - modules/common/featured_image.md
+- modules/common/meeting_list.md
 - modules/common/faq.md
-- modules/common/calendar.md
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md

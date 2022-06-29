@@ -244,6 +244,14 @@
       "oAP" : "\/layouts\/partials\/modules\/footer.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/modules\/meetings.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/meetings.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/modules\/navigation.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -323,6 +331,18 @@
       "oA" : 0,
       "oAP" : "\/LICENSE",
       "oF" : 0
+    },
+    "\/static\/css\/carnival 2.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/css\/carnival 2-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/static\/css\/carnival.css" : {
       "aP" : 1,
@@ -667,7 +687,7 @@
     },
     "\/static\/images\/auction\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 271753,
+      "iS" : 860225,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/5.jpg",
@@ -693,7 +713,7 @@
     },
     "\/static\/images\/auction\/7.jpg" : {
       "ft" : 16384,
-      "iS" : 848660,
+      "iS" : 651613,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/7.jpg",
@@ -745,7 +765,7 @@
     },
     "\/static\/images\/auction\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1259667,
+      "iS" : 1636099,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/12.jpg",
@@ -1133,6 +1153,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/flyers\/UniformSaleOpenGraph.jpg" : {
+      "ft" : 16384,
+      "iS" : 128011,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/UniformSaleOpenGraph.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/UniformSaleWeb.jpg" : {
       "ft" : 16384,
       "iS" : 475595,
@@ -1373,7 +1406,7 @@
     },
     "\/static\/images\/logos\/cushman.png" : {
       "ft" : 32768,
-      "iS" : 62028,
+      "iS" : 28319,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/cushman.png",
       "oF" : 0,
@@ -1435,6 +1468,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/static\/images\/logos\/hsonewlogo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/logos\/hsonewlogo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/static\/images\/logos\/hsowhite.png" : {
       "ft" : 32768,
@@ -1763,7 +1806,7 @@
     },
     "\/static\/images\/raffle\/4.jpg" : {
       "ft" : 16384,
-      "iS" : 725682,
+      "iS" : 547371,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/4.jpg",
@@ -1776,7 +1819,7 @@
     },
     "\/static\/images\/raffle\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 1807800,
+      "iS" : 1426089,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.5~imageoptim.jpg",
@@ -1828,7 +1871,7 @@
     },
     "\/static\/images\/raffle\/9.jpg" : {
       "ft" : 16384,
-      "iS" : 1379396,
+      "iS" : 1032925,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/9.jpg",
@@ -1841,7 +1884,7 @@
     },
     "\/static\/images\/raffle\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 1174856,
+      "iS" : 1551259,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/10.jpg",
@@ -1867,7 +1910,7 @@
     },
     "\/static\/images\/raffle\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1158614,
+      "iS" : 1501385,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/12.jpg",
@@ -1880,7 +1923,7 @@
     },
     "\/static\/images\/raffle\/13.jpg" : {
       "ft" : 16384,
-      "iS" : 1373789,
+      "iS" : 1061161,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.13~imageoptim.jpg",
@@ -1932,7 +1975,7 @@
     },
     "\/static\/images\/raffle\/17.jpg" : {
       "ft" : 16384,
-      "iS" : 1083178,
+      "iS" : 1184106,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/17.jpg",
@@ -1945,7 +1988,7 @@
     },
     "\/static\/images\/raffle\/18.jpg" : {
       "ft" : 16384,
-      "iS" : 1021248,
+      "iS" : 767111,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/18.jpg",
@@ -1984,7 +2027,7 @@
     },
     "\/static\/images\/raffle\/21.jpg" : {
       "ft" : 16384,
-      "iS" : 898358,
+      "iS" : 1180761,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/IMG_3234.jpg",
@@ -2049,7 +2092,7 @@
     },
     "\/static\/images\/raffle\/26.jpg" : {
       "ft" : 16384,
-      "iS" : 1160015,
+      "iS" : 1535525,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.26~imageoptim.jpg",
@@ -2101,7 +2144,7 @@
     },
     "\/static\/images\/raffle\/30.jpg" : {
       "ft" : 16384,
-      "iS" : 1225476,
+      "iS" : 1630499,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/30.jpg",
@@ -2114,7 +2157,7 @@
     },
     "\/static\/images\/raffle\/31.jpg" : {
       "ft" : 16384,
-      "iS" : 1245777,
+      "iS" : 1650757,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/31.jpg",
@@ -2723,6 +2766,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/images.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/meetings.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/meetings.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

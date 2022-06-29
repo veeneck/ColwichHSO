@@ -7,7 +7,7 @@ url: "/calendar/spiritnight3"
 fullUrl: "https://colwichhso.com/calendar/spiritnight3"
 pageImage: "https://colwichhso.com/og_img.png"
 page_status: comingsoon
-custom_class: "show_image event_coinwars"
+custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar
 ctalink: /redesign
 ctaicon: confetti

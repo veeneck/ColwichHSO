@@ -2,14 +2,17 @@
 title: HSO Meeting 🗓️
 description: Our first meeting of the year to kick things off.
 type: events
-event_date: 2022-09-06 6:00:00 +0000
-url: "/meetings"
-fullUrl: "https://colwichhso.com/meetings"
+event_date: 2022-09-06 18:00:00 +0000
+url: "/meetings/09062022"
+fullUrl: "https://colwichhso.com/meetings/09062022"
 pageImage: "https://colwichhso.com/og_img.png"
-faq_category: meetings
-ctatext: Sync With Your Calendar
+faq_category: meeting
+ctatext: Add To Your Calendar
 ctalink: /redesign
-image: "/images/events/hsomeeting1.jpg"
+ctaicon: calendar
+image: "/images/flyers/HSOMeetingSeptWeb.jpg"
+custom_class: "show_image event_meeting"
+
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -17,5 +20,10 @@ modules:
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md
+polaroid: 
+- /images/flyers/HSOMeetingSeptWeb.jpg
+- /images/flyers/HSOMeetingSeptWeb.jpg
+- /images/flyers/HSOMeetingSeptWeb.jpg
+- /images/flyers/HSOMeetingSeptWeb.jpg
 ---
-This is where the full text description of the event will go.
+Meet in the CES music room to help us plan out the fall events, and to fill out volunteer roles. Hope to see you there!
