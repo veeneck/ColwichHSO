@@ -18,6 +18,7 @@ custom_class: "show_image event_meeting"
 modules:
 - modules/common/featured_image.md
 - modules/common/meeting_list.md
+- modules/common/minutes.md
 - modules/common/leadership.md
 - modules/common/sponsors.md
 - modules/common/donate.md

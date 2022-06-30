@@ -1730,6 +1730,11 @@ div.menu-link:hover {
   cursor: pointer;
 }
 
+.minutes p {
+  width: 100%;
+  text-align: center;
+}
+
 @media (min-width: 1300px) {
   .module.faq {
     margin-top: 100px;
