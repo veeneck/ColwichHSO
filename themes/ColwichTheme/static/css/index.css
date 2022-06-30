@@ -792,7 +792,7 @@ img {
   animation-name: fadeOut;
 }
 
-.achievements ul {
+.imagegroup ul {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -803,7 +803,7 @@ img {
   margin-left: 0px;
   justify-content: center;
 }
-.achievements li {
+.imagegroup li {
   list-style: none;
   padding: 20px;
   width: 100%;
@@ -811,16 +811,16 @@ img {
   text-align: center;
 }
 @media (min-width: 765px) {
-  .achievements li {
+  .imagegroup li {
     width: 48%;
   }
 }
 @media (min-width: 1300px) {
-  .achievements li {
+  .imagegroup li {
     width: 23%;
   }
 }
-.achievements .content {
+.imagegroup .content {
   padding-top: 75px;
 }
 
@@ -836,7 +836,7 @@ img {
   color: #000;
 }
 
-.achievements li div {
+.imagegroup li div {
   padding: 20px 10px 20px 10px;
   border-radius: 4px;
   position: relative;
@@ -844,27 +844,27 @@ img {
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
 }
 
-.achievements li:nth-child(1) div {
+.imagegroup li:nth-child(1) div {
   background-color: #fff;
   color: blue;
 }
 
-.achievements li:nth-child(2) div {
+.imagegroup li:nth-child(2) div {
   background-color: #fff;
   color: #A62C2E;
 }
 
-.achievements li:nth-child(3) div {
+.imagegroup li:nth-child(3) div {
   background-color: #fff;
   color: green;
 }
 
-.achievements li:nth-child(4) div {
+.imagegroup li:nth-child(4) div {
   background-color: #fff;
   color: brown;
 }
 
-.achievements li img {
+.imagegroup li img {
   margin: 0px;
   border-radius: 4px 4px 0px 0px;
   height: 250px;
@@ -876,11 +876,11 @@ img {
   box-sizing: border-box;
 }
 
-.achievements .moduleCTA {
+.imagegroup .moduleCTA {
   margin-top: 50px;
 }
 
-.achievements li p {
+.imagegroup li p {
   font-weight: normal;
   text-align: left;
   padding: 10px;
@@ -890,23 +890,23 @@ img {
   box-sizing: border-box;
 }
 
-.achievements p {
+.imagegroup p {
   width: 90%;
   margin: 50px auto 0px auto;
   line-height: 40px;
   text-align: center;
 }
 @media (min-width: 765px) {
-  .achievements p {
+  .imagegroup p {
     width: 700px;
   }
 }
 @media (min-width: 1300px) {
-  .achievements p {
+  .imagegroup p {
     width: 800px;
   }
 }
-.calendar ul, .calendar_full ul {
+ul.calendar_item, .calendar_full ul {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -918,7 +918,7 @@ img {
   margin-left: 0px;
 }
 
-.calendar li, .calendar_full li {
+ul.calendar_item li, .calendar_full li {
   list-style: none;
   border-radius: 5px;
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
@@ -928,31 +928,31 @@ img {
   box-sizing: border-box;
 }
 @media (min-width: 765px) {
-  .calendar li, .calendar_full li {
+  ul.calendar_item li, .calendar_full li {
     width: 48%;
   }
 }
 @media (min-width: 1080px) {
-  .calendar li, .calendar_full li {
+  ul.calendar_item li, .calendar_full li {
     width: 30%;
   }
 }
 @media (min-width: 2000px) {
-  .calendar li, .calendar_full li {
+  ul.calendar_item li, .calendar_full li {
     width: 23%;
   }
 }
 
-.calendar li:nth-child(n+7) {
+ul.calendar_item li:nth-child(n+7) {
   display: none;
 }
 @media (min-width: 1080px) {
-  .calendar li:nth-child(n+7) {
+  ul.calendar_item li:nth-child(n+7) {
     display: block;
   }
 }
 
-.calendar .date {
+ul.calendar_item .date {
   background-color: #C93234;
   color: #fff;
   width: 50px;
@@ -960,16 +960,16 @@ img {
   border: 1px solid #000;
 }
 @media (min-width: 1080px) {
-  .calendar .date {
+  ul.calendar_item .date {
     border: 2px solid #000;
   }
 }
 
-.calendar .month {
+ul.calendar_item .month {
   padding: 10px;
 }
 
-.calendar .day {
+ul.calendar_item .day {
   display: block;
   background: #fff;
   color: #000;
@@ -990,98 +990,7 @@ img {
   color: #fff;
 }
 
-.calendar li a {
-  display: block;
-  margin: 20px auto 0px auto;
-  text-align: center;
-  width: 100px;
-}
-
-.meeting_list ul, .meeting_list_full ul {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0px;
-  margin-left: 0px;
-}
-
-.meeting_list li, .meeting_list_full li {
-  list-style: none;
-  border-radius: 5px;
-  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
-  padding: 30px;
-  width: 90%;
-  margin: 1%;
-  box-sizing: border-box;
-}
-@media (min-width: 765px) {
-  .meeting_list li, .meeting_list_full li {
-    width: 48%;
-  }
-}
-@media (min-width: 1080px) {
-  .meeting_list li, .meeting_list_full li {
-    width: 30%;
-  }
-}
-@media (min-width: 2000px) {
-  .meeting_list li, .meeting_list_full li {
-    width: 23%;
-  }
-}
-
-.meeting_list li:nth-child(n+7) {
-  display: none;
-}
-@media (min-width: 1080px) {
-  .meeting_list li:nth-child(n+7) {
-    display: block;
-  }
-}
-
-.meeting_list .date {
-  background-color: #C93234;
-  color: #fff;
-  width: 50px;
-  border-radius: 4px;
-  border: 1px solid #000;
-}
-@media (min-width: 1080px) {
-  .meeting_list .date {
-    border: 2px solid #000;
-  }
-}
-
-.meeting_list .month {
-  padding: 10px;
-}
-
-.meeting_list .day {
-  display: block;
-  background: #fff;
-  color: #000;
-  width: 100%;
-  text-align: center;
-  padding: 5px 0px;
-}
-
-.meeting_list_full ul {
-  justify-content: left;
-}
-
-.meeting_list_full .month {
-  background-color: #C93234;
-}
-
-.meeting_list_full h4 {
-  color: #fff;
-}
-
-.meeting_list li a {
+ul.calendar_item li a {
   display: block;
   margin: 20px auto 0px auto;
   text-align: center;

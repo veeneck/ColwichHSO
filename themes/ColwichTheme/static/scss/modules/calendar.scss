@@ -1,4 +1,4 @@
-.calendar ul, .calendar_full ul {
+ul.calendar_item, .calendar_full ul {
 	@include flex();
 	justify-content: center;
 	flex-wrap: wrap;
@@ -6,7 +6,7 @@
 	margin-left: 0px;
 }
 
-.calendar li, .calendar_full li {
+ul.calendar_item li, .calendar_full li {
 	list-style: none;
 	border-radius: 5px;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
@@ -32,7 +32,7 @@
 	}
 }
 
-.calendar li:nth-child(n+7) {
+ul.calendar_item li:nth-child(n+7) {
 	display: none;
 
 	@include contentFor(normal-screen) {
@@ -40,7 +40,7 @@
 	}
 }
 
-.calendar .date {
+ul.calendar_item .date {
 	background-color: $red;
 	color: #fff;
 	width: 50px;
@@ -52,11 +52,11 @@
 	}
 }
 
-.calendar .month {
+ul.calendar_item .month {
 	padding: 10px;
 }
 
-.calendar .day {
+ul.calendar_item .day {
 	display: block;
 	background: #fff;
 	color: #000;
@@ -77,7 +77,7 @@
 color: #fff;
 }
 
-.calendar li a {
+ul.calendar_item li a {
 	display: block;
 	margin: 20px auto 0px auto;
 	text-align: center;

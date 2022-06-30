@@ -1,16 +1,8 @@
-<ul>
+<ul class="calendar_item">
 	{{ $events := where site.RegularPages "Type" "events" }}
 	{{ $sortedPosts := (sort $events "Params.event_date" "asc") }}
 	{{ range first 12 $sortedPosts }}
-		<li>
-			<div class="date">
-				<span class="month">{{ dateFormat "Jan" .Params.event_date }}</span>
-				<span class="day">{{ if eq .Params.page_status "comingsoon" }}TBD{{ else }}{{ dateFormat "2" .Params.event_date }}{{ end }}</span>
-			</div>
-			<h4>{{ .Params.title }}</h4>
-			<p>{{ .Params.description }}</p>
-			<a href="{{ .Params.url }}" class="highlighter">Learn more</a>
-		</li>
+		{{ partial "snippets/calendar.html" .Params }}
 	{{ end }}
 </ul>
 

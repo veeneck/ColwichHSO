@@ -1,10 +1,11 @@
 <ul>
-{{ range $index, $el := (sort site.Data.achievements "featured") }}
+{{ $dataSet := index site.Data .module.Params.data_type }}
+{{ range $index, $el := (sort $dataSet "featured") }}
 	<li>
 		<div class="tape img-tape--1">
 			<img src="{{ $el.image }}" />
 			<h4>{{ $el.name }}</h4>
-			<p>{{ $el.body }}</p>
+			<p>{{ $el.body | safeHTML }}</p>
 		</div>
 	</li>
 {{ end }}

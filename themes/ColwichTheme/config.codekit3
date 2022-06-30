@@ -188,14 +188,6 @@
       "oAP" : "\/layouts\/partials\/hero.html",
       "oF" : 0
     },
-    "\/layouts\/partials\/modules\/achievements.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layouts\/partials\/modules\/achievements.html",
-      "oF" : 0
-    },
     "\/layouts\/partials\/modules\/calendar_full.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -244,6 +236,14 @@
       "oAP" : "\/layouts\/partials\/modules\/footer.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/modules\/imagegroup.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/imagegroup.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/modules\/meetings.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -274,6 +274,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/layouts\/partials\/modules\/wufoo.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/snippets\/calendar.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/snippets\/calendar.html",
       "oF" : 0
     },
     "\/layouts\/partials\/sponsorlist.html" : {
@@ -672,9 +680,22 @@
       "oAP" : "\/static\/fonts\/rye-regular-webfont.woff2",
       "oF" : 0
     },
+    "\/static\/images\/amandacampbell.jpg" : {
+      "ft" : 16384,
+      "iS" : 1902916,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/amandacampbell.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/auction\/2.jpg" : {
       "ft" : 16384,
-      "iS" : 892423,
+      "iS" : 271259,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/2.jpg",
@@ -713,7 +734,7 @@
     },
     "\/static\/images\/auction\/7.jpg" : {
       "ft" : 16384,
-      "iS" : 651613,
+      "iS" : 848660,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/7.jpg",
@@ -765,7 +786,7 @@
     },
     "\/static\/images\/auction\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1636099,
+      "iS" : 1259667,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/12.jpg",
@@ -1319,6 +1340,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/static\/images\/icons\/person.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/icons\/person.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/static\/images\/icons\/popcorn.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -1393,7 +1424,7 @@
     },
     "\/static\/images\/logos\/css.png" : {
       "ft" : 32768,
-      "iS" : 302295,
+      "iS" : 413204,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/css.png",
       "oF" : 0,
@@ -1406,7 +1437,7 @@
     },
     "\/static\/images\/logos\/cushman.png" : {
       "ft" : 32768,
-      "iS" : 28319,
+      "iS" : 62028,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/cushman.png",
       "oF" : 0,
@@ -1819,7 +1850,7 @@
     },
     "\/static\/images\/raffle\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 1426089,
+      "iS" : 1807800,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.5~imageoptim.jpg",
@@ -1923,7 +1954,7 @@
     },
     "\/static\/images\/raffle\/13.jpg" : {
       "ft" : 16384,
-      "iS" : 1061161,
+      "iS" : 1373789,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.13~imageoptim.jpg",
@@ -2001,7 +2032,7 @@
     },
     "\/static\/images\/raffle\/19.jpg" : {
       "ft" : 16384,
-      "iS" : 1444266,
+      "iS" : 1106274,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/19.jpg",
@@ -2040,7 +2071,7 @@
     },
     "\/static\/images\/raffle\/22.jpg" : {
       "ft" : 16384,
-      "iS" : 1677128,
+      "iS" : 1271705,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/IMG_3236.jpg",
@@ -2317,6 +2348,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/IMG_3245.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/silhouette.jpg" : {
+      "ft" : 16384,
+      "iS" : 682290,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/silhouette.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2651,21 +2695,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/static\/scss\/modules\/achievements.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/static\/scss\/css\/achievements.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/static\/scss\/modules\/calendar.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -2751,6 +2780,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/imagegroup.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/imagegroup.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

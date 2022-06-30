@@ -8,7 +8,7 @@
 
 		{{ $type := .Params.module_type }}
 
-		{{ if (eq $type "achievements") }}
+		{{ if (eq $type "imagegroup") }}
 
 		<section id="section{{ $key }}" class="module {{ .Params.module_type }} altBG {{ if (eq $key 0) }}first{{ end }} {{ $pageParams.custom_class }}">
 
@@ -34,8 +34,8 @@
 					{{ partial "modules/faq.html" (dict "faqs" $faqs) }}
 				{{ end }}
 
-				{{ if (eq $type "achievements") }}
-				    {{ partial "modules/achievements.html" (dict "module" . ) }}
+				{{ if (eq $type "imagegroup") }}
+				    {{ partial "modules/imagegroup.html" (dict "module" . ) }}
 				{{ end }}
 
 				{{ if (eq $type "donate") }}

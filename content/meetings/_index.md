@@ -7,10 +7,10 @@ url: "/meetings"
 fullUrl: "https://colwichhso.com/meetings"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Attend a Meeting
-shoutout: We would love to hear your input.
-overview: We run four main meetings each year. Please attend if possible, or look at the meeting minutes below.
+shoutout: We would love to hear your ideas & suggestions.
+overview: We run four main meetings each year. Please attend to see how you can help Colwich Elementary, or look at the meeting minutes below.
 ctatext: View Meetings
-ctalink: /redesign
+ctalink: "#section1"
 image: "/images/flyers/HSOMeetingSeptWeb.jpg"
 faq_category: meeting
 ctaicon: calendar
@@ -18,7 +18,7 @@ custom_class: "show_image event_meeting"
 modules:
 - modules/common/featured_image.md
 - modules/common/meeting_list.md
-- modules/common/faq.md
+- modules/common/leadership.md
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md

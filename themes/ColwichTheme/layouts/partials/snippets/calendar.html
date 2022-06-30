@@ -1,0 +1,9 @@
+<li>
+	<div class="date">
+		<span class="month">{{ dateFormat "Jan" .event_date }}</span>
+		<span class="day">{{ if eq .page_status "comingsoon" }}TBD{{ else }}{{ dateFormat "2" .event_date }}{{ end }}</span>
+	</div>
+	<h4>{{ .title }}</h4>
+	<p>{{ .description }}</p>
+	<a href="{{ .url }}" class="highlighter">Learn more</a>
+</li>

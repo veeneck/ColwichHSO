@@ -1,4 +1,4 @@
-.achievements ul {
+.imagegroup ul {
 	@include flex();
 	flex-wrap: wrap;
 	padding: 0px;
@@ -10,7 +10,7 @@
 	}
 }
 
-.achievements li {
+.imagegroup li {
 	list-style: none;
 	padding: 20px;
 	width: 100%;
@@ -34,7 +34,7 @@
 	}
 }
 
-.achievements .content {
+.imagegroup .content {
 	padding-top: 75px;
 }
 .counter {
@@ -49,7 +49,7 @@
 	color: #000;
 }
 
-.achievements li div {
+.imagegroup li div {
 	padding: 20px 10px 20px 10px;
 	border-radius: 4px;
 	position: relative;
@@ -57,27 +57,27 @@
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 }
 
-.achievements li:nth-child(1)  div {
+.imagegroup li:nth-child(1)  div {
     background-color: #fff;
     color: blue;
 }
 
-.achievements li:nth-child(2) div {
+.imagegroup li:nth-child(2) div {
     background-color: #fff;
     color: $darkRed;
 }
 
-.achievements li:nth-child(3) div {
+.imagegroup li:nth-child(3) div {
     background-color: #fff;
     color: green;
 }
 
-.achievements li:nth-child(4) div {
+.imagegroup li:nth-child(4) div {
     background-color: #fff;
     color: brown;
 }
 
-.achievements li img {
+.imagegroup li img {
 	margin: 0px;
 	border-radius: 4px 4px 0px 0px;
 	height: 250px;
@@ -89,11 +89,11 @@
 	box-sizing: border-box;
 }
 
-.achievements .moduleCTA {
+.imagegroup .moduleCTA {
 	margin-top: 50px;
 }
 
-.achievements li p {
+.imagegroup li p {
 	font-weight: normal;
 	text-align: left;
 	padding: 10px;
@@ -103,7 +103,7 @@
 	box-sizing: border-box;
 }
 
-.achievements p {
+.imagegroup p {
 	width: 90%;
 	margin: 50px auto 0px auto;
 	line-height: 40px;
