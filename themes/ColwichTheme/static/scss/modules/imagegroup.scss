@@ -1,3 +1,7 @@
+.imagegroup.first {
+	margin-top: 0px;
+}
+
 .imagegroup ul {
 	@include flex();
 	flex-wrap: wrap;

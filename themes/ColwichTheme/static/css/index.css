@@ -792,6 +792,10 @@ img {
   animation-name: fadeOut;
 }
 
+.imagegroup.first {
+  margin-top: 0px;
+}
+
 .imagegroup ul {
   display: -webkit-box;
   display: -moz-box;
