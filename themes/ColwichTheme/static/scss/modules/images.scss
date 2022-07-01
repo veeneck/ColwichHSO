@@ -23,7 +23,7 @@ section.module.featured_image.first {
 	}
 
 	@include contentFor(normal-screen) {
-		margin-top: -200px;
+		
 	}
 
 	@include contentFor(large-screen) {
@@ -113,6 +113,14 @@ section.module.featured_image.first {
 	margin-top: 20px;
 	box-sizing: border-box;
 	box-shadow: 0 15px 60px rgba(62,62,62,.25);
+
+	@include contentFor(normal-screen) {
+		min-height: 400px;
+	}
+
+	@include contentFor(large-screen) {
+		min-height: 550px;
+	}
 
 	@include contentFor(xl-screen) {
 		min-height: 800px;

@@ -1827,11 +1827,6 @@ div.menu-link:hover {
 section.module.featured_image.first {
   margin-top: 0px;
 }
-@media (min-width: 1080px) {
-  section.module.featured_image.first {
-    margin-top: -200px;
-  }
-}
 @media (min-width: 1300px) {
   section.module.featured_image.first {
     margin-top: -200px;
@@ -1919,6 +1914,16 @@ section.module.featured_image.first {
   margin-top: 20px;
   box-sizing: border-box;
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.25);
+}
+@media (min-width: 1080px) {
+  .polaroid img {
+    min-height: 400px;
+  }
+}
+@media (min-width: 1300px) {
+  .polaroid img {
+    min-height: 550px;
+  }
 }
 @media (min-width: 2000px) {
   .polaroid img {
@@ -2177,9 +2182,9 @@ section.module {
   margin-top: 50px;
   padding-bottom: 75px;
 }
-@media (min-width: 765px) {
+@media (min-width: 1080px) {
   section.module {
-    margin-top: 100px;
+    padding-bottom: 125px;
   }
 }
 .module .content {

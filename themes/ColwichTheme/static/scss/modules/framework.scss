@@ -19,11 +19,12 @@ section.module {
 	padding-bottom: 75px;
 
 	@include contentFor(mini-screen) {
-		margin-top: 100px;
+		//margin-top: 100px;
 	}
 
 	@include contentFor(normal-screen) {
 		//margin-top: 125px;
+		padding-bottom: 125px;
 	}
 
 	@include contentFor(large-screen) {
