@@ -9,13 +9,13 @@ form.wufoo  {
 
 @font-face {
     font-family: 'rubik';
-    src: url('/fonts/Rubik/static/Rubik-Regular.ttf');
+    src: url('https://colwichhso.com/fonts/Rubik/static/Rubik-Regular.ttf');
 }
 
 
 @font-face {
     font-family: 'rubik';
-    src: url('/fonts/Rubik/static/Rubik-Bold.ttf');
+    src: url('https://colwichhso.com/fonts/Rubik/static/Rubik-Bold.ttf');
     font-weight: bold;
 }
 
@@ -31,5 +31,7 @@ form.wufoo  {
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
 	border: 1px solid #000;
 	font-size: 100%;
+	width: 300px;
+	margin: 0 auto;
 
 }
