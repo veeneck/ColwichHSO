@@ -1,0 +1,18 @@
+header .info h2 {
+  display: none;
+}
+
+form {
+  padding: 30px;
+  font-family: "rubik", serif;
+}
+
+@font-face {
+  font-family: "rubik";
+  src: url("/fonts/Rubik/static/Rubik-Regular.ttf");
+}
+@font-face {
+  font-family: "rubik";
+  src: url("/fonts/Rubik/static/Rubik-Bold.ttf");
+  font-weight: bold;
+}
