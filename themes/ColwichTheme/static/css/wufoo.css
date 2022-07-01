@@ -42,5 +42,5 @@ form.wufoo {
 }
 
 .wufoo span.req {
-  color: #C93234;
+  color: #C93234 !important;
 }
