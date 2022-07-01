@@ -5,7 +5,7 @@
   font-weight: 300;
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
-.wufoo .info header {
+.wufoo header.info {
   display: none;
 }
 
@@ -25,7 +25,7 @@ form.wufoo {
   margin: 10px;
   text-decoration: none;
   display: inline-block;
-  background-color: #A62C2E;
+  background-color: #C93234;
   color: #fff;
   line-height: 20px;
   font-weight: bold;
@@ -33,6 +33,7 @@ form.wufoo {
   border: 1px solid #000;
   font-size: 100%;
   float: none;
+  font-size: 150%;
 }
 @media (min-width: 1000px) {
   .wufoo .buttons #saveForm {
