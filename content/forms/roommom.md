@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/forms/roomparent"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Room Parent Application
 shoutout: We Need You!<br />Apply Here.
-overview: Thanks for considering the room mom position. Please fill out the form below with your contact and grade level details.
+overview: Thanks for considering the room parent position. Please fill out the form below with your contact and grade level details.
 modules:
 - modules/common/sponsors.md
 - modules/common/footer.md
