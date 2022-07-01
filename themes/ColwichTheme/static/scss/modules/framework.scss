@@ -15,11 +15,10 @@ body section:nth-child(1) {
 }
 
 section.module {
-	margin-top: 50px;
 	padding-bottom: 75px;
 
 	@include contentFor(mini-screen) {
-		//margin-top: 100px;
+		margin-top: 50px;
 	}
 
 	@include contentFor(normal-screen) {
@@ -93,6 +92,10 @@ section.first {
 	@include contentFor(mini-screen) {
 		font-size: 120%;
 		display: block;
+		margin-top: 100px !important;
+	}
+	@include contentFor(normal-screen) {
+		margin-top: 50px !important;
 	}
 }
 

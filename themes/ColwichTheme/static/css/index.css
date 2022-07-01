@@ -796,8 +796,10 @@ img {
   margin-top: 0px;
 }
 
-.module.imagegroup .content {
-  width: 100%;
+@media (min-width: 2000px) {
+  .module.imagegroup .content {
+    width: 100%;
+  }
 }
 
 .imagegroup ul {
@@ -2194,8 +2196,12 @@ body section:nth-child(1) {
 }
 
 section.module {
-  margin-top: 50px;
   padding-bottom: 75px;
+}
+@media (min-width: 765px) {
+  section.module {
+    margin-top: 50px;
+  }
 }
 @media (min-width: 1080px) {
   section.module {
@@ -2240,6 +2246,12 @@ section.module {
   .module h2 {
     font-size: 120%;
     display: block;
+    margin-top: 100px !important;
+  }
+}
+@media (min-width: 1080px) {
+  .module h2 {
+    margin-top: 50px !important;
   }
 }
 

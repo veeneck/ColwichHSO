@@ -3,7 +3,9 @@
 }
 
 .module.imagegroup .content {
-	width: 100%;
+	@include contentFor(xl-screen) {
+		width: 100%;
+	}
 }
 
 .imagegroup ul {
