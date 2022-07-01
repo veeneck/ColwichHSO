@@ -16,10 +16,10 @@
 }
 
 section.module.featured_image.first {
-	margin-top: -50px;
+	margin-top: 0px;
 
 	@include contentFor(mini-screen) {
-		margin-top: -100px;
+		
 	}
 
 	@include contentFor(normal-screen) {
@@ -33,7 +33,7 @@ section.module.featured_image.first {
 
 .module.featured_image .content {
 	width: 100%;
-	margin-top: 50px;
+	//margin-top: 50px;
 
 	@include contentFor(large-screen) {
 		margin-top: 75px;

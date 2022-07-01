@@ -1,5 +1,4 @@
 section.hero {
-	min-height: 700px;
 
 	@include contentFor(large-screen) {
 		padding-bottom: 300px !important;

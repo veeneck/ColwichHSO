@@ -1137,9 +1137,6 @@ ul.calendar_item li a {
     width: 800px;
   }
 }
-section.hero {
-  min-height: 700px;
-}
 @media (min-width: 1300px) {
   section.hero {
     padding-bottom: 300px !important;
@@ -1828,12 +1825,7 @@ div.menu-link:hover {
 }
 
 section.module.featured_image.first {
-  margin-top: -50px;
-}
-@media (min-width: 765px) {
-  section.module.featured_image.first {
-    margin-top: -100px;
-  }
+  margin-top: 0px;
 }
 @media (min-width: 1080px) {
   section.module.featured_image.first {
@@ -1848,7 +1840,6 @@ section.module.featured_image.first {
 
 .module.featured_image .content {
   width: 100%;
-  margin-top: 50px;
 }
 @media (min-width: 1300px) {
   .module.featured_image .content {
@@ -2264,6 +2255,7 @@ a.highlighter {
   padding: 5px 10px;
   text-decoration: none;
   position: relative;
+  z-index: 1;
   white-space: nowrap;
 }
 
