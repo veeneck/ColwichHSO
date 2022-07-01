@@ -2,9 +2,9 @@
   display: none;
 }
 
-.wufoo form {
-  padding: 30px;
-  font-family: "rubik", serif;
+form.wufoo {
+  padding: 30px !important;
+  font-family: "rubik", serif !important;
 }
 
 @font-face {
@@ -15,4 +15,17 @@
   font-family: "rubik";
   src: url("/fonts/Rubik/static/Rubik-Bold.ttf");
   font-weight: bold;
+}
+.wufoo .buttons #saveForm {
+  border-radius: 4px;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #A62C2E;
+  color: #fff;
+  line-height: 20px;
+  font-weight: bold;
+  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
+  border: 1px solid #000;
+  font-size: 100%;
 }
