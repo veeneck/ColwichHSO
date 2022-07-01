@@ -3,7 +3,7 @@ title: CES HSO Volunteer Information
 description: See the different ways that we could use your help this school year.
 type: redesign
 date: 2022-06-03 14:59:46 +0000
-url: "/redesign/volunteer"
+url: "/volunteer"
 fullUrl: "https://colwichhso.com/volunteer"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Calling All Volunteers

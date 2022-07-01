@@ -1867,33 +1867,33 @@ section.module.featured_image.first {
   margin: 0 auto;
   z-index: 3;
   position: relative;
-  object-fit: cover;
+  object-fit: contain;
   box-sizing: border-box;
   background-color: #fff;
+}
+@media (min-width: 765px) {
+  .heroImg {
+    min-height: 700px;
+  }
 }
 @media (min-width: 1080px) {
   .heroImg {
     width: 30%;
+    min-height: 400px;
     border-radius: 4px;
-    border: 20px solid #fff;
-    border-bottom: 60px solid #fff;
     box-shadow: 0 15px 60px rgba(62, 62, 62, 0.25);
   }
 }
 @media (min-width: 1300px) {
   .heroImg {
     width: 30%;
-    height: 600px;
+    min-height: 550px;
   }
 }
 @media (min-width: 2000px) {
   .heroImg {
-    height: 1000px;
+    min-height: 800px;
   }
-}
-
-.module.featured_image.show_image .heroImg, .module.featured_image.show_image .polaroid img {
-  object-fit: contain;
 }
 
 .flyer.tape:before, .flyer.tape:after {
@@ -1911,12 +1911,10 @@ section.module.featured_image.first {
 
 .polaroid img {
   width: 30%;
-  height: 550px;
-  object-fit: cover;
+  min-height: 550px;
+  object-fit: contain;
   background-color: #fff;
   border-radius: 4px;
-  border: 20px solid #fff;
-  border-bottom: 60px solid #fff;
   position: absolute;
   margin-top: 20px;
   box-sizing: border-box;
@@ -1924,7 +1922,7 @@ section.module.featured_image.first {
 }
 @media (min-width: 2000px) {
   .polaroid img {
-    height: 1000px;
+    min-height: 800px;
   }
 }
 
@@ -1987,6 +1985,31 @@ section.module.featured_image.first {
     display: block;
   }
 }
+.module.featured_image.add_border .heroImg, .module.featured_image.add_border .polaroid img {
+  object-fit: cover;
+}
+@media (min-width: 765px) {
+  .module.featured_image.add_border .heroImg, .module.featured_image.add_border .polaroid img {
+    height: 700px;
+  }
+}
+@media (min-width: 1080px) {
+  .module.featured_image.add_border .heroImg, .module.featured_image.add_border .polaroid img {
+    height: 400px;
+  }
+}
+@media (min-width: 1300px) {
+  .module.featured_image.add_border .heroImg, .module.featured_image.add_border .polaroid img {
+    height: 600px;
+    border: 20px solid #fff;
+  }
+}
+@media (min-width: 2000px) {
+  .module.featured_image.add_border .heroImg, .module.featured_image.add_border .polaroid img {
+    height: 1000px;
+  }
+}
+
 .img-tape--1:before {
   left: 50%;
   margin-left: -60px;

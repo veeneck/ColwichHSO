@@ -63,35 +63,29 @@ section.module.featured_image.first {
 	margin: 0 auto;
 	z-index: 3;
 	position: relative;
-	object-fit: cover;
+	object-fit: contain;
 	box-sizing: border-box;
 	background-color: #fff;
 
 	@include contentFor(mini-screen) {
-		//height: 700px;
+		min-height: 700px;
 	}
 
 	@include contentFor(normal-screen) {
 		width: 30%;
-		//height: 400px;
+		min-height: 400px;
 		border-radius: 4px;
-		border: 20px solid #fff;
-		border-bottom: 60px solid #fff;
 		box-shadow: 0 15px 60px rgba(62,62,62,.25);
 	}
 
 	@include contentFor(large-screen) {
 		width: 30%;
-		height: 600px;
+		min-height: 550px;
 	}
 
 	@include contentFor(xl-screen) {
-		height: 1000px;
+		min-height: 800px;
 	}
-}
-
-.module.featured_image.show_image .heroImg, .module.featured_image.show_image .polaroid img {
-	object-fit: contain;
 }
 
 .flyer.tape {
@@ -111,19 +105,17 @@ section.module.featured_image.first {
 
 .polaroid img {
 	width: 30%;
-	height: 550px;
-	object-fit: cover;
+	min-height: 550px;
+	object-fit: contain;
 	background-color: #fff;
 	border-radius: 4px;
-	border: 20px solid #fff;
-	border-bottom: 60px solid #fff;
 	position: absolute;
 	margin-top: 20px;
 	box-sizing: border-box;
 	box-shadow: 0 15px 60px rgba(62,62,62,.25);
 
 	@include contentFor(xl-screen) {
-		height: 1000px;
+		min-height: 800px;
 	}
 }
 
@@ -205,6 +197,30 @@ section.module.featured_image.first {
 
 	@include contentFor(xl-screen) {
 
+	}
+}
+
+/// This is kind of a hack. Flyers already have borders and need to use contain, while photos dont have borders and need to use cover.
+/// Any page with photos instead of flyers has a custom class added.
+/// Because cover is used, the height must be forced as well.
+.module.featured_image.add_border .heroImg, .module.featured_image.add_border .polaroid img {
+	object-fit: cover;
+
+	@include contentFor(mini-screen) {
+		height: 700px;
+	}
+
+	@include contentFor(normal-screen) {
+		height: 400px;
+	}
+
+	@include contentFor(large-screen) {
+		height: 600px;
+		border: 20px solid #fff;
+	}
+
+	@include contentFor(xl-screen) {
+		height: 1000px;
 	}
 }
 

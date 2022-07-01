@@ -13,6 +13,7 @@ overview: The main way to get involved is to sync our calendar of events, which 
 ctatext: Download 2022-2023 Calendar
 ctalink: /redesign
 ctaicon: calendar
+custom_class: "add_border"
 image: /images/photos/cardinal.jpg
 modules:
 - modules/common/featured_image.md

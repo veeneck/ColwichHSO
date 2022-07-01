@@ -12,6 +12,8 @@ ctatext: SIGN UP YOUR CHILD
 ctalink: /redesign
 ctaicon: popcorn
 page_status: comingsoon
+aliases:
+    - /parentsnight
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

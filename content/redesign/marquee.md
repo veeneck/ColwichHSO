@@ -3,7 +3,7 @@ title: Rent the CES Marquee
 description: Announce your next big event on the CES marquee.
 type: redesign
 date: 2022-06-03 14:59:46 +0000
-url: "/redesign/marquee"
+url: "/marquee"
 fullUrl: "https://colwichhso.com/marquee"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Rent The Marquee
