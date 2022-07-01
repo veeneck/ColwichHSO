@@ -35,6 +35,10 @@ background-size: cover;
 	}
 }
 
+.footer .logo img {
+	
+}
+
 .footer .social_links {
 	width: 100%;
 	@include flex();
@@ -116,6 +120,11 @@ background-size: cover;
 
 .footer_lists ul li:first-child {
 	margin-top: 25px;
+}
+
+.footer_lists a {
+	text-decoration: none;
+	color: #fff;
 }
 
 hr {

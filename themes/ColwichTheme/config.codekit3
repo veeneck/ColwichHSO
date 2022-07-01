@@ -1706,6 +1706,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/photos\/books.jpg" : {
+      "ft" : 16384,
+      "iS" : 985485,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/books.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/photos\/cardinal.jpg" : {
       "ft" : 16384,
       "iS" : 617959,
@@ -1725,6 +1738,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/photos\/cards.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/cups.jpg" : {
+      "ft" : 16384,
+      "iS" : 1248337,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/cups.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -1780,6 +1806,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/school.jpg" : {
+      "ft" : 16384,
+      "iS" : 1123556,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/school.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

@@ -14,7 +14,7 @@
 				  <div class="dropdown-content">
 				  	  <a href="#" class="backBtn"><img class="icon" src="/images/icons/back.svg" /> Back</a>
 					  <a href="/volunteer">Volunteer Information</a>
-					  <a href="/roomparent/">Become a Room Parent</a>
+					  <!--<a href="/roomparent/">Become a Room Parent</a>-->
 					  <a href="/meetings">Attend Our Meetings</a>
 					  <a href="/calendar">2022-2023 Calendar</a>
 				  </div>
@@ -33,7 +33,7 @@
 			  <div class="dropdown-content">
 			  	  <a href="#" class="backBtn"><img class="icon" src="/images/icons/back.svg" /> Back</a>
 				  <a href="/forms/funds">Request for Funds</a>
-				  <a href="/forms/roomparent">Room Parent Signup</a>
+				  <!--<a href="/forms/roomparent">Room Parent Signup</a>-->
 				  <a href="/forms/volunteer">Volunteer Registration</a>
 				  <a href="/forms/sponsor">Become a Sponsor</a>
 				  <a href="/forms/feedback">HSO Feedback</a>
@@ -42,7 +42,7 @@
 			</li>
 			<li><a href="/faq" class="topmenu">FAQ</a></li>
 			<li class="mobileMenuFB"><a href="https://www.facebook.com/Colwich-Home-and-School-Organization-INC-683568748386201/" target="_blank" rel="noopener"  title="Follow Colwich HSO on Facebook"><img class="icon invertIcon" src="/images/icons/facebook.svg" /><span> Find us on Facebook</a></li>
-			<li class="mobileMenuItem"><a data-url="https://square.link/u/PdHM3fyJ?src=embd" href="https://square.link/u/PdHM3fyJ?src=embed" ><img class="icon invertIcon" src="/images/icons/donate.svg" /> Donate</a></li>
+			<li class="mobileMenuItem"><a href="/donate" ><img class="icon invertIcon" src="/images/icons/donate.svg" /> Donate</a></li>
 		 </ul>
 	</nav>
 
@@ -51,7 +51,7 @@
   	</div>
 
 	<div class="donate">
-		{{ partial "button.html"  (dict "link" "https://square.link/u/PdHM3fyJ?src=embed" "class" "primary" "icon" "donate" "text" "Donate") }}
+		{{ partial "button.html"  (dict "link" "/donate" "class" "primary" "icon" "donate" "text" "Donate") }}
 	</div>
 
 
