@@ -17,8 +17,6 @@ body section:nth-child(1) {
 section.module {
 	margin-top: 50px;
 	padding-bottom: 75px;
-	z-index: 0;
-	position: relative;
 
 	@include contentFor(mini-screen) {
 		margin-top: 100px;
