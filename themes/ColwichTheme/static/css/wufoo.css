@@ -5,6 +5,7 @@
 form.wufoo {
   padding: 30px !important;
   font-family: "rubik", serif !important;
+  font-size: rem(19px) !important;
 }
 
 @font-face {
@@ -30,4 +31,9 @@ form.wufoo {
   font-size: 100%;
   width: 300px;
   margin: 0 auto;
+}
+@media (min-width: 1300px) {
+  .wufoo .buttons #saveForm {
+    border: 2px solid #000;
+  }
 }
