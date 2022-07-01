@@ -40,3 +40,7 @@ form.wufoo {
     border: 2px solid #000;
   }
 }
+
+.wufoo span.req {
+  color: #C93234;
+}
