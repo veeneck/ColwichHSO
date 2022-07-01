@@ -49,6 +49,11 @@ form.wufoo label span.req {
   color: #C93234 !important;
 }
 
+form.wufoo label i {
+  background-color: #3e3e3e;
+  padding: 5px;
+}
+
 form.wufoo p.error {
   font-size: 15px;
 }
