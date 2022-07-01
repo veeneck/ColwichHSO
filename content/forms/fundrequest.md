@@ -8,8 +8,10 @@ fullUrl: "https://colwichhso.com/forms/funds"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Request For Funds 
 shoutout: We've Got You Covered 🏦 
-overview: Once submitted below, your request will go through a vote with our HSO Officers. If the amount exceeds $300, all members will vote. If you have not heard back from us within 1 week, please <a href="">contact us</a>, or talk to a boardmember. Thank you!
+overview: HSO would love to be able to fund your request. Please read the <a href="#section0">Fund Request FAQ</a>, and then submit the form below.
+faq_category: fundrequest
 modules:
+- modules/common/faq.md
 - modules/common/sponsors.md
 - modules/common/footer.md
 formEmbed: qjmf0o41hoz3ib

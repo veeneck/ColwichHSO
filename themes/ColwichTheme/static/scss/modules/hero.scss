@@ -154,10 +154,14 @@ mark {
 	z-index: 10;
 	max-width: 1000px;
 	border-radius: 4px;
-	border: 20px solid #fff;
+	border: 5px solid #fff;
 	background-color: #fff;
 	min-height: 500px;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+
+	@include contentFor(large-screen) {
+		border: 20px solid #fff;
+	}
 }
 
 .more {
