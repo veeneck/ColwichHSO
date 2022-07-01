@@ -1750,17 +1750,6 @@ div.menu-link:hover {
   text-align: center;
 }
 
-@media (min-width: 1300px) {
-  .module.faq {
-    margin-top: 100px;
-  }
-}
-@media (min-width: 2000px) {
-  .module.faq {
-    margin-top: 200px;
-  }
-}
-
 .faq .content {
   column-count: 1;
   -webkit-column-count: 1;
