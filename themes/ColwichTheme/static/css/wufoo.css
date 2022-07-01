@@ -10,9 +10,13 @@
 }
 
 form.wufoo {
-  padding: 30px !important;
   font-family: "system", serif !important;
   font-size: rem(19px) !important;
+}
+@media (min-width: 1000px) {
+  form.wufoo {
+    padding: 30px !important;
+  }
 }
 
 .wufoo .buttons {
