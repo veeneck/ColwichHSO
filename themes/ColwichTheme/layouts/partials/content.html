@@ -8,13 +8,18 @@
 
 		{{ $type := .Params.module_type }}
 
+		{{ .Scratch.Set "first" "" }}
+		{{ if and (eq $key 0) (not $pageParams.formEmbed) }}
+ 			{{ .Scratch.Set "first" "first" }}
+		{{ end }}
+
 		{{ if (eq $type "imagegroup") }}
 
-		<section id="section{{ $key }}" class="module {{ .Params.module_type }} altBG {{ if (eq $key 0) }}first{{ end }} {{ $pageParams.custom_class }}">
+		<section id="section{{ $key }}" class="module {{ .Params.module_type }} altBG {{ .Scratch.Get "first"  }} {{ $pageParams.custom_class }}">
 
 		{{ else }}
 
-		<section id="section{{ $key }}" class="module {{ .Params.module_type }} {{ if (eq $key 0) }}first{{ end }} {{ $pageParams.custom_class }}">
+		<section id="section{{ $key }}" class="module {{ .Params.module_type }} {{ .Scratch.Get "first"  }} {{ $pageParams.custom_class }}">
 
 		{{ end }}
 

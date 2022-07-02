@@ -3,8 +3,8 @@ title: Conference Meals 🍽️
 description: We supply the food for the teachers conferences as a show of appreciation.
 type: events
 event_date: 2022-09-28 1:00:00 +0000
-url: "/calendar/meals"
-fullUrl: "https://colwichhso.com/calendar/meals"
+url: "/meals"
+fullUrl: "https://colwichhso.com/meals"
 pageImage: "https://colwichhso.com/og_img.png"
 faq_category: conference
 ctatext: Add To Your Calendar
@@ -12,6 +12,8 @@ ctalink: /redesign
 ctaicon: meal
 image: "/images/flyers/ConferenceMealWeb.jpg"
 custom_class: "show_image event_conference"
+aliases:
+    - /conference
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

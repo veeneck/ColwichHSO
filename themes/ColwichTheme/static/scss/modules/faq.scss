@@ -11,10 +11,16 @@
 	}
 
 	@include contentFor(large-screen) {
-		margin-top: -200px;
+		
 	}
 
 	@include contentFor(xl-screen) {
+	}
+}
+
+.module.faq.first {
+	@include contentFor(large-screen) {
+		margin-top: -200px;
 	}
 }
 
