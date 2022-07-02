@@ -5,7 +5,7 @@ type: events
 event_date: 2022-09-21 1:00:00 +0000
 url: "/gambinos"
 fullUrl: "https://colwichhso.com/gambinos"
-pageImage: "https://colwichhso.com/og_img.png"
+pageImage: "https://colwichhso.com/images/flyers/HomePageOG.jpg"
 faq_category: spiritnight
 ctatext: Add To Your Calendar
 ctalink: /redesign
