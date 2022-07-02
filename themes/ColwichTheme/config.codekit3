@@ -728,7 +728,7 @@
     },
     "\/static\/images\/auction\/2.jpg" : {
       "ft" : 16384,
-      "iS" : 271259,
+      "iS" : 892423,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/2.jpg",
@@ -767,7 +767,7 @@
     },
     "\/static\/images\/auction\/7.jpg" : {
       "ft" : 16384,
-      "iS" : 848660,
+      "iS" : 651613,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/7.jpg",
@@ -793,7 +793,7 @@
     },
     "\/static\/images\/auction\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 967927,
+      "iS" : 1290401,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/10.jpg",
@@ -819,7 +819,7 @@
     },
     "\/static\/images\/auction\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1259667,
+      "iS" : 1636099,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/12.jpg",
@@ -1124,7 +1124,7 @@
       "oAP" : "\/static\/images\/flyers\/IceCreamSocialWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1503,7 +1503,7 @@
     },
     "\/static\/images\/logos\/cushman.png" : {
       "ft" : 32768,
-      "iS" : 62028,
+      "iS" : 28319,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/cushman.png",
       "oF" : 0,
@@ -1916,7 +1916,7 @@
     },
     "\/static\/images\/raffle\/2.jpg" : {
       "ft" : 16384,
-      "iS" : 1680990,
+      "iS" : 1265316,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2.jpg",
@@ -1929,7 +1929,7 @@
     },
     "\/static\/images\/raffle\/3.jpg" : {
       "ft" : 16384,
-      "iS" : 702536,
+      "iS" : 927508,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/3.jpg",
@@ -1942,7 +1942,7 @@
     },
     "\/static\/images\/raffle\/4.jpg" : {
       "ft" : 16384,
-      "iS" : 725682,
+      "iS" : 547371,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/4.jpg",
@@ -2007,7 +2007,7 @@
     },
     "\/static\/images\/raffle\/9.jpg" : {
       "ft" : 16384,
-      "iS" : 1379396,
+      "iS" : 1032925,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/9.jpg",
@@ -2020,7 +2020,7 @@
     },
     "\/static\/images\/raffle\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 1551259,
+      "iS" : 1174856,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/10.jpg",
@@ -2111,7 +2111,7 @@
     },
     "\/static\/images\/raffle\/17.jpg" : {
       "ft" : 16384,
-      "iS" : 1184106,
+      "iS" : 1083178,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/17.jpg",
@@ -2163,7 +2163,7 @@
     },
     "\/static\/images\/raffle\/21.jpg" : {
       "ft" : 16384,
-      "iS" : 898358,
+      "iS" : 1180761,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/IMG_3234.jpg",
@@ -2176,7 +2176,7 @@
     },
     "\/static\/images\/raffle\/22.jpg" : {
       "ft" : 16384,
-      "iS" : 1677128,
+      "iS" : 1271705,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/IMG_3236.jpg",
@@ -2280,7 +2280,7 @@
     },
     "\/static\/images\/raffle\/30.jpg" : {
       "ft" : 16384,
-      "iS" : 1630499,
+      "iS" : 1225476,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/30.jpg",
