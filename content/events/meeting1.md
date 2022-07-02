@@ -1,5 +1,5 @@
 ---
-title: HSO Meeting 🗓️
+title: 1st HSO Meeting 🗓️
 description: Our first meeting of the year to kick things off.
 type: events
 event_date: 2022-09-06 18:00:00 +0000

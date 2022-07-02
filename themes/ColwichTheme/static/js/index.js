@@ -222,15 +222,15 @@ function setDonateTriggers(section) {
     let links = gsap.utils.toArray(".donate li a");
     links.forEach((el, i) => {
 
-        let scale = 0;
+        let scale = 0.8;
 
         gsap.from(el, {
             scrollTrigger: {
                 trigger: el,
                 scrub: true,
-                start: "-100px center",
+                end: "center center",
             },
-            autoAlpha: 0
+            scale: scale
         });  
     }); 
 }

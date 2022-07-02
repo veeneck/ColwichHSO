@@ -7,7 +7,7 @@ url: "/meetings"
 fullUrl: "https://colwichhso.com/meetings"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Attend a Meeting
-shoutout: We would love to hear your ideas & suggestions.
+shoutout: We would love to hear your ideas & suggestions 💡
 overview: We run four main meetings each year. Please attend to see how you can help Colwich Elementary, or look at the meeting minutes below.
 ctatext: View Meetings
 ctalink: "#section1"

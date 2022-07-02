@@ -1,5 +1,5 @@
 ---
-title: Rent the CES Marquee
+title: Rent the CES Marquee 📢
 description: Announce your next big event on the CES marquee.
 type: redesign
 date: 2022-06-03 14:59:46 +0000
