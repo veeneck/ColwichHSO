@@ -3,8 +3,8 @@ title: Ice Cream Social 🍦
 description: Join us for tasty treats and socializing before school starts!
 type: events
 event_date: 2022-08-16 5:45:00 +0000
-url: "/calendar/icecream"
-fullUrl: "https://colwichhso.com/calendar/icecream"
+url: "/dessert"
+fullUrl: "https://colwichhso.com/dessert"
 pageImage: "https://colwichhso.com/og_img.png"
 faq_category: icecream
 ctatext: Add To Your Calendar

@@ -7,7 +7,7 @@ url: "/faq"
 fullUrl: "https://colwichhso.com/faq"
 pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Frequently Asked Questions
-shoutout: You've Got Questions.<br />We've Got Answers.
+shoutout: You've Got Questions.<br />We've Got Answers. 🙋
 overview: Check out the content below for answers to your burning questions.
 faq_category: general
 modules:
