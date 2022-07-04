@@ -11,6 +11,7 @@ page_status: comingsoon
 ctatext: SIGN UP YOUR CHILD
 ctalink: /redesign
 ctaicon: popcorn
+faq_category: parentsnight
 custom_class: "show_image event_parentsnight"
 modules:
 - modules/common/featured_image.md

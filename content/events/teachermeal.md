@@ -6,7 +6,7 @@ event_date: 2022-09-28 1:00:00 +0000
 url: "/meals"
 fullUrl: "https://colwichhso.com/meals"
 pageImage: "https://colwichhso.com/og_img.png"
-faq_category: conference
+faq_category: meals
 ctatext: Add To Your Calendar
 ctalink: /redesign
 ctaicon: meal

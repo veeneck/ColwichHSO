@@ -14,7 +14,7 @@ ctalink: /redesign
 ctaicon: marquee
 page_status: comingsoon
 custom_class: "show_image event_marquee"
-
+faq_category: marquee
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
 
 modules:

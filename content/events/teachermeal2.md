@@ -6,7 +6,7 @@ event_date: 2023-02-10 1:00:00 +0000
 url: "/meals2"
 fullUrl: "https://colwichhso.com/meals2"
 pageImage: "https://colwichhso.com/og_img.png"
-faq_category: conference
+faq_category: meals
 page_status: comingsoon
 ctatext: Add To Your Calendar
 ctalink: /redesign
