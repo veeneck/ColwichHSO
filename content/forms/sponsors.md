@@ -12,6 +12,7 @@ overview: Thanks for considering a sponsorship for Colwich HSO. Please fill out 
 page_status: comingsoon
 custom_class: "show_image event_sponsor"
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
+ctaicon: hearthand
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
