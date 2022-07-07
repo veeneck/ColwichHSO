@@ -1,5 +1,5 @@
 ---
-title: Veteran's Day Reception 🎖️
+title: Veterans Day Reception 🎖️
 description: I'm not sure what this event involves..
 type: events
 event_date: 2022-11-11 1:00:00 +0000

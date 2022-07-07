@@ -12,6 +12,7 @@ ctatext: Add To Your Calendar
 ctalink: /redesign
 ctaicon: pumpkin
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
+faq_category: trunkortreat
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

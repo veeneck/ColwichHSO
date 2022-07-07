@@ -77,8 +77,12 @@ ul.calendar_item .day {
 	background-color: $red;
 }
 
+.calendar_item h4 {
+	font-size: 145%;
+}
+
 .calendar_full h4 {
-color: #fff;
+	color: #fff;
 }
 
 ul.calendar_item li a {
