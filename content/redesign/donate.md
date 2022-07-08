@@ -14,7 +14,6 @@ ctaicon: donate
 modules:
 - modules/common/donatehow.md
 - modules/common/sponsors.md
-- modules/common/donate.md
 - modules/common/footer.md
 ---
 Section Text
