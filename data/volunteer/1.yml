@@ -1,5 +1,5 @@
 name: Attend a Meeting
 body: Check out our <a href="/meetings">upcoming meetings</a> to see if you can attend any. Your input is appreciated!
-image: '/images/silhouette.jpg'
+image: '/images/meeting.jpg'
 featured: 1
 itemType: 'volunteer'
