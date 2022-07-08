@@ -51,11 +51,11 @@ header .logo {
 header .donate {
     width: 0%;
     text-align: right;
-    visibility: hidden;
+    display: none;
     height: 0px;
 
     @include contentFor(xl-screen) {
-        visibility: visible;
+        display: inline-block;
         width: 13%;
     }
 }
