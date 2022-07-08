@@ -128,15 +128,18 @@ nav[role=navigation]:after {
   src: url("/fonts/Catamaran/static/Catamaran-Black.ttf");
   font-weight: heavy;
   font-style: normal;
+  font-display: fallback;
 }
 @font-face {
   font-family: "rubik";
   src: url("/fonts/Rubik/static/Rubik-Regular.ttf");
+  font-display: fallback;
 }
 @font-face {
   font-family: "rubik";
   src: url("/fonts/Rubik/static/Rubik-Bold.ttf");
   font-weight: bold;
+  font-display: fallback;
 }
 /* Define the "system" font family */
 @font-face {
@@ -144,6 +147,7 @@ nav[role=navigation]:after {
   font-style: normal;
   font-weight: 300;
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  font-display: fallback;
 }
 /*------------------------------------*\
     # Simple Typography Settings

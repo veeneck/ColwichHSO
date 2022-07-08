@@ -1,4 +1,4 @@
-<a href="{{ .link }}" class="{{ .class }} button">
+<a href="{{ .link | safeURL }}" class="{{ .class }} button">
 	<span class="iconContainer">
 		<img class="icon" src="/images/icons/{{ .icon }}.svg" />
 	</span>
