@@ -963,6 +963,20 @@ ul.calendar_item li, .calendar_full li {
   }
 }
 
+.calendar_full li {
+  width: 90%;
+}
+@media (min-width: 1080px) {
+  .calendar_full li {
+    width: 30%;
+  }
+}
+@media (min-width: 2000px) {
+  .calendar_full li {
+    width: 23%;
+  }
+}
+
 ul.calendar_item li:nth-child(n+7) {
   display: none;
 }
@@ -999,7 +1013,12 @@ ul.calendar_item .day {
 }
 
 .calendar_full ul {
-  justify-content: left;
+  justify-content: center;
+}
+@media (min-width: 1080px) {
+  .calendar_full ul {
+    justify-content: left;
+  }
 }
 
 .calendar_full .month {

@@ -36,6 +36,24 @@ ul.calendar_item li, .calendar_full li {
 	}
 }
 
+.calendar_full li {
+
+	width: 90%;
+
+	@include contentFor(normal-screen) {
+		width: 30%;
+	}
+
+	@include contentFor(large-screen) {
+		
+	}
+
+	@include contentFor(xl-screen) {
+		width: 23%;
+	}
+
+}
+
 ul.calendar_item li:nth-child(n+7) {
 	display: none;
 
@@ -70,7 +88,11 @@ ul.calendar_item .day {
 }
 
 .calendar_full ul {
-	justify-content: left;
+	justify-content: center;
+
+	@include contentFor(normal-screen) {
+		justify-content: left;
+	}
 }
 
 .calendar_full .month {
