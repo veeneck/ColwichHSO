@@ -1,4 +1,4 @@
-<a href="{{ .link | safeURL }}" class="{{ .class }} button">
+<a href="{{ .link | safeURL }}" class="{{ .class }} button" {{ if eq .tracking true }}onclick="fathom.trackGoal(BI7I1FAC', 0);" {{ end }}>
 	<span class="iconContainer">
 		<img class="icon" src="/images/icons/{{ .icon }}.svg" loading="lazy" />
 	</span>

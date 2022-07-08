@@ -35,10 +35,12 @@
 		{{ if .Params.ctatext }}
 			<div class="callToAction">
 				{{ .Scratch.Set "link" .Params.ctalink }}
+				{{ .Scratch.Set "tracking" false }}
 				{{ if eq .Params.ctalink "calendar" }}
  					{{ .Scratch.Set "link" $.Site.Params.calendarURL }}
+ 					{{ .Scratch.Set "tracking" true }}
 				{{ end }}
-				{{ partial "button.html"  (dict "link" (.Scratch.Get "link") "class" "primary" "icon" .Params.ctaicon "text" .Params.ctatext) }}
+				{{ partial "button.html"  (dict "link" (.Scratch.Get "link") "tracking" (.Scratch.Get "tracking") "class" "primary" "icon" .Params.ctaicon "text" .Params.ctatext) }}
 			</div>
 			 <div class="more">or <a href="#section1" class="highlighter">Learn More</a></div>
 		{{ end }}
