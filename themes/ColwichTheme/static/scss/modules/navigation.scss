@@ -298,6 +298,13 @@ div.menu-link {
     }
 }
 
+.firstView .nav {
+    display: none;
+    @include contentFor(xl-screen) {
+        display: flex;
+    }
+}
+
 
 // When we want nav to appear, change the height
 nav[role=navigation].open {

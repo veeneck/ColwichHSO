@@ -1633,6 +1633,15 @@ div.menu-link {
   }
 }
 
+.firstView .nav {
+  display: none;
+}
+@media (min-width: 2000px) {
+  .firstView .nav {
+    display: flex;
+  }
+}
+
 nav[role=navigation].open {
   width: 100%;
   height: 100vh;
