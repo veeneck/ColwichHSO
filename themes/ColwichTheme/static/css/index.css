@@ -1626,6 +1626,10 @@ div.menu-link {
   animation-name: none !important;
   visibility: hidden !important;
   -webkit-backface-visibility: hidden;
+  -webkit-animation-delay: 0s !important;
+  animation-delay: 0s !important;
+  -webkit-animation-duration: 0s !important;
+  animation-dedurationlay: 0s !important;
 }
 @media (min-width: 1080px) {
   .firstView {

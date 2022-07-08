@@ -293,6 +293,10 @@ div.menu-link {
     animation-name: none !important;
     visibility: hidden !important;
     -webkit-backface-visibility: hidden;
+     -webkit-animation-delay: 0s !important;
+    animation-delay: 0s !important;
+         -webkit-animation-duration: 0s !important;
+    animation-duration: 0s !important;
      @include contentFor(normal-screen) {
         visibility: visible !important;
     }
