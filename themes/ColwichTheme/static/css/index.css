@@ -1405,6 +1405,7 @@ header ul.nav {
   flex-wrap: wrap;
   margin: 0px;
   width: 100%;
+  -webkit-backface-visibility: hidden;
 }
 @media (min-width: 2000px) {
   header ul.nav {

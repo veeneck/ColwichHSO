@@ -73,6 +73,7 @@ header ul.nav {
     flex-wrap: wrap;
     margin: 0px;
     width: 100%;
+    -webkit-backface-visibility: hidden;
 
     @include contentFor(xl-screen) {
         width: 100%;
