@@ -3,7 +3,7 @@
 {{ range $index, $el := (sort $dataSet "featured") }}
 	<li>
 		<div class="">
-			<img src="{{ $el.image }}" />
+			<img src="{{ $el.image }}" loading="lazy" />
 			<h4>{{ $el.name }}</h4>
 			<p>{{ $el.body | safeHTML }}</p>
 		</div>
