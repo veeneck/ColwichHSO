@@ -1624,6 +1624,7 @@ div.menu-link {
 .firstView {
   animation-name: none !important;
   visibility: hidden !important;
+  -webkit-backface-visibility: hidden;
 }
 @media (min-width: 1080px) {
   .firstView {

@@ -291,6 +291,7 @@ div.menu-link {
 .firstView {
     animation-name: none !important;
     visibility: hidden !important;
+    -webkit-backface-visibility: hidden;
      @include contentFor(normal-screen) {
         visibility: visible !important;
     }
