@@ -73,7 +73,6 @@ header ul.nav {
     flex-wrap: wrap;
     margin: 0px;
     width: 100%;
-    -webkit-backface-visibility: hidden;
 
     @include contentFor(xl-screen) {
         width: 100%;
@@ -100,7 +99,6 @@ nav[role=navigation] {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
     -webkit-transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden;
 }
 
 ul.nav li {
@@ -172,7 +170,6 @@ a.dropbtn:hover span {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
     -webkit-transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden;
 }
 
 .dropdown-content a {
@@ -290,13 +287,14 @@ div.menu-link {
 }
 
 .firstView {
+ /*CSS transitions*/
+ transition-property: none !important;
+ /*CSS transforms*/
+ transform: none !important;
+ /*CSS animations*/
+ animation: none !important;
     animation-name: none !important;
     visibility: hidden !important;
-    -webkit-backface-visibility: hidden;
-     -webkit-animation-delay: 0s !important;
-    animation-delay: 0s !important;
-         -webkit-animation-duration: 0s !important;
-    animation-duration: 0s !important;
      @include contentFor(normal-screen) {
         visibility: visible !important;
     }
@@ -327,7 +325,6 @@ nav[role=navigation].closed {
   animation-name: slideOutUp;
       -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
-    -webkit-backface-visibility: hidden;
 }
 
 ul.nav {
@@ -338,7 +335,6 @@ ul.nav {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
     -webkit-transform-style: preserve-3d;
-    -webkit-backface-visibility: hidden;
 }
 
 .closed ul.nav {
@@ -346,7 +342,6 @@ ul.nav {
     animation-name: fadeOutUp  !important;
     -webkit-animation-delay: 0s   !important;
     animation-delay: 0s   !important;
-    -webkit-backface-visibility: hidden;
 
     @include contentFor(normal-screen) {
         -webkit-animation-name: none !important;
