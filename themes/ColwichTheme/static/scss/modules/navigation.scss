@@ -298,6 +298,7 @@ div.menu-link {
     }
 }
 
+// attempts to fix the flickering bug where the nav shows on initial load and then hides because of the transitions
 .firstView .nav {
     display: none;
     @include contentFor(xl-screen) {
