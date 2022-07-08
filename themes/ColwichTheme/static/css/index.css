@@ -1427,6 +1427,7 @@ nav[role=navigation] {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
 }
 @media (min-width: 1080px) {
   nav[role=navigation] {
