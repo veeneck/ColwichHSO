@@ -2,10 +2,10 @@
 title: 3rd HSO Meeting 🗓️
 description: Our third meeting of the year to kick things off.
 type: events
-event_date: 2023-01-06 6:00:00 +0000
+event_date: 2023-01-10 6:00:00 +0000
 url: "/meetings/01062023"
 fullUrl: "https://colwichhso.com/meetings"
-pageImage: "https://colwichhso.com/og_img.png"
+pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
 ctalink: /redesign

@@ -5,7 +5,7 @@ type: events
 event_date: 2022-09-06 18:00:00 +0000
 url: "/meetings/09062022"
 fullUrl: "https://colwichhso.com/meetings/09062022"
-pageImage: "https://colwichhso.com/og_img.png"
+pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
 ctalink: /redesign

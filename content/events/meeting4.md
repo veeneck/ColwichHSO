@@ -2,10 +2,10 @@
 title: 4th HSO Meeting 🗓️
 description: Our fourth meeting of the year to kick things off.
 type: events
-event_date: 2023-05-06 6:00:00 +0000
+event_date: 2023-04-25 6:00:00 +0000
 url: "/meetings/05062023"
 fullUrl: "https://colwichhso.com/meetings"
-pageImage: "https://colwichhso.com/og_img.png"
+pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
 ctalink: /redesign

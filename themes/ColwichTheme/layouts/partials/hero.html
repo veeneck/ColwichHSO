@@ -34,7 +34,11 @@
 
 		{{ if .Params.ctatext }}
 			<div class="callToAction">
-				{{ partial "button.html"  (dict "link" .Params.ctalink "class" "primary" "icon" .Params.ctaicon "text" .Params.ctatext) }}
+				{{ .Scratch.Set "link" .Params.ctalink }}
+				{{ if eq .Params.ctalink "calendar" }}
+ 					{{ .Scratch.Set "link" $.Site.Params.calendarURL }}
+				{{ end }}
+				{{ partial "button.html"  (dict "link" (.Scratch.Get "link") "class" "primary" "icon" .Params.ctaicon "text" .Params.ctatext) }}
 			</div>
 			 <div class="more">or <a href="#section1" class="highlighter">Learn More</a></div>
 		{{ end }}

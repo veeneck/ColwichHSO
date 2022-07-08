@@ -2,7 +2,7 @@
 title: Parents Night Out 🍿
 description: Enjoy the evening off while your kids hang out with their freinds at school.
 type: events
-event_date: 2022-10-15 1:00:00 +0000
+event_date: 2022-10-07 17:30:00 +0000
 url: "/parentsnight1"
 fullUrl: "https://colwichhso.com/parentsnight"
 pageImage: "https://colwichhso.com/og_img.png"

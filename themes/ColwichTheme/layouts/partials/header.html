@@ -56,7 +56,11 @@
   <meta property="og:image:height" content="632">
   <meta property="og:title" content="{{ .Params.title }}">
   <meta property="og:url" content="{{ .Params.fullUrl }}">
-  <meta property="og:image" content="{{ .Params.pageImage }}">
+  {{ if not .Params.pageImage }}
+    <meta property="og:image" content="https://colwichhso.com/images/flyers/HomePageOG.jpg">
+  {{ else }}
+    <meta property="og:image" content="{{ .Params.pageImage }}">
+  {{ end }}
   <meta property="og:description" content="{{ .Params.description }}">
 
 </head>

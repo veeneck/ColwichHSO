@@ -2,10 +2,10 @@
 title: 2nd HSO Meeting 🗓️
 description: Our second meeting of the year to kick things off.
 type: events
-event_date: 2022-11-06 18:00:00 +0000
+event_date: 2022-11-15 18:00:00 +0000
 url: "/meetings/11062022"
 fullUrl: "https://colwichhso.com/meetings"
-pageImage: "https://colwichhso.com/og_img.png"
+pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
 ctalink: /redesign
