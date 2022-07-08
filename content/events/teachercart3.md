@@ -5,7 +5,6 @@ type: events
 event_date: 2023-05-01 1:00:00 +0000
 url: "/appreciation3"
 fullUrl: "https://colwichhso.com/appreciation3"
-pageImage: "https://colwichhso.com/og_img.png"
 faq_category: appreciation
 page_status: comingsoon
 custom_class: "show_image event_coinwars"

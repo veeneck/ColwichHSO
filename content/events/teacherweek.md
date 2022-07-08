@@ -5,7 +5,6 @@ type: events
 event_date: 2023-05-01 1:00:00 +0000
 url: "/calendar/teacherweek"
 fullUrl: "https://colwichhso.com/calendar/teacherweek"
-pageImage: "https://colwichhso.com/og_img.png"
 page_status: comingsoon
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar

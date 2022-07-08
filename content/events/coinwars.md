@@ -5,7 +5,6 @@ type: events
 event_date: 2022-11-14 1:00:00 +0000
 url: "/coinwars"
 fullUrl: "https://colwichhso.com/coinwars"
-pageImage: "https://colwichhso.com/og_img.png"
 page_status: comingsoon
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar

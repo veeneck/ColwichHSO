@@ -5,7 +5,6 @@ type: events
 event_date: 2023-03-15 1:00:00 +0000
 url: "/calendar/spiritnight4"
 fullUrl: "https://colwichhso.com/calendar/spiritnight4"
-pageImage: "https://colwichhso.com/og_img.png"
 page_status: comingsoon
 custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar

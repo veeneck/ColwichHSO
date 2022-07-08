@@ -5,7 +5,6 @@ type: events
 event_date: 2022-10-07 17:30:00 +0000
 url: "/parentsnight1"
 fullUrl: "https://colwichhso.com/parentsnight"
-pageImage: "https://colwichhso.com/og_img.png"
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
 custom_class: "show_image event_parentsnight"
 ctatext: SIGN UP YOUR CHILD

@@ -5,7 +5,6 @@ type: forms
 date: 2022-06-03 14:59:46 +0000
 url: "/forms/feedback"
 fullUrl: "https://colwichhso.com/forms/feedback"
-pageImage: "https://colwichhso.com/og_img.png"
 subtitle: HSO Feedback
 shoutout: What Works & What Doesn't.
 overview: We would love to hear your feedback regarding HSO. Anything to help us improve.

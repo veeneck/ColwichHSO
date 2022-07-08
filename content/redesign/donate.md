@@ -5,7 +5,6 @@ type: redesign
 date: 2022-06-03 14:59:46 +0000
 url: "/donate"
 fullUrl: "https://colwichhso.com/donate"
-pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Make a Donation
 shoutout: Thank you so much for your generosity! 💝
 overview: We welcome all donations! Continue reading to find out the various ways in which the funds are used. Or <a href="/forms/contactus">contact us</a> with donation questions.

@@ -5,7 +5,7 @@ type: events
 event_date: 2022-08-16 5:45:00 +0000
 url: "/dessert"
 fullUrl: "https://colwichhso.com/dessert"
-pageImage: "https://colwichhso.com/og_img.png"
+pageImage: "https://colwichhso.com/images/flyers/DessertSocialOpenGraph.jpg"
 faq_category: dessert
 ctatext: Add To Your Calendar
 ctalink: /redesign

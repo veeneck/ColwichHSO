@@ -5,7 +5,6 @@ type: events
 event_date: 2022-09-19 08:00:00 +0000
 url: "/appreciation1"
 fullUrl: "https://colwichhso.com/appreciation1"
-pageImage: "https://colwichhso.com/og_img.png"
 faq_category: appreciation
 ctatext: Add To Your Calendar
 ctalink: /redesign

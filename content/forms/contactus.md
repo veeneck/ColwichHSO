@@ -5,7 +5,6 @@ type: forms
 date: 2022-06-03 14:59:46 +0000
 url: "/forms/contactus"
 fullUrl: "https://colwichhso.com/forms/contactus"
-pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Contact Us
 shoutout: Drop Us a Note With Any Questions or Feedback 📮
 overview: If you can't find what you're looking for over at the <a href="/faq">FAQ</a>, let us know by filling out the form below.

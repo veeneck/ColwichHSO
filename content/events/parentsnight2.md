@@ -5,7 +5,6 @@ type: events
 event_date: 2022-12-15 1:00:00 +0000
 url: "/parentsnight2"
 fullUrl: "https://colwichhso.com/parentsnight"
-pageImage: "https://colwichhso.com/og_img.png"
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
 page_status: comingsoon
 ctatext: SIGN UP YOUR CHILD

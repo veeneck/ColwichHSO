@@ -5,7 +5,6 @@ type: redesign
 date: 2022-06-03 14:59:46 +0000
 url: "/marquee"
 fullUrl: "https://colwichhso.com/marquee"
-pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Rent The Marquee
 shoutout: Your Announcement on the CES Marquee 📢
 overview: For $25, we'll add your announcement to the marquee in front of the school. Perfect for birthdays, congratulations, and special announcements.

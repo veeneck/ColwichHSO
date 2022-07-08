@@ -741,7 +741,7 @@
     },
     "\/static\/images\/auction\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 860225,
+      "iS" : 271753,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/5.jpg",
@@ -767,7 +767,7 @@
     },
     "\/static\/images\/auction\/7.jpg" : {
       "ft" : 16384,
-      "iS" : 651613,
+      "iS" : 848660,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/7.jpg",
@@ -793,7 +793,7 @@
     },
     "\/static\/images\/auction\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 967927,
+      "iS" : 1290401,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/10.jpg",
@@ -871,7 +871,7 @@
     },
     "\/static\/images\/ces.jpeg" : {
       "ft" : 16384,
-      "iS" : 84947,
+      "iS" : 82444,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/.ces~imageoptim.jpg",
@@ -923,7 +923,7 @@
     },
     "\/static\/images\/ces4.jpeg" : {
       "ft" : 16384,
-      "iS" : 40363,
+      "iS" : 39686,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/ces4.jpg",
@@ -936,7 +936,7 @@
     },
     "\/static\/images\/events\/coffee.jpg" : {
       "ft" : 16384,
-      "iS" : 1144810,
+      "iS" : 460658,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/events\/coffee.jpg",
@@ -962,7 +962,7 @@
     },
     "\/static\/images\/events\/icecream.jpg" : {
       "ft" : 16384,
-      "iS" : 1113485,
+      "iS" : 462254,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/events\/.icecream~imageoptim.jpg",
@@ -1001,7 +1001,7 @@
     },
     "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 295571,
+      "iS" : 225079,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.jpg",
@@ -1014,7 +1014,7 @@
     },
     "\/static\/images\/flyers\/CoffeeWithCardinas.jpg" : {
       "ft" : 16384,
-      "iS" : 466667,
+      "iS" : 1140684,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinas.jpg",
@@ -1027,7 +1027,7 @@
     },
     "\/static\/images\/flyers\/ComingSoonWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 1735070,
+      "iS" : 2660207,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/.ComingSoonWeb~imageoptim.jpg",
@@ -1051,9 +1051,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/flyers\/DessertSocialOpenGraph.jpg" : {
+      "ft" : 16384,
+      "iS" : 125278,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/DessertSocialOpenGraph.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/HomePageOG.jpg" : {
       "ft" : 16384,
-      "iS" : 172391,
+      "iS" : 152741,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/HomePageOG.jpg",
@@ -1118,7 +1131,7 @@
     },
     "\/static\/images\/flyers\/IceCreamSocial.jpg" : {
       "ft" : 16384,
-      "iS" : 1244454,
+      "iS" : 580511,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/IceCreamSocial.jpg",
@@ -1144,7 +1157,7 @@
     },
     "\/static\/images\/flyers\/ParentsNightOutWebOct.jpg" : {
       "ft" : 16384,
-      "iS" : 524019,
+      "iS" : 1183129,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/.ParentsNightOutWebOct~imageoptim.jpg",
@@ -1235,7 +1248,7 @@
     },
     "\/static\/images\/flyers\/UniformSaleOpenGraph.jpg" : {
       "ft" : 16384,
-      "iS" : 128011,
+      "iS" : 102810,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/UniformSaleOpenGraph.jpg",
@@ -1248,7 +1261,7 @@
     },
     "\/static\/images\/flyers\/UniformSaleWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 475595,
+      "iS" : 424100,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/UniformSaleWeb.jpg",
@@ -1708,7 +1721,7 @@
     },
     "\/static\/images\/mascot.png" : {
       "ft" : 32768,
-      "iS" : 19456,
+      "iS" : 6173,
       "oA" : 0,
       "oAP" : "\/static\/images\/.mascot~imageoptim.png",
       "oF" : 0,
@@ -1877,7 +1890,7 @@
     },
     "\/static\/images\/raffle\/3.jpg" : {
       "ft" : 16384,
-      "iS" : 927508,
+      "iS" : 702536,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/3.jpg",
@@ -1955,7 +1968,7 @@
     },
     "\/static\/images\/raffle\/9.jpg" : {
       "ft" : 16384,
-      "iS" : 1379396,
+      "iS" : 1032925,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/9.jpg",
@@ -2007,7 +2020,7 @@
     },
     "\/static\/images\/raffle\/13.jpg" : {
       "ft" : 16384,
-      "iS" : 1061161,
+      "iS" : 1373789,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.13~imageoptim.jpg",
@@ -2124,7 +2137,7 @@
     },
     "\/static\/images\/raffle\/22.jpg" : {
       "ft" : 16384,
-      "iS" : 1677128,
+      "iS" : 1271705,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/IMG_3236.jpg",
@@ -2163,7 +2176,7 @@
     },
     "\/static\/images\/raffle\/25.jpg" : {
       "ft" : 16384,
-      "iS" : 1382439,
+      "iS" : 1107148,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/25.jpg",
@@ -2241,7 +2254,7 @@
     },
     "\/static\/images\/raffle\/31.jpg" : {
       "ft" : 16384,
-      "iS" : 1650757,
+      "iS" : 1245777,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/31.jpg",

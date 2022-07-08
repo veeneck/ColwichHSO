@@ -5,7 +5,6 @@ type: faq
 date: 2022-06-03 14:59:46 +0000
 url: "/faq"
 fullUrl: "https://colwichhso.com/faq"
-pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Frequently Asked Questions
 shoutout: You've Got Questions.<br />We've Got Answers. 🙋
 overview: Check out the content below for answers to your burning questions.

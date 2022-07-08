@@ -5,7 +5,6 @@ type: events
 event_date: 2022-12-12 1:00:00 +0000
 url: "/appreciation2"
 fullUrl: "https://colwichhso.com/appreciation2"
-pageImage: "https://colwichhso.com/og_img.png"
 faq_category: appreciation
 page_status: comingsoon
 custom_class: "show_image event_coinwars"

@@ -5,7 +5,6 @@ type: redesign
 date: 2022-06-03 14:59:46 +0000
 url: "/roomparent"
 fullUrl: "https://colwichhso.com/roomparent"
-pageImage: "https://colwichhso.com/og_img.png"
 subtitle: Calling All Parents
 shoutout: Every Classroom Needs a Room Parent (You!)
 overview: Each year room parents are vital to HSO and organizing the activities for the school year.
