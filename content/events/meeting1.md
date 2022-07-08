@@ -12,7 +12,8 @@ ctalink: /redesign
 ctaicon: calendar
 image: "/images/flyers/HSOMeetingSeptWeb.jpg"
 custom_class: "show_image event_meeting"
-
+aliases:
+    - /firstmeeting
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

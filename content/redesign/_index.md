@@ -11,7 +11,7 @@ shoutout: Supporting Colwich<br />Elementary School
 shoutout_icon: /images/mascot.png
 overview: The main way to get involved is to sync our calendar of events, which will keep you updated on all upcoming HSO activities.
 ctatext: Download 2022-2023 Calendar
-ctalink: webcal://calendar.google.com/calendar/ical/eruv2ueiqnbl1cghth8trqi6o4%40group.calendar.google.com/public/basic.ics
+ctalink: webcal://calendar.google.com/calendar/ical/r396gjmq9slavbd7qt8b1bd288%40group.calendar.google.com/public/basic.ics
 ctaicon: calendar
 custom_class: "add_border"
 image: /images/photos/cardinal.jpg
