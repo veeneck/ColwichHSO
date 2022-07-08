@@ -1,9 +1,9 @@
 <ul class="calendar_item">
-	{{ $events := where site.RegularPages "Type" "events" }}
-	{{ $sortedPosts := (sort $events "Params.event_date" "asc") }}
-	{{ range first 12 $sortedPosts }}
-		{{ partial "snippets/calendar.html" .Params }}
-	{{ end }}
+	  {{ $now := now.Format "2006-01-02" }} 
+	  {{ $events := where site.RegularPages "Type" "events" }}
+	  {{ range sort (where $events ".Params.event_date" "ge" $now) ".Params.event_date" "asc" | first 12 }}
+	     {{ partial "snippets/calendar.html" .Params }}
+	  {{end}}
 </ul>
 
 <div class="moduleCTA">
