@@ -1620,11 +1620,9 @@ div.menu-link {
 }
 
 .firstView {
-  /*CSS transitions*/
+  transition: none !important;
   transition-property: none !important;
-  /*CSS transforms*/
   transform: none !important;
-  /*CSS animations*/
   animation: none !important;
   animation-name: none !important;
   visibility: hidden !important;

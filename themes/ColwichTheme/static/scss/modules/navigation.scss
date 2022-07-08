@@ -287,12 +287,10 @@ div.menu-link {
 }
 
 .firstView {
- /*CSS transitions*/
- transition-property: none !important;
- /*CSS transforms*/
- transform: none !important;
- /*CSS animations*/
- animation: none !important;
+    transition: none !important;
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
     animation-name: none !important;
     visibility: hidden !important;
      @include contentFor(normal-screen) {
