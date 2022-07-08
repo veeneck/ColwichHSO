@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/dessert"
 pageImage: "https://colwichhso.com/images/flyers/DessertSocialOpenGraph.jpg"
 faq_category: dessert
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: calendar
 image: "/images/flyers/IceCreamSocialWeb.jpg"
 custom_class: "show_image event_icecream"

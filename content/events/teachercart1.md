@@ -7,7 +7,7 @@ url: "/appreciation1"
 fullUrl: "https://colwichhso.com/appreciation1"
 faq_category: appreciation
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: hearthand
 image: "/images/flyers/TeacherAppreciationSeptWeb.jpg"
 custom_class: "show_image event_appreciation"

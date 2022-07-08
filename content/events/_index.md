@@ -9,7 +9,7 @@ subtitle: 2022-2023 Calendar
 shoutout: Sync Up With Our Yearly Event Schedule 🗓️
 overview: Click below to download our 2022-2023 calendar, which will keep your phone or computer in sync with our yearly events.
 ctatext: Sync Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: calendar
 image: /images/flyers/ComingSoonWeb.jpg
 custom_class: "show_image event_fullcalendar"

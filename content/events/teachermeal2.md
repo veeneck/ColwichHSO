@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/meals2"
 faq_category: meals
 page_status: comingsoon
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: meal
 image: "/images/flyers/ConferenceMealWeb.jpg"
 custom_class: "show_image event_conference"

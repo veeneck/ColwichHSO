@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/calendar/gifts"
 faq_category: gifts
 page_status: comingsoon
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: gift
 image: "/images/flyers/ConferenceMealWeb.jpg"
 custom_class: "show_image event_gifts"

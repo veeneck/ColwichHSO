@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/gambinos"
 pageImage: "https://colwichhso.com/images/flyers/SpiritNightGambinosOG.jpg"
 faq_category: spiritnight
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: confetti
 image: "/images/flyers/SpiritNightGambinosWeb.jpg"
 custom_class: "show_image event_spirit"

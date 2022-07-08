@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/calendar/spiritnight3"
 page_status: comingsoon
 custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: confetti
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
 modules:

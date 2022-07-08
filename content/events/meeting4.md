@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/meetings"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: calendar
 image: "/images/flyers/HSOMeetingJanWeb.jpg"
 custom_class: "show_image event_meeting"

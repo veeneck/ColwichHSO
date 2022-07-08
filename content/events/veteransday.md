@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/veteransday"
 page_status: comingsoon
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: medal
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
 modules:

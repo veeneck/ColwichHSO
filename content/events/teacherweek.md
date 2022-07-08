@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/calendar/teacherweek"
 page_status: comingsoon
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: heart
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
 modules:

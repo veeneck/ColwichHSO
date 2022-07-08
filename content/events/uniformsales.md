@@ -8,7 +8,7 @@ fullUrl: "https://colwichhso.com/uniform"
 pageImage: "https://colwichhso.com/images/flyers/UniformSaleOpenGraph.jpg"
 faq_category: uniform
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: calendar
 image: "/images/flyers/UniformSaleWeb.jpg"
 custom_class: "show_image event_uniform"

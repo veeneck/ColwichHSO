@@ -10,7 +10,7 @@ image: "/images/flyers/CoffeeWithCardinalsWeb.jpg"
 custom_class: "show_image event_coffee"
 faq_category: coffee
 ctatext: Add To Your Calendar
-ctalink: /redesign
+ctalink: calendar
 ctaicon: calendar
 
 modules:
