@@ -1,5 +1,5 @@
 name: Teacher Wishlist
-body: You can purchase off of the teacher's Amazon wishlists to directly support them.
+body: You can purchase off of the teacher's <a href="https://files.gabbart.com/833/ces_staff_amazon_wish_list.pdf">Amazon wishlists</a> to directly support them.
 image: '/images/silhouette.jpg'
 featured: 1
 itemType: 'donate'
