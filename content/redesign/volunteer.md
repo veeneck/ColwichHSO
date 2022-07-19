@@ -8,8 +8,8 @@ fullUrl: "https://colwichhso.com/volunteer"
 subtitle: Calling All Volunteers
 shoutout: Thank you! We couldn't do it without your help 🤚🏽
 overview: Colwich HSO welcomes over 100 volunteers each year. We couldn't do it with out your help, so please see if you have time for anything below.
-ctatext: Fill Out The Volunteer Form
-ctalink: /forms/volunteer/
+ctatext: Fill Out The Membership Form
+ctalink: /membership
 ctaicon: volunteer
 modules:
 - modules/common/volunteer.md
