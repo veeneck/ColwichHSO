@@ -1,6 +1,6 @@
 ---
 title: Coinwars 🪙
-description: Not sure how this one works, but this is a description.
+description: Coin Wars is a fundraiser game to be competed between grade levels/home rooms. 
 type: events
 event_date: 2022-11-14 1:00:00 +0000
 url: "/coinwars"
@@ -11,6 +11,7 @@ ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: coin
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
+faq_category: coinwars
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

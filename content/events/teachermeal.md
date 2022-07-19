@@ -1,6 +1,6 @@
 ---
 title: Conference Meals 🍽️
-description: We supply the food for the teachers conferences as a show of appreciation.
+description: We supply one meal for the teachers conferences as a show of appreciation.
 type: events
 event_date: 2022-09-28 1:00:00 +0000
 url: "/meals"
@@ -26,4 +26,4 @@ polaroid:
 - /images/flyers/ConferenceMealWeb.jpg
 - /images/flyers/ConferenceMealWeb.jpg
 ---
-HSO supplies the food for the teacher's conferences throughout the year. Contact us if you would like to donate any tasty goodies along with the meal.
+HSO supplies one meal for each teacher conference throughout the year. Contact us if you would like to donate any tasty goodies along with the meal.

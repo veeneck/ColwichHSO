@@ -1,6 +1,6 @@
 ---
 title: 3rd HSO Meeting 🗓️
-description: Our third meeting of the year to kick things off.
+description: Our third meeting of the year to work on Spring Carnival.
 type: events
 event_date: 2023-01-10 6:00:00 +0000
 url: "/meetings/01062023"

@@ -27,4 +27,4 @@ polaroid:
 - /images/flyers/HSOMeetingSeptWeb.jpg
 - /images/flyers/HSOMeetingSeptWeb.jpg
 ---
-Meet in the CES music room to help us plan out the fall events, and to fill out volunteer roles. Hope to see you there!
+Meet in the CES music room at 6pm to help plan out the fall events, and to fill out volunteer roles. Hope to see you there!

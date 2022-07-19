@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/IceCreamSocialWeb.jpg
 - /images/flyers/IceCreamSocialWeb.jpg
 ---
-Back to School night! We hope to see you on **August 16th** between 6:00pm-7:00pm. Stop by and meet your teachers, staff and classmates!
+Back to School night! We hope to see you on **August 16th** between 6:00pm-7:00pm. Stop by after meeting your teachers to enjoy dessert with the community.

@@ -1,6 +1,6 @@
 ---
 title: 2nd HSO Meeting 🗓️
-description: Our second meeting of the year to kick things off.
+description: Our second meeting of the year to plan winter events.
 type: events
 event_date: 2022-11-15 18:00:00 +0000
 url: "/meetings/11062022"

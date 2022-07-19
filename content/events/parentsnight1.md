@@ -1,6 +1,6 @@
 ---
 title: Parents Night Out 🍿
-description: Enjoy the evening off while your kids hang out with their freinds at school.
+description: Enjoy the evening off while your kids hang out with their friends at school.
 type: events
 event_date: 2022-10-07 17:30:00 +0000
 url: "/parentsnight1"

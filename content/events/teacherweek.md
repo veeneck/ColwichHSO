@@ -10,6 +10,7 @@ custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: heart
+faq_category: appreciationweek
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
 modules:
 - modules/common/featured_image.md

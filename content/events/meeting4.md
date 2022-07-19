@@ -1,6 +1,6 @@
 ---
 title: 4th HSO Meeting 🗓️
-description: Our fourth meeting of the year to kick things off.
+description: Our fourth meeting of the year to set goals for the next school year.
 type: events
 event_date: 2023-04-25 6:00:00 +0000
 url: "/meetings/05062023"

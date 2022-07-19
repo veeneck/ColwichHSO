@@ -1,6 +1,6 @@
 ---
 title: Veterans Day Reception 🎖️
-description: I'm not sure what this event involves..
+description: This small event recognizes our local veterans.
 type: events
 event_date: 2022-11-11 1:00:00 +0000
 url: "/veteransday"
@@ -11,6 +11,7 @@ ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: medal
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
+faq_category: veterans
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
