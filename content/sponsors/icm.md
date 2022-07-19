@@ -1,8 +1,9 @@
 ---
 title: ICM
 type: sponsor
-website: "http://google.com"
-subtitle: "Business description."
+website: "https://icminc.com"
+subtitle: "For over 25 years, we have been advancing the biofuel industry while helping farmers and businesses enrich their communities and drive value back into agriculture."
 logo: "icm.svg"
+active: true
 ---
 Module content text assuming that there is a sub page.

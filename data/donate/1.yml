@@ -1,5 +1,5 @@
 name: Monetary Donation
-body: We greatly appreciate donations of any amount. The money will go directly to supporting the school.
-image: '/images/silhouette.jpg'
+body: We greatly appreciate <a href="https://square.link/u/PdHM3fyJ?src=embed">donations of any amount</a>. 100% of the money will go directly to supporting the school.
+image: '/images/donations.jpg'
 featured: 1
 itemType: 'donate'

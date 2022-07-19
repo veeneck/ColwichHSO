@@ -1,6 +1,7 @@
 <ul>
 	{{ $sponsors := where site.RegularPages "Type" "sponsor" }}
 	{{ range $sponsors }}
+		{{ if eq .Params.active true }}
 		<li>
 			<a href="{{ .Params.website }}">
 			<img
@@ -8,6 +9,7 @@
     			alt="{{ .Params.title }}" loading="lazy" />
     		</a>
 		</li>
+		{{ end }}
 	{{ end }}
 </ul>
 <p>We couldn't do this without a little help from our friends. Please show your support to the generous sponsors above!</p>

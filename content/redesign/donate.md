@@ -11,6 +11,7 @@ overview: We welcome all donations! Continue reading to find out the various way
 ctatext: Make a Donation
 ctalink: https://square.link/u/PdHM3fyJ?src=embed
 ctaicon: donate
+learn_link: "#section0"
 modules:
 - modules/common/donatehow.md
 - modules/common/sponsors.md

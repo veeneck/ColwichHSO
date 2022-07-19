@@ -11,6 +11,7 @@ overview: Colwich HSO welcomes over 100 volunteers each year. We couldn't do it 
 ctatext: Fill Out The Membership Form
 ctalink: /membership
 ctaicon: volunteer
+learn_link: "#section0"
 modules:
 - modules/common/volunteer.md
 - modules/common/sponsors.md

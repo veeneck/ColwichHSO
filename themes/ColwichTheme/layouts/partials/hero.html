@@ -42,7 +42,11 @@
 				{{ end }}
 				{{ partial "button.html"  (dict "link" (.Scratch.Get "link") "tracking" (.Scratch.Get "tracking") "class" "primary" "icon" .Params.ctaicon "text" .Params.ctatext) }}
 			</div>
-			 <div class="more">or <a href="#section1" class="highlighter">Learn More</a></div>
+			{{ if .Params.learn_link }}
+			 <div class="more">or <a href="{{ .Params.learn_link }}" class="highlighter">Learn More</a></div>
+			{{ else }}
+			<div class="more">or <a href="#section1" class="highlighter">Learn More</a></div>
+			{{ end }}
 		{{ end }}
 
 		{{ end }}

@@ -728,7 +728,7 @@
     },
     "\/static\/images\/auction\/2.jpg" : {
       "ft" : 16384,
-      "iS" : 271259,
+      "iS" : 892423,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/2.jpg",
@@ -741,7 +741,7 @@
     },
     "\/static\/images\/auction\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 860225,
+      "iS" : 271753,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/5.jpg",
@@ -754,7 +754,7 @@
     },
     "\/static\/images\/auction\/6.jpg" : {
       "ft" : 16384,
-      "iS" : 786784,
+      "iS" : 224075,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/6.jpg",
@@ -819,7 +819,7 @@
     },
     "\/static\/images\/auction\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1259667,
+      "iS" : 1636099,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/12.jpg",
@@ -871,7 +871,7 @@
     },
     "\/static\/images\/ces.jpeg" : {
       "ft" : 16384,
-      "iS" : 84947,
+      "iS" : 82444,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/.ces~imageoptim.jpg",
@@ -923,10 +923,23 @@
     },
     "\/static\/images\/ces4.jpeg" : {
       "ft" : 16384,
-      "iS" : 39686,
+      "iS" : 40363,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/ces4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/clock.jpg" : {
+      "ft" : 16384,
+      "iS" : 489760,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/clock.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -947,9 +960,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/donations.jpg" : {
+      "ft" : 16384,
+      "iS" : 593327,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/donations.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/events\/coffee.jpg" : {
       "ft" : 16384,
-      "iS" : 460658,
+      "iS" : 1144810,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/events\/coffee.jpg",
@@ -1014,7 +1040,7 @@
     },
     "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 295571,
+      "iS" : 225079,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.jpg",
@@ -1027,7 +1053,7 @@
     },
     "\/static\/images\/flyers\/CoffeeWithCardinas.jpg" : {
       "ft" : 16384,
-      "iS" : 1140684,
+      "iS" : 466667,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinas.jpg",
@@ -1040,7 +1066,7 @@
     },
     "\/static\/images\/flyers\/ComingSoonWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 1735070,
+      "iS" : 2660207,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/.ComingSoonWeb~imageoptim.jpg",
@@ -1079,7 +1105,7 @@
     },
     "\/static\/images\/flyers\/HomePageOG.jpg" : {
       "ft" : 16384,
-      "iS" : 172391,
+      "iS" : 152741,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/HomePageOG.jpg",
@@ -1092,13 +1118,13 @@
     },
     "\/static\/images\/flyers\/HSOMeetingJanWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 487059,
+      "iS" : 639542,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/HSOMeetingJanWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1111,7 +1137,7 @@
       "oAP" : "\/static\/images\/flyers\/HSOMeetingNovWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1144,7 +1170,7 @@
     },
     "\/static\/images\/flyers\/IceCreamSocial.jpg" : {
       "ft" : 16384,
-      "iS" : 1244454,
+      "iS" : 580511,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/IceCreamSocial.jpg",
@@ -1163,7 +1189,7 @@
       "oAP" : "\/static\/images\/flyers\/IceCreamSocialWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1183,7 +1209,7 @@
     },
     "\/static\/images\/flyers\/RoomParentWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 726476,
+      "iS" : 1435047,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/.RoomParentWeb~imageoptim.jpg",
@@ -1228,7 +1254,7 @@
       "oAP" : "\/static\/images\/flyers\/TeacherAppreciationSeptWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1248,7 +1274,7 @@
     },
     "\/static\/images\/flyers\/UniformSaleNew.jpg" : {
       "ft" : 16384,
-      "iS" : 486529,
+      "iS" : 432782,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/.UniformSaleNew~imageoptim.jpg",
@@ -1552,7 +1578,7 @@
     },
     "\/static\/images\/logos\/cushman.png" : {
       "ft" : 32768,
-      "iS" : 62028,
+      "iS" : 28319,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/cushman.png",
       "oF" : 0,
@@ -1952,7 +1978,7 @@
     },
     "\/static\/images\/raffle\/3.jpg" : {
       "ft" : 16384,
-      "iS" : 927508,
+      "iS" : 702536,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/3.jpg",
@@ -2030,7 +2056,7 @@
     },
     "\/static\/images\/raffle\/9.jpg" : {
       "ft" : 16384,
-      "iS" : 1032925,
+      "iS" : 1379396,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/9.jpg",
@@ -2043,7 +2069,7 @@
     },
     "\/static\/images\/raffle\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 1551259,
+      "iS" : 1174856,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/10.jpg",
@@ -2069,7 +2095,7 @@
     },
     "\/static\/images\/raffle\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 1501385,
+      "iS" : 1158614,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/12.jpg",
@@ -2134,7 +2160,7 @@
     },
     "\/static\/images\/raffle\/17.jpg" : {
       "ft" : 16384,
-      "iS" : 1083178,
+      "iS" : 1184106,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/17.jpg",
@@ -2147,7 +2173,7 @@
     },
     "\/static\/images\/raffle\/18.jpg" : {
       "ft" : 16384,
-      "iS" : 1021248,
+      "iS" : 767111,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/18.jpg",
@@ -2160,7 +2186,7 @@
     },
     "\/static\/images\/raffle\/19.jpg" : {
       "ft" : 16384,
-      "iS" : 1106274,
+      "iS" : 1444266,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/19.jpg",
@@ -2186,7 +2212,7 @@
     },
     "\/static\/images\/raffle\/21.jpg" : {
       "ft" : 16384,
-      "iS" : 1180761,
+      "iS" : 898358,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/IMG_3234.jpg",
@@ -2264,7 +2290,7 @@
     },
     "\/static\/images\/raffle\/27.jpg" : {
       "ft" : 16384,
-      "iS" : 1588249,
+      "iS" : 1204992,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/27.jpg",
@@ -2517,6 +2543,16 @@
       "oAP" : "\/static\/images\/sponsors\/caringkansas.pdf",
       "oF" : 0
     },
+    "\/static\/images\/sponsors\/caringkansas.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/caringkansas.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/static\/images\/sponsors\/cmc.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -2653,6 +2689,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/wishlist.png" : {
+      "ft" : 32768,
+      "iS" : 132500,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/wishlist.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

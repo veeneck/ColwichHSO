@@ -1,5 +1,5 @@
 name: Donate Your Time
-body: If you're interestedin volunteering, please fill out this form. We would love to have you!
-image: '/images/silhouette.jpg'
+body: If you're interested in volunteering, please consider <a href="/membership">becoming a member</a>. We would love to have you!
+image: '/images/clock.jpg'
 featured: 1
 itemType: 'donate'
