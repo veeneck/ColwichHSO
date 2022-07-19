@@ -176,6 +176,7 @@ function setCalendarTriggers(section) {
         gsap.from(el, {
             scrollTrigger: {
                 trigger: el,
+                start: (-1 * (i * 50)) + "px center",
                 scrub: true,
             },
             scale: scale
