@@ -1,5 +1,9 @@
 section.hero {
 
+	@include contentFor(normal-screen) {
+		padding-bottom: 300px !important;
+	}
+
 	@include contentFor(large-screen) {
 		padding-bottom: 300px !important;
 	}

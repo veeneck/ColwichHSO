@@ -1,10 +1,19 @@
+.hideFeaturedOnMobile .heroImg  {
+	display: none !important;
+
+	@include contentFor(normal-screen) {
+		display: block !important;
+
+	}
+
+}
 
 .module.featured_image {
 
 	display: none;
 	padding-bottom: 0px;
 	
-	@include contentFor(large-screen) {
+	@include contentFor(normal-screen) {
 		display: block;
 		min-height: 400px;
 		padding-bottom: 125px;
@@ -23,7 +32,7 @@ section.module.featured_image.first {
 	}
 
 	@include contentFor(normal-screen) {
-		
+		margin-top: -150px;
 	}
 
 	@include contentFor(large-screen) {
@@ -33,30 +42,13 @@ section.module.featured_image.first {
 
 .module.featured_image .content {
 	width: 100%;
-	//margin-top: 50px;
 
 	@include contentFor(large-screen) {
 		margin-top: 75px;
 	}
 }
 
-.tape {
-	
-  position: relative;
 
-  &:before,
-  &:after {
-    background: rgba(255,255,235,.6);
-    box-shadow: 0 1px 3px rgba(0,0,0,.4);
-    content: "";
-    display: block;
-    height: 35px;
-    position: absolute;
-    margin: auto;
-    width: 125px;
-    z-index: 4;
-  }
-}
 
 .heroImg {
 	width: 100%;
@@ -88,16 +80,6 @@ section.module.featured_image.first {
 	}
 }
 
-.flyer.tape {
-
-  &:before,
-  &:after {
-	display: none;
-	@include contentFor(normal-screen) {
-		display: block;
-	}
- }
-}
 
 .polaroid {
 	position: relative;
@@ -146,14 +128,11 @@ section.module.featured_image.first {
 	transform: rotate(-20deg);
 	display: none;
 
-
 	@include contentFor(normal-screen) {
 		display: block;
 	}
 
-	@include contentFor(xl-screen) {
 
-	}
 }
 
 .polaroid img:nth-child(2) {
@@ -167,9 +146,7 @@ section.module.featured_image.first {
 		display: block;
 	}
 
-	@include contentFor(xl-screen) {
 
-	}
 }
 
 .polaroid img:nth-child(3) {
@@ -183,9 +160,6 @@ section.module.featured_image.first {
 		display: block;
 	}
 
-	@include contentFor(xl-screen) {
-
-	}
 }
 
 .polaroid img:nth-child(4) {
@@ -199,13 +173,6 @@ section.module.featured_image.first {
 		display: block;
 	}
 
-	@include contentFor(large-screen) {
-		
-	}
-
-	@include contentFor(xl-screen) {
-
-	}
 }
 
 /// This is kind of a hack. Flyers already have borders and need to use contain, while photos dont have borders and need to use cover.
@@ -219,75 +186,15 @@ section.module.featured_image.first {
 	}
 
 	@include contentFor(normal-screen) {
-		height: 400px;
+		height: 600px;
+		border: 20px solid #fff;
 	}
 
 	@include contentFor(large-screen) {
-		height: 600px;
-		border: 20px solid #fff;
+		height: 750px;
 	}
 
 	@include contentFor(xl-screen) {
 		height: 1000px;
 	}
-}
-
-.img-tape--1 {
-  &:before {
-    left: 50%;
-    margin-left: -60px;
-    top: -15px;
-  }
-
-  &:after {
-    display: none;
-  }
-}
-
-.img-tape--2 {
-	
-
-	@include contentFor(large-screen) {
-
-	  &:before {
-	    left: 32%;
-	    top: 10px;
-	  }
-
-	  &:after {
-	    right: 32%;
-	    top: 15px;
-	  }
-		
-	}
-}
-
-.img-tape--3 {
-  &:before {
-    left: -50px;
-    top: -5px;
-    transform: rotate(-45deg);
-  }
-
-  &:after {
-    bottom: -5px;
-    right: -50px;
-    transform: rotate(-35deg);
-  }
-}
-
-.img-tape--4 {
-  &:before {
-    left: -60px;
-    margin-top: -15px;
-    top: 50%;
-    transform: rotate(93deg);
-  }
-
-  &:after {
-    margin-top: -30px;
-    right: -60px;
-    top: 50%;
-    transform: rotate(89deg);
-  }
 }

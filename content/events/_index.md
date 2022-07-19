@@ -12,7 +12,7 @@ ctatext: Sync Your Calendar
 ctalink: calendar
 ctaicon: calendar
 image: /images/flyers/ComingSoonWeb.jpg
-custom_class: "show_image event_fullcalendar"
+custom_class: "show_image event_fullcalendar hideFeaturedOnMobile"
 modules:
 - modules/common/featured_image.md
 - modules/common/calendar_full.md

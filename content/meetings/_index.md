@@ -13,7 +13,7 @@ ctalink: "#section1"
 image: "/images/flyers/HSOMeetingSeptWeb.jpg"
 faq_category: meeting
 ctaicon: calendar
-custom_class: "show_image event_meeting"
+custom_class: "show_image event_meeting hideFeaturedOnMobile"
 modules:
 - modules/common/featured_image.md
 - modules/common/meeting_list.md
