@@ -168,18 +168,18 @@ function setCalendarTriggers(section) {
     let elements = gsap.utils.toArray(".calendar li");
     elements.forEach((el, i) => {
 
-        let scale = 0.8;
-        if(window.innerWidth > 1080) {
-            scale = 1;
-        }
+        let x = 50;
+        //if(window.innerWidth > 1080) {
+         //   scale = 1;
+        //}
 
         gsap.from(el, {
             scrollTrigger: {
                 trigger: el,
-                start: (-1 * (i * 50)) + "px center",
+                start: "bottom bottom",
                 scrub: true,
             },
-            scale: scale
+            x: x
         });  
     });     
 }
@@ -223,15 +223,15 @@ function setDonateTriggers(section) {
     let links = gsap.utils.toArray(".donate li a");
     links.forEach((el, i) => {
 
-        let scale = 0.8;
+        let x = 50;
 
         gsap.from(el, {
             scrollTrigger: {
                 trigger: el,
                 scrub: true,
-                end: "center center",
+                end: "bottom bottom",
             },
-            scale: scale
+            x: x
         });  
     }); 
 }
@@ -249,7 +249,7 @@ function setHighlightTriggers() {
   	else {
 	  	ScrollTrigger.create({
 		    trigger: el,
-		    start: "-100px center",
+		    start: "bottom bottom",
 		    onEnter: () => el.classList.add("active")
 		  });
 		}
@@ -266,7 +266,7 @@ function setButtonTriggers() {
             scrollTrigger: {
                 trigger: el,
                 scrub: true,
-                end: "-300px"
+                end: "-100px"
             },
             x: "-40px"
         });  
