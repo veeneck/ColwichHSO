@@ -1181,12 +1181,12 @@ ul.calendar_item li a {
   }
 }
 @media (min-width: 1080px) {
-  section.hero.show_image {
+  section.hero {
     padding-bottom: 300px !important;
   }
 }
 @media (min-width: 1300px) {
-  section.hero.show_image {
+  section.hero {
     padding-bottom: 300px !important;
   }
 }

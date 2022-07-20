@@ -177,6 +177,7 @@ function setCalendarTriggers(section) {
             scrollTrigger: {
                 trigger: el,
                 start: "bottom bottom",
+                end: "bottom center",
                 scrub: true,
             },
             x: x
