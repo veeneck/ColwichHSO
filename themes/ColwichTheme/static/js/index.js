@@ -220,10 +220,10 @@ function setAchievementTriggers(section) {
 
 function setDonateTriggers(section) {   
 
-    let links = gsap.utils.toArray(".donate li a");
+    let links = gsap.utils.toArray(".donate li a span");
     links.forEach((el, i) => {
 
-        let x = 50;
+        let x = 0;
 
         gsap.from(el, {
             scrollTrigger: {

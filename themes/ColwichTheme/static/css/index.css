@@ -1181,19 +1181,19 @@ ul.calendar_item li a {
   }
 }
 @media (min-width: 1080px) {
-  section.hero {
+  section.hero.show_image {
     padding-bottom: 300px !important;
   }
 }
 @media (min-width: 1300px) {
-  section.hero {
+  section.hero.show_image {
     padding-bottom: 300px !important;
   }
 }
 
 .hero h1 {
   margin: 0 auto;
-  width: 90%;
+  width: 85%;
   text-align: center;
   font-size: 7.5vw;
 }
@@ -1238,7 +1238,7 @@ ul.calendar_item li a {
 }
 .hero p {
   margin: 0px auto;
-  width: 90%;
+  width: 85%;
   text-align: center;
   line-height: 35px;
 }
