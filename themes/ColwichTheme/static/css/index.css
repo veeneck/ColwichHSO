@@ -926,6 +926,10 @@ img {
     width: 800px;
   }
 }
+#section2.module.calendar h2 {
+  display: block;
+}
+
 ul.calendar_item, .calendar_full ul {
   display: -webkit-box;
   display: -moz-box;

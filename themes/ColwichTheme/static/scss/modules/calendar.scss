@@ -2,6 +2,12 @@
 	//margin-top: 0px;
 }
 
+// Hard coded to a section. Basically we have white space when calendar follows FAQ, so showing the title looks better.
+// Can be seen on individual event pages.
+#section2.module.calendar h2 {
+	display: block;
+}
+
 ul.calendar_item, .calendar_full ul {
 	@include flex();
 	justify-content: center;
