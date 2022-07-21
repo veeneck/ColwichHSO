@@ -168,7 +168,7 @@ function setCalendarTriggers(section) {
     let elements = gsap.utils.toArray(".calendar li");
     elements.forEach((el, i) => {
 
-        let x = 50;
+        let x = 0;
         //if(window.innerWidth > 1080) {
          //   scale = 1;
         //}
