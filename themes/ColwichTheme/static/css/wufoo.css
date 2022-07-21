@@ -45,7 +45,7 @@ form.wufoo {
   }
 }
 
-form.wufoo label span.req {
+form.wufoo label span.req, form.wufoo legend span.req {
   color: #C93234 !important;
 }
 
