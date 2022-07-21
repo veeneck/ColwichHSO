@@ -13,9 +13,11 @@ ctalink: calendar
 ctaicon: calendar
 image: /images/flyers/ComingSoonWeb.jpg
 custom_class: "show_image event_fullcalendar hideFeaturedOnMobile"
+faq_category: calendar
 modules:
 - modules/common/featured_image.md
 - modules/common/calendar_full.md
+- modules/common/faq.md
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md
