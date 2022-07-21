@@ -3,7 +3,7 @@
 	{{ range $sponsors }}
 		{{ if eq .Params.active true }}
 		<li>
-			<a href="{{ .Params.website }}">
+			<a href="{{ .Params.website }}" title="{{ .Params.title }}">
 			<img
     			src="/images/sponsors/{{ .Params.logo }}"
     			alt="{{ .Params.title }}" loading="lazy" />
