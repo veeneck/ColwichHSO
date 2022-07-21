@@ -1,5 +1,5 @@
 ---
-title: Colwich HSO Membership 🗳
+title: Colwich HSO Active Membership 🗳
 description: Fill out this form to register as an active HSO member.
 type: forms
 date: 2022-06-03 14:59:46 +0000
