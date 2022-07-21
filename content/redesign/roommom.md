@@ -3,6 +3,7 @@ title: CES HSO Room Parent Information
 description: Everything you need to know about being a Room Mom.
 type: redesign
 date: 2022-06-03 14:59:46 +0000
+pageImage: "https://colwichhso.com/images/flyers/RoomParentOpenGraph.jpg"
 url: "/roomparent"
 fullUrl: "https://colwichhso.com/roomparent"
 subtitle: Calling All Parents
