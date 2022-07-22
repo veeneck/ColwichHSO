@@ -88,7 +88,6 @@ background-size: cover;
 	padding:5px;
 	font-weight: bold;
 	color: red;
-	margin: 20px;
 	text-align: center;
 	width: 100%;
 
@@ -109,6 +108,12 @@ background-size: cover;
 	@include contentFor(xl-screen) {
 
 	}
+}
+
+.footer_lists ul li.listName {
+	font-weight: bold;
+	color: red;
+	margin-bottom:20px;
 }
 
 .footer_lists ul li {

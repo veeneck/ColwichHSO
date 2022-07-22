@@ -2165,7 +2165,6 @@ section.module.featured_image.first {
   padding: 5px;
   font-weight: bold;
   color: red;
-  margin: 20px;
   text-align: center;
   width: 100%;
 }
@@ -2181,6 +2180,12 @@ section.module.featured_image.first {
     text-align: left;
   }
 }
+.footer_lists ul li.listName {
+  font-weight: bold;
+  color: red;
+  margin-bottom: 20px;
+}
+
 .footer_lists ul li {
   list-style: none;
   font-weight: normal;
