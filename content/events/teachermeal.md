@@ -1,8 +1,9 @@
 ---
-title: Conference Meals 🍽️
+title: Teacher Conference Meals 🍽️
 description: We supply one meal for the teachers conferences as a show of appreciation.
 type: events
 event_date: 2022-09-28 1:00:00 +0000
+pageImage: "https://colwichhso.com/images/flyers/ConferenceMealOpenGraph.jpg"
 url: "/meals"
 fullUrl: "https://colwichhso.com/meals"
 faq_category: meals
