@@ -12,8 +12,10 @@ ctatext: Make a Donation
 ctalink: https://square.link/u/PdHM3fyJ?src=embed
 ctaicon: donate
 learn_link: "#section0"
+faq_category: donate
 modules:
 - modules/common/donatehow.md
+- modules/common/faq.md
 - modules/common/sponsors.md
 - modules/common/footer.md
 ---
