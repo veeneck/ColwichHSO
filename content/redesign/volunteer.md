@@ -3,6 +3,7 @@ title: Colwich HSO Volunteer Information 🤚🏽
 description: See the different ways that we could use your help this school year.
 type: redesign
 date: 2022-06-03 14:59:46 +0000
+pageImage: "https://colwichhso.com/images/flyers/HSOMemberOpenGraph.jpg"
 url: "/volunteer"
 fullUrl: "https://colwichhso.com/volunteer"
 subtitle: Calling All Volunteers
