@@ -1,8 +1,9 @@
 ---
-title: CES HSO Meetings
+title: Colwich HSO Meetings
 description: Attend and upcoming meeting, or look at the minutes from previous meetings.
 type: meetings
 date: 2022-06-03 14:59:46 +0000
+pageImage: "https://colwichhso.com/images/flyers/HSOMemberOpenGraph.jpg"
 url: "/meetings"
 fullUrl: "https://colwichhso.com/meetings"
 subtitle: Attend a Meeting
