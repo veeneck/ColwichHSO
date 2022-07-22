@@ -27,4 +27,4 @@ polaroid:
 - /images/flyers/HSOMeetingJanWeb.jpg
 - /images/flyers/HSOMeetingJanWeb.jpg
 ---
-Meet in the CES music room to help us plan out the spring carnival, and to fill out volunteer roles. Hope to see you there!
+Meet at The Keg to help us plan out the spring carnival, and to fill out volunteer roles. Hope to see you there!
