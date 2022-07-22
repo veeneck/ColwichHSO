@@ -4,15 +4,16 @@ description: Our third meeting of the year to work on Spring Carnival.
 type: events
 event_date: 2023-01-10 6:00:00 +0000
 url: "/meetings/01062023"
-fullUrl: "https://colwichhso.com/meetings"
-pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
+fullUrl: "https://colwichhso.com/meetings/01062023"
+pageImage: "https://colwichhso.com/images/flyers/HSOMeeting3OpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: calendar
 image: "/images/flyers/HSOMeetingJanWeb.jpg"
 custom_class: "show_image event_meeting"
-
+aliases:
+    - /thirdmeeting
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

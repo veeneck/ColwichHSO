@@ -4,7 +4,7 @@ description: Our fourth meeting of the year to set goals for the next school yea
 type: events
 event_date: 2023-04-25 6:00:00 +0000
 url: "/meetings/05062023"
-fullUrl: "https://colwichhso.com/meetings"
+fullUrl: "https://colwichhso.com/meetings/05062023"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
@@ -13,6 +13,8 @@ ctaicon: calendar
 image: "/images/flyers/HSOMeetingJanWeb.jpg"
 custom_class: "show_image event_meeting"
 page_status: comingsoon
+aliases:
+    - /fourthmeeting
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
