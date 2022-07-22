@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/SpiritNightGambinosWeb.jpg
 - /images/flyers/SpiritNightGambinosWeb.jpg
 ---
-Mention Colwich Elementary when you grab a meal at Gambino's Original in Colwich anytime on Septmber 21st. A portion of sales are donated back to HSO!
+Mention Colwich Elementary when you grab a meal at Gambino's Original in Colwich, or use online code Colwich2022, anytime on Septmber 21st. A portion of sales are donated back to HSO!
