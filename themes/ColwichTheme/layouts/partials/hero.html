@@ -19,7 +19,7 @@
 		{{ else }}
 
 			<p><b>{{ .Params.subtitle }}</b></p>
-			<h1>{{ .Params.shoutout | safeHTML }} {{ if .Params.shoutout_icon }}<img src="{{ .Params.shoutout_icon }}" alt="Shoutout Icon" />{{ end }}</h1>
+			<h1>{{ .Params.shoutout | safeHTML }} {{ if .Params.shoutout_icon }}<img src="{{ .Params.shoutout_icon }}" alt="Shoutout Icon" width="75px" />{{ end }}</h1>
 			<p class="summary"><mark>{{ .Params.overview | safeHTML }}</mark></p>
 
 		{{ end }}
