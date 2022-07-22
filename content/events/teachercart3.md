@@ -3,6 +3,7 @@ title: Teacher Appreciation 😍
 description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
 type: events
 event_date: 2023-05-01 1:00:00 +0000
+pageImage: "https://colwichhso.com/images/flyers/TeacherAppreciationOpenGraph.jpg"
 url: "/appreciation3"
 fullUrl: "https://colwichhso.com/appreciation3"
 faq_category: appreciation

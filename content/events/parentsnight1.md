@@ -27,4 +27,4 @@ polaroid:
 - /images/flyers/ParentsNightOutWebOct.jpg
 - /images/flyers/ParentsNightOutWebOct.jpg
 ---
-We'll entertain your kids from 6:00pm to 10:00pm while you take the night off. Activites, Pizza & a Movie! $20 / child, ages 3-12. Signup required!
+We'll entertain your kids from 5:30pm to 9:30pm while you take the night off. Activites, Pizza & a Movie! $20 / child, ages 3-12. Must be Potty Trained. Signup required!
