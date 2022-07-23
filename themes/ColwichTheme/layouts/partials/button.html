@@ -1,4 +1,45 @@
-<a href="{{ .link | safeURL }}" class="{{ .class }} button" {{ if eq .tracking true }}onclick="fathom.trackGoal('BI7I1FAC', 0);" {{ end }}>
+{{ if eq .tracking true }}
+<div class="calenderContainer">
+	<a href="#" class="{{ .class }} button" {{ if eq .tracking true }}onclick="fathom.trackGoal('BI7I1FAC', 0);" {{ end }}>
+		<span class="iconContainer">
+			<img class="icon" src="/images/icons/{{ .icon }}.svg" loading="lazy" alt="{{ .icon }} Icon" />
+		</span>
+		<span class="buttonText">
+			{{ .text }}
+		</span>
+	</a>
+
+	<ul class="downloadCalendar">
+		<li>
+			<img class="icon" src="/images/icons/apple.svg" loading="lazy" alt="Apple Icon" />
+			<a href="{{ .link | safeURL }}">Sync to Apple Device</a>
+		</li>
+		<li>
+			<img class="icon" src="/images/icons/google.svg" loading="lazy" alt="Google Icon" />
+			<a href="https://www.google.com/calendar/render?cid=https://calendar.google.com/calendar/ical/r396gjmq9slavbd7qt8b1bd288%40group.calendar.google.com/public/basic.ics" target="_blank">Sync to Google Account</a>
+		</li>
+		<li>
+			<img class="icon" src="/images/icons/windows.svg" loading="lazy" alt="Microsoft Icon" />
+			<a href="{{ .link | safeURL }}">Sync to Microsoft Outlook</a>
+		</li>
+		<li>
+			<img class="icon" src="/images/icons/download.svg" loading="lazy" alt="Download Icon" />
+			<a href="https://calendar.google.com/calendar/ical/r396gjmq9slavbd7qt8b1bd288%40group.calendar.google.com/public/basic.ics" target="_blank">Download Calendar File</a>
+		</li>
+		<li>
+			<img class="icon" src="/images/icons/browser.svg" loading="lazy" alt="Web Icon" />
+			<a href="https://calendar.google.com/calendar/embed?src=r396gjmq9slavbd7qt8b1bd288%40group.calendar.google.com&ctz=America%2FChicago" target="_blank">View Calendar in Browser</a>
+		</li>
+		<li>
+			<img class="icon" src="/images/icons/info.svg" loading="lazy" alt="Info Icon" />
+			<a href="/calendar/#section2">More Information</a>
+		</li>
+	</ul>
+</div>
+
+{{ else }}
+
+<a href="{{ .link | safeURL }}" class="{{ .class }} button">
 	<span class="iconContainer">
 		<img class="icon" src="/images/icons/{{ .icon }}.svg" loading="lazy" alt="{{ .icon }} Icon" />
 	</span>
@@ -6,3 +47,5 @@
 		{{ .text }}
 	</span>
 </a>
+
+{{ end }}

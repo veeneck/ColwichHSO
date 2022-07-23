@@ -1352,6 +1352,49 @@ mark {
     width: 600px;
   }
 }
+.calendarContainer {
+  position: relative;
+  z-index: 5;
+}
+
+.downloadCalendar {
+  display: none;
+  margin: 0px;
+  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
+  position: absolute;
+  border-radius: 4px;
+  padding: 0px 0px 10px 0px;
+  background-color: #fff;
+  z-index: 5;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 350px;
+  text-align: left;
+}
+
+.downloadCalendar li {
+  list-style: none;
+  padding: 15px 15px;
+  box-sizing: border-box;
+}
+
+.calenderContainer:hover .downloadCalendar {
+  display: block !important;
+}
+
+.downloadCalendar img {
+  filter: brightness(0) invert(0);
+}
+
+.downloadCalendar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.downloadCalendar a:hover {
+  font-weight: bold;
+}
+
 /*-----------------MAIN NAV LAYOUT---------------*/
 header {
   padding: 20px;
