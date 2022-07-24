@@ -1879,6 +1879,10 @@ div.menu-link:hover {
     -webkit-column-gap: 30px;
   }
 }
+.faq code {
+  word-break: break-all;
+}
+
 .faqCardContainer {
   width: 90%;
   margin-left: 5%;

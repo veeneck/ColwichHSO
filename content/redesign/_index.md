@@ -9,10 +9,10 @@ pageImage: "https://colwichhso.com/images/flyers/HomePageOG.jpg"
 subtitle: Colwich HSO
 shoutout: Supporting Colwich<br />Elementary School
 shoutout_icon: /images/mascot.png
-overview: The main way to get involved is to sync our calendar of events, which will keep you updated on all upcoming HSO activities.
-ctatext: Download 2022-2023 Calendar
-ctalink: calendar
-ctaicon: calendar
+overview: The main way to get involved is register as an active member, which will keep you updated on all upcoming HSO activities.
+ctatext: Keep Me Updated!
+ctalink: /membership
+ctaicon: mail
 custom_class: "add_border"
 image: /images/photos/cardinal.jpg
 modules:

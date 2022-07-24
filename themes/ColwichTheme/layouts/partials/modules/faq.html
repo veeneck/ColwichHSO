@@ -3,7 +3,7 @@
 	<div class="faqCardContainer">
 		<div class="faqCard">
 			<h4>{{ $el.Params.question }}</h4>
-			<p>{{ $el.Content }}</p>
+			<p>{{ $el.Content | safeHTML }}</p>
 		</div>
 	</div>
 	{{ end }}
