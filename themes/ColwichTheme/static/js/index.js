@@ -16,6 +16,7 @@ function loadPage() {
 	bringElementsIntoView();
 	initMobileListeners();
 	loadTriggersForPage();
+    toggleCalendarButton();
 }
 
 /* -------- MOBILE MENU -------- */
@@ -131,6 +132,22 @@ function isScrolledIntoView(el, leading) {
     return isVisible;
 }
 
+/* -------- CALENDAR DOWNLOAD BASED ON DEVICE -------------*/
+
+// For now, android devices will replace webcal with a link to google calendar.
+// In future, if too many problems on different devices, we will have to show a full overlay
+// with all of the different ways that you can subscribe to a calendar.
+function toggleCalendarButton() {
+    const ua = navigator.userAgent.toLowerCase();
+    const isAndroid = ua.indexOf("android") > -1;
+    if (isAndroid) {
+      let calendarContainer = document.getElementById("calendarCTA");
+      let link = getFirstChild(calendarContainer);
+      let currentLink = link.href;
+      let newLink = currentLink.replace("webcal://", "https://www.google.com/calendar/render?cid=https://");
+      link.setAttribute("href", newLink);
+    }
+}
 
 /* -------- SCROLLTRIGGER-------- */
 

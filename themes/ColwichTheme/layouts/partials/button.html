@@ -1,6 +1,6 @@
 {{ if eq .tracking true }}
-<div class="calenderContainer">
-	<a href="#" class="{{ .class }} button" {{ if eq .tracking true }}onclick="fathom.trackGoal('BI7I1FAC', 0);" {{ end }}>
+<div id="calendarCTA" class="">
+	<a href="{{ .link | safeURL }}" class="{{ .class }} button" {{ if eq .tracking true }}onclick="fathom.trackGoal('BI7I1FAC', 0);" {{ end }}>
 		<span class="iconContainer">
 			<img class="icon" src="/images/icons/{{ .icon }}.svg" loading="lazy" alt="{{ .icon }} Icon" />
 		</span>
@@ -9,7 +9,7 @@
 		</span>
 	</a>
 
-	<ul class="downloadCalendar">
+	<ul id="calendarOptions" class="downloadCalendar">
 		<li>
 			<img class="icon" src="/images/icons/apple.svg" loading="lazy" alt="Apple Icon" />
 			<a href="{{ .link | safeURL }}">Sync to Apple Device</a>
