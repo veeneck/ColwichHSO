@@ -136,7 +136,7 @@ function isScrolledIntoView(el, leading) {
 
 function loadTriggersForPage() {
 
-    var triggerMap = {
+    /*var triggerMap = {
         "hero" : setHeroTriggers,
         "calendar" : setCalendarTriggers,
         "achievements" : setAchievementTriggers,
@@ -152,7 +152,7 @@ function loadTriggersForPage() {
             triggerMap[name](section);
         	}
 				}
-    }
+    }*/
 
     setHighlightTriggers();
     setButtonTriggers();
