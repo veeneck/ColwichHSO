@@ -73,8 +73,12 @@
 
 .faqCard {
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
-	padding: 40px;
+	padding: 30px;
 	border-radius: 5px;
+
+	@include contentFor(normal-screen) {
+		padding: 40px;
+	}
 }
 
 .faq .content div:not(:first-child) {
@@ -87,6 +91,11 @@
 
 .faq h4 {
 	color: $red;
+	font-size: 130%;
+
+	@include contentFor(mini-screen) {
+		font-size: 140%;
+	}
 }
 
 .faq ul li {

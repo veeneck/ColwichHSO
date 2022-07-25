@@ -1901,8 +1901,13 @@ div.menu-link:hover {
 
 .faqCard {
   box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
-  padding: 40px;
+  padding: 30px;
   border-radius: 5px;
+}
+@media (min-width: 1080px) {
+  .faqCard {
+    padding: 40px;
+  }
 }
 
 .faq .content div:not(:first-child) {
@@ -1916,6 +1921,12 @@ div.menu-link:hover {
 
 .faq h4 {
   color: #C93234;
+  font-size: 130%;
+}
+@media (min-width: 765px) {
+  .faq h4 {
+    font-size: 140%;
+  }
 }
 
 .faq ul li {
