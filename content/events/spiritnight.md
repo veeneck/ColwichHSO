@@ -12,6 +12,8 @@ ctalink: calendar
 ctaicon: confetti
 image: "/images/flyers/SpiritNightGambinosWeb.jpg"
 custom_class: "show_image event_spirit"
+aliases:
+    - /spiritnight
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
