@@ -142,10 +142,12 @@ function toggleCalendarButton() {
     const isAndroid = ua.indexOf("android") > -1;
     if (isAndroid) {
       let calendarContainer = document.getElementById("calendarCTA");
-      let link = getFirstChild(calendarContainer);
-      let currentLink = link.href;
-      let newLink = currentLink.replace("webcal://", "https://www.google.com/calendar/render?cid=https://");
-      link.setAttribute("href", newLink);
+      if (calendarContainer != null) {
+          let link = getFirstChild(calendarContainer);
+          let currentLink = link.href;
+          let newLink = currentLink.replace("webcal://", "https://www.google.com/calendar/render?cid=https://");
+          link.setAttribute("href", newLink);
+      }
     }
 }
 
