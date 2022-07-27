@@ -205,7 +205,7 @@ a.dropbtn:hover span {
   height: 100vh;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  @include flex();
+  @include flex(); 
   align-content: center;
   flex-wrap: wrap;
   width: 100%;

@@ -1,15 +1,33 @@
+{{ $polaroidImg := newScratch }}
+{{ $polaroidImg.Set "src" "" }}
+
 <div class="polaroid">
 	{{ range $key, $value := $.page.polaroid }}
+		{{ $polaroidImg.Set "src" $value }}
 		{{ if eq $.page.page_status "comingsoon" }}
-			<img src="/images/flyers/ComingSoonWeb.jpg" loading="lazy" alt="Polaroid Images" />
-		{{ else }}
-			<img src="{{ $value }}"  alt="Polaroid Images" />
+			{{ $polaroidImg.Set "src" "/images/flyers/ComingSoonWeb.jpg" }}
 		{{ end }}
+		<picture>
+		  <source srcset="{{ replace ($polaroidImg.Get "src" ) "jpg" "webp" }}" type="image/webp">
+		  <source srcset="{{ $polaroidImg.Get "src" }}" type="image/jpeg"> 
+		  <img src="{{ $polaroidImg.Get "src" }}"  alt="Polaroid Images" >
+		</picture>
 	{{ end }}
 </div>
 
+{{ $img := newScratch }}
+{{ $img.Set "src" "" }}
+
 {{ if $.page.image }}
-<div class="flyer">
-<img class="heroImg" alt="Hero Image" loading="lazy" src="{{ if eq $.page.page_status "comingsoon" }}/images/flyers/ComingSoonWeb.jpg{{ else }}{{ $.page.image }}{{ end }}" />
-</div>
+	{{ $img.Set "src" $.page.image }}
+	{{ if eq $.page.page_status "comingsoon" }}
+			{{ $img.Set "src" "/images/flyers/ComingSoonWeb.jpg" }}
+	{{ end }}
+	<div class="flyer">
+		<picture class="heroImg">
+			<source srcset="{{ replace ($img.Get "src" ) "jpg" "webp" }}" type="image/webp">
+			<source srcset="{{ $img.Get "src" }}" type="image/jpeg"> 
+			<img src="{{ $img.Get "src" }}" alt="Hero Image" >
+		</picture>
+	</div>
 {{ end }}

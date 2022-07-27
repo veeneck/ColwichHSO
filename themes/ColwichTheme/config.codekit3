@@ -349,7 +349,7 @@
       "oF" : 0
     },
     "\/static\/css\/carnival 2.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 0,
@@ -361,7 +361,7 @@
       "pg" : 0
     },
     "\/static\/css\/carnival.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 0,
@@ -373,7 +373,7 @@
       "pg" : 0
     },
     "\/static\/css\/index.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 0,
@@ -385,7 +385,7 @@
       "pg" : 0
     },
     "\/static\/css\/wufoo.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 0,
@@ -709,8 +709,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/allysonm.webp" : {
+      "ft" : 8388608,
+      "iS" : 56288,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/allysonm.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/amandacampbell.jpg" : {
@@ -721,9 +732,20 @@
       "oAP" : "\/static\/images\/amandacampbell.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/amandacampbell.webp" : {
+      "ft" : 8388608,
+      "iS" : 323616,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/amandacampbell.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/auction\/2.jpg" : {
@@ -735,8 +757,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/auction\/2.webp" : {
+      "ft" : 8388608,
+      "iS" : 88906,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/auction\/5.jpg" : {
@@ -748,8 +781,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/auction\/5.webp" : {
+      "ft" : 8388608,
+      "iS" : 86848,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/5.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/auction\/6.jpg" : {
@@ -761,8 +805,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/auction\/6.webp" : {
+      "ft" : 8388608,
+      "iS" : 91556,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/6.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/auction\/7.jpg" : {
@@ -774,8 +829,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/auction\/7.webp" : {
+      "ft" : 8388608,
+      "iS" : 56240,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/7.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/auction\/9.jpg" : {
@@ -787,8 +853,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/auction\/9.webp" : {
+      "ft" : 8388608,
+      "iS" : 170526,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/9.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/auction\/10.jpg" : {
@@ -800,8 +877,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/auction\/10.webp" : {
+      "ft" : 8388608,
+      "iS" : 171914,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/10.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/auction\/11.jpg" : {
@@ -813,8 +901,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/auction\/11.webp" : {
+      "ft" : 8388608,
+      "iS" : 164428,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/11.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/auction\/12.jpg" : {
@@ -825,9 +924,20 @@
       "oAP" : "\/static\/images\/auction\/12.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/auction\/12.webp" : {
+      "ft" : 8388608,
+      "iS" : 123210,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/auction\/12.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/carnival.jpg" : {
@@ -838,9 +948,20 @@
       "oAP" : "\/static\/images\/carnival.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/carnival.webp" : {
+      "ft" : 8388608,
+      "iS" : 163596,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/carnival.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/carnivalmap.jpg" : {
@@ -851,8 +972,8 @@
       "oAP" : "\/static\/images\/carnivalmap.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -864,9 +985,20 @@
       "oAP" : "\/static\/images\/carnivalmapsmall.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/carnivalmapsmall.webp" : {
+      "ft" : 8388608,
+      "iS" : 67988,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/carnivalmapsmall.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/ces.jpeg" : {
@@ -874,12 +1006,36 @@
       "iS" : 84947,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/.ces~imageoptim.jpg",
+      "oAP" : "\/static\/images\/ces.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces.jpg" : {
+      "ft" : 16384,
+      "iS" : 82444,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces.webp" : {
+      "ft" : 8388608,
+      "iS" : 64828,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/ces1.jpeg" : {
@@ -890,9 +1046,33 @@
       "oAP" : "\/static\/images\/ces1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces1.jpg" : {
+      "ft" : 16384,
+      "iS" : 10721,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces1.webp" : {
+      "ft" : 8388608,
+      "iS" : 12638,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/ces2.jpeg" : {
@@ -903,9 +1083,33 @@
       "oAP" : "\/static\/images\/ces2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces2.jpg" : {
+      "ft" : 16384,
+      "iS" : 49874,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces2.webp" : {
+      "ft" : 8388608,
+      "iS" : 32376,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/ces3.jpeg" : {
@@ -916,9 +1120,33 @@
       "oAP" : "\/static\/images\/ces3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces3.jpg" : {
+      "ft" : 16384,
+      "iS" : 2658067,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces3.webp" : {
+      "ft" : 8388608,
+      "iS" : 804860,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/ces4.jpeg" : {
@@ -929,9 +1157,33 @@
       "oAP" : "\/static\/images\/ces4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces4.jpg" : {
+      "ft" : 16384,
+      "iS" : 39686,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ces4.webp" : {
+      "ft" : 8388608,
+      "iS" : 44536,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ces4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/clock.jpg" : {
@@ -942,9 +1194,20 @@
       "oAP" : "\/static\/images\/clock.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/clock.webp" : {
+      "ft" : 8388608,
+      "iS" : 69440,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/clock.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/cookies.jpg" : {
@@ -955,9 +1218,20 @@
       "oAP" : "\/static\/images\/cookies.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/cookies.webp" : {
+      "ft" : 8388608,
+      "iS" : 352070,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/cookies.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/donations.jpg" : {
@@ -968,9 +1242,20 @@
       "oAP" : "\/static\/images\/donations.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/donations.webp" : {
+      "ft" : 8388608,
+      "iS" : 36998,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/donations.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/events\/coffee.jpg" : {
@@ -982,7 +1267,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -995,7 +1280,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -1004,11 +1289,11 @@
       "iS" : 462254,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/events\/.icecream~imageoptim.jpg",
+      "oAP" : "\/static\/images\/events\/icecream.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -1017,11 +1302,11 @@
       "iS" : 605023,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/events\/.uniformsale~imageoptim.jpg",
+      "oAP" : "\/static\/images\/events\/uniformsale.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -1033,9 +1318,20 @@
       "oAP" : "\/static\/images\/flyers\/.ParentsNightOutWebOct~imageoptim.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/.ParentsNightOutWebOct~imageoptim.webp" : {
+      "ft" : 8388608,
+      "iS" : 71558,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/.ParentsNightOutWebOct~imageoptim.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/CoffeeWithCardinalsOpenGraph.jpg" : {
@@ -1046,9 +1342,20 @@
       "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinalsOpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/CoffeeWithCardinalsOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 19730,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinalsOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.jpg" : {
@@ -1060,8 +1367,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 56836,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/CoffeeWithCardinas.jpg" : {
@@ -1072,8 +1390,8 @@
       "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinas.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -1082,12 +1400,23 @@
       "iS" : 2660207,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/flyers\/.ComingSoonWeb~imageoptim.jpg",
+      "oAP" : "\/static\/images\/flyers\/ComingSoonWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/ComingSoonWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 93390,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ComingSoonWeb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/ConferenceMealOpenGraph.jpg" : {
@@ -1098,9 +1427,20 @@
       "oAP" : "\/static\/images\/flyers\/ConferenceMealOpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/ConferenceMealOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 12610,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ConferenceMealOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/ConferenceMealWeb.jpg" : {
@@ -1112,8 +1452,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/ConferenceMealWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 41712,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ConferenceMealWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/DessertSocialOpenGraph.jpg" : {
@@ -1125,17 +1476,20 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
-    "\/static\/images\/flyers\/DessertSocialOpenGraph.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/static\/images\/flyers\/DessertSocialOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 26938,
       "oA" : 0,
-      "oAP" : "\/static\/images\/flyers\/DessertSocialOpenGraph.pdf",
-      "oF" : 0
+      "oAP" : "\/static\/images\/flyers\/DessertSocialOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/static\/images\/flyers\/HomePageOG.jpg" : {
       "ft" : 16384,
@@ -1145,9 +1499,20 @@
       "oAP" : "\/static\/images\/flyers\/HomePageOG.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HomePageOG.webp" : {
+      "ft" : 8388608,
+      "iS" : 39690,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HomePageOG.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/HSOMeeting2OpenGraph.jpg" : {
@@ -1158,9 +1523,20 @@
       "oAP" : "\/static\/images\/flyers\/HSOMeeting2OpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HSOMeeting2OpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 20164,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMeeting2OpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/HSOMeeting3OpenGraph.jpg" : {
@@ -1171,9 +1547,20 @@
       "oAP" : "\/static\/images\/flyers\/HSOMeeting3OpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HSOMeeting3OpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 22654,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMeeting3OpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/HSOMeetingJanWeb.jpg" : {
@@ -1185,8 +1572,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HSOMeetingJanWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 63396,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMeetingJanWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/HSOMeetingNovWeb.jpg" : {
@@ -1198,8 +1596,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HSOMeetingNovWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 68040,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMeetingNovWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/HSOMeetingOpenGraph.jpg" : {
@@ -1210,9 +1619,20 @@
       "oAP" : "\/static\/images\/flyers\/HSOMeetingOpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HSOMeetingOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 21348,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMeetingOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/HSOMeetingSeptWeb.jpg" : {
@@ -1223,9 +1643,20 @@
       "oAP" : "\/static\/images\/flyers\/HSOMeetingSeptWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HSOMeetingSeptWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 41732,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMeetingSeptWeb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/HSOMemberOpenGraph.jpg" : {
@@ -1236,9 +1667,20 @@
       "oAP" : "\/static\/images\/flyers\/HSOMemberOpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HSOMemberOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 43126,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMemberOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/IceCreamSocial.jpg" : {
@@ -1249,9 +1691,20 @@
       "oAP" : "\/static\/images\/flyers\/IceCreamSocial.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/IceCreamSocial.webp" : {
+      "ft" : 8388608,
+      "iS" : 43354,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/IceCreamSocial.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/IceCreamSocialWeb.jpg" : {
@@ -1263,8 +1716,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/IceCreamSocialWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 72112,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/IceCreamSocialWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/ParentsNightOpenGraph.jpg" : {
@@ -1275,9 +1739,20 @@
       "oAP" : "\/static\/images\/flyers\/ParentsNightOpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/ParentsNightOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 21762,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ParentsNightOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/ParentsNightOutWebOct.jpg" : {
@@ -1285,12 +1760,23 @@
       "iS" : 524019,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/flyers\/.ParentsNightOutWebOct~imageoptim.jpg",
+      "oAP" : "\/static\/images\/flyers\/ParentsNightOutWebOct.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/ParentsNightOutWebOct.webp" : {
+      "ft" : 8388608,
+      "iS" : 71558,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ParentsNightOutWebOct.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/RoomParentOpenGraph.jpg" : {
@@ -1301,9 +1787,20 @@
       "oAP" : "\/static\/images\/flyers\/RoomParentOpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/RoomParentOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 33756,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/RoomParentOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/RoomParentWeb.jpg" : {
@@ -1311,12 +1808,23 @@
       "iS" : 1435047,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/flyers\/.RoomParentWeb~imageoptim.jpg",
+      "oAP" : "\/static\/images\/flyers\/RoomParentWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/RoomParentWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 63238,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/RoomParentWeb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/SpiritNightGambinosOG.jpg" : {
@@ -1327,9 +1835,20 @@
       "oAP" : "\/static\/images\/flyers\/SpiritNightGambinosOG.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/SpiritNightGambinosOG.webp" : {
+      "ft" : 8388608,
+      "iS" : 25954,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/SpiritNightGambinosOG.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/SpiritNightGambinosWeb.jpg" : {
@@ -1340,9 +1859,20 @@
       "oAP" : "\/static\/images\/flyers\/SpiritNightGambinosWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/SpiritNightGambinosWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 100564,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/SpiritNightGambinosWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/TeacherAppreciationOpenGraph.jpg" : {
@@ -1353,9 +1883,20 @@
       "oAP" : "\/static\/images\/flyers\/TeacherAppreciationOpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TeacherAppreciationOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 17880,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TeacherAppreciationOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/TeacherAppreciationSeptWeb.jpg" : {
@@ -1367,8 +1908,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TeacherAppreciationSeptWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 60212,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TeacherAppreciationSeptWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/UniformSale.jpg" : {
@@ -1380,8 +1932,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/UniformSale.webp" : {
+      "ft" : 8388608,
+      "iS" : 83482,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/UniformSale.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/UniformSaleNew.jpg" : {
@@ -1389,12 +1952,23 @@
       "iS" : 486529,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/flyers\/.UniformSaleNew~imageoptim.jpg",
+      "oAP" : "\/static\/images\/flyers\/UniformSaleNew.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/UniformSaleNew.webp" : {
+      "ft" : 8388608,
+      "iS" : 104486,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/UniformSaleNew.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/UniformSaleOpenGraph.jpg" : {
@@ -1406,8 +1980,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/UniformSaleOpenGraph.webp" : {
+      "ft" : 8388608,
+      "iS" : 22752,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/UniformSaleOpenGraph.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/UniformSaleWeb.jpg" : {
@@ -1418,10 +2003,31 @@
       "oAP" : "\/static\/images\/flyers\/UniformSaleWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
+    },
+    "\/static\/images\/flyers\/UniformSaleWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 100370,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/UniformSaleWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/icons\/.calendar~imageoptim.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/icons\/.calendar~imageoptim.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/static\/images\/icons\/apple.svg" : {
       "ft" : 2097152,
@@ -1702,8 +2308,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/bell.webp" : {
+      "ft" : 8388608,
+      "iS" : 12124,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/bell.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/ccf.png" : {
@@ -1712,11 +2329,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/ccf.png",
       "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/ccf.webp" : {
+      "ft" : 8388608,
+      "iS" : 8696,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/ccf.webp",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/ckmedical.png" : {
@@ -1728,8 +2356,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/ckmedical.webp" : {
+      "ft" : 8388608,
+      "iS" : 18898,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/ckmedical.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/cmc.png" : {
@@ -1741,8 +2380,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/cmc.webp" : {
+      "ft" : 8388608,
+      "iS" : 15518,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/cmc.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/css.png" : {
@@ -1754,8 +2404,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/css.webp" : {
+      "ft" : 8388608,
+      "iS" : 27466,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/css.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/cushman.png" : {
@@ -1767,8 +2428,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/cushman.webp" : {
+      "ft" : 8388608,
+      "iS" : 10384,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/cushman.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/gmac.png" : {
@@ -1780,8 +2452,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/gmac.webp" : {
+      "ft" : 8388608,
+      "iS" : 24280,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/gmac.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/hsocarnival.png" : {
@@ -1793,8 +2476,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/hsocarnival.webp" : {
+      "ft" : 8388608,
+      "iS" : 65120,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/hsocarnival.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/hsologo.png" : {
@@ -1806,8 +2500,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/hsologo.webp" : {
+      "ft" : 8388608,
+      "iS" : 65838,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/hsologo.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/hsonew.png" : {
@@ -1819,8 +2524,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/hsonew.webp" : {
+      "ft" : 8388608,
+      "iS" : 17532,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/hsonew.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/hsonewlogo.svg" : {
@@ -1842,8 +2558,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/hsowhite.webp" : {
+      "ft" : 8388608,
+      "iS" : 21740,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/hsowhite.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/icm.jpg" : {
@@ -1855,7 +2582,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -1865,11 +2592,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/icm.png",
       "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/icm.webp" : {
+      "ft" : 8388608,
+      "iS" : 9002,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/icm.webp",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/lionsclub.png" : {
@@ -1881,8 +2619,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/lionsclub.webp" : {
+      "ft" : 8388608,
+      "iS" : 30976,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/lionsclub.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/littlestars.png" : {
@@ -1894,8 +2643,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/littlestars.webp" : {
+      "ft" : 8388608,
+      "iS" : 92260,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/littlestars.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/multicrete.png" : {
@@ -1907,8 +2667,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/multicrete.webp" : {
+      "ft" : 8388608,
+      "iS" : 18338,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/multicrete.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/wulfast.png" : {
@@ -1920,8 +2691,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/wulfast.webp" : {
+      "ft" : 8388608,
+      "iS" : 18890,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/wulfast.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/map_small.png" : {
@@ -1933,8 +2715,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/map_small.webp" : {
+      "ft" : 8388608,
+      "iS" : 72794,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/map_small.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/map.png" : {
@@ -1946,21 +2739,43 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/map.webp" : {
+      "ft" : 8388608,
+      "iS" : 489978,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/map.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/mascot.png" : {
       "ft" : 32768,
       "iS" : 19456,
       "oA" : 0,
-      "oAP" : "\/static\/images\/.mascot~imageoptim.png",
+      "oAP" : "\/static\/images\/mascot.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/mascot.webp" : {
+      "ft" : 8388608,
+      "iS" : 8634,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/mascot.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/matter.jpg" : {
@@ -1972,8 +2787,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/matter.webp" : {
+      "ft" : 8388608,
+      "iS" : 79834,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/matter.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/meeting.jpg" : {
@@ -1985,8 +2811,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/meeting.webp" : {
+      "ft" : 8388608,
+      "iS" : 89300,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/meeting.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/parent.jpg" : {
@@ -1998,8 +2835,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/parent.webp" : {
+      "ft" : 8388608,
+      "iS" : 50462,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/parent.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/permalink.png" : {
@@ -2008,11 +2856,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/permalink.png",
       "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/permalink.webp" : {
+      "ft" : 8388608,
+      "iS" : 948,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/permalink.webp",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/books.jpg" : {
@@ -2023,9 +2882,20 @@
       "oAP" : "\/static\/images\/photos\/books.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/books.webp" : {
+      "ft" : 8388608,
+      "iS" : 126922,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/books.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/cardinal.jpg" : {
@@ -2037,8 +2907,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/cardinal.webp" : {
+      "ft" : 8388608,
+      "iS" : 24658,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/cardinal.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/cards.jpg" : {
@@ -2046,12 +2927,23 @@
       "iS" : 474967,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/photos\/.cards~imageoptim.jpg",
+      "oAP" : "\/static\/images\/photos\/cards.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/cards.webp" : {
+      "ft" : 8388608,
+      "iS" : 19900,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/cards.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/cups.jpg" : {
@@ -2062,9 +2954,20 @@
       "oAP" : "\/static\/images\/photos\/cups.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/cups.webp" : {
+      "ft" : 8388608,
+      "iS" : 431828,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/cups.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/front.jpg" : {
@@ -2075,9 +2978,20 @@
       "oAP" : "\/static\/images\/photos\/front.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/front.webp" : {
+      "ft" : 8388608,
+      "iS" : 241016,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/front.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/goodvibes.jpg" : {
@@ -2088,9 +3002,20 @@
       "oAP" : "\/static\/images\/photos\/goodvibes.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/goodvibes.webp" : {
+      "ft" : 8388608,
+      "iS" : 81856,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/goodvibes.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/gym.jpg" : {
@@ -2098,12 +3023,23 @@
       "iS" : 136561,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/photos\/.gym~imageoptim.jpg",
+      "oAP" : "\/static\/images\/photos\/gym.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/gym.webp" : {
+      "ft" : 8388608,
+      "iS" : 23880,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/gym.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/progress.jpg" : {
@@ -2115,8 +3051,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/progress.webp" : {
+      "ft" : 8388608,
+      "iS" : 37900,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/progress.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/photos\/school.jpg" : {
@@ -2128,8 +3075,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/photos\/school.webp" : {
+      "ft" : 8388608,
+      "iS" : 341138,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/photos\/school.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/1.jpg" : {
@@ -2141,8 +3099,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/1.webp" : {
+      "ft" : 8388608,
+      "iS" : 222160,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/1.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/2.jpg" : {
@@ -2154,8 +3123,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/2.webp" : {
+      "ft" : 8388608,
+      "iS" : 139746,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/3.jpg" : {
@@ -2167,8 +3147,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/3.webp" : {
+      "ft" : 8388608,
+      "iS" : 64352,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/3.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/4.jpg" : {
@@ -2180,8 +3171,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/4.webp" : {
+      "ft" : 8388608,
+      "iS" : 52262,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/4.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/5.jpg" : {
@@ -2189,12 +3191,23 @@
       "iS" : 1426089,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/.5~imageoptim.jpg",
+      "oAP" : "\/static\/images\/raffle\/5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/5.webp" : {
+      "ft" : 8388608,
+      "iS" : 96162,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/5.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/6.jpg" : {
@@ -2206,8 +3219,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/6.webp" : {
+      "ft" : 8388608,
+      "iS" : 171292,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/6.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/7.jpg" : {
@@ -2219,8 +3243,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/7.webp" : {
+      "ft" : 8388608,
+      "iS" : 60224,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/7.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/8.jpg" : {
@@ -2232,8 +3267,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/8.webp" : {
+      "ft" : 8388608,
+      "iS" : 108120,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/8.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/9.jpg" : {
@@ -2245,8 +3291,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/9.webp" : {
+      "ft" : 8388608,
+      "iS" : 163804,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/9.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/10.jpg" : {
@@ -2258,8 +3315,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/10.webp" : {
+      "ft" : 8388608,
+      "iS" : 202666,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/10.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/11.jpg" : {
@@ -2267,12 +3335,23 @@
       "iS" : 1646793,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/.11~imageoptim.jpg",
+      "oAP" : "\/static\/images\/raffle\/11.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/11.webp" : {
+      "ft" : 8388608,
+      "iS" : 222962,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/11.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/12.jpg" : {
@@ -2283,9 +3362,20 @@
       "oAP" : "\/static\/images\/raffle\/12.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/12.webp" : {
+      "ft" : 8388608,
+      "iS" : 187956,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/12.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/13.jpg" : {
@@ -2293,12 +3383,23 @@
       "iS" : 1061161,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/.13~imageoptim.jpg",
+      "oAP" : "\/static\/images\/raffle\/13.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/13.webp" : {
+      "ft" : 8388608,
+      "iS" : 116382,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/13.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/14.jpg" : {
@@ -2310,8 +3411,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/14.webp" : {
+      "ft" : 8388608,
+      "iS" : 242358,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/14.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/15.jpg" : {
@@ -2323,8 +3435,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/15.webp" : {
+      "ft" : 8388608,
+      "iS" : 191302,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/15.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/16.jpg" : {
@@ -2336,8 +3459,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/16.webp" : {
+      "ft" : 8388608,
+      "iS" : 202622,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/16.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/17.jpg" : {
@@ -2349,8 +3483,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/17.webp" : {
+      "ft" : 8388608,
+      "iS" : 205484,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/17.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/18.jpg" : {
@@ -2362,8 +3507,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/18.webp" : {
+      "ft" : 8388608,
+      "iS" : 108872,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/18.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/19.jpg" : {
@@ -2374,9 +3530,20 @@
       "oAP" : "\/static\/images\/raffle\/19.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/19.webp" : {
+      "ft" : 8388608,
+      "iS" : 115092,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/19.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/20.jpg" : {
@@ -2384,12 +3551,23 @@
       "iS" : 1080392,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/IMG_3232.jpg",
+      "oAP" : "\/static\/images\/raffle\/20.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/20.webp" : {
+      "ft" : 8388608,
+      "iS" : 114984,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/20.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/21.jpg" : {
@@ -2397,12 +3575,23 @@
       "iS" : 898358,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/IMG_3234.jpg",
+      "oAP" : "\/static\/images\/raffle\/21.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/21.webp" : {
+      "ft" : 8388608,
+      "iS" : 100442,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/21.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/22.jpg" : {
@@ -2410,12 +3599,23 @@
       "iS" : 1271705,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/IMG_3236.jpg",
+      "oAP" : "\/static\/images\/raffle\/22.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/22.webp" : {
+      "ft" : 8388608,
+      "iS" : 223378,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/22.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/23.jpg" : {
@@ -2426,9 +3626,20 @@
       "oAP" : "\/static\/images\/raffle\/23.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/23.webp" : {
+      "ft" : 8388608,
+      "iS" : 120694,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/23.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/24.jpg" : {
@@ -2436,12 +3647,23 @@
       "iS" : 1151045,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/IMG_3238.jpg",
+      "oAP" : "\/static\/images\/raffle\/24.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/24.webp" : {
+      "ft" : 8388608,
+      "iS" : 144338,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/24.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/25.jpg" : {
@@ -2453,8 +3675,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/25.webp" : {
+      "ft" : 8388608,
+      "iS" : 91744,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/25.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/26.jpg" : {
@@ -2462,12 +3695,23 @@
       "iS" : 1535525,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/.26~imageoptim.jpg",
+      "oAP" : "\/static\/images\/raffle\/26.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/26.webp" : {
+      "ft" : 8388608,
+      "iS" : 198044,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/26.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/27.jpg" : {
@@ -2478,9 +3722,20 @@
       "oAP" : "\/static\/images\/raffle\/27.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/27.webp" : {
+      "ft" : 8388608,
+      "iS" : 213334,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/27.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/28.jpg" : {
@@ -2492,8 +3747,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/28.webp" : {
+      "ft" : 8388608,
+      "iS" : 127820,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/28.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/29.jpg" : {
@@ -2505,8 +3771,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/29.webp" : {
+      "ft" : 8388608,
+      "iS" : 147112,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/29.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/30.jpg" : {
@@ -2517,9 +3794,20 @@
       "oAP" : "\/static\/images\/raffle\/30.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/30.webp" : {
+      "ft" : 8388608,
+      "iS" : 216274,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/30.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/31.jpg" : {
@@ -2531,8 +3819,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/31.webp" : {
+      "ft" : 8388608,
+      "iS" : 224266,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/31.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/32.jpg" : {
@@ -2540,12 +3839,23 @@
       "iS" : 1152390,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/.32~imageoptim.jpg",
+      "oAP" : "\/static\/images\/raffle\/32.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/32.webp" : {
+      "ft" : 8388608,
+      "iS" : 115652,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/32.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/33.jpg" : {
@@ -2557,8 +3867,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/33.webp" : {
+      "ft" : 8388608,
+      "iS" : 254080,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/33.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/34.jpg" : {
@@ -2569,9 +3890,20 @@
       "oAP" : "\/static\/images\/raffle\/34.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/34.webp" : {
+      "ft" : 8388608,
+      "iS" : 255032,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/34.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/35.jpg" : {
@@ -2582,9 +3914,20 @@
       "oAP" : "\/static\/images\/raffle\/35.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/35.webp" : {
+      "ft" : 8388608,
+      "iS" : 76348,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/35.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/36.jpg" : {
@@ -2595,9 +3938,20 @@
       "oAP" : "\/static\/images\/raffle\/36.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/36.webp" : {
+      "ft" : 8388608,
+      "iS" : 73116,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/36.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/37.jpg" : {
@@ -2608,9 +3962,20 @@
       "oAP" : "\/static\/images\/raffle\/37.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/37.webp" : {
+      "ft" : 8388608,
+      "iS" : 139898,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/37.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/38.jpg" : {
@@ -2621,9 +3986,20 @@
       "oAP" : "\/static\/images\/raffle\/38.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/38.webp" : {
+      "ft" : 8388608,
+      "iS" : 127054,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/38.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/IMG_3232.jpg" : {
@@ -2634,9 +4010,20 @@
       "oAP" : "\/static\/images\/raffle\/IMG_3232.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/IMG_3232.webp" : {
+      "ft" : 8388608,
+      "iS" : 114984,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/IMG_3232.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/IMG_3234.jpg" : {
@@ -2647,9 +4034,20 @@
       "oAP" : "\/static\/images\/raffle\/IMG_3234.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/IMG_3234.webp" : {
+      "ft" : 8388608,
+      "iS" : 100442,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/IMG_3234.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/IMG_3236.jpg" : {
@@ -2660,9 +4058,20 @@
       "oAP" : "\/static\/images\/raffle\/IMG_3236.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/IMG_3236.webp" : {
+      "ft" : 8388608,
+      "iS" : 223378,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/IMG_3236.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/IMG_3238.jpg" : {
@@ -2673,9 +4082,20 @@
       "oAP" : "\/static\/images\/raffle\/IMG_3238.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/IMG_3238.webp" : {
+      "ft" : 8388608,
+      "iS" : 144338,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/IMG_3238.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/raffle\/IMG_3245.jpg" : {
@@ -2686,9 +4106,20 @@
       "oAP" : "\/static\/images\/raffle\/IMG_3245.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/IMG_3245.webp" : {
+      "ft" : 8388608,
+      "iS" : 198044,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/IMG_3245.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/shelby.JPG" : {
@@ -2700,8 +4131,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/shelby.webp" : {
+      "ft" : 8388608,
+      "iS" : 24206,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/shelby.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/silhouette.jpg" : {
@@ -2712,9 +4154,20 @@
       "oAP" : "\/static\/images\/silhouette.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/silhouette.webp" : {
+      "ft" : 8388608,
+      "iS" : 103522,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/silhouette.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/sponsors\/caringkansas.pdf" : {
@@ -2832,8 +4285,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/tents.webp" : {
+      "ft" : 8388608,
+      "iS" : 61938,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/tents.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/testmap.png" : {
@@ -2845,8 +4309,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "oT" : 1,
-      "ou" : "lpckwebp-none",
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/testmap.webp" : {
+      "ft" : 8388608,
+      "iS" : 128480,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/testmap.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/ticket.png" : {
@@ -2855,11 +4330,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/ticket.png",
       "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/ticket.webp" : {
+      "ft" : 8388608,
+      "iS" : 2662,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/ticket.webp",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/volunteer.jpg" : {
@@ -2870,9 +4356,20 @@
       "oAP" : "\/static\/images\/volunteer.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/volunteer.webp" : {
+      "ft" : 8388608,
+      "iS" : 48210,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/volunteer.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/wishlist.png" : {
@@ -2881,11 +4378,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/wishlist.png",
       "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/wishlist.webp" : {
+      "ft" : 8388608,
+      "iS" : 37068,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/wishlist.webp",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/js\/auction-min.js" : {
@@ -4598,7 +6106,7 @@
       "combineImports" : 0,
       "cssoStyle" : 0,
       "purgeCSSStyle" : 0,
-      "shouldRunAutoprefixer" : 1,
+      "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
       "sourceMapStyle" : 0
     },
@@ -4637,7 +6145,7 @@
       "autoOutputPathStyle" : 0,
       "outputFormat" : 0,
       "quality" : 100,
-      "webpOptimizationPresetUUID" : "lpckwebp-none",
+      "webpOptimizationPresetUUID" : "lpckwebp-default",
       "webpRGBQuality" : 75
     },
     "languageDefaultsJS" : {
@@ -4733,7 +6241,7 @@
       "autoOutputPathStyle" : 0,
       "optimizerType" : 1,
       "quality" : 100,
-      "webpOptimizationPresetUUID" : "lpckwebp-none",
+      "webpOptimizationPresetUUID" : "lpckwebp-default",
       "webpRGBQuality" : 75
     },
     "languageDefaultsPUG" : {

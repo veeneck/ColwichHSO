@@ -50,7 +50,7 @@ section.module.featured_image.first {
 
 
 
-.heroImg {
+.heroImg img {
 	width: 100%;
 	margin: 0 auto;
 	z-index: 3;
@@ -85,16 +85,11 @@ section.module.featured_image.first {
 	position: relative;
 }
 
-.polaroid img {
+.polaroid picture {
 	width: 30%;
 	min-height: 550px;
-	object-fit: contain;
-	background-color: #fff;
-	border-radius: 4px;
 	position: absolute;
-	margin-top: 20px;
-	box-sizing: border-box;
-	box-shadow: 0 15px 60px rgba(62,62,62,.25);
+	margin-top: -10px;
 
 	@include contentFor(normal-screen) {
 		min-height: 400px;
@@ -109,19 +104,18 @@ section.module.featured_image.first {
 	}
 }
 
-.polaroid img:before {
-	content: "";
-    height: 25px;
-    width: 80px;
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    background-color: rgba(255, 255, 255, .3);
-    transform: translateX(-30%) translateY(10%) rotate(-45deg);
+ .polaroid img {
+ 		width: 100%;
+ 		height: 100%;
+ 		object-fit: contain;
+ 		background-color: #fff;
+		border-radius: 4px;
+		box-sizing: border-box;
+	  box-shadow: 0 15px 60px rgba(62,62,62,.25);
  }
 
 
-.polaroid img:nth-child(1) {
+.polaroid picture:nth-child(1) {
 	top: 0;
 	left: -10%;
 	z-index: 1;
@@ -135,7 +129,7 @@ section.module.featured_image.first {
 
 }
 
-.polaroid img:nth-child(2) {
+.polaroid picture:nth-child(2) {
 	top: 0;
 	left: 10%;
 	z-index: 2;
@@ -149,7 +143,7 @@ section.module.featured_image.first {
 
 }
 
-.polaroid img:nth-child(3) {
+.polaroid picture:nth-child(3) {
 	top: 0;
 	left: 60%;
 	z-index: 2;
@@ -162,7 +156,7 @@ section.module.featured_image.first {
 
 }
 
-.polaroid img:nth-child(4) {
+.polaroid picture:nth-child(4) {
 	top: 0;
 	left: 80%;
 	z-index: 1;
@@ -178,7 +172,7 @@ section.module.featured_image.first {
 /// This is kind of a hack. Flyers already have borders and need to use contain, while photos dont have borders and need to use cover.
 /// Any page with photos instead of flyers has a custom class added.
 /// Because cover is used, the height must be forced as well.
-.module.featured_image.add_border .heroImg, .module.featured_image.add_border .polaroid img {
+.module.featured_image.add_border .heroImg img, .module.featured_image.add_border .polaroid img {
 	object-fit: cover;
 
 	@include contentFor(mini-screen) {
