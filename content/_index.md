@@ -9,7 +9,7 @@ pageImage: "https://colwichhso.com/images/flyers/HomePageOG.jpg"
 subtitle: Colwich HSO
 shoutout: Supporting Colwich<br />Elementary School
 shoutout_icon: /images/mascot.png
-overview: The main way to get involved is register as an active member, which will keep you updated on all upcoming HSO activities.
+overview: The main way to get involved is to register as an active member, which will keep you updated on all upcoming HSO activities.
 ctatext: Keep Me Updated!
 ctalink: /membership
 ctaicon: mail
