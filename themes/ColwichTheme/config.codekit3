@@ -1124,10 +1124,18 @@
       "oAP" : "\/static\/images\/flyers\/DessertSocialOpenGraph.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/static\/images\/flyers\/DessertSocialOpenGraph.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/DessertSocialOpenGraph.pdf",
+      "oF" : 0
     },
     "\/static\/images\/flyers\/HomePageOG.jpg" : {
       "ft" : 16384,
