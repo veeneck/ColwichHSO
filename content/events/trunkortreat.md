@@ -3,8 +3,8 @@ title: Trunk or Treat 🎃
 description: HSO will head out and support the community this halloween.
 type: events
 event_date: 2022-10-29 1:00:00 +0000
-url: "/calendar/trunkortreat"
-fullUrl: "https://colwichhso.com/calendar/trunkortreat"
+url: "/trunkortreat"
+fullUrl: "https://colwichhso.com/trunkortreat"
 page_status: comingsoon
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar

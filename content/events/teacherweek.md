@@ -3,8 +3,8 @@ title: Teacher Appreciation Week 💖
 description: As the school year is ending, we take a full week to show our teachers love.
 type: events
 event_date: 2023-05-01 1:00:00 +0000
-url: "/calendar/teacherweek"
-fullUrl: "https://colwichhso.com/calendar/teacherweek"
+url: "/teacherweek"
+fullUrl: "https://colwichhso.com/teacherweek"
 page_status: comingsoon
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar
