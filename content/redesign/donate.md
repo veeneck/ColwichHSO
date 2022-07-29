@@ -7,7 +7,7 @@ url: "/donate"
 fullUrl: "https://colwichhso.com/donate"
 subtitle: Make a Donation
 shoutout: Thank you so much for your generosity! 💝
-overview: We welcome all donations! Continue reading to find out the various ways in which the funds are used. Or <a href="/forms/contactus">contact us</a> with donation questions.
+overview: We welcome all donations! Continue reading to find out the various ways in which the funds are used. Or [contact us](/forms/contactus) with donation questions.
 ctatext: Make a Donation
 ctalink: https://square.link/u/PdHM3fyJ?src=embed
 ctaicon: donate
