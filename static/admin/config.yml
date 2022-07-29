@@ -51,7 +51,7 @@ collections:
       - {label: "Full URL", name: "fullUrl", widget: "hidden"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Shout Out", name: "shoutout", widget: "string"}
-      - {label: "Overview", name: "overview", widget: "markdown"}
+      - {label: "Overview", name: "overview", widget: "markdown", "buttons": ["bold", "italic", "link"]}
       - {label: "FAQ Category", name: "faq_category", widget: "string"}
       - {label: "Wufoo Form", name: "formEmbed", widget: "string"}
       - {label: "Page Modules", name: "modules", widget: "list", field: {label: "Module", widget: "string", name: "module"}}
