@@ -13,7 +13,7 @@ collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Top Level Pages" # Used in the UI
     folder: "content" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
@@ -35,3 +35,20 @@ collections:
       - {label: "Content Type", name: "type", widget: "hidden", default: "sponsor"}
       - {label: "Logo", name: "logo", widget: "image", media_folder: "/themes/ColwichTheme/static/images/sponsors", hint: "Please only upload SVG's for sponsor images."}
       - {label: "Active", name: "active", widget: "boolean", hint: "Only Active sponsors show up in the widget. Designed for 6 active sponsors at a time."}
+  - name: "forms" # Used in routes, e.g., /admin/collections/blog
+    label: "Forms" # Used in the UI
+    folder: "content/forms" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", hint:"This shows up on search engines, and in social media links."}
+      - {label: "Content Type", name: "type", widget: "hidden", default: "forms"}
+      - {label: "Local URL", name: "url", widget: "hidden"}
+      - {label: "Full URL", name: "fullUrl", widget: "hidden"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Shout Out", name: "shoutout", widget: "string"}
+      - {label: "Overview", name: "overview", widget: "string"}
+      - {label: "FAQ Category", name: "faq_category", widget: "string"}
+      - {label: "Wufoo Form", name: "formEmbed", widget: "string"}
+      - {label: "Page Modules", name: "modules", widget: "list", default:["/module"]}
