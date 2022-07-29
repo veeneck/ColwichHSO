@@ -33,5 +33,5 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Website", name: "website", widget: "string"}
       - {label: "Content Type", name: "type", widget: "string", default: "sponsor"}
-      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Logo", name: "logo", widget: "image", media_folder: "themes/ColwichTheme/static/images/sponsors"}
       - {label: "Active", name: "active", widget: "boolean"}
