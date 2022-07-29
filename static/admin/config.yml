@@ -45,13 +45,13 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string", hint:"This shows up on search engines, and in social media links."}
+      - {label: "Description", name: "description", widget: "string", hint: "This shows up on search engines, and in social media links."}
       - {label: "Content Type", name: "type", widget: "hidden", default: "forms"}
       - {label: "Local URL", name: "url", widget: "hidden"}
       - {label: "Full URL", name: "fullUrl", widget: "hidden"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Shout Out", name: "shoutout", widget: "string"}
-      - {label: "Overview", name: "overview", widget: "markdown", "buttons": ["bold", "italic", "link"], "editor_components":[]}
-      - {label: "FAQ Category", name: "faq_category", widget: "string"}
-      - {label: "Wufoo Form", name: "formEmbed", widget: "string"}
+      - {label: "Overview", name: "overview", widget: "markdown", "buttons": ["bold", "italic", "link"], "editor_components":[], "hint": "Only B, I, and A tags are styled for this widget."}
+      - {label: "FAQ Category", name: "faq_category", widget: "string", hint: "This identifier determines which FAQ questions will show up underneath the form."}
+      - {label: "Wufoo Form", name: "formEmbed", widget: "string", hint: "The form identifier can be found in your Wufoo account on the share page."}
       - {label: "Page Modules", name: "modules", widget: "list", field: {label: "Module", widget: "string", name: "module"}}
