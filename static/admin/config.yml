@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 # These lines should *not* be indented
-media_folder: "themes/ColwichTheme/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+media_folder: "/themes/ColwichTheme/static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 site_url: https://colwichhso.com
 display_url: https://colwichhso.com
@@ -11,7 +11,7 @@ logo_url: https://colwichhso.com/images/logo/hsonew.png
 
 collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
+    label: "Top Level Pages" # Used in the UI
     folder: "content" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
