@@ -57,7 +57,7 @@ collections:
       - {label: "Page Modules", name: "modules", widget: "list", field: {label: "Module", widget: "string", name: "module"}}
   - name: "modules" # Used in routes, e.g., /admin/collections/blog
     label: "Modules" # Used in the UI
-    folder: "content/modules" # The path to the folder where the documents are stored
+    folder: "content/modules/common" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
