@@ -51,7 +51,7 @@ collections:
       - {label: "Full URL", name: "fullUrl", widget: "hidden"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Shout Out", name: "shoutout", widget: "string"}
-      - {label: "Overview", name: "overview", widget: "markdown", "buttons": ["bold", "italic", "link"], "editor_components":[], "hint": "Only B, I, and A tags are styled for this widget."}
+      - {label: "Overview", name: "overview", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only B, I, and A tags are styled for this widget."}
       - {label: "FAQ Category", name: "faq_category", widget: "string", hint: "This identifier determines which FAQ questions will show up underneath the form."}
       - {label: "Wufoo Form", name: "formEmbed", widget: "string", hint: "The form identifier can be found in your Wufoo account on the share page."}
       - {label: "Page Modules", name: "modules", widget: "list", field: {label: "Module", widget: "string", name: "module"}}
