@@ -34,4 +34,4 @@ collections:
       - {label: "Website", name: "website", widget: "string"}
       - {label: "Content Type", name: "type", widget: "string", default: "sponsor"}
       - {label: "Logo", name: "logo", widget: "image", media_folder: "/themes/ColwichTheme/static/images/sponsors"}
-      - {label: "Active", name: "active", widget: "boolean"}
+      - {label: "Active", name: "active", widget: "boolean", hint: "Only Active sponsors show up in the widget. Designed for 6 active sponsors at a time."}
