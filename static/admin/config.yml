@@ -51,4 +51,4 @@ collections:
       - {label: "Overview", name: "overview", widget: "string"}
       - {label: "FAQ Category", name: "faq_category", widget: "string"}
       - {label: "Wufoo Form", name: "formEmbed", widget: "string"}
-      - {label: "Page Modules", name: "modules", widget: "list", default:["/module"]}
+      - {label: "Page Modules", name: "modules", widget: "list", default:["test"]}
