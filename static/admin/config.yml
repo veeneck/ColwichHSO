@@ -70,10 +70,12 @@ collections:
       - {label: "Module Type", name: "module_type", widget: "string"}
       - {label: "Has Header", name: "has_header", widget: "boolean", hint: "Toggle the display of the title and subtitle."}
       - {label: "Hide Call to Action", name: "hide_cta", widget: "boolean", hint: "Hide any button or call to action for the module."}
-
-
-
-
-
-
-
+  - name: "faq" # Used in routes, e.g., /admin/collections/blog
+    label: "FAQ's" # Used in the UI
+    folder: "content/faq" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Question", name: "question", widget: "string"}
+      - {label: "Type", name: "type", widget: "hidden", default: "faq"}
+      - {label: "FAQ Category", name: "faq_category", widget: "string", hint: "Determines what page this FAQ question will shop up on."}
