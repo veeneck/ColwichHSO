@@ -79,3 +79,4 @@ collections:
       - {label: "Question", name: "question", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "faq"}
       - {label: "FAQ Category", name: "faq_category", widget: "string", hint: "Determines what page this FAQ question will shop up on."}
+      - {label: "Answer", name: "body", widget: "markdown"}
