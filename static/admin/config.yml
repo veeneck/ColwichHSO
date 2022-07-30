@@ -69,7 +69,8 @@ collections:
       - {label: "Data Type", name: "data_type", widget: "hidden"}
       - {label: "Module Type", name: "module_type", widget: "string"}
       - {label: "Has Header", name: "has_header", widget: "boolean", hint: "Toggle the display of the title and subtitle."}
-      - {label: "Hide Call to Action", name: "hide_cta", widget: "boolean", hint: "Hide any button or call to action for the module.", comment: "this is a comment"}
+      - {label: "Hide Call to Action", name: "hide_cta", widget: "boolean", hint: "Hide any button or call to action for the module."}
+      - comment: "this is a comment"
   - name: "faq" # Used in routes, e.g., /admin/collections/blog
     label: "FAQ's" # Used in the UI
     folder: "content/faq" # The path to the folder where the documents are stored
