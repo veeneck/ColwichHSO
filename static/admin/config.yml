@@ -78,5 +78,5 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Question", name: "question", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "faq"}
-      - {label: "FAQ Category", name: "faq_category", widget: "string", hint: "Determines what page this FAQ question will shop up on."}
-      - {label: "Answer", name: "body", widget: "markdown"}
+      - {label: "FAQ Category", name: "faq_category", widget: "string", hint: "Determines what page this FAQ question will show up on."}
+      - {label: "Answer", name: "body", widget: "markdown", hint: "Answer to the question. Most elements are designed for like A, B, I tags and lists. Contact us if you design something that shows up unstyled."}
