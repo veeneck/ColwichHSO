@@ -1,6 +1,6 @@
 ---
 title: Colwich HSO Room Parent Application 🚸
-description: Fill out this form with information regarding your room mom details.
+description: Fill out this form with information regarding your room parent details.
 type: forms
 date: 2022-06-03 14:59:46 +0000
 pageImage: "https://colwichhso.com/images/flyers/RoomParentOpenGraph.jpg"
