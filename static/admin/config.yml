@@ -36,10 +36,10 @@ collections:
       - {label: "Event Date", name: "event_date", widget: "date", format: "YYYY-MM-DD H:mm:ss"}
       - {label: "Event Status", name: "page_status", widget: "string", hint: "Set to comingsoon to turn the event on/off"}
       - {label: "Button Text", name: "ctatext", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only B, I, and A tags are styled for this widget."}
       - {label: "Subtitle", name: "subtitle", widget: "string", hint: "Only used by top level pages. Events use the event date as the subtitle."}
       - {label: "Shout Out", name: "shoutout", widget: "string", hint: "Only used by top level pages. Events use the Title as the main text."}
-      - {label: "Overview", name: "overview", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only used by top level pages. Events use the Body as the descriptive text. Only B, I, and A tags are styled for this widget."}
-      - {label: "Body", name: "body", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only B, I, and A tags are styled for this widget."}
+      - {label: "Overview", name: "overview", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only used by top level pages. Events use the Body as the descriptive text. Only B, I, and A tags are styled for this widget."} 
   - name: "sponsors" # Used in routes, e.g., /admin/collections/blog
     label: "Sponsors" # Used in the UI
     folder: "content/sponsors" # The path to the folder where the documents are stored
