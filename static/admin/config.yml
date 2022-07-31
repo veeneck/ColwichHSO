@@ -33,7 +33,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Event Date", name: "event_date", widget: "date", format: "YYYY-MM-DD H:mm:ss"}
+      - {label: "Event Date", name: "event_date", widget: "datetime", format: "YYYY-MM-DD H:mm:ss"}
       - {label: "Event Status", name: "page_status", widget: "string", hint: "Set to <b>comingsoon</b> to turn the event on/off"}
       - {label: "Button Text", name: "ctatext", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only B, I, and A tags are styled for this widget."}
