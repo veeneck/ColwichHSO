@@ -26,6 +26,19 @@ collections:
       - {label: "Full URL", name: "fullUrl", widget: "string"}
       - {label: "Open Graph Image", name: "pageImage", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "events" # Used in routes, e.g., /admin/collections/blog
+    label: "Events" # Used in the UI
+    folder: "content/events" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Button Text", name: "ctatext", widget: "string"}
+      - {label: "Event Status", name: "page_status", widget: "string", hint: "Set to comingsoon to turn the event on/off"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", hint: "Only used by top level pages. Events use the event date as the subtitle."}
+      - {label: "Shout Out", name: "shoutout", widget: "string", hint: "Only used by top level pages. Events use the Title as the main text."}
+      - {label: "Overview", name: "overview", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only used by top level pages. Events use the Body as the descriptive text. Only B, I, and A tags are styled for this widget."}
+      - {label: "Body", name: "body", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only B, I, and A tags are styled for this widget."}
   - name: "sponsors" # Used in routes, e.g., /admin/collections/blog
     label: "Sponsors" # Used in the UI
     folder: "content/sponsors" # The path to the folder where the documents are stored
