@@ -33,8 +33,9 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Button Text", name: "ctatext", widget: "string"}
+      - {label: "Event Date", name: "event_date", widget: "date", format: "YYYY-MM-DD H:mm:ss"}
       - {label: "Event Status", name: "page_status", widget: "string", hint: "Set to comingsoon to turn the event on/off"}
+      - {label: "Button Text", name: "ctatext", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string", hint: "Only used by top level pages. Events use the event date as the subtitle."}
       - {label: "Shout Out", name: "shoutout", widget: "string", hint: "Only used by top level pages. Events use the Title as the main text."}
       - {label: "Overview", name: "overview", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only used by top level pages. Events use the Body as the descriptive text. Only B, I, and A tags are styled for this widget."}
