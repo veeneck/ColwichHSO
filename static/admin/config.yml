@@ -71,7 +71,7 @@ collections:
       - {label: "Has Header", name: "has_header", widget: "boolean", hint: "Toggle the display of the title and subtitle."}
       - {label: "Hide Call to Action", name: "hide_cta", widget: "boolean", hint: "Hide any button or call to action for the module."}
   - name: "faq" # Used in routes, e.g., /admin/collections/blog
-    label: "FAQ's" # Used in the UI
+    label: "FAQ ⮕ General" # Used in the UI
     folder: "content/faq" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     slug: "{{question}}" # Filename template, e.g., YYYY-MM-DD-title.md
