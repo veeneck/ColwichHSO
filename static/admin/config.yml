@@ -71,7 +71,7 @@ collections:
       - {label: "Has Header", name: "has_header", widget: "boolean", hint: "Toggle the display of the title and subtitle."}
       - {label: "Hide Call to Action", name: "hide_cta", widget: "boolean", hint: "Hide any button or call to action for the module."}
   - name: "faqappreciationweek" # Used in routes, e.g., /admin/collections/blog
-    label: "FAQ ⮕ Teacher Appreciation Week" # Used in the UI
+    label: "FAQ ⮕ Appreciation Week" # Used in the UI
     folder: "content/faq/appreciationweek" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
