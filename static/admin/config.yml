@@ -71,11 +71,18 @@ collections:
       - {label: "Has Header", name: "has_header", widget: "boolean", hint: "Toggle the display of the title and subtitle."}
       - {label: "Hide Call to Action", name: "hide_cta", widget: "boolean", hint: "Hide any button or call to action for the module."}
   - name: "faq" # Used in routes, e.g., /admin/collections/blog
+    label: "FAQ ⮕ Teacher Appreciation Week" # Used in the UI
+    folder: "content/faq/appreciationweek" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      - {label: "Question", name: "question", widget: "string"}
+      - {label: "Type", name: "type", widget: "hidden", default: "faq"}
+      - {label: "FAQ Category", name: "faq_category", widget: "string", hint: "Determines what page this FAQ question will show up on."}
+      - {label: "Answer", name: "body", widget: "markdown", hint: "Answer to the question. Most elements are designed for like A, B, I tags and lists. Contact us if you design something that shows up unstyled."}
+  - name: "faq" # Used in routes, e.g., /admin/collections/blog
     label: "FAQ ⮕ General" # Used in the UI
     folder: "content/faq" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
-    slug: "{{question}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    path: "{{dirname}}"
     fields: # The fields for each document, usually in front matter
       - {label: "Question", name: "question", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "faq"}
