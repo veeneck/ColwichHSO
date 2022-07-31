@@ -2,7 +2,7 @@
 title: Dessert Social 🍪
 description: Join us for tasty treats and socializing before school starts!
 type: events
-event_date: 2022-08-16 5:45:00 +0000
+event_date: 2022-08-16 17:30:00 +0000
 url: "/dessert"
 fullUrl: "https://colwichhso.com/dessert"
 pageImage: "https://colwichhso.com/images/flyers/DessertSocialOpenGraph.jpg"
