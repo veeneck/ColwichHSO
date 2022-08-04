@@ -103,7 +103,7 @@ collections:
       - {label: "Attendees", name: "attendees", widget: "string"}
       - {label: "Call to Order", name: "call_to_order", widget: "string"}
       - {label: "Minutes Approval", name: "minutes_approval", widget: "markdown", minimal: true, hint: "Please include link to previous minutes."}
-      - {label: "Adjournment Time", name: "adjournment_time", widget: "time"}
+      - {label: "Adjournment Time", name: "adjournment_time", widget: "string", hint: "Example: 8:30pm"}
       - {label: "Meeting Contents", name: "body", widget: "markdown", minimal: true}
   - name: "faq" # Used in routes, e.g., /admin/collections/blog
     label: "FAQ ⮕ General" # Used in the UI
