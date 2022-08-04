@@ -10,7 +10,7 @@
 			<h1>{{ .Params.title }}</h1>
 			<p class="summary"><mark>We're still ironing out the details for this page. Check back soon!</mark></p>
 
-		{{ else if .Params.event_date }}
+		{{ else if (eq .Params.type "events") }}
 
 			<p><b>{{ dateFormat "January 2" .Params.event_date }}</b></p>
 			<h1>{{ .Params.title }}</h1>

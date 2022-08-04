@@ -84,6 +84,28 @@ collections:
       - {label: "Module Type", name: "module_type", widget: "string"}
       - {label: "Has Header", name: "has_header", widget: "boolean", hint: "Toggle the display of the title and subtitle."}
       - {label: "Hide Call to Action", name: "hide_cta", widget: "boolean", hint: "Hide any button or call to action for the module."}
+  - name: "minutes" # Used in routes, e.g., /admin/collections/blog
+    label: "Meeting Minutes" # Used in the UI
+    folder: "content/meetings/minutes" # The path to the folder where the documents are stored
+    create: false # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string", hint: "This shows up in search results, and in social media."}
+      - {label: "Description", name: "description", widget: "string", hint: "This shows up on search engines, and in social media links."}
+      - {label: "Content Type", name: "type", widget: "hidden", default: "pastevents"}
+      - {label: "Local URL", name: "url", widget: "hidden"}
+      - {label: "Full URL", name: "fullUrl", widget: "hidden"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", hint: ""}
+      - {label: "Shout Out", name: "shoutout", widget: "string"}
+      - {label: "Overview", name: "overview", widget: "markdown", minimal: true, buttons: ["bold", "italic", "link"], "editor_components":[], "hint": "Only B, I, and A tags are styled for this widget."}
+      - {label: "FAQ Category", name: "faq_category", widget: "hidden"}
+      - {label: "Page Modules", name: "modules", widget: "hidden"}
+      - {label: "Attendees", name: "attendees", widget: "string"}
+      - {label: "Call to Order", name: "call_to_order", widget: "string"}
+      - {label: "Attendees", name: "attendees", widget: "string"}
+      - {label: "Minutes Approval", name: "minutes_approval", widget: "markdown", minimal: true, hint: "Please include link to previous minutes."}
+      - {label: "Adjournment Time", name: "adjournment_time", widget: "time"}
+      - {label: "Meeting Contents", name: "body", widget: "markdown", minimal: true}
   - name: "faq" # Used in routes, e.g., /admin/collections/blog
     label: "FAQ ⮕ General" # Used in the UI
     folder: "content/faq" # The path to the folder where the documents are stored
