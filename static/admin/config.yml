@@ -102,7 +102,6 @@ collections:
       - {label: "Page Modules", name: "modules", widget: "hidden"}
       - {label: "Attendees", name: "attendees", widget: "string"}
       - {label: "Call to Order", name: "call_to_order", widget: "string"}
-      - {label: "Attendees", name: "attendees", widget: "string"}
       - {label: "Minutes Approval", name: "minutes_approval", widget: "markdown", minimal: true, hint: "Please include link to previous minutes."}
       - {label: "Adjournment Time", name: "adjournment_time", widget: "time"}
       - {label: "Meeting Contents", name: "body", widget: "markdown", minimal: true}
