@@ -1044,6 +1044,24 @@ ul.calendar_item li a {
   width: 100px;
 }
 
+.module.meeting_minute {
+  margin-top: 30px;
+}
+@media (min-width: 1300px) {
+  .module.meeting_minute.first {
+    margin-top: -200px;
+  }
+}
+
+.meeting_minute .content div:not(:first-child) {
+  margin-top: 10px;
+}
+@media (min-width: 765px) {
+  .meeting_minute .content div:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
 .donate {
   text-align: center;
 }

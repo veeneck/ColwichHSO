@@ -1,0 +1,33 @@
+.module.meeting_minute {
+
+	margin-top: 30px;
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		
+	}
+
+	@include contentFor(xl-screen) {
+	}
+}
+
+.module.meeting_minute.first {
+	@include contentFor(large-screen) {
+		margin-top: -200px;
+	}
+}
+
+.meeting_minute .content div:not(:first-child) {
+	 margin-top: 10px;
+
+	  @include contentFor(mini-screen) {
+	  	margin-top: 30px;
+	  }
+}
