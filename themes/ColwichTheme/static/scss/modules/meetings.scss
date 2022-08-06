@@ -31,3 +31,37 @@
 	  	margin-top: 30px;
 	  }
 }
+
+.faqCard > ol > li > ul > li {
+	list-style: disc;
+}
+
+.faqCard > ol > li > ul {
+	margin: 30px 0px 30px 20px;
+}
+
+.faqCard > ol {
+   list-style: none;
+   counter-reset: item;
+   font-size: 118%;
+}
+
+.faqCard > ol > li {
+   list-style: none;
+   counter-increment: item;
+   margin-bottom: 5px;
+   margin-top: 30px;
+   padding-left: 20px;
+}
+
+.faqCard > ol > li:before {
+   margin-right: 10px;
+   margin-left: -40px;
+   content: counter(item);
+   background: #D3D3D3;
+   border-radius: 50%;
+   color: white;
+   width: 30px;
+   text-align: center;
+   display: inline-block;
+}
