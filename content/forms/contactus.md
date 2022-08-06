@@ -8,6 +8,8 @@ fullUrl: "https://colwichhso.com/forms/contactus"
 subtitle: Contact Us
 shoutout: Drop Us a Note With Any Questions or Feedback 📮
 overview: If you can't find what you're looking for over at the <a href="/faq">FAQ</a>, let us know by filling out the form below.
+aliases:
+    - /contact
 modules:
 - modules/common/sponsors.md
 - modules/common/footer.md
