@@ -1379,11 +1379,13 @@ mark {
 @media (min-width: 765px) {
   .wufooForm {
     border: 10px solid #fff;
+    margin-bottom: 50px !important;
   }
 }
 @media (min-width: 1080px) {
   .wufooForm {
     max-width: 1000px;
+    margin-bottom: 150px !important;
   }
 }
 @media (min-width: 1300px) {
