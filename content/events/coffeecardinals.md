@@ -12,11 +12,10 @@ faq_category: coffee
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: calendar
-
+formEmbed: x1v091oy0emp9zd
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
-- modules/common/calendar.md
 - modules/common/sponsors.md
 - modules/common/donate.md
 - modules/common/footer.md
@@ -26,4 +25,4 @@ polaroid:
 - /images/flyers/CoffeeWithCardinalsWeb.jpg
 - /images/flyers/CoffeeWithCardinalsWeb.jpg
 ---
-The 2022-23 school year has begun. Take a moment on October 7th, and join us for some coffee between 7:50am - 8:45am. A chance to meet fellow school families in the old gym and cafeteria.
+The 2022-23 school year has begun. Take a moment on October 7th, and join us for some coffee between 7:50am - 8:45am. A chance to meet fellow school families in the old gym and cafeteria. Please **RSVP** below.
