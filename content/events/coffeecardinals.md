@@ -9,9 +9,6 @@ pageImage: "https://colwichhso.com/images/flyers/CoffeeWithCardinalsOpenGraph.jp
 image: "/images/flyers/CoffeeWithCardinalsWeb.jpg"
 custom_class: "show_image event_coffee"
 faq_category: coffee
-ctatext: Add To Your Calendar
-ctalink: calendar
-ctaicon: calendar
 formEmbed: x1v091oy0emp9zd
 modules:
 - modules/common/featured_image.md
