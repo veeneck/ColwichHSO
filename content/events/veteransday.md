@@ -2,7 +2,7 @@
 title: Veterans Day Reception 🎖️
 description: This small event recognizes our local veterans.
 type: events
-event_date: 2022-11-11 1:00:00 +0000
+event_date: 2022-11-11 10:00:00 +0000
 url: "/veteransday"
 fullUrl: "https://colwichhso.com/veteransday"
 page_status: comingsoon
@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/ParentsNightOutWebOct.jpg
 - /images/flyers/ParentsNightOutWebOct.jpg
 ---
-This is where the full text description of the event will go.
+Final: Program is at 10am. Reception to follow around 10:30am.
