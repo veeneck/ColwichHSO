@@ -7,11 +7,9 @@ url: "/meetings/09062022"
 fullUrl: "https://colwichhso.com/meetings/09062022"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
 faq_category: meeting
-ctatext: Add To Your Calendar
-ctalink: calendar
-ctaicon: calendar
 image: "/images/flyers/HSOMeetingSeptWeb.jpg"
 custom_class: "show_image event_meeting"
+formEmbed: z18es8no0v7ogkq
 aliases:
     - /firstmeeting
 modules:
@@ -27,4 +25,4 @@ polaroid:
 - /images/flyers/HSOMeetingSeptWeb.jpg
 - /images/flyers/HSOMeetingSeptWeb.jpg
 ---
-Meet in the CES music room at 6pm to help plan out the fall events, and to fill out volunteer roles. Hope to see you there!
+Meet in the CES music room Sept 6th at 6pm to help plan out the fall events, and to fill out volunteer roles. Hope to see you there!
