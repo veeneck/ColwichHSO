@@ -7,7 +7,7 @@
       "uuidString" : "796B71ED-EA78-49E2-B6F2-903332BE54A2"
     }
   ],
-  "creatorBuild" : "34335",
+  "creatorBuild" : "34418",
   "files" : {
     "\/archetypes\/default.html" : {
       "cB" : 0,
@@ -723,7 +723,7 @@
     },
     "\/static\/images\/allysonm.jpg" : {
       "ft" : 16384,
-      "iS" : 1836301,
+      "iS" : 265871,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/allysonm.jpg",
@@ -819,7 +819,7 @@
     },
     "\/static\/images\/auction\/6.jpg" : {
       "ft" : 16384,
-      "iS" : 224075,
+      "iS" : 786784,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/6.jpg",
@@ -891,7 +891,7 @@
     },
     "\/static\/images\/auction\/10.jpg" : {
       "ft" : 16384,
-      "iS" : 967927,
+      "iS" : 1290401,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/10.jpg",
@@ -984,7 +984,7 @@
     },
     "\/static\/images\/carnival.jpg" : {
       "ft" : 16384,
-      "iS" : 822129,
+      "iS" : 858305,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/carnival.jpg",
@@ -1045,7 +1045,7 @@
     },
     "\/static\/images\/ces.jpeg" : {
       "ft" : 16384,
-      "iS" : 84947,
+      "iS" : 82444,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/ces.jpg",
@@ -1119,7 +1119,7 @@
     },
     "\/static\/images\/ces2.jpeg" : {
       "ft" : 16384,
-      "iS" : 54079,
+      "iS" : 49874,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/ces2.jpg",
@@ -1302,7 +1302,7 @@
     },
     "\/static\/images\/events\/coffee.jpg" : {
       "ft" : 16384,
-      "iS" : 1144810,
+      "iS" : 460658,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/events\/coffee.jpg",
@@ -1328,7 +1328,7 @@
     },
     "\/static\/images\/events\/icecream.jpg" : {
       "ft" : 16384,
-      "iS" : 462254,
+      "iS" : 1113485,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/events\/icecream.jpg",
@@ -1341,7 +1341,7 @@
     },
     "\/static\/images\/events\/uniformsale.jpg" : {
       "ft" : 16384,
-      "iS" : 605023,
+      "iS" : 1232295,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/events\/uniformsale.jpg",
@@ -1389,7 +1389,7 @@
     },
     "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 225079,
+      "iS" : 295571,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/CoffeeWithCardinalsWeb.jpg",
@@ -1426,7 +1426,7 @@
     },
     "\/static\/images\/flyers\/ComingSoonWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 2660207,
+      "iS" : 1735070,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/ComingSoonWeb.jpg",
@@ -1522,7 +1522,7 @@
     },
     "\/static\/images\/flyers\/HomePageOG.jpg" : {
       "ft" : 16384,
-      "iS" : 172391,
+      "iS" : 152741,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/HomePageOG.jpg",
@@ -1786,7 +1786,7 @@
     },
     "\/static\/images\/flyers\/ParentsNightOutWebOct.jpg" : {
       "ft" : 16384,
-      "iS" : 1183129,
+      "iS" : 524019,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/ParentsNightOutWebOct.jpg",
@@ -2046,6 +2046,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/VeteransDayWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 188565,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/VeteransDayWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
       "rq" : 75
     },
     "\/static\/images\/icons\/.calendar~imageoptim.svg" : {
@@ -2546,7 +2559,7 @@
     },
     "\/static\/images\/logos\/hsonew.png" : {
       "ft" : 32768,
-      "iS" : 34443,
+      "iS" : 14150,
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/hsonew.png",
       "oF" : 0,
@@ -2785,7 +2798,7 @@
     },
     "\/static\/images\/mascot.png" : {
       "ft" : 32768,
-      "iS" : 6173,
+      "iS" : 19456,
       "oA" : 0,
       "oAP" : "\/static\/images\/mascot.png",
       "oF" : 0,
@@ -2953,7 +2966,7 @@
     },
     "\/static\/images\/photos\/cards.jpg" : {
       "ft" : 16384,
-      "iS" : 115879,
+      "iS" : 474967,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/photos\/cards.jpg",
@@ -3145,7 +3158,7 @@
     },
     "\/static\/images\/raffle\/2.jpg" : {
       "ft" : 16384,
-      "iS" : 1265316,
+      "iS" : 1680990,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2.jpg",
@@ -3193,7 +3206,7 @@
     },
     "\/static\/images\/raffle\/4.jpg" : {
       "ft" : 16384,
-      "iS" : 725682,
+      "iS" : 547371,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/4.jpg",
@@ -3217,7 +3230,7 @@
     },
     "\/static\/images\/raffle\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 1426089,
+      "iS" : 1807800,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/5.jpg",
@@ -3409,7 +3422,7 @@
     },
     "\/static\/images\/raffle\/13.jpg" : {
       "ft" : 16384,
-      "iS" : 1373789,
+      "iS" : 1061161,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/13.jpg",
@@ -3505,7 +3518,7 @@
     },
     "\/static\/images\/raffle\/17.jpg" : {
       "ft" : 16384,
-      "iS" : 1083178,
+      "iS" : 1184106,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/17.jpg",
@@ -3625,7 +3638,7 @@
     },
     "\/static\/images\/raffle\/22.jpg" : {
       "ft" : 16384,
-      "iS" : 1271705,
+      "iS" : 1677128,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/22.jpg",
@@ -3697,7 +3710,7 @@
     },
     "\/static\/images\/raffle\/25.jpg" : {
       "ft" : 16384,
-      "iS" : 1382439,
+      "iS" : 1107148,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/25.jpg",
@@ -3721,7 +3734,7 @@
     },
     "\/static\/images\/raffle\/26.jpg" : {
       "ft" : 16384,
-      "iS" : 1535525,
+      "iS" : 1160015,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/26.jpg",
@@ -3817,7 +3830,7 @@
     },
     "\/static\/images\/raffle\/30.jpg" : {
       "ft" : 16384,
-      "iS" : 1630499,
+      "iS" : 1225476,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/30.jpg",
@@ -3865,7 +3878,7 @@
     },
     "\/static\/images\/raffle\/32.jpg" : {
       "ft" : 16384,
-      "iS" : 1152390,
+      "iS" : 1315442,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/32.jpg",
@@ -5170,10 +5183,6 @@
         "active" : 0,
         "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
-      "callback-return" : {
-        "active" : 0,
-        "optionString" : "['callback', 'cb', 'next']"
-      },
       "camelcase" : {
         "active" : 0,
         "optionString" : "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
@@ -5265,6 +5274,10 @@
         "active" : 0,
         "optionString" : "'expression'"
       },
+      "function-call-argument-newline" : {
+        "active" : 0,
+        "optionString" : "'always'"
+      },
       "function-paren-newline" : {
         "active" : 0,
         "optionString" : "'multiline'"
@@ -5277,9 +5290,6 @@
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
       },
-      "global-require" : {
-        "active" : 0
-      },
       "grouped-accessor-pairs" : {
         "active" : 0,
         "optionString" : "'anyOrder'"
@@ -5287,11 +5297,7 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "handle-callback-err" : {
-        "active" : 0,
-        "optionString" : "'err'"
-      },
-      "id-blacklist" : {
+      "id-denylist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -5415,9 +5421,6 @@
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
       },
-      "no-buffer-constructor" : {
-        "active" : 0
-      },
       "no-caller" : {
         "active" : 0
       },
@@ -5444,6 +5447,9 @@
       },
       "no-const-assign" : {
         "active" : 1
+      },
+      "no-constant-binary-expression" : {
+        "active" : 0
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -5477,6 +5483,9 @@
         "active" : 1
       },
       "no-dupe-keys" : {
+        "active" : 1
+      },
+      "no-duplicate-case" : {
         "active" : 1
       },
       "no-duplicate-imports" : {
@@ -5520,7 +5529,7 @@
       "no-extra-boolean-cast" : {
         "active" : 1
       },
-      "no-extra-labels" : {
+      "no-extra-label" : {
         "active" : 0
       },
       "no-extra-parens" : {
@@ -5608,10 +5617,6 @@
         "active" : 0,
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
       },
-      "no-mixed-requires" : {
-        "active" : 0,
-        "optionString" : "{'grouping': false, 'allowCall': false }"
-      },
       "no-mixed-spaces-and-tabs" : {
         "active" : 0,
         "optionString" : ""
@@ -5646,9 +5651,6 @@
       "no-new-object" : {
         "active" : 0
       },
-      "no-new-require" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -5671,18 +5673,9 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
-      "no-path-concat" : {
-        "active" : 0
-      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
-      },
-      "no-process-env" : {
-        "active" : 0
-      },
-      "no-process-exit" : {
-        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -5709,9 +5702,6 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
-      },
-      "no-restricted-modules" : {
         "active" : 0,
         "optionString" : ""
       },
@@ -5756,10 +5746,6 @@
       },
       "no-sparse-arrays" : {
         "active" : 1
-      },
-      "no-sync" : {
-        "active" : 0,
-        "optionString" : "{'allowAtRootLevel': false}"
       },
       "no-tabs" : {
         "active" : 0,
@@ -5992,10 +5978,6 @@
       "require-await" : {
         "active" : 0
       },
-      "require-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
-      },
       "require-unicode-regexp" : {
         "active" : 0
       },
@@ -6080,10 +6062,6 @@
       "use-isnan" : {
         "active" : 1,
         "optionString" : "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
-      },
-      "valid-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
       },
       "valid-typeof" : {
         "active" : 1,
@@ -6353,6 +6331,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
@@ -6585,6 +6564,10 @@
         "active" : 0,
         "flagValue" : -1
       },
+      "keep_numbers" : {
+        "active" : 0,
+        "flagValue" : -1
+      },
       "keep_quoted_props" : {
         "active" : 0,
         "flagValue" : -1
@@ -6608,6 +6591,10 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
+      },
+      "preserve_annotations" : {
+        "active" : 0,
+        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -6711,6 +6698,10 @@
       },
       "webkit" : {
         "active" : 0,
+        "flagValue" : -1
+      },
+      "wrap_func_args" : {
+        "active" : 1,
         "flagValue" : -1
       },
       "wrap_iife" : {
