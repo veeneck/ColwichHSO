@@ -5,7 +5,8 @@ type: events
 event_date: 2022-11-11 10:00:00 +0000
 url: "/veteransday"
 fullUrl: "https://colwichhso.com/veteransday"
-custom_class: "show_image event_coinwars"
+pageImage: "https://colwichhso.com/og_img.png"
+custom_class: "show_image event_veterans"
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: medal
@@ -24,4 +25,4 @@ polaroid:
 - /images/flyers/VeteransDayWeb.jpg
 - /images/flyers/VeteransDayWeb.jpg
 ---
-Final: Program is at 10am. Reception to follow around 10:30am.
+Join CES to honor our Veterans on November 11th at 10am. After the ceremony, HSO will provide food and drink for a light reception.
