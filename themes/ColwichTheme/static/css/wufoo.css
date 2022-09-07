@@ -70,6 +70,6 @@ form.wufoo p.error {
   color: #000 !important;
 }
 
-.redesigned-theme-2018 .wufoo li .choice__qty {
+.redesigned-theme-2018 .wufoo li span.choice__qty {
   font-size: 80% !important;
 }
