@@ -8,7 +8,7 @@ url: "/forms/volunteer"
 fullUrl: "https://colwichhso.com/forms/volunteer"
 subtitle: Volunteer Application
 shoutout: We Need Your Help! 🤚🏽
-overview: Thanks for becoming a volunteer! Please look at the available spots below to see how you can help. After you submit the form, we'll keep you updated on the specifics for the events you selected.
+overview: Please consider volunteering or donating baked goods for some of the positions below. You can sign up for multiple spots if you're interested. Just make your selections below, and submit the form. Thanks so much!
 modules:
 - modules/common/sponsors.md
 - modules/common/footer.md
