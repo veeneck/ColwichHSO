@@ -1760,6 +1760,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/MinutesOpenGraph.jpg" : {
+      "ft" : 16384,
+      "iS" : 56105,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/MinutesOpenGraph.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/ParentsNightOpenGraph.jpg" : {
       "ft" : 16384,
       "iS" : 86828,
