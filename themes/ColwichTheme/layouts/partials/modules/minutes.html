@@ -1,7 +1,7 @@
 {{ $events := where site.RegularPages "Type" "pastevents" }}
 {{ $sortedPosts := (sort $events "Params.event_date" "asc") }}
 {{ if ( gt ( len $sortedPosts ) 0 ) }}
-	<!--<ul>
+	<ul>
 	{{ range $sortedPosts }}
 		<li>
 			<div class="date">
@@ -11,7 +11,7 @@
 			<a href="{{ .Params.url }}">View minutes</a>
 		</li>
 	{{ end }}
-	</ul>-->
+	</ul>
 {{ else }}
 	<p>Currently, there are no past meeting minutes to view. Please check back.</p>
 {{ end }}
