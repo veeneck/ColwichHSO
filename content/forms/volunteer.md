@@ -7,11 +7,11 @@ pageImage: "https://colwichhso.com/images/flyers/HSOMemberOpenGraph.jpg"
 url: "/forms/volunteer"
 fullUrl: "https://colwichhso.com/forms/volunteer"
 subtitle: Volunteer Application
-shoutout: We Need You!<br />Apply Here 🤚🏽
-overview: Thanks for becoming a volunteer! After you submit the form below, we'll keep you in the loop about upcoming opportunities.
+shoutout: We Need Your Help! 🤚🏽
+overview: Thanks for becoming a volunteer! Please look at the available spots below to see how you can help. After you submit the form, we'll keep you updated on the specifics for the events you selected.
 modules:
 - modules/common/sponsors.md
 - modules/common/footer.md
-formEmbed: r7jzhpw1bwy9lh
+formEmbed: z1fcu2hx197ljjv
 ---
 Section Text
