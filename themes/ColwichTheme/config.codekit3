@@ -2050,7 +2050,7 @@
     },
     "\/static\/images\/flyers\/VeteransDayWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 188565,
+      "iS" : 169865,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/VeteransDayWeb.jpg",
@@ -2059,6 +2059,17 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/VeteransDayWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 42346,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/VeteransDayWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/icons\/.calendar~imageoptim.svg" : {

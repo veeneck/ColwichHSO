@@ -61,3 +61,10 @@ form.wufoo label i, form.wufoo legend i {
 form.wufoo p.error {
   font-size: 15px;
 }
+
+.choice__qty {
+  background-color: #F8F8F8;
+  padding: 5px 15px;
+  border-radius: 4px;
+  color: #000 !important;
+}
