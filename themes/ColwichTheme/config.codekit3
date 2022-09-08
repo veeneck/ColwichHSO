@@ -2,6 +2,14 @@
   "AAInfo" : "This is a CodeKit 3 project config file. EDITING THIS FILE IS A POOR LIFE DECISION. Doing so may cause CodeKit to crash and\/or corrupt your project. Several critical values in this file are 64-bit integers, which JavaScript JSON parsers do not support because JavaScript cannot handle 64-bit integers. These values will be corrupted if the file is parsed with JavaScript. This file is not backwards-compatible with CodeKit 1 or 2. For details, see https:\/\/codekitapp.com\/",
   "buildSteps" : [
     {
+      "name" : "New \"Run Script\" Step",
+      "scriptSourceString" : "# Paste your script here.",
+      "scriptType" : 1,
+      "scriptUUIDString" : "A8132751-0CF3-4FD6-80D9-30F0F852116A",
+      "stepType" : 2,
+      "uuidString" : "CDADECF0-8399-412E-8098-55F852480BC3"
+    },
+    {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
       "uuidString" : "796B71ED-EA78-49E2-B6F2-903332BE54A2"
@@ -1815,6 +1823,43 @@
       "iS" : 71558,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/ParentsNightOutWebOct.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/RentTheMarquee.jpg" : {
+      "ft" : 16384,
+      "iS" : 640886,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/RentTheMarquee.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-drawing",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/RentTheMarqueeWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 1608835,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/RentTheMarqueeWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/RentTheMarqueeWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 85492,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/RentTheMarqueeWeb.webp",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
