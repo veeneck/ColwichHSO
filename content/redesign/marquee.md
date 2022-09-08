@@ -11,6 +11,7 @@ overview: For $10/day or $25/week, we'll add your announcement to the marquee in
 custom_class: "show_image event_marquee"
 faq_category: marquee
 image: "/images/flyers/RentTheMarqueeWeb.jpg"
+pageImage: "https://colwichhso.com/images/flyers/RentTheMarqueeOpenGraph.jpg"
 formEmbed: p155o3ga1comtfs
 modules:
 - modules/common/featured_image.md
