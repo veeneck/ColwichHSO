@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/TrunkOrTreatWeb.jpg
 - /images/flyers/TrunkOrTreatWeb.jpg
 ---
-This is where the full text description of the event will go.
+Each year, the Colwich Library puts on a Trunk or Treat event. HSO participates with a decorated trunk. Stop on by from 7:00pm to 8:00pm to enjoy some candy with the community!
