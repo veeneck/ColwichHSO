@@ -1855,6 +1855,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/flyers\/RentTheMarqueeWeb copy.jpg" : {
+      "ft" : 16384,
+      "iS" : 1608835,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/RentTheMarqueeWeb copy.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/RentTheMarqueeWeb.jpg" : {
       "ft" : 16384,
       "iS" : 1608835,
@@ -2017,6 +2030,43 @@
       "iS" : 60212,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/TeacherAppreciationSeptWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TrunkOrTreatOG.jpg" : {
+      "ft" : 16384,
+      "iS" : 87246,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TrunkOrTreatOG.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TrunkOrTreatWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 1138048,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TrunkOrTreatWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TrunkOrTreatWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 64402,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TrunkOrTreatWeb.webp",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,

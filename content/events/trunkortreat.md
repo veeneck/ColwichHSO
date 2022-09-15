@@ -5,12 +5,12 @@ type: events
 event_date: 2022-10-29 1:00:00 +0000
 url: "/trunkortreat"
 fullUrl: "https://colwichhso.com/trunkortreat"
-page_status: comingsoon
+pageImage: "https://colwichhso.com/images/flyers/TrunkOrTreatOG.jpg"
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: pumpkin
-image: "/images/flyers/ParentsNightOutWebOct.jpg"
+image: "/images/flyers/TrunkOrTreatWeb.jpg"
 faq_category: trunkortreat
 modules:
 - modules/common/featured_image.md
@@ -20,9 +20,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
+- /images/flyers/TrunkOrTreatWeb.jpg
+- /images/flyers/TrunkOrTreatWeb.jpg
+- /images/flyers/TrunkOrTreatWeb.jpg
+- /images/flyers/TrunkOrTreatWeb.jpg
 ---
 This is where the full text description of the event will go.
