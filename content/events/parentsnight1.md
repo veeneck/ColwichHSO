@@ -24,4 +24,4 @@ polaroid:
 - /images/flyers/ParentsNightOutWebOct.jpg
 - /images/flyers/ParentsNightOutWebOct.jpg
 ---
-For this fundraiser, we'll entertain your kids from 5:30pm to 9:00pm while you take the night off. Activities, Snacks & a Movie! $20 / child, ages 3-12. Must be Potty Trained. [Learn more](#section1), or complete the required signup below! Limited to first 50 children.
+Due to lack of signups, this event has been cancelled. Thanks for your interest. Please let us know if you would like to see it another time of year.
