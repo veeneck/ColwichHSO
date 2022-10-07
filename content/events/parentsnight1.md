@@ -24,4 +24,4 @@ polaroid:
 - /images/flyers/ParentsNightOutWebOct.jpg
 - /images/flyers/ParentsNightOutWebOct.jpg
 ---
-Due to lack of signups, this event has been cancelled. Thanks for your interest. Please let us know if you would like to see it another time of year.
+Due to lack of signups, this event has been cancelled. Thank you for your interest. Please let us know if you would like to see it another time of year.
