@@ -1,16 +1,16 @@
 ---
-title: Spirit Night 🎉
-description: When eating at our partner restaurant, a portion of your meal will go back to Colwich HSO.
+title: Barn'rds Spirit Night 🎉
+description: Head on over to Barn'rds where a portion of your meal will go back to Colwich HSO.
 type: events
-event_date: 2022-11-15 1:00:00 +0000
-url: "/spiritnight2"
-fullUrl: "https://colwichhso.com/spiritnight2"
-page_status: comingsoon
+event_date: 2022-12-12 1:00:00 +0000
+url: "/barnrds"
+fullUrl: "https://colwichhso.com/barnrds"
 custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: confetti
-image: "/images/flyers/ParentsNightOutWebOct.jpg"
+faq_category: spiritnight
+image: "/images/flyers/SpiritNightBarnrdsWeb.jpg"
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -19,9 +19,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
+- /images/flyers/SpiritNightBarnrdsWeb.jpg
+- /images/flyers/SpiritNightBarnrdsWeb.jpg
+- /images/flyers/SpiritNightBarnrdsWeb.jpg
+- /images/flyers/SpiritNightBarnrdsWeb.jpg
 ---
-This is where the full text description of the event will go.
+Mention Colwich Elementary when you grab a meal at Barn'rds in Maize anytime on December 12th. 15% of sales are donated back to HSO!
