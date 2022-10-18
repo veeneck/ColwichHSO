@@ -1432,6 +1432,43 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/flyers\/CoinWarsOG.jpg" : {
+      "ft" : 16384,
+      "iS" : 104718,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/CoinWarsOG.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/CoinWarsWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 321091,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/CoinWarsWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/CoinWarsWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 83034,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/CoinWarsWeb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/ComingSoonWeb.jpg" : {
       "ft" : 16384,
       "iS" : 1735070,

@@ -5,12 +5,12 @@ type: events
 event_date: 2022-11-14 1:00:00 +0000
 url: "/coinwars"
 fullUrl: "https://colwichhso.com/coinwars"
-page_status: comingsoon
+pageImage: "https://colwichhso.com/images/flyers/CoinWarsOG.jpg"
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: coin
-image: "/images/flyers/ParentsNightOutWebOct.jpg"
+image: "/images/flyers/CoinWarsWeb.jpg"
 faq_category: coinwars
 modules:
 - modules/common/featured_image.md
@@ -20,9 +20,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
+- /images/flyers/CoinWarsWeb.jpg
+- /images/flyers/CoinWarsWeb.jpg
+- /images/flyers/CoinWarsWeb.jpg
+- /images/flyers/CoinWarsWeb.jpg
 ---
-This is where the full text description of the event will go.
+For the week of Nov 14th, each class will have a collection container in the front lobby. Classes will compete to get the highest average score per student. 1st, 2nd & 3rd place prizes. School wide grand prize.
