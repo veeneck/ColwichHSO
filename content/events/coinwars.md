@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/CoinWarsWeb.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-For the week of Nov 14th, each class will have a collection container in the front lobby. Classes will compete to get the highest average score per student. 1st, 2nd & 3rd place prizes. School wide grand prize.
+For the week of Nov 14th, each class will have a collection container in the front lobby. Classes will compete to raise the highest amount per student. 1st, 2nd & 3rd place prizes. School wide grand prize.
