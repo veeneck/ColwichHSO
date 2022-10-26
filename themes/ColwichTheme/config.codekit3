@@ -2241,6 +2241,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/VeteransDayOG.jpg" : {
+      "ft" : 16384,
+      "iS" : 77333,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/VeteransDayOG.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/VeteransDayWeb.jpg" : {
       "ft" : 16384,
       "iS" : 169865,
