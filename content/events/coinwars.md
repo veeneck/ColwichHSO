@@ -1,6 +1,6 @@
 ---
-title: Coinwars 🪙
-description: Coin Wars is a fundraiser game to be competed between grade levels/home rooms. 
+title: Coin War 🪙
+description: Coin War is a fundraiser game to be competed between grade levels/home rooms. 
 type: events
 event_date: 2022-11-14 1:00:00 +0000
 url: "/coinwars"
