@@ -5,7 +5,7 @@ type: events
 event_date: 2022-12-11 4:30:00 +0000
 url: "/christmas"
 fullUrl: "https://colwichhso.com/christmas"
-pageImage: "https://colwichhso.com/images/flyers/TrunkOrTreatOG.jpg"
+pageImage: "https://colwichhso.com/images/flyers/ColwichChristmasOG.jpg"
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar
 ctalink: calendar

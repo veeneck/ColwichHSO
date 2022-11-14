@@ -1469,6 +1469,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/ColwichChristmasOG.jpg" : {
+      "ft" : 16384,
+      "iS" : 88747,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ColwichChristmasOG.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/ColwichChristmasWeb.jpg" : {
       "ft" : 16384,
       "iS" : 1361966,
