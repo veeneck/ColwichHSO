@@ -328,6 +328,13 @@ a.highlighter.active::before {
 	background-size: cover;
 }
 
+.hero.event_christmas {
+	background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 90 40'%3E%3Cpattern id='p' width='90' height='40' patternUnits='userSpaceOnUse' patternTransform='scale(.2) translate(180 80)'%3E%3Cg stroke='%23FF7300' stroke-width='0' %3E%3Cpath fill='%23F7F7F7' id='a' d='M40 40L0 0v10l40 40 40-40V0z'/%3E%3Cuse href='%23a' y='-40'/%3E%3Cuse href='%23a' y='40'/%3E%3Cuse href='%23a' x='90'/%3E%3Cuse href='%23a' x='90' y='40'/%3E%3Cuse href='%23a' x='-35' y='65' transform='rotate(180 45 45)'/%3E%3Cuse href='%23a' x='55' y='65' transform='rotate(180 45 45)'/%3E%3Cuse href='%23a' x='-35' y='25' transform='rotate(180 45 45)'/%3E%3Cuse href='%23a' x='55' y='25' transform='rotate(180 45 45)'/%3E%3C/g%3E%3C/pattern%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
 .event_other {
 
 background-color: #FFFFFF;
