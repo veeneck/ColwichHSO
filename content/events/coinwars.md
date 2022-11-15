@@ -23,4 +23,4 @@ polaroid:
 - /images/flyers/CoinWarsWeb.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-For the week of Nov 14th, each class will have a collection container in the front lobby. Classes will compete for prizes to raise the highest average amount per student. Donate online below, or [learn more about the fundariaser](#section1).
+We've currently raised **36%** towards our school goal of **$2,500**! Online donations accepted below. Bring coins, cash & checks to school! Check out [the class leaderboards and learn more](#section1).
