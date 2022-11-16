@@ -2086,6 +2086,54 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/TeacherAppreciationDec.jpg" : {
+      "ft" : 16384,
+      "iS" : 210843,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TeacherAppreciationDec.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TeacherAppreciationDec.webp" : {
+      "ft" : 8388608,
+      "iS" : 47800,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TeacherAppreciationDec.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TeacherAppreciationMay.jpg" : {
+      "ft" : 16384,
+      "iS" : 209971,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TeacherAppreciationMay.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TeacherAppreciationMay.webp" : {
+      "ft" : 8388608,
+      "iS" : 47578,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TeacherAppreciationMay.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/TeacherAppreciationOpenGraph.jpg" : {
       "ft" : 16384,
       "iS" : 72534,
