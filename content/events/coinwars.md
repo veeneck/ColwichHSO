@@ -23,4 +23,4 @@ polaroid:
 - /images/flyers/CoinWarsWeb.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-We've currently raised **36%** towards our school goal of **$2,500**! Online donations accepted below. Bring coins, cash & checks to school! Check out [the class leaderboards and learn more](#section1).
+We've currently raised **70%** towards our school goal of **$2,500**! Online donations accepted below. Bring coins, cash & checks to school! Check out [the class leaderboards and learn more](#section1).
