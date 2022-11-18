@@ -9,7 +9,6 @@ pageImage: "https://colwichhso.com/images/flyers/CoinWarsOG.jpg"
 custom_class: "show_image event_coinwars"
 image: "/images/flyers/CoinWarsWeb.jpg"
 faq_category: coinwars
-formEmbed: z1r0imdg1jc8wdq
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -23,4 +22,4 @@ polaroid:
 - /images/flyers/CoinWarsWeb.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-We've currently raised **160%** towards our school goal of **$2,500**! Online donations accepted below. Bring coins, cash & checks to school! Check out [the class leaderboards and learn more](#section1).
+We've currently raised **160%** towards our school goal of **$2,500**! Donations are now closed for the 2022 Coin War! Check out [the class leaderboards and learn more](#section1).
