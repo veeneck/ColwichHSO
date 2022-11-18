@@ -22,4 +22,4 @@ polaroid:
 - /images/flyers/CoinWarsWeb.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-We've currently raised **160%** towards our school goal of **$2,500**! Donations are now closed for the 2022 Coin War! Check out [the class leaderboards and learn more](#section1).
+Donations are now closed for the 2022 Coin War! Winners and totals will be announced soon. Check out [the class leaderboards as of yesterday and learn more](#section1).
