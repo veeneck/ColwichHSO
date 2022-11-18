@@ -22,4 +22,4 @@ polaroid:
 - /images/flyers/CoinWarsWeb.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-Donations are now closed for the 2022 Coin War! Winners and totals will be announced soon. Check out [the class leaderboards as of yesterday and learn more](#section1).
+Coin War 2022 was a huge success! We exceeded our goal, and raised **$5,380.23** with an average of $21.18 per student. Thank you so much! Check out [the class leaderboards and learn more](#section1).
