@@ -22,4 +22,4 @@ polaroid:
 - /images/flyers/CoinWarsWeb.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-Coin War 2022 was a huge success! We exceeded our goal, and raised **$5,380.23** with an average of $21.18 per student. Thank you so much! Check out [the class leaderboards and learn more](#section1).
+Coin War 2022 was a huge success! We exceeded our goal, and raised **$5,387.52** with an average of $21.21 per student. Thank you so much! Check out [the class leaderboards and learn more](#section1).
