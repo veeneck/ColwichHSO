@@ -65,6 +65,10 @@
 				    {{ partial "modules/sponsors.html" (dict "module" . ) }}
 				{{ end }}
 
+				{{ if (eq $type "sponsortiers") }}
+				    {{ partial "modules/sponsortiers.html" (dict "module" . ) }}
+				{{ end }}
+
 				{{ if (eq $type "minutes") }}
 				    {{ partial "modules/minutes.html" (dict "module" . ) }}
 				{{ end }}
