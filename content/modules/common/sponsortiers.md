@@ -4,7 +4,7 @@ id: modules/common/sponsortiers.md
 type: module
 module_type: sponsortiers
 link: "/about/"
-subtitle: "Please browse the sponsor packages below."
-has_header: true
+subtitle: "Our Sponsor Packages."
+has_header: false
 ---
 Module content text assuming that there is a sub page.

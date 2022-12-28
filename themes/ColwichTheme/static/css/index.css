@@ -1232,8 +1232,10 @@ ul.calendar_item li a {
     width: 800px;
   }
 }
-.module.sponsortiers {
-  background-color: #fff;
+@media (min-width: 1300px) {
+  .module.sponsortiers.first {
+    margin-top: -250px;
+  }
 }
 
 ul.sponsor_item {
@@ -1286,11 +1288,16 @@ ul.sponsor_item li a.bottom {
 }
 
 a.details {
-  font-size: 90%;
+  font-size: 100%;
   font-weight: normal;
   display: block;
-  margin-top: -15px;
+  margin-top: -10px;
   margin-bottom: 15px;
+  text-decoration: none;
+}
+
+a.details b {
+  text-decoration: underline;
 }
 
 @media (min-width: 1080px) {

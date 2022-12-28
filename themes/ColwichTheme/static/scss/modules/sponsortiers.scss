@@ -1,10 +1,10 @@
 .module.sponsortiers {
-	background-color: #fff;
+	//background-color: #fff;
 }
 
 .module.sponsortiers.first {
 	@include contentFor(large-screen) {
-		//margin-top: -200px;
+		margin-top: -250px;
 	}
 }
 
@@ -61,9 +61,14 @@ ul.sponsor_item li a.bottom {
 }
 
 a.details {
-	font-size: 90%;
+	font-size: 100%;
 	font-weight: normal;
 	display: block;
-	margin-top: -15px;
+	margin-top: -10px;
 	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+a.details b {
+	text-decoration: underline;
 }
