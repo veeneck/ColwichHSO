@@ -45,7 +45,7 @@ form.wufoo {
 }
 
 header {
-  display: none;
+  display: none !important;
 }
 
 h2 {
