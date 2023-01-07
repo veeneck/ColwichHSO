@@ -6,6 +6,15 @@
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
 
+html {
+	background-color: #fff !important; 
+}
+
+#container {
+	border-radius: 5px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+}
+
 form.wufoo  {
 	font-family: 'system', serif !important;
 	font-size: rem(19px) !important;
