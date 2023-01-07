@@ -18,6 +18,8 @@ html {
 #logo {
   background-image: url("https://colwichhso.com/images/logos/hsonew.png");
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 80px;
   width: 200px;
   border-bottom: none !important;
@@ -30,11 +32,20 @@ html {
 form.wufoo {
   font-family: "system", serif !important;
   font-size: rem(19px) !important;
+  margin-top: 0px !important;
 }
 @media (min-width: 1000px) {
   form.wufoo {
     padding: 30px !important;
   }
+}
+
+h2 {
+  margin-top: 0px !important;
+}
+
+.section div {
+  margin-bottom: 20px !important;
 }
 
 .wufoo .buttons {
