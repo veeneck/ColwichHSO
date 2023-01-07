@@ -18,8 +18,10 @@ html {
 
 #logo {
 	background-image: url("https://colwichhso.com/images/logos/hsonew.png");
+	background-size: contain;
 	height: 80px;
 	width: 200px;
+	border-bottom: none !important;
 }
 
 
