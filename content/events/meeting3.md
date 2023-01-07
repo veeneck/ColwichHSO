@@ -7,11 +7,9 @@ url: "/meetings/01062023"
 fullUrl: "https://colwichhso.com/meetings/01062023"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeeting3OpenGraph.jpg"
 faq_category: meeting
-ctatext: Add To Your Calendar
-ctalink: calendar
-ctaicon: calendar
 image: "/images/flyers/HSOMeetingJanWeb.jpg"
 custom_class: "show_image event_meeting"
+formEmbed: zml0mmx1e2794z
 aliases:
     - /thirdmeeting
 modules:
@@ -27,4 +25,4 @@ polaroid:
 - /images/flyers/HSOMeetingJanWeb.jpg
 - /images/flyers/HSOMeetingJanWeb.jpg
 ---
-Meet at The Keg to help us plan out the spring carnival, and to fill out volunteer roles. Hope to see you there!
+Meet at The Keg to help us plan out the Spring Carnival, and to fill out volunteer roles. Hope to see you there!

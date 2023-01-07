@@ -284,6 +284,14 @@
       "oAP" : "\/layouts\/partials\/modules\/navigation.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/modules\/sponsorpackages.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/sponsorpackages.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/modules\/sponsors.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3225,6 +3233,71 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/perks\/DigitalText.png" : {
+      "ft" : 32768,
+      "iS" : 31448,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/perks\/DigitalText.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/perks\/Flyers.png" : {
+      "ft" : 32768,
+      "iS" : 40077,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/perks\/Flyers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/perks\/Social.png" : {
+      "ft" : 32768,
+      "iS" : 23810,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/perks\/Social.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/perks\/TextBanner.png" : {
+      "ft" : 32768,
+      "iS" : 18976,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/perks\/TextBanner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/perks\/Tickets.png" : {
+      "ft" : 32768,
+      "iS" : 102344,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/perks\/Tickets.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/permalink.png" : {
       "ft" : 32768,
       "iS" : 1368,
@@ -4935,6 +5008,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/static\/scss\/css\/sponsorpackages.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/scss\/css\/sponsorpackages-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/static\/scss\/index.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -5115,6 +5200,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/static\/scss\/modules\/sponsorpackages.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/sponsorpackages.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/static\/scss\/modules\/sponsors.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -5155,6 +5255,21 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/static\/css\/wufoo.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/wufoofull.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/css\/wufoofull.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

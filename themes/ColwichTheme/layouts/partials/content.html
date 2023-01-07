@@ -69,6 +69,10 @@
 				    {{ partial "modules/sponsortiers.html" (dict "module" . ) }}
 				{{ end }}
 
+				{{ if (eq $type "sponsorpackage") }}
+				    {{ partial "modules/sponsorpackages.html" (dict "page" $pageParams "module" .) }}
+				{{ end }}
+
 				{{ if (eq $type "minutes") }}
 				    {{ partial "modules/minutes.html" (dict "module" . ) }}
 				{{ end }}

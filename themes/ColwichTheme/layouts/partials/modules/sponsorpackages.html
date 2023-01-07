@@ -1,0 +1,22 @@
+<ul class="sponsor_item">
+	{{ $dataSet := index site.Data "packages"}}
+	{{ $pageData := .page.data_type }}
+	{{ range $index, $el := $dataSet }}
+		{{ if eq $el.itemType $pageData }}
+			{{ range $perk := $el.perks }}
+				<li>
+					<div class="perkImage">
+						<img src="/images/perks/{{ $perk.image}}.png" />
+					</div>
+					<h4>{{ $perk.title}}</h4>
+					<p>{{ $perk.description | safeHTML }}</p>
+				</li>
+			{{ end }}
+		{{ end }}
+	{{ end }}
+</ul>
+
+<div class="moduleCTA">
+{{ partial "button.html"  (dict "link" "/calendar" "class" "primary" "icon" "donate" "text" "Purchase Package") }}
+</div>
+<div class="more">or <a href="/sponsor#section0" class="highlighter">See Other Packages</a></div>

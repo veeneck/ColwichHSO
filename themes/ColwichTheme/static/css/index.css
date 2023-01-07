@@ -1300,6 +1300,40 @@ a.details b {
   text-decoration: underline;
 }
 
+@media (min-width: 1300px) {
+  .module.sponsorpackage.first {
+    margin-top: -250px;
+  }
+}
+
+.sponsorpackage .more {
+  margin-top: 20px;
+}
+
+.sponsorpackage .sponsor_item {
+  text-align: center;
+}
+
+.sponsorpackage .sponsor_item p {
+  text-align: left;
+}
+
+.sponsorpackage .sponsor_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.perkImage {
+  width: 75%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.sponsorpackage .moduleCTA {
+  margin-top: 75px;
+}
+
 @media (min-width: 1080px) {
   section.hero {
     padding-bottom: 300px !important;
