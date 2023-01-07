@@ -22,7 +22,8 @@ html {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 80px;
-	width: 200px;
+	width: 175px;
+	padding-top: 100px;
 	border-bottom: none !important;
 }
 
@@ -42,6 +43,10 @@ form.wufoo  {
 }
 
 h2 {
+	margin-top: 0px !important;
+}
+
+h3 {
 	margin-top: 0px !important;
 }
 
