@@ -1,8 +1,8 @@
 ---
 title: The Carnival Host 🎪
-description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
+description: The main sponsor of Carnival! Ensures the highest visibility prior to, and during the event. Includes premium year-long benefits.
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorHostOpenGraph.jpg"
 url: "/sponsor/hostpackage"
 fullUrl: "https://colwichhso.com/sponsor/hostpackage"
 subtitle: $2,500 HSO Sponsorship

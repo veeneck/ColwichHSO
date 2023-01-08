@@ -1,8 +1,8 @@
 ---
 title: The Logo Package 🌅
-description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
+description: Upgrade that text to a logo! It will also be on display as the main sponsor of one Carnival game or activity.
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorLogoOpenGraph.jpg"
 url: "/sponsor/logopackage"
 fullUrl: "https://colwichhso.com/sponsor/logopackage"
 subtitle: $250 HSO Sponsorship

@@ -2,7 +2,7 @@
 title: The Flag Package 🚩
 description: "Staked flags with your logo will line the Carnival entrance. Also includes year round promotion and more!"
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorFlagOpenGraph.jpg"
 url: "/sponsor/flagpackage"
 fullUrl: "https://colwichhso.com/sponsor/flagpackage"
 subtitle: $500 HSO Sponsorship

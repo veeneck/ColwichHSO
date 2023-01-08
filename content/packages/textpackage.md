@@ -1,8 +1,8 @@
 ---
 title: The Text Package 📋
-description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
+description: Have your Company Name included on the sponsor list which can be found on the banner, the Carnival website, and event flyers. We'll also promote you on Facebook! Includes 2 admission tickets.
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorTextOpenGraph.jpg"
 url: "/sponsor/textpackage"
 fullUrl: "https://colwichhso.com/sponsor/textpackage"
 subtitle: $100 HSO Sponsorship

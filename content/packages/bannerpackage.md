@@ -1,8 +1,8 @@
 ---
 title: The Banner Package 🪧
-description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
+description: Your name and logo on a dedicated banner in a high traffic area. You'll also be the sponsor of an additional HSO event!
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorBannerOpenGraph.jpg"
 url: "/sponsor/bannerpackage"
 fullUrl: "https://colwichhso.com/sponsor/bannerpackage"
 subtitle: $1,000 HSO Sponsorship

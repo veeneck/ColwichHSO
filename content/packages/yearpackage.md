@@ -1,8 +1,8 @@
 ---
 title: The Year Rounder 📣
-description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
+description: Sponsor HSO for an entire year! In addition to Carnival placement, you'll be the sponsor of the HSO newsletter, Coin Wars, and more!
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorYearOpenGraph.jpg"
 url: "/sponsor/yearpackage"
 fullUrl: "https://colwichhso.com/sponsor/yearpackage"
 subtitle: $5,000 HSO Sponsorship
