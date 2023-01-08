@@ -1,19 +1,16 @@
 ---
-title: The Text Package 📋
+title: The Banner Package 🪧
 description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
 type: redesign
 pageImage: "https://colwichhso.com/images/flyers/TeacherAppreciationOpenGraph.jpg"
 url: "/sponsor/bannerpackage"
 fullUrl: "https://colwichhso.com/sponsor/bannerpackage"
-subtitle: $100 HSO Sponsorship
-shoutout: The Text Package 📋
-overview: Have your Company Name included on the sponsor list which can be found on the banner, the Carnival website, and event flyers. We'll also promote you on Facebook! Includes 2 admission tickets.
+subtitle: $1,000 HSO Sponsorship
+shoutout: The Banner Package 🪧
+overview: Your name and logo on a dedicated banner in a high traffic area. You'll also be the sponsor of an additional HSO event!
 custom_class: "show_image event_sponsor"
-data_type: "textpackage"
+data_type: "bannerpackage"
 faq_category: "sponsorpackage"
-ctatext: Purchase Text Package
-ctalink: calendar
-ctaicon: donate
 learn_link: "#section0"
 modules:
 - modules/common/sponsorpackage.md

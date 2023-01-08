@@ -11,9 +11,6 @@ overview: Upgrade that text to a logo! It will also be on display as the main sp
 custom_class: "show_image event_sponsor"
 data_type: "logopackage"
 faq_category: "sponsorpackage"
-ctatext: Purchase Logo Package
-ctalink: calendar
-ctaicon: donate
 learn_link: "#section0"
 modules:
 - modules/common/sponsorpackage.md

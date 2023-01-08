@@ -1313,7 +1313,7 @@ a.details b {
 }
 
 .sponsorpackage .sponsor_item li {
-  width: 100% !important;
+  width: 90% !important;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

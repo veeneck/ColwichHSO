@@ -11,9 +11,6 @@ overview: Staked flags with your logo will line the Carnival entrance. Also incl
 custom_class: "show_image event_sponsor"
 data_type: "flagpackage"
 faq_category: "sponsorpackage"
-ctatext: Purchase Flag Package
-ctalink: calendar
-ctaicon: donate
 learn_link: "#section0"
 modules:
 - modules/common/sponsorpackage.md
