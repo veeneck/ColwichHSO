@@ -2,7 +2,7 @@
 title: The Text Package 📋
 description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/TeacherAppreciationOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
 url: "/sponsor/textpackage"
 fullUrl: "https://colwichhso.com/sponsor/textpackage"
 subtitle: $100 HSO Sponsorship

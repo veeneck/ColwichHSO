@@ -428,6 +428,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/static\/css\/wufoofull.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/css\/wufoofull-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/static\/fonts\/abrilfatface-regular-webfont.woff" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2100,6 +2112,19 @@
       "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/SponsorOpenGraph.jpg" : {
+      "ft" : 16384,
+      "iS" : 85064,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/SponsorOpenGraph.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
       "rq" : 75
     },
     "\/static\/images\/flyers\/TeacherAppreciationDec.jpg" : {

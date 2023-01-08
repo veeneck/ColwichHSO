@@ -2,7 +2,7 @@
 title: The Carnival Host 🎪
 description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/TeacherAppreciationOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
 url: "/sponsor/hostpackage"
 fullUrl: "https://colwichhso.com/sponsor/hostpackage"
 subtitle: $2,500 HSO Sponsorship

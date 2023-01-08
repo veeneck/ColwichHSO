@@ -2,7 +2,7 @@
 title: The Year Rounder 📣
 description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/TeacherAppreciationOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
 url: "/sponsor/yearpackage"
 fullUrl: "https://colwichhso.com/sponsor/yearpackage"
 subtitle: $5,000 HSO Sponsorship

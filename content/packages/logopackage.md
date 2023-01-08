@@ -2,7 +2,7 @@
 title: The Logo Package 🌅
 description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
 type: redesign
-pageImage: "https://colwichhso.com/images/flyers/TeacherAppreciationOpenGraph.jpg"
+pageImage: "https://colwichhso.com/images/flyers/SponsorOpenGraph.jpg"
 url: "/sponsor/logopackage"
 fullUrl: "https://colwichhso.com/sponsor/logopackage"
 subtitle: $250 HSO Sponsorship
