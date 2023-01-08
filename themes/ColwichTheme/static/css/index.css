@@ -1355,6 +1355,10 @@ a.details b {
   margin-top: 25px;
 }
 
+.sponsorpackage .sponsor_item li.special_item {
+  border: 1px solid #C93234;
+}
+
 @media (min-width: 1080px) {
   section.hero {
     padding-bottom: 300px !important;
