@@ -1,0 +1,18 @@
+itemType: raffle
+order: 2
+title: "Raffle Item"
+description: "Upgrade that text to a logo! It will also be on display as the main sponsor of one Carnival game or activity."
+icon: "🌅"
+price: ""
+formUrl: ""
+learnUrl: "/raffle"
+perks:
+  - title: "Distribute Promotional Items" 
+    description: "Use the Raffle Basket or Door Prize to get customers to your business. Gift cards, freebies, and swag with your logo are welcome." 
+    featured: "true"
+  - title: "Recognition on Carnival Site" 
+    description: "The Raffle Items webpage is in hot demand each Carnival season. We'll display your item, Company Name, and a link to your website." 
+  - title: "Print Banners" 
+    description: "Behind the Raffle tables, we'll recognize each donor with an 8.5x11 sheet." 
+  - title: "Prize Cards" 
+    description: "Each Door Prize and Raffle Basket will have a descriptive card in front of it, which will include your Company Name." 

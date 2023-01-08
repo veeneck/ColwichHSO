@@ -25,6 +25,12 @@
 {{ $packageTitle :=  replace ($var.Get "package").title "The " "" }}
 {{ $buttonString := print "Purchase " $packageTitle }}
 
+{{ if eq ($var.Get "package").itemType "raffle" }}
+	{{ $buttonString := print "Donate " $packageTitle }}
+{{ else }}
+
+{{ end }}
+
 <div class="moduleCTA">
 {{ partial "button.html"  (dict "link" ($var.Get "package").formUrl "class" "primary" "icon" "donate" "text" $buttonString) }}
 </div>

@@ -1,7 +1,7 @@
 ---
 title: Become a Sponsor 🤝
 description: Interested in sponsoring Colwich HSO? We've got 6 packages available with different levels of exposure!. 
-type: forms
+type: redesign
 date: 2022-06-03 14:59:46 +0000
 url: "/sponsor"
 fullUrl: "https://colwichhso.com/sponsor"
