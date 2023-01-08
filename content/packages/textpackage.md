@@ -11,12 +11,10 @@ overview: Have your Company Name included on the sponsor list which can be found
 custom_class: "show_image event_sponsor"
 data_type: "textpackage"
 faq_category: "sponsorpackage"
-ctatext: Purchase Text Package
-ctalink: calendar
-ctaicon: donate
 learn_link: "#section0"
 modules:
 - modules/common/sponsorpackage.md
+- modules/common/sponsortiers.md
 - modules/common/faq.md
 - modules/common/footer.md 
 ---

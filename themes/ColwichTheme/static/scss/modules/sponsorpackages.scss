@@ -5,29 +5,46 @@
 }
 
 .sponsorpackage .more {
-	margin-top: 20px;
+	margin-top: 50px;
+	text-align: center;
+	width: 80%;
 }
 
-.sponsorpackage .sponsor_item  {
-	text-align: center;
+.sponsorpackage .sponsor_item li {
+	width: 100% !important;
+	@include flex();
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0px;
+	margin-left: 0px;
 }
 
 .sponsorpackage .sponsor_item p {
 	text-align: left;
 }
 
-.sponsorpackage .sponsor_item img  {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
+.sponsorpackage .desc {
+	width: 90%;
+	padding: 25px;
+	box-sizing: border-box;
 }
 
-.perkImage {
-	width: 75%;
-	height: 200px;
+.perk {
+	width: 10%;
 	margin: 0 auto;
+	background-color: $red;
+	text-align: center;
+	vertical-align: middle;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.perk b {
+	color: #FFF;
+	font-size: 300%;
 }
 
 .sponsorpackage .moduleCTA {
-	margin-top: 75px;
+	margin-top: 25px;
 }

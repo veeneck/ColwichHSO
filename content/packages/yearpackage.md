@@ -17,6 +17,7 @@ ctaicon: donate
 learn_link: "#section0"
 modules:
 - modules/common/sponsorpackage.md
+- modules/common/sponsortiers.md
 - modules/common/faq.md
 - modules/common/footer.md 
 ---

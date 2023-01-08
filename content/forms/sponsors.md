@@ -7,7 +7,7 @@ url: "/sponsor"
 fullUrl: "https://colwichhso.com/sponsor"
 subtitle: Become a Sponsor
 shoutout: We Couldn't Do It Without You 🤝
-overview: Thanks for considering a sponsorship for Colwich HSO. We greatly appreciate our Carnival sponsors, and we also have year round options now! Please take a look at the 6 sponsorship packages available.
+overview: Thanks for considering a sponsorship for Colwich HSO. We greatly appreciate our Carnival sponsors, and we also have year round options now! Please take a look at the [6 sponsorship packages](#section0) available.
 custom_class: "show_image event_sponsor"
 faq_category: "sponsorpackage"
 modules:
