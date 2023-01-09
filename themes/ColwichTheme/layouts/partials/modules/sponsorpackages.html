@@ -22,7 +22,7 @@
 
 {{ if eq ($var.Get "package").itemType "raffle" }}
 
-<p class="more">If you're intersted in donating a Raffle Item or Door Prize, you can get started with the button below. Simply fill out the form, and we'll arrange to pick the item up from you, or for school drop off. Check out the <a href="#section2">FAQ</a> for more information.</p>
+<p class="more">If you're intersted in donating a Raffle Item or Carnival Prize, you can get started with the button below. Simply fill out the form, and we'll arrange to pick the item up from you, or for school drop off. Check out the <a href="#section2">FAQ</a> for more information.</p>
 
 {{ $packageTitle :=  replace ($var.Get "package").title "The " "" }}
 {{ $buttonString := print "Donate " $packageTitle }}
