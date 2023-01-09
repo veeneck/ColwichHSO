@@ -3,7 +3,8 @@
 }
 
 .module.sponsortiers.first {
-	@include contentFor(large-screen) {
+	margin-top: -40px;
+	@include contentFor(normal-screen) {
 		margin-top: -250px;
 	}
 }

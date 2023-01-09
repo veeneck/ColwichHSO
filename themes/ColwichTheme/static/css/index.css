@@ -1232,7 +1232,10 @@ ul.calendar_item li a {
     width: 800px;
   }
 }
-@media (min-width: 1300px) {
+.module.sponsortiers.first {
+  margin-top: -40px;
+}
+@media (min-width: 1080px) {
   .module.sponsortiers.first {
     margin-top: -250px;
   }
@@ -1300,7 +1303,10 @@ a.details b {
   text-decoration: underline;
 }
 
-@media (min-width: 1300px) {
+.module.sponsorpackage.first {
+  margin-top: -40px;
+}
+@media (min-width: 1080px) {
   .module.sponsorpackage.first {
     margin-top: -250px;
   }
@@ -1330,9 +1336,14 @@ a.details b {
 }
 
 .sponsorpackage .desc {
-  width: 90%;
+  width: 100%;
   padding: 25px;
   box-sizing: border-box;
+}
+@media (min-width: 1300px) {
+  .sponsorpackage .desc {
+    width: 90%;
+  }
 }
 
 .perk {
@@ -1341,14 +1352,29 @@ a.details b {
   background-color: #C93234;
   text-align: center;
   vertical-align: middle;
-  display: flex;
   align-items: center;
   justify-content: center;
+  display: none;
+}
+@media (min-width: 1300px) {
+  .perk {
+    display: flex;
+  }
 }
 
-.perk b {
-  color: #FFF;
+.perk .perkOrder {
   font-size: 300%;
+  color: #FFF;
+}
+
+.desc .perkOrder {
+  color: #C93234;
+  display: inline-block;
+}
+@media (min-width: 1300px) {
+  .desc .perkOrder {
+    display: none;
+  }
 }
 
 .sponsorpackage .moduleCTA {

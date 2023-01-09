@@ -1,5 +1,6 @@
 .module.sponsorpackage.first {
-	@include contentFor(large-screen) {
+	margin-top: -40px;
+	@include contentFor(normal-screen) {
 		margin-top: -250px;
 	}
 }
@@ -24,9 +25,12 @@
 }
 
 .sponsorpackage .desc {
-	width: 90%;
+	width: 100%;
 	padding: 25px;
 	box-sizing: border-box;
+	@include contentFor(large-screen) {
+		width: 90%;
+	}
 }
 
 .perk {
@@ -35,15 +39,31 @@
 	background-color: $red;
 	text-align: center;
 	vertical-align: middle;
-    display: flex;
     align-items:center;
     justify-content:center;
+    display: none;
+	@include contentFor(large-screen) {
+		display: flex;
+	}
 }
 
-.perk b {
-	color: #FFF;
-	font-size: 300%;
+b.perkOrder {
+	
 }
+
+.perk .perkOrder {
+	font-size: 300%;
+	color: #FFF;
+}
+
+.desc .perkOrder {
+	color: $red;
+	display: inline-block;
+	@include contentFor(large-screen) {
+		display: none;
+	}
+}
+
 
 .sponsorpackage .moduleCTA {
 	margin-top: 25px;

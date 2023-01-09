@@ -8,10 +8,10 @@
 			{{ range $order, $perk := $el.perks }}
 				<li {{ if eq $perk.featured "true" }}class="special_item"{{ end }}>
 					<div class="perk">
-						<b>{{ add $order 1 }}.</b>
+						<b class="perkOrder">{{ add $order 1 }}.</b>
 					</div>
 					<div class="desc">
-						<h4>{{ $perk.title}} {{ if eq $perk.featured "true" }}⭐{{ end }}</h4>
+						<h4><b class="perkOrder">{{ add $order 1 }}.</b> {{ $perk.title}} {{ if eq $perk.featured "true" }}⭐{{ end }}</h4>
 						<p>{{ $perk.description | safeHTML }}</p>
 					</div>
 				</li>
