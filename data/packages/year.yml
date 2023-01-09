@@ -3,7 +3,7 @@ order: 6
 title: "The Year Rounder"
 description: "Sponsor HSO for an entire year! In addition to Carnival placement, you'll be the sponsor of the HSO newsletter, Coin Wars, and more!"
 icon: "📣"
-price: "$5,000"
+price: "$5,000+"
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%245%2C000%20-%20The%20Year%20Rounder"
 learnUrl: "/sponsor/yearpackage" 
 perks:
@@ -18,7 +18,7 @@ perks:
     description: "You'll enjoy <b>2</b> week of promotion on the digital marquee in front of the school leading up to Carnival."
     featured: "true" 
   - title: "Sponsor a Game or Activity" 
-    description: "Your Logo will occupy a pedestal that accomodates a 11x17 print out in front of a game, and on the Carnival site." 
+    description: "Your Logo will occupy a pedestal that accomodates a 8.5x14 print out in front of a game, and on the Carnival site." 
   - title: "Coin Wars Sponsor" 
     description: "You'll be the main sponsor on marketing materials for Coin Wars, our largest event of the school year."
     featured: "true" 
