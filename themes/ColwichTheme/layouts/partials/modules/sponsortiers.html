@@ -6,7 +6,7 @@
 				<div class="sponsor_price">
 					<b>{{ $el.price }}</b>
 				</div>
-				<h4>{{ $el.title }} {{ $el.icon }}</h4>
+				<h4><a href="{{ $el.learnUrl }}">{{ $el.title }} {{ $el.icon }}</a></h4>
 				<a class="details" href="{{ $el.learnUrl }}">↣ See <b>{{ len $el.perks }}</b> Benefits Included</a>
 				<p>{{ $el.description }}</p>
 				<a href="{{ $el.formUrl }}" class="highlighter bottom">Purchase</a>

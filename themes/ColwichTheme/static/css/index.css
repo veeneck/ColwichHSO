@@ -1277,6 +1277,11 @@ ul.sponsor_item li {
   font-size: 145%;
 }
 
+.sponsor_item h4 a {
+  text-decoration: none !important;
+  color: #000;
+}
+
 ul.sponsor_item li a.bottom {
   display: block;
   margin: 20px auto 0px auto;
