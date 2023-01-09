@@ -4,7 +4,7 @@ title: "Raffle Item"
 description: "Upgrade that text to a logo! It will also be on display as the main sponsor of one Carnival game or activity."
 icon: "🌅"
 price: ""
-formUrl: ""
+formUrl: "https://colwichhso.wufoo.com/forms/colwich-hso-2023-raffle-donation"
 learnUrl: "/raffle"
 perks:
   - title: "Distribute Promotional Items" 
