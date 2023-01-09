@@ -1931,6 +1931,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/RaffleOpenGraph.jpg" : {
+      "ft" : 16384,
+      "iS" : 80235,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/RaffleOpenGraph.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/RentTheMarquee.jpg" : {
       "ft" : 16384,
       "iS" : 640886,
