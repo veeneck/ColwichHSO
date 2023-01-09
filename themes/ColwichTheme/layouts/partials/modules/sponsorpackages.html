@@ -20,17 +20,26 @@
 	{{ end }}
 </ul>
 
-<p class="more">If you're intersted in this package, you can purchase online using the button below. We accept payment by check or card. Please have a look at our <a href="#section1">other packages</a> and our sponsor <a href="#section2">FAQ</a> for more inforation.</p>
+{{ if eq ($var.Get "package").itemType "raffle" }}
+
+<p class="more">If you're intersted in donating a Raffle Item or Door Prize, you can get started with the button below. Simply fill out the form, and we'll arrange to pick the item up from you, or for school drop off. Check out the <a href="#section2">FAQ</a> for more information.</p>
 
 {{ $packageTitle :=  replace ($var.Get "package").title "The " "" }}
-{{ $buttonString := print "Purchase " $packageTitle }}
-
-{{ if eq ($var.Get "package").itemType "raffle" }}
-	{{ $buttonString := print "Donate " $packageTitle }}
-{{ else }}
-
-{{ end }}
+{{ $buttonString := print "Donate " $packageTitle }}
 
 <div class="moduleCTA">
 {{ partial "button.html"  (dict "link" ($var.Get "package").formUrl "class" "primary" "icon" "donate" "text" $buttonString) }}
 </div>
+
+{{ else }}
+
+<p class="more">If you're intersted in this package, you can purchase online using the button below. We accept payment by check or card. Please have a look at our <a href="#section1">other packages</a> and our sponsor <a href="#section2">FAQ</a> for more information.</p>
+
+{{ $packageTitle :=  replace ($var.Get "package").title "The " "" }}
+{{ $buttonString := print "Purchase " $packageTitle }}
+
+<div class="moduleCTA">
+{{ partial "button.html"  (dict "link" ($var.Get "package").formUrl "class" "primary" "icon" "donate" "text" $buttonString) }}
+</div>
+
+{{ end }}
