@@ -1,0 +1,75 @@
+
+	<div class="hero {{ .Params.custom_class }}">
+
+		{{ if eq .Params.page_status "comingsoon" }}
+
+			<p><b>Coming Soon</b></p>
+			<h1>{{ .Params.title }}</h1>
+			<p class="summary"><mark>We're still ironing out the details for this page. Check back soon!</mark></p>
+
+		{{ else }}
+
+		<div class='ticket'>
+		<svg class="ticket_cutout">
+			<mask id='m' fill='#fff'>
+				<rect id='b' width='100%' height='100%'/>
+				<circle id="c" class='circle_cutout' r='50' fill='#000'/>
+				<use xlink:href='#c' x='100%'/>
+				<use xlink:href='#c' y='100%'/>
+				<use xlink:href='#c' x='100%' y='100%'/>
+			</mask>
+			<use xlink:href='#b' mask='url(#m)'/>
+		</svg>
+
+		<div class="inner_ticket">
+			<div class="tents">
+				<ul class="presenting">
+					<li><b class="lightBlue">★</b> GAMES <b class="m_letter">&</b> PRIZES <b class="lightBlue">★</b></li>
+					<li class="smallerFont"><b class="red">■</b> DESSERT WALK <b class="red">■</b></li>
+					<li><b class="lightBlue">★</b> AUCTION <b class="m_letter">&</b> RAFFLE <b class="lightBlue">★</b></li>
+					<li class="smallerFont"><b class="red">■</b> BINGO<b class="red">■</b></li>
+				</ul>
+				<div class="shoutout">
+					<h2>= SPRING 2023 =</h2>
+				    <h1><span class="xl_letter">C</span><span class="l_letter">A</span>RNIV<span class="l_letter">A</span><span class="xl_letter">L</span></h1>
+				</div>
+				<ul class="presenting inverse left">
+					<li class="smallerFont"><b class="red">■</b> BOUNCE HOUSE <b class="red">■</b></li>
+					<li><b class="lightBlue">★</b>  FACE PAINT <b class="lightBlue">★</b></li>
+					<li class="smallerFont"><b class="red">■</b> FOOD <b class="m_letter">&</b> DRINK <b class="red">■</b></li>
+					<li><b class="lightBlue">★</b> BALLOON ANIMALS <b class="lightBlue">★</b></li>
+				</ul>
+			</div>
+			<div class="details ">
+					<h3>
+						APRIL 28<b class="s_letter">th</b> 
+						<span class="lightBlue">//</span> 
+						5:00<b class="s_letter">pm</b> - 7:30<b class="s_letter">pm</b> 
+						<span class="lightBlue pricingSlash">//</span> 
+						<span class="pricing">$10 <span class="s_letter">per child <span class="pricingMax">(max $30)</span></span></span>
+					</h3>
+					<p>
+						<span>Entry @ West School Entrance. Adults & Children under 2 get in free. Max $30 per family.</span>
+					</p>
+					<p class="subnote">Adults & Children under 2 free</p>
+				</div>
+			<div class="carnivalhost">
+				{{ $sponsors := where site.RegularPages "Type" "sponsor" }}
+				{{ range $sponsors }}
+					{{ if eq .Params.carnival_host true }}
+						<a href="{{ .Params.website }}" title="{{ .Params.title }}">
+						<img
+			    			src="/images/sponsors/{{ .Params.logo }}"
+			    			alt="{{ .Params.title }}" loading="lazy" />
+			    		</a>
+	    			{{ end }}
+	    		{{ end }}
+			</div>
+		</div>
+
+	</div>
+
+		{{ end }}
+		
+	</div>
+

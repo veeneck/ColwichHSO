@@ -1,4 +1,12 @@
-{{ partial "hero.html" . }}
+{{ if eq .Params.faq_category "carnival" }}
+
+	{{ partial "carnivalhero.html" . }}
+
+{{ else }}
+
+	{{ partial "hero.html" . }}
+
+{{ end }}
 
 {{ $pageParams := .Params }}
 

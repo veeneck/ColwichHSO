@@ -164,6 +164,14 @@
       "oAP" : "\/layouts\/partials\/carnival\/home.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/carnivalhero.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/carnivalhero.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/content.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2940,6 +2948,32 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/logos\/cushman_white.jpg" : {
+      "ft" : 16384,
+      "iS" : 48304,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/cushman_white.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/cushman_white.png" : {
+      "ft" : 32768,
+      "iS" : 68052,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/cushman_white.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/logos\/cushman.png" : {
       "ft" : 32768,
       "iS" : 28319,
@@ -4802,6 +4836,14 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/static\/images\/sponsors\/cushman.idraw" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/sponsors\/cushman.idraw",
+      "oF" : 0
+    },
     "\/static\/images\/sponsors\/cushman.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -4862,14 +4904,27 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/static\/images\/tents.jpg" : {
+      "ft" : 16384,
+      "iS" : 419928,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/tents.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/tents.png" : {
       "ft" : 32768,
-      "iS" : 417525,
+      "iS" : 331834,
       "oA" : 0,
       "oAP" : "\/static\/images\/tents.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
@@ -5026,6 +5081,21 @@
       "sC" : 0,
       "tS" : 0
     },
+    "\/static\/scss\/carnival_old.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/css\/carnival_old.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/static\/scss\/carnival.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -5079,7 +5149,7 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/static\/scss\/css\/carnival_typography.css",
       "oF" : 0,
       "oS" : 0,
@@ -5183,6 +5253,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/calendar.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/carnivalhero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/carnivalhero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

@@ -1,14 +1,32 @@
+$darkRed : #A62C2E;
+$lightRed : #E06769;
+$red : #C93234;
+$gold: #E7BC38;
+$lightGold : #FFE082;
+
+$blueColor : #186363;
+$redColor : #C93234;
+$lightTan : #FFF3D9;
+$lightestTan : #FFF7E4;
+$lightestGrey: #F3F3F3;
+$darkTan : #F2E5C7;
+$lightBlue: #82C5B4;
+$darkestTan: #BCB196;
+$darkTanFont: #6D603F;
+
 @import "reset.scss";
 @import "mixins.scss";
-@import "carnival_typography.scss";
+@import "typography.scss";
 @import "animations.scss";
+@import "../modules/framework.scss";
+@import "../modules/carnivalhero.scss";
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-	background-color: #F2E5C7;	
+	background-color: #FFF;	
 	padding: 0px;
 	margin: 0px;
 	position: relative
