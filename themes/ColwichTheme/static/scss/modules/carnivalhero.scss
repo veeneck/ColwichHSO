@@ -150,6 +150,8 @@ body {
 	
 	width: 100%;
 
+	overflow-x: clip !important;
+
 	background-repeat: no-repeat;
 	background-position: 50% -50px;
 	background-size: auto 800px;

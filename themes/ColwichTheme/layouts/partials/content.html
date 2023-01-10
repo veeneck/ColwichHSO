@@ -93,6 +93,14 @@
 				    {{ partial "modules/footer.html" (dict "module" . ) }}
 				{{ end }}
 
+				{{ if (eq $type "carnival_navigation") }}
+				    {{ partial "carnival/carnival_navigation.html" (dict "page" $pageParams) }}
+				{{ end }}
+
+				{{ if (eq $type "carnival_know") }}
+				    {{ partial "carnival/carnival_know.html" (dict "module" . ) }}
+				{{ end }}
+
 			</div>
 
 		</section>

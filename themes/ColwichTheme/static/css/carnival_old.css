@@ -2867,6 +2867,7 @@ a.highlighter.active::before {
 /* --------------- HERO / TOP HEADER ---------------*/
 body {
   width: 100%;
+  overflow-x: clip !important;
   background-repeat: no-repeat;
   background-position: 50% -50px;
   background-size: auto 800px;
@@ -3404,6 +3405,63 @@ svg.ticket_cutout {
   .carnivalhost img {
     height: 125px;
   }
+}
+
+.carnival_navigation {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding-bottom: 0px !important;
+}
+
+.carnival_navigation ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 50px 0px;
+  padding-bottom: 10px;
+}
+@media (min-width: 2000px) {
+  .carnival_navigation ul {
+    margin-top: 100px;
+  }
+}
+
+.carnival_navigation li {
+  width: 25%;
+  box-sizing: border-box;
+  list-style: none;
+  text-align: center;
+}
+
+.carnival_navigation li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.carnival_navigation li img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin: 10px auto;
+  filter: invert(86%) sepia(0%) saturate(898%) hue-rotate(339deg) brightness(100%) contrast(83%);
+}
+
+.carnival_navigation li.selected {
+  font-weight: bold;
+}
+
+.carnival_navigation li.selected img {
+  filter: invert(29%) sepia(55%) saturate(2151%) hue-rotate(331deg) brightness(88%) contrast(100%);
+}
+
+.carnival_navigation li a:hover {
+  font-weight: bold;
 }
 
 html {
