@@ -156,14 +156,6 @@
       "oAP" : "\/layouts\/partials\/button.html",
       "oF" : 0
     },
-    "\/layouts\/partials\/carnival\/carnival_know.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/layouts\/partials\/carnival\/carnival_know.html",
-      "oF" : 0
-    },
     "\/layouts\/partials\/carnival\/carnival_navigation.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -268,6 +260,14 @@
       "oAP" : "\/layouts\/partials\/modules\/footer.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/modules\/full_image.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/full_image.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/modules\/imagegroup.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -330,6 +330,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/layouts\/partials\/modules\/sponsortiers.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/modules\/text_module.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/text_module.html",
       "oF" : 0
     },
     "\/layouts\/partials\/modules\/wufoo.html" : {
@@ -1054,6 +1062,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/candy.png" : {
+      "ft" : 32768,
+      "iS" : 8836952,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/candy.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/carnival.jpg" : {
       "ft" : 16384,
       "iS" : 858305,
@@ -1087,6 +1108,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/carnivalmap.png" : {
+      "ft" : 32768,
+      "iS" : 157634,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/carnivalmap.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -3778,6 +3812,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/prizes.png" : {
+      "ft" : 32768,
+      "iS" : 11165237,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/prizes.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/raffle\/1.jpg" : {
       "ft" : 16384,
       "iS" : 1405790,
@@ -5284,6 +5331,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/static\/scss\/css\/full_image.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/scss\/css\/full_image-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/static\/scss\/css\/sponsorpackages.css" : {
       "aP" : 0,
       "bl" : 0,
@@ -5321,21 +5380,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/calendar.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/static\/scss\/modules\/carnival_know.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/static\/scss\/css\/carnival_know.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -5426,6 +5470,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/framework.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/full_image.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/full_image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -5561,6 +5620,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/sponsortiers.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/text_module.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/text_module.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

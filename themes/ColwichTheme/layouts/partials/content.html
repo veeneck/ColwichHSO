@@ -36,8 +36,8 @@
 			<div class="content">
 
 				{{ if .Params.has_header }}
-					<h2>{{ .Params.title }}</h2>
-					<h3>{{ .Params.subtitle }}</h3>
+					<h2>{{ .Params.title | safeHTML }}</h2>
+					<h3>{{ .Params.subtitle | safeHTML }}</h3>
 				{{ end }}
 
 				{{ if (eq $type "featured_image") }}
@@ -97,8 +97,12 @@
 				    {{ partial "carnival/carnival_navigation.html" (dict "page" $pageParams) }}
 				{{ end }}
 
-				{{ if (eq $type "carnival_know") }}
-				    {{ partial "carnival/carnival_know.html" (dict "module" . ) }}
+				{{ if (eq $type "text_module") }}
+				    {{ partial "modules/text_module.html" (dict "module" . ) }}
+				{{ end }}
+
+				{{ if (eq $type "full_image") }}
+				    {{ partial "modules/full_image.html" (dict "module" . ) }}
 				{{ end }}
 
 			</div>

@@ -1,0 +1,5 @@
+name: Food!
+body: With your generosity, we raised over $10,500 during last year's Spring Carnival.
+image: '/images/candy.png'
+featured: 1
+itemType: 'attractions'

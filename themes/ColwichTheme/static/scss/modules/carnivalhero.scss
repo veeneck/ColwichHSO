@@ -604,3 +604,9 @@ svg.ticket_cutout {
 		height: 125px;
 	}
 }
+
+/// Module specific overrides for carnival
+
+.event_carnival.text_module h3 {
+	font-size: calc($header-size / 1.7);
+}

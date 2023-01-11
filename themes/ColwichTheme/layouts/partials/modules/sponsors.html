@@ -12,7 +12,10 @@
 		{{ end }}
 	{{ end }}
 </ul>
+
+{{ if .Params.has_footer }}
 <p>We couldn't do this without a little help from our friends. Please show your support to the generous sponsors above!</p>
 <div class="moduleCTA">
 {{ partial "button.html"  (dict "link" "/sponsor" "class" "primary" "icon" "dove" "text" "Become a Sponsor") }}
 </div>
+{{ end }}

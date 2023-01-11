@@ -1,0 +1,22 @@
+.module.text_module {
+	@include contentFor(large-screen) {
+		margin-top: 100px;
+	}
+}
+
+.module.text_module .content {
+	width: 90%;
+	margin: 0 auto;
+
+	@include contentFor(normal-screen) {
+		width: 1000px;
+	}
+
+	@include contentFor(large-screen) {
+		width: 90vw;
+	}
+
+	@include contentFor(xl-screen) {
+		width: 1600px;
+	}
+}
