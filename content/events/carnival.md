@@ -19,7 +19,7 @@ modules:
 - modules/carnival/basicsponsors.md
 - modules/carnival/map.md
 - modules/common/faq.md
-- modules/common/footer.md
+- modules/common/carnivalfooter.md
 faq_category: carnival
 ---
 This is where the full text description of the event will go.

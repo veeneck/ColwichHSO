@@ -818,7 +818,17 @@ img {
 }
 @media (min-width: 2000px) {
   .module.text_module .content {
-    width: 1600px;
+    width: 1400px;
+  }
+}
+
+.module.text_module p {
+  line-height: 2em;
+  margin-top: 50px;
+}
+@media (min-width: 1080px) {
+  .module.text_module p {
+    line-height: 2.5em;
   }
 }
 
@@ -2899,6 +2909,43 @@ a.highlighter.active::before {
   color: #C93234;
 }
 
+/* ----- LINKS ------- */
+.content p a {
+  color: #186363;
+  background-color: #F3F3F3;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-box-decoration-break: clone;
+  -o-box-decoration-break: clone;
+  box-decoration-break: clone;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+@media (min-width: 1080px) {
+  .content p a {
+    text-decoration: underline;
+    padding: 10px 15px;
+  }
+}
+
+.content p a.triggeredCSS3 {
+  /*-webkit-animation-name: fadeIn;
+   animation-name: fadeIn;
+   visibility: visible;
+   text-decoration: underline;*/
+}
+
+.content p a:hover {
+  color: #C93234;
+  background-color: #fff;
+  cursor: pointer;
+}
+
 /* --------------- HERO / TOP HEADER ---------------*/
 body {
   width: 100%;
@@ -3442,17 +3489,41 @@ svg.ticket_cutout {
   }
 }
 
-.event_carnival.text_module h3 {
-  font-size: 2.9411764706rem;
+.event_carnival.module h2, .event_carnival.module h3 {
+  font-size: 2.0833333333rem;
+  color: #186363;
+  text-transform: uppercase;
+}
+
+.event_carnival.module h4 {
+  font-size: 1.4705882353rem;
+}
+
+.sponsors.event_carnival h3, .module.imagegroup.event_carnival h3 {
+  display: none;
+}
+
+.module.imagegroup.event_carnival h2 {
+  color: #fff;
+}
+
+.event_carnival .highlighter {
+  font-weight: normal;
+  margin: 15px auto;
+  display: inline-block;
 }
 
 .carnival_navigation {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
   background-color: #fff;
   padding-bottom: 0px !important;
   z-index: 10;
+}
+
+.carnival_navigation.stuck {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  box-shadow: 0 4px 2px -2px rgba(62, 62, 62, 0.102);
 }
 
 .carnival_navigation ul {

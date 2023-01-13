@@ -17,6 +17,14 @@
 	}
 
 	@include contentFor(xl-screen) {
-		width: 1600px;
+		width: 1400px;
+	}
+}
+
+.module.text_module p {
+	line-height: 2em;
+	margin-top: 50px;
+	@include contentFor(normal-screen) {
+		line-height: 2.5em;
 	}
 }

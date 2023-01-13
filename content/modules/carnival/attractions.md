@@ -1,5 +1,5 @@
 ---
-title: Attractions
+title: <b class="lightBlue">★</b> ATTRACTIONS <b class="lightBlue">★</b>
 id: modules/carnival/attractions.md
 type: module
 module_type: imagegroup

@@ -24,53 +24,55 @@ function loadPage() {
 /// Toggle a classname whenever the hamburger menu is clicked to open and close the element.
 function initMobileListeners() {
 	var $menu = document.getElementById("menu");
-    var $menulink = document.querySelectorAll('.menu-link')[0];
-    var header = document.getElementsByTagName("header")[0];
-  
-	$menulink.addEventListener("click", function(event) {
-	  event.preventDefault();
+    if( $menu ) {
+        var $menulink = document.querySelectorAll('.menu-link')[0];
+        var header = document.getElementsByTagName("header")[0];
+      
+    	$menulink.addEventListener("click", function(event) {
+    	  event.preventDefault();
 
-	  /// If the submenu is open, close it 
-	  if(hasClass(this, "open")) {
-		  let elements = gsap.utils.toArray(".topmenu");
-	    elements.forEach((el, i) => {
-	    		removeClass(el.parentNode, "subopen");
-	    });
-   }
+    	  /// If the submenu is open, close it 
+    	  if(hasClass(this, "open")) {
+    		  let elements = gsap.utils.toArray(".topmenu");
+    	    elements.forEach((el, i) => {
+    	    		removeClass(el.parentNode, "subopen");
+    	    });
+       }
 
-	  /// Set the hamburger icon to open
-	  toggleClass(this, 'open');
+    	  /// Set the hamburger icon to open
+    	  toggleClass(this, 'open');
 
-	  /// The animations reverse each other. So open and closed are always toggled.
-	  toggleClass($menu, 'closed');
+    	  /// The animations reverse each other. So open and closed are always toggled.
+    	  toggleClass($menu, 'closed');
 
-	  /// Set the drop down menu to open
-	  addClass($menu, "open");
+    	  /// Set the drop down menu to open
+    	  addClass($menu, "open");
 
-	  /// On load, we don't want animations to play. This class prevents them, and is removed on first click.
-	  if(hasClass($menu, "firstView")) {
-	  	removeClass($menu, 'firstView');
-	  }
+    	  /// On load, we don't want animations to play. This class prevents them, and is removed on first click.
+    	  if(hasClass($menu, "firstView")) {
+    	  	removeClass($menu, 'firstView');
+    	  }
 
-	  return false;
-	});
+    	  return false;
+    	});
 
-	  let elements = gsap.utils.toArray(".topmenu");
-    elements.forEach((el, i) => {
-    	el.addEventListener("click", function(event) {
-    			toggleClass(this.parentNode, "subopen");
-    			return false;
-    	})
-    });
+    	  let elements = gsap.utils.toArray(".topmenu");
+        elements.forEach((el, i) => {
+        	el.addEventListener("click", function(event) {
+        			toggleClass(this.parentNode, "subopen");
+        			return false;
+        	})
+        });
 
-    let backbtns = gsap.utils.toArray(".backBtn");
-    backbtns.forEach((el, i) => {
-    	el.addEventListener("click", function(event) {
-    			toggleClass(this.parentNode.parentNode, "subopen");
-    			return false;
-    	})
-    });
+        let backbtns = gsap.utils.toArray(".backBtn");
+        backbtns.forEach((el, i) => {
+        	el.addEventListener("click", function(event) {
+        			toggleClass(this.parentNode.parentNode, "subopen");
+        			return false;
+        	})
+        });
 
+    }
 }
 
 /* -------- TEMPORARY PARALLAX ON SCROLL -----------------*/
@@ -175,6 +177,7 @@ function loadTriggersForPage() {
 
     setHighlightTriggers();
     setButtonTriggers();
+    setStickyTrigger();
 }
 
 
@@ -292,6 +295,19 @@ function setButtonTriggers() {
         });  
 		}
   });
+
+}
+
+function setStickyTrigger() {
+    let nav = gsap.utils.toArray(".carnival_navigation");
+    if(nav) {
+        ScrollTrigger.create({
+            trigger: nav[0],
+            start: 'top top',
+            end: 99999,
+            toggleClass: {className: 'stuck', targets: '.carnival_navigation'}
+        });
+    }
 }
 
 /* -------- UTILITY -------- */

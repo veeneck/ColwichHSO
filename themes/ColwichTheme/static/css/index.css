@@ -818,7 +818,17 @@ img {
 }
 @media (min-width: 2000px) {
   .module.text_module .content {
-    width: 1600px;
+    width: 1400px;
+  }
+}
+
+.module.text_module p {
+  line-height: 2em;
+  margin-top: 50px;
+}
+@media (min-width: 1080px) {
+  .module.text_module p {
+    line-height: 2.5em;
   }
 }
 

@@ -144,6 +144,44 @@ $border-color: #DADADA;
 	color: $redColor;
 }
 
+/* ----- LINKS ------- */
+
+.content p a {
+	color: $blueColor;
+	background-color: $lightestGrey;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	-webkit-box-decoration-break: clone;
+	-o-box-decoration-break: clone;
+	box-decoration-break: clone;
+
+	@include contentFor(normal-screen) {
+		text-decoration: underline;
+		padding: 10px 15px;
+	}
+
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+}
+
+.content p a.triggeredCSS3 {
+ /*-webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  visibility: visible;
+  text-decoration: underline;*/
+}
+
+.content p a:hover {
+	color: $redColor;
+	background-color: #fff;
+	cursor: pointer;
+}
+
 /* --------------- HERO / TOP HEADER ---------------*/
 
 body {
@@ -607,6 +645,26 @@ svg.ticket_cutout {
 
 /// Module specific overrides for carnival
 
-.event_carnival.text_module h3 {
-	font-size: calc($header-size / 1.7);
+.event_carnival.module h2, .event_carnival.module h3{
+	font-size: calc(rem(40px) / 1.2);
+	color: $header-color;
+	text-transform: uppercase;
+}
+
+.event_carnival.module h4 {
+	font-size: calc(rem(40px) / 1.7);
+}
+
+.sponsors.event_carnival h3, .module.imagegroup.event_carnival h3  {
+	display: none;
+}
+
+.module.imagegroup.event_carnival h2 {
+	color: #fff;
+}
+
+.event_carnival .highlighter {
+	font-weight: normal;
+	margin: 15px auto;
+	display: inline-block;
 }

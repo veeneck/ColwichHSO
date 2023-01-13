@@ -2954,6 +2954,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/logos\/CarnivalLogoWhite.png" : {
+      "ft" : 32768,
+      "iS" : 119622,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/CarnivalLogoWhite.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/logos\/ccf.png" : {
       "ft" : 32768,
       "iS" : 136844,
