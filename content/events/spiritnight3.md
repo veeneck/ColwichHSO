@@ -1,16 +1,17 @@
 ---
-title: Spirit Night 🎉
-description: When eating at our partner restaurant, a portion of your meal will go back to Colwich HSO.
+title: Carousel Skate Night 🎉
+description: Join us for skating on Feb 28th from 6-9. 20% of proceeds go back to Colwich HSO.
 type: events
-event_date: 2023-01-15 1:00:00 +0000
+event_date: 2023-02-28 1:00:00 +0000
 url: "/spiritnight3"
 fullUrl: "https://colwichhso.com/spiritnight3"
-page_status: comingsoon
+page_status: active
+faq_category: spiritnight
 custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: confetti
-image: "/images/flyers/ParentsNightOutWebOct.jpg"
+image: "/images/flyers/SpiritNightBarnrdsWeb.jpg"
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -19,9 +20,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
+- /images/flyers/SpiritNightBarnrdsWeb.jpg
+- /images/flyers/SpiritNightBarnrdsWeb.jpg
+- /images/flyers/SpiritNightBarnrdsWeb.jpg
+- /images/flyers/SpiritNightBarnrdsWeb.jpg
 ---
-This is where the full text description of the event will go.
+Have a fun night out with classmates and familes at [Carousel Skate](https://carouselsk8ks.com). Make sure to mention Colwich Elementary, and 20% of profits will go back to Colwich HSO. Grade with highest attendance earns pizza party that evening. Winning teacher wins a gift card!

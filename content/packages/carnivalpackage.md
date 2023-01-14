@@ -11,9 +11,9 @@ overview: The main sponsor of Carnival! Ensures the highest visibility prior to,
 custom_class: "show_image event_sponsor"
 data_type: "hostpackage"
 faq_category: "sponsorpackage"
-ctatext: Purchase Carnival Host
-ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%242%2C500%20-%20The%20Carnival%20Host"
-ctaicon: donate
+#ctatext: Purchase Carnival Host
+#ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%242%2C500%20-%20The%20Carnival%20Host"
+#ctaicon: donate
 learn_link: "#section0"
 modules:
 - modules/common/sponsorpackage.md

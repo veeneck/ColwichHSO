@@ -914,8 +914,8 @@ iframe {
   .inner_ticket {
     border-radius: 20px;
     border: 2px dashed #D7504A;
-    background: #fff7e4;
-    background: radial-gradient(circle, #fff7e4 0%, #fff7e4 35%, #f4ead3 100%);
+    background: rgb(255, 247, 228);
+    background: radial-gradient(circle, rgb(255, 247, 228) 0%, rgb(255, 247, 228) 35%, rgb(244, 234, 211) 100%);
   }
 }
 
@@ -2078,12 +2078,9 @@ a.permalink {
 
 a.permalink::before {
   content: "";
-  background: url("/images/permalink.png");
-  /*url of image*/
-  height: 16px;
-  /*height of image*/
-  width: 33px;
-  /*width of image*/
+  background: url("/images/permalink.png"); /*url of image*/
+  height: 16px; /*height of image*/
+  width: 33px; /*width of image*/
   position: absolute;
   left: -20px;
   top: -2px;
