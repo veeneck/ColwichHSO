@@ -1,0 +1,24 @@
+<ul class="content_list_data">
+	{{ $dataSet := index site.Data $.module.Params.data_type }}
+	{{ range $index, $el := (sort $dataSet "display_order") }}
+		<li {{ if $el.featured  }}class="special_item"{{ end }}>
+			<div class="perk">
+				<b class="perkOrder">{{ add $index 1 }}.</b>
+			</div>
+			<div class="desc">
+				<h4><b class="perkOrder">{{ add $index 1 }}.</b> {{ $el.name}} {{ if $el.featured }}⭐{{ end }}</h4>
+				<p>{{ $el.body | safeHTML }}</p>
+			</div>
+			{{ if $el.sponsor_id  }}
+				{{ $sponsors := where site.RegularPages "Type" "sponsor" }}
+ 				{{ range $sponsor := where $sponsors ".Params.sponsor_id" "eq" $el.sponsor_id }}
+ 					<div class="content_sponsor">
+ 						<a href="{{ $sponsor.Params.website }}">
+ 							<img src="/images/sponsors/{{ $sponsor.Params.logo }}" />
+ 						</a>
+ 					</div>
+ 				{{ end }}
+			{{ end }}
+		</li>
+	{{ end }}
+</ul>

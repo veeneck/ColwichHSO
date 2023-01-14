@@ -81,6 +81,14 @@
 				    {{ partial "modules/sponsorpackages.html" (dict "page" $pageParams "module" .) }}
 				{{ end }}
 
+				{{ if (eq $type "content_list") }}
+				    {{ partial "modules/content_list.html" (dict "page" $pageParams "module" .) }}
+				{{ end }}
+
+				{{ if (eq $type "content_cards") }}
+				    {{ partial "modules/content_cards.html" (dict "page" $pageParams "module" .) }}
+				{{ end }}
+
 				{{ if (eq $type "minutes") }}
 				    {{ partial "modules/minutes.html" (dict "module" . ) }}
 				{{ end }}

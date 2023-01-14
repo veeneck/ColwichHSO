@@ -1,6 +1,7 @@
 ---
 title: Multicrete
 type: sponsor
+sponsor_id: multicrete
 website: "http://google.com"
 subtitle: "Business description."
 logo: "multicrete.svg"

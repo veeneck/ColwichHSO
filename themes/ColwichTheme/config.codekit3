@@ -228,6 +228,22 @@
       "oAP" : "\/layouts\/partials\/modules\/calendar.html",
       "oF" : 0
     },
+    "\/layouts\/partials\/modules\/content_cards.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/content_cards.html",
+      "oF" : 0
+    },
+    "\/layouts\/partials\/modules\/content_list.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/layouts\/partials\/modules\/content_list.html",
+      "oF" : 0
+    },
     "\/layouts\/partials\/modules\/donate.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5423,6 +5439,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/carnivalnavigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/content_cards.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/content_cards.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/static\/scss\/modules\/content_list.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/static\/scss\/css\/content_list.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

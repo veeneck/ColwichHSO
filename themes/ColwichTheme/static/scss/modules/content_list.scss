@@ -1,0 +1,114 @@
+.module.content_list.first {
+	margin-top: -40px;
+	@include contentFor(normal-screen) {
+		margin-top: -250px;
+	}
+}
+
+.content_list .more {
+	margin-top: 50px;
+	text-align: center;
+	width: 80%;
+}
+
+.content_list .content_list_data {
+	margin: 0px;
+}
+
+.content_list .content_list_data li {
+	width: 90%;
+	@include flex();
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0px;
+	margin: 30px auto;
+	border-radius: 5px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+	background-color: #fff;
+}
+
+.content_list .content_list_data p {
+	text-align: left;
+}
+
+.content_list .desc {
+	width: 100%;
+	@include contentFor(mini-screen) {
+		flex: 1;
+		width: auto;
+	}
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+.content_sponsor {
+	width: 100%;
+	@include contentFor(mini-screen) {
+		width: auto;
+	}
+}
+
+.content_list ul .content_sponsor img {
+	filter: grayscale(100%);
+	width: 150px;
+	height: 80px;
+	object-fit: contain;
+	margin: 0px auto 25px auto;
+	@include contentFor(mini-screen) {
+		margin: 25px;
+	}
+}
+
+.content_list ul .content_sponsor a {
+	text-decoration: none;
+	background-color: #fff;
+	padding: 0px;
+}
+
+.content_list ul .content_sponsor a:hover img {
+	filter: none;
+}
+
+.perk {
+	width: 10%;
+	margin: 0 auto;
+	background-color: $red;
+	text-align: center;
+	vertical-align: middle;
+    align-items:center;
+    justify-content:center;
+    display: none;
+	@include contentFor(large-screen) {
+		display: flex;
+	}
+}
+
+b.perkOrder {
+	
+}
+
+.perk .perkOrder {
+	font-size: 300%;
+	color: #FFF;
+}
+
+.desc .perkOrder {
+	color: $red;
+	display: inline-block;
+	@include contentFor(large-screen) {
+		display: none;
+	}
+}
+
+
+.content_list .moduleCTA {
+	margin-top: 25px;
+}
+
+.content_list .content_list_data li.special_item {
+	border: 1px solid $red;
+}
+
+.special_item .perk {
+	//background-color: $gold;
+}

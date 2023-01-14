@@ -972,6 +972,128 @@ img {
     width: 800px;
   }
 }
+.module.content_list.first {
+  margin-top: -40px;
+}
+@media (min-width: 1080px) {
+  .module.content_list.first {
+    margin-top: -250px;
+  }
+}
+
+.content_list .more {
+  margin-top: 50px;
+  text-align: center;
+  width: 80%;
+}
+
+.content_list .content_list_data {
+  margin: 0px;
+}
+
+.content_list .content_list_data li {
+  width: 90%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 30px auto;
+  border-radius: 5px;
+  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
+  background-color: #fff;
+}
+
+.content_list .content_list_data p {
+  text-align: left;
+}
+
+.content_list .desc {
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+@media (min-width: 765px) {
+  .content_list .desc {
+    flex: 1;
+    width: auto;
+  }
+}
+
+.content_sponsor {
+  width: 100%;
+}
+@media (min-width: 765px) {
+  .content_sponsor {
+    width: auto;
+  }
+}
+
+.content_list ul .content_sponsor img {
+  filter: grayscale(100%);
+  width: 150px;
+  height: 80px;
+  object-fit: contain;
+  margin: 0px auto 25px auto;
+}
+@media (min-width: 765px) {
+  .content_list ul .content_sponsor img {
+    margin: 25px;
+  }
+}
+
+.content_list ul .content_sponsor a {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 0px;
+}
+
+.content_list ul .content_sponsor a:hover img {
+  filter: none;
+}
+
+.perk {
+  width: 10%;
+  margin: 0 auto;
+  background-color: #C93234;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+@media (min-width: 1300px) {
+  .perk {
+    display: flex;
+  }
+}
+
+.perk .perkOrder {
+  font-size: 300%;
+  color: #FFF;
+}
+
+.desc .perkOrder {
+  color: #C93234;
+  display: inline-block;
+}
+@media (min-width: 1300px) {
+  .desc .perkOrder {
+    display: none;
+  }
+}
+
+.content_list .moduleCTA {
+  margin-top: 25px;
+}
+
+.content_list .content_list_data li.special_item {
+  border: 1px solid #C93234;
+}
+
 #section2.module.calendar h2 {
   display: block;
 }

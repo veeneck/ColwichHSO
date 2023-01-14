@@ -1,6 +1,7 @@
 ---
 title: Colwich Lions Club
 type: sponsor
+sponsor_id: lionsclub
 website: "https://e-clubhouse.org/sites/colwichks/"
 subtitle: "Serving our local community."
 logo: "lionsclub.svg"

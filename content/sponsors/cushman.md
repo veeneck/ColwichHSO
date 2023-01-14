@@ -1,6 +1,7 @@
 ---
 title: Cushman & Wakefield
 type: sponsor
+sponsor_id: cushman
 website: "https://www.cushmanwakefield.com/en"
 subtitle: "We are a global commercial real estate services firm."
 logo: "cushman.svg"

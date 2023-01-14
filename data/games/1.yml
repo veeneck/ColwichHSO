@@ -1,0 +1,7 @@
+name: Bean Bag Toss
+body: This is a description of the game and more words to make it a bit longer!
+image: false
+featured: true
+itemType: 'games'
+sponsor_id: cushman
+display_order: 1

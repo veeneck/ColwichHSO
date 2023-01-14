@@ -1,0 +1,7 @@
+name: Plinko
+body: This is a description of the game and more words to make it a bit longer!
+image: false
+featured: false
+itemType: 'games'
+sponsor_id: gmac
+display_order: 3
