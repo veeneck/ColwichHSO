@@ -112,3 +112,19 @@ b.perkOrder {
 .special_item .perk {
 	//background-color: $gold;
 }
+
+.module.content_list .content_desc {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.module.content_list .content_desc p {
+	line-height: 2em;
+
+	@include contentFor(normal-screen) {
+		line-height: 2.5em;
+	}
+}

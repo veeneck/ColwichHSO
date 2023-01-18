@@ -1,7 +1,7 @@
 name: Basketball Shot
 body: This is a description of the game and more words to make it a bit longer!
 image: false
-featured: true
+featured: false
 itemType: 'games'
 sponsor_id: lionsclub
 display_order: 5

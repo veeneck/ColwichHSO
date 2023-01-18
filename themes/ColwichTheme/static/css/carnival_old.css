@@ -1095,6 +1095,23 @@ img {
   border: 1px solid #C93234;
 }
 
+.module.content_list .content_desc {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.module.content_list .content_desc p {
+  line-height: 2em;
+}
+@media (min-width: 1080px) {
+  .module.content_list .content_desc p {
+    line-height: 2.5em;
+  }
+}
+
 .module.content_cards.first {
   margin-top: -40px;
 }

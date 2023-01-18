@@ -15,6 +15,7 @@ modules:
 - modules/carnival/navigation.md
 - modules/carnival/games.md
 - modules/carnival/activities.md
+- modules/carnival/prizeroom.md
 - modules/carnival/map.md
 - modules/common/footer.md
 faq_category: carnival

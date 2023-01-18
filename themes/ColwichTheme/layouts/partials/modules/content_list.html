@@ -1,3 +1,6 @@
+{{ if $.module.Content }}
+	<div class="content_desc">{{ $.module.Content }}</div>
+{{ end }}
 <ul class="content_list_data">
 	{{ $dataSet := index site.Data $.module.Params.data_type }}
 	{{ range $index, $el := (sort $dataSet "display_order") }}
