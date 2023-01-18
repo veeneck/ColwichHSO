@@ -2079,6 +2079,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/SpiritNightCarouselOG.jpg" : {
+      "ft" : 16384,
+      "iS" : 100242,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/SpiritNightCarouselOG.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/SpiritNightCarouselWeb.jpg" : {
       "ft" : 16384,
       "iS" : 322305,
@@ -2087,9 +2100,20 @@
       "oAP" : "\/static\/images\/flyers\/SpiritNightCarouselWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/SpiritNightCarouselWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 82730,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/SpiritNightCarouselWeb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/SpiritNightGambinosOG.jpg" : {

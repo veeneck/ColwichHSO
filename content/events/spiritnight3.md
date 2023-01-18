@@ -5,6 +5,7 @@ type: events
 event_date: 2023-02-28 1:00:00 +0000
 url: "/carousel"
 fullUrl: "https://colwichhso.com/carousel"
+pageImage: "https://colwichhso.com/images/flyers/SpiritNightCarouselOG.jpg"
 page_status: active
 faq_category: spiritnight
 custom_class: "show_image event_spirit"
