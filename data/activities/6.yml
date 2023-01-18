@@ -1,0 +1,12 @@
+title: Raffle
+title_attribute: "6."
+icon: "🎟️"
+description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: false
+featured: false
+itemType: 'activities'
+display_order: 6

@@ -14,6 +14,8 @@ stylesheet: "/css/carnival.css"
 modules:
 - modules/carnival/navigation.md
 - modules/carnival/games.md
+- modules/carnival/activities.md
+- modules/carnival/map.md
 - modules/common/footer.md
 faq_category: carnival
 ---
