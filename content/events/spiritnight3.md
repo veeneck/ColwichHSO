@@ -3,15 +3,15 @@ title: Carousel Skate Night 🎉
 description: Join us for skating on Feb 28th from 6-9. 20% of proceeds go back to Colwich HSO.
 type: events
 event_date: 2023-02-28 1:00:00 +0000
-url: "/spiritnight3"
-fullUrl: "https://colwichhso.com/spiritnight3"
+url: "/carousel"
+fullUrl: "https://colwichhso.com/carousel"
 page_status: active
 faq_category: spiritnight
 custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: confetti
-image: "/images/flyers/SpiritNightBarnrdsWeb.jpg"
+image: "/images/flyers/SpiritNightCarouselWeb.jpg"
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
