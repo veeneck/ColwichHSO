@@ -4,6 +4,7 @@ title: "The Carnival Host"
 description: "The main sponsor of Carnival! Ensures the highest visibility prior to, and during the event. Includes premium year-long benefits."
 icon: "🎪"
 price: "$2,500"
+sold_out: true
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%242%2C500%20-%20The%20Carnival%20Host"
 learnUrl: "/sponsor/hostpackage"
 perks:
