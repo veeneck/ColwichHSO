@@ -82,3 +82,35 @@ ul.content_cards_data li a.bottom {
 .content_cards_data a.details b {
 	text-decoration: underline;
 }
+
+.content_cards .card_image {
+	width: 100%;
+	height: 300px;
+
+	@include contentFor(normal-screen) {
+		height: 400px;
+	}
+}
+
+.content_cards .card_image img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+}
+
+.module.content_cards .content_desc {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.module.content_cards .content_desc p {
+	line-height: 2em;
+
+	@include contentFor(normal-screen) {
+		line-height: 2.5em;
+	}
+}

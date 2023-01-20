@@ -14,7 +14,7 @@ stylesheet: "/css/carnival.css"
 modules:
 - modules/carnival/navigation.md
 - modules/carnival/raffleitems.md
-- modules/common/footer.md
+- modules/common/carnivalfooter.md
 faq_category: carnival
 ---
 This is where the full text description of the event will go.

@@ -668,3 +668,29 @@ svg.ticket_cutout {
 	margin: 15px auto;
 	display: inline-block;
 }
+
+.content_cards_data li p { 
+	line-height: 2em;
+}
+
+.content_cards .card_image {
+	border: 2px dashed $redColor;
+	padding: 3px;
+	box-sizing: border-box;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.content_cards .card_image img {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.event_carnival.imagegroup img {
+	padding: 5px;
+	border: 2px dashed $redColor;
+	box-sizing: border-box;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.event_carnival.imagegroup li div {
+	padding: 20px 15px 15px 15px;
+}
