@@ -13,7 +13,10 @@ image: "/images/flyers/ParentsNightOutWebOct.jpg"
 stylesheet: "/css/carnival.css"
 modules:
 - modules/carnival/navigation.md
-- modules/carnival/needtoknow.md
+- modules/carnival/foodmenu.md
+- modules/carnival/premiumsponsors.md
+- modules/carnival/basicsponsors.md
+- modules/carnival/map.md
 - modules/common/carnivalfooter.md
 faq_category: carnival
 ---

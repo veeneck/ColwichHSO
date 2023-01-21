@@ -3779,6 +3779,11 @@ svg.ticket_cutout {
   border-radius: 5px 5px 0px 0px;
 }
 
+.content_cards .special_item {
+  border: 2px dashed #C93234;
+  box-sizing: border-box;
+}
+
 .event_carnival.imagegroup img {
   padding: 5px;
   border: 2px dashed #C93234;
