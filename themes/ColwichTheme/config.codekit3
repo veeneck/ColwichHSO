@@ -1115,6 +1115,16 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/CarnivalLogoColored.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/CarnivalLogoColored.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/static\/images\/carnivalmap.jpg" : {
       "ft" : 16384,
       "iS" : 2638782,
@@ -1130,7 +1140,7 @@
     },
     "\/static\/images\/carnivalmap.png" : {
       "ft" : 32768,
-      "iS" : 157634,
+      "iS" : 1956552,
       "oA" : 0,
       "oAP" : "\/static\/images\/carnivalmap.png",
       "oF" : 0,
@@ -1139,6 +1149,27 @@
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/carnivalmap.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/carnivalmap.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/carnivalmap.webp" : {
+      "ft" : 8388608,
+      "iS" : 136098,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/carnivalmap.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/carnivalmapsmall.jpg" : {
@@ -3512,6 +3543,136 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/menu\/bbq.png" : {
+      "ft" : 32768,
+      "iS" : 5152528,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/bbq.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Chocolate.png" : {
+      "ft" : 32768,
+      "iS" : 3243432,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Chocolate.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/CottonCandy.png" : {
+      "ft" : 32768,
+      "iS" : 6543488,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/CottonCandy.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/FoodTruck.png" : {
+      "ft" : 32768,
+      "iS" : 6915729,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/FoodTruck.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/HotDog.png" : {
+      "ft" : 32768,
+      "iS" : 6304912,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/HotDog.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Nacho.png" : {
+      "ft" : 32768,
+      "iS" : 2763301,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Nacho.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Nacho2.png" : {
+      "ft" : 32768,
+      "iS" : 2239792,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Nacho2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Pickle.png" : {
+      "ft" : 32768,
+      "iS" : 6558625,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Pickle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Pickle2.png" : {
+      "ft" : 32768,
+      "iS" : 9654091,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Pickle2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Soda.png" : {
+      "ft" : 32768,
+      "iS" : 3629668,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Soda.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/parent.jpg" : {
       "ft" : 16384,
       "iS" : 177483,
@@ -4884,6 +5045,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/SchoolMap.png" : {
+      "ft" : 32768,
+      "iS" : 4377510,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/SchoolMap.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
       "rq" : 75
     },
     "\/static\/images\/shelby.jpg" : {

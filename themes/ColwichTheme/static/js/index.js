@@ -157,12 +157,13 @@ function toggleCalendarButton() {
 
 function loadTriggersForPage() {
 
-    /*var triggerMap = {
-        "hero" : setHeroTriggers,
+    var triggerMap = {
+        /*"hero" : setHeroTriggers,
         "calendar" : setCalendarTriggers,
         "achievements" : setAchievementTriggers,
         "donate" : setDonateTriggers,
-        "faq" : setFAQTriggers
+        "faq" : setFAQTriggers*/
+        "full_image" : setFullImageTrigger
     };
 
     const sections = document.getElementsByTagName('section');
@@ -173,7 +174,7 @@ function loadTriggersForPage() {
             triggerMap[name](section);
         	}
 				}
-    }*/
+    }
 
     setHighlightTriggers();
     setButtonTriggers();
@@ -304,10 +305,26 @@ function setStickyTrigger() {
         ScrollTrigger.create({
             trigger: nav[0],
             start: 'top top',
-            end: 99999,
+            end: 2000,
             toggleClass: {className: 'stuck', targets: '.carnival_navigation'}
         });
     }
+}
+
+function setFullImageTrigger(section) {
+    let elements = gsap.utils.toArray(".full_image img");
+    elements.forEach((el, i) => {
+
+        gsap.from(el, {
+            scrollTrigger: {
+                trigger: el,
+                scrub: true,
+                start: "center center",
+                pin: true,
+            },
+            scale: 0.8
+        });  
+    }); 
 }
 
 /* -------- UTILITY -------- */

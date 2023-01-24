@@ -838,9 +838,21 @@ img {
 }
 
 .full_image img {
-  width: 100%;
-  height: 90vh;
+  width: auto;
+  height: 75vh;
   object-fit: cover;
+  object-position: -100px bottom;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 15px 60px rgba(62, 62, 62, 0.102);
+}
+@media (min-width: 765px) {
+  .full_image img {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    object-position: center center;
+  }
 }
 
 .imagegroup.first {
@@ -3094,7 +3106,7 @@ a.highlighter.active::before {
 \*------------------------------------*/
 .event_carnival h1, .event_carnival h2, .event_carnival h3, .event_carnival h4, .event_carnival h5, .event_carnival h6 {
   margin-top: 36px;
-  color: #186363;
+  color: #203377;
   line-height: 1.25em;
   font-weight: 700;
 }
@@ -3111,7 +3123,7 @@ a.highlighter.active::before {
 .event_carnival h2 {
   font-size: 3.8461538462rem;
   margin-bottom: 18.4615384615px;
-  color: #D7504A;
+  color: #C93234;
   font-family: "abril_fatfaceregular", serif;
 }
 
@@ -3153,7 +3165,7 @@ a.highlighter.active::before {
 }
 
 .lightBlue {
-  color: #82C5B4;
+  color: #203377;
 }
 
 .red {
@@ -3162,7 +3174,7 @@ a.highlighter.active::before {
 
 /* ----- LINKS ------- */
 .content p a {
-  color: #186363;
+  color: #203377;
   background-color: #F3F3F3;
   padding: 5px 10px;
   border-radius: 5px;
@@ -3429,9 +3441,9 @@ svg.ticket_cutout {
 .tents {
   width: 100%;
   height: 80%;
-  background-image: url("/images/tents.png");
+  background-image: url("/images/CarnivalLogoColored.svg");
   background-repeat: no-repeat;
-  background-position: 50% 55%;
+  background-position: 50% 25%;
   background-size: auto 275px;
   display: -webkit-box;
   display: -moz-box;
@@ -3443,19 +3455,19 @@ svg.ticket_cutout {
 @media (min-width: 765px) {
   .tents {
     background-size: auto 400px;
-    background-position: 50% 55%;
+    background-position: 50% 25%;
   }
 }
 @media (min-width: 1080px) {
   .tents {
-    background-position: 50% 80%;
+    background-position: 50% 30%;
     background-size: auto 450px;
   }
 }
 @media (min-width: 1300px) {
   .tents {
-    background-position: 50% 80%;
-    background-size: auto 600px;
+    background-position: 50% 30%;
+    background-size: auto 525px;
   }
 }
 .tents h1 {
@@ -3612,7 +3624,7 @@ svg.ticket_cutout {
 .pricing {
   font-family: "ryeregular", sans-serif;
   font-display: swap;
-  color: #D7504A;
+  color: #C93234;
   display: block;
   text-shadow: 4px 4px 10px #fff;
 }
@@ -3654,8 +3666,8 @@ svg.ticket_cutout {
     width: 100%;
     text-align: center;
     margin-left: 0px;
-    padding-right: 4%;
-    color: #186363;
+    padding-right: 45%;
+    color: #203377;
     font-family: "abril_fatfaceregular", sans-serif;
     font-display: swap;
   }
@@ -3663,7 +3675,7 @@ svg.ticket_cutout {
 @media (min-width: 1300px) {
   .presenting {
     font-size: 30%;
-    padding-right: 7%;
+    padding-right: 30%;
     margin-top: 100px;
   }
 }
@@ -3742,7 +3754,7 @@ svg.ticket_cutout {
 
 .event_carnival.module h2, .event_carnival.module h3 {
   font-size: 2.0833333333rem;
-  color: #186363;
+  color: #203377;
   text-transform: uppercase;
 }
 
@@ -4266,7 +4278,7 @@ svg.ticket_cutout {
 .pricing {
   font-family: "ryeregular", sans-serif;
   font-display: swap;
-  color: #D7504A;
+  color: #C93234;
   display: block;
   margin-top: 10px;
   font-size: 120%;
