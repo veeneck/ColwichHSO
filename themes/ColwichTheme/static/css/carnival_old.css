@@ -3725,7 +3725,6 @@ svg.ticket_cutout {
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: grayscale(100%);
   width: 350px;
   margin: 0px auto 0px auto;
 }
