@@ -12,8 +12,6 @@ ctalink: calendar
 ctaicon: meal
 image: "/images/flyers/ConferenceMealWeb.jpg"
 custom_class: "show_image event_conference"
-aliases:
-    - /conference
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
