@@ -1606,6 +1606,30 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/ConferenceMealWeb2.jpg" : {
+      "ft" : 16384,
+      "iS" : 215835,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ConferenceMealWeb2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/ConferenceMealWeb2.webp" : {
+      "ft" : 8388608,
+      "iS" : 41226,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/ConferenceMealWeb2.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/DessertSocialOpenGraph.jpg" : {
       "ft" : 16384,
       "iS" : 125278,
