@@ -7,6 +7,6 @@ link: "/about/"
 subtitle: "Map."
 has_header: false
 has_footer: false
-image_url: "/images/carnivalmap.png"
+image_url: "/images/carnivalmap.jpg"
 ---
 Module content text assuming that there is a sub page.
