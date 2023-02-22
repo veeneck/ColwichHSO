@@ -13,12 +13,16 @@
 	}
 
 	@include contentFor(large-screen) {
-		width: 90vw;
+		width: 80vw;
 	}
 
 	@include contentFor(xl-screen) {
-		width: 1400px;
+		width: 1600px;
 	}
+}
+
+.text_module h3 {
+	width: auto !important;
 }
 
 .module.text_module p {
@@ -27,4 +31,46 @@
 	@include contentFor(normal-screen) {
 		line-height: 2.5em;
 	}
+}
+
+.module.text_module div.textContent {
+	@include flex();
+	flex-wrap: wrap;
+	align-items: center;
+
+	@include contentFor(normal-screen) {
+		flex-wrap: nowrap;
+	}
+}
+
+.text_module .text_blob {
+	margin: 50px;
+	box-sizing: border-box;
+	width: 100%;
+
+	@include contentFor(normal-screen) {
+		width: 50%;
+	}
+}
+
+.text_image {
+	border: 20px solid #fff;
+	border-radius: 4px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+
+	@include contentFor(normal-screen) {
+		width: 50%;
+	}
+}
+
+.module.text_module img {
+	width: 100%;
+	border: 2px dashed $red;
+	padding: 5px;
+	border-radius: 4px;
+	margin: 0px;
+	box-sizing: border-box;
 }

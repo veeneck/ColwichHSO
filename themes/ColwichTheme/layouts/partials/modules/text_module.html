@@ -1,2 +1,12 @@
-<h3>{{ $.module.Params.title | safeHTML }}</h3>
-<p>{{ $.module.Content | safeHTML }}</p>
+<div class="textContent">
+	<div class="text_blob">
+		<h3>{{ $.module.Params.title | safeHTML }}</h3>
+		{{ $.module.Content | safeHTML }}
+	</div>
+
+	{{ if $.module.Params.image }}
+		<div class="text_image">
+			<img src="{{ $.module.Params.image }}" />
+		</div>
+	{{ end }}
+</div>

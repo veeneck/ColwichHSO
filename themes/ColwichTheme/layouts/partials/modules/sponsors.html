@@ -1,3 +1,5 @@
+{{ $.module.Content }}
+
 <ul>
 	{{ $sponsors := where site.RegularPages "Type" "sponsor" }}
 	{{ range $sponsors }}
@@ -13,7 +15,11 @@
 	{{ end }}
 </ul>
 
-{{ if .Params.has_footer }}
+{{ if $.module.Params.footer_text }}
+<p>{{ $.module.Params.footer_text | safeHTML }}</p>
+{{ end }}
+
+{{ if $.module.Params.has_footer }}
 <p>We couldn't do this without a little help from our friends. Please show your support to the generous sponsors above!</p>
 <div class="moduleCTA">
 {{ partial "button.html"  (dict "link" "/sponsor" "class" "primary" "icon" "dove" "text" "Become a Sponsor") }}
