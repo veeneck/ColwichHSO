@@ -12,9 +12,9 @@ custom_class: "show_image event_sponsor"
 data_type: "flagpackage"
 faq_category: "sponsorpackage"
 learn_link: "#section0"
-ctatext: Purchase Flag Package
-ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%24500%20-%20The%20Flag%20Package"
-ctaicon: donate
+#ctatext: Purchase Flag Package
+#ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%24500%20-%20The%20Flag%20Package"
+#ctaicon: donate
 modules:
 - modules/common/sponsorpackage.md
 - modules/common/sponsortiers.md
