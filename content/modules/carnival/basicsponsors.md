@@ -1,5 +1,5 @@
 ---
-title: <b class="red">■</b> Made Possible By <b class="red">■</b>
+title: <b class="red">■</b> With Thanks To <b class="red">■</b>
 id: modules/carnival/basicsponsors.md
 type: module
 module_type: sponsors
@@ -10,4 +10,4 @@ has_footer: false
 tier_min: 0
 tier_max: 2
 ---
-Module content text assuming that there is a sub page.
+This event is made possible with support from local businesses.

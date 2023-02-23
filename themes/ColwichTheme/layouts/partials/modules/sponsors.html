@@ -9,9 +9,11 @@
 		{{ if eq .Params.active true }}
 			{{ if eq .Params.tier 1 }}
 				<li class="textsponsor">
-					<a href="{{ .Params.website }}" title="{{ .Params.title }}">
+					<div>
+						<a href="{{ .Params.website }}" title="{{ .Params.title }}">
 						{{ .Params.title }}
-		    		</a>
+		    			</a>
+		    		</div>
 				</li>
 			{{ else }}
 				<li>

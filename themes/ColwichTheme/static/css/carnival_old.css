@@ -1593,6 +1593,17 @@ ul.calendar_item li a {
     width: 800px;
   }
 }
+.textsponsor div {
+  text-align: center;
+  height: 80px;
+  padding: 30px;
+}
+
+.textsponsor div a {
+  color: #000;
+  text-decoration: none;
+}
+
 .module.sponsortiers.first {
   margin-top: -40px;
 }
