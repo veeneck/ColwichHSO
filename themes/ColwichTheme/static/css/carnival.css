@@ -1568,7 +1568,6 @@ ul.calendar_item li a {
 }
 
 .sponsors ul img {
-  filter: grayscale(100%);
   width: 100%;
   height: 80px;
 }

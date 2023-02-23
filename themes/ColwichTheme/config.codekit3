@@ -5121,6 +5121,16 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/sponsors\/bamowing.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/bamowing.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/static\/images\/sponsors\/caringkansas.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5245,6 +5255,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/static\/images\/sponsors\/jumpstart.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/jumpstart.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/static\/images\/sponsors\/lionsclub.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -5270,6 +5290,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/static\/images\/sponsors\/littlestars.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/sponsors\/lubbers.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/lubbers.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

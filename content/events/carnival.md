@@ -16,6 +16,7 @@ modules:
 - modules/carnival/needtoknow.md
 - modules/carnival/premiumsponsors.md
 - modules/carnival/attractions.md
+- modules/carnival/basicsponsors.md
 - modules/carnival/map.md
 - modules/common/faq.md
 - modules/common/carnivalfooter.md

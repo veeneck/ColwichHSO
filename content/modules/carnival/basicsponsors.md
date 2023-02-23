@@ -7,5 +7,7 @@ link: "/about/"
 subtitle: "Those who support our school."
 has_header: true
 has_footer: false
+tier_min: 0
+tier_max: 2
 ---
 Module content text assuming that there is a sub page.

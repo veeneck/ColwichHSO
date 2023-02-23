@@ -2,15 +2,26 @@
 
 <ul>
 	{{ $sponsors := where site.RegularPages "Type" "sponsor" }}
-	{{ range $sponsors }}
+	{{ $min_tier := where $sponsors ".Params.tier" "ge" $.module.Params.tier_min }}
+	{{ $max_tier := where $sponsors ".Params.tier" "le" $.module.Params.tier_max }}
+	{{ $sponsorsInTier := $min_tier | intersect $max_tier }}
+	{{ range sort $sponsorsInTier ".Params.tier" "desc" }}
 		{{ if eq .Params.active true }}
-		<li>
-			<a href="{{ .Params.website }}" title="{{ .Params.title }}">
-			<img
-    			src="/images/sponsors/{{ .Params.logo }}"
-    			alt="{{ .Params.title }}" loading="lazy" />
-    		</a>
-		</li>
+			{{ if eq .Params.tier 1 }}
+				<li class="textsponsor">
+					<a href="{{ .Params.website }}" title="{{ .Params.title }}">
+						{{ .Params.title }}
+		    		</a>
+				</li>
+			{{ else }}
+				<li>
+					<a href="{{ .Params.website }}" title="{{ .Params.title }}">
+					<img
+		    			src="/images/sponsors/{{ .Params.logo }}"
+		    			alt="{{ .Params.title }}" loading="lazy" />
+		    		</a>
+				</li>
+			{{ end }}
 		{{ end }}
 	{{ end }}
 </ul>
