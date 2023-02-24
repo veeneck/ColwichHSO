@@ -1,12 +1,7 @@
-title: Raffle
-title_attribute: "6."
-icon: "🎟️"
-description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
-details: false
-detailsLink: false
-ctaText: false
-ctaLink: false
+name: Candy Count 🍬
+body: Who can guess how many pieces of candy are in the jar? Closest wins!
 image: false
 featured: false
 itemType: 'activities'
-display_order: 6
+sponsor_id: cushman
+display_order: 1

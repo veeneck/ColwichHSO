@@ -13,6 +13,7 @@ function ready(fn) {
 }
 
 function loadPage() {
+    if (location.hash) location.href = location.hash;
 	bringElementsIntoView();
 	initMobileListeners();
 	loadTriggersForPage();
@@ -305,7 +306,7 @@ function setStickyTrigger() {
         ScrollTrigger.create({
             trigger: nav[0],
             start: 'top top',
-            end: 2000,
+            end: 20000,
             toggleClass: {className: 'stuck', targets: '.carnival_navigation'}
         });
     }

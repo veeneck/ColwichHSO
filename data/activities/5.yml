@@ -1,12 +1,7 @@
-title: Bingo
-title_attribute: "5."
-icon: "🅱️"
-description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
-details: false
-detailsLink: false
-ctaText: false
-ctaLink: false
+name: Bingo 🅱️
+body: The game that we all know and love. Prizes to be won each round!
 image: false
 featured: false
 itemType: 'activities'
-display_order: 5
+sponsor_id: lubbers
+display_order: 1

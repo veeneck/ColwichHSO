@@ -1,12 +1,7 @@
-title: Bounce House
-title_attribute: "2."
-icon: "🦘"
-description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
-details: false
-detailsLink: false
-ctaText: false
-ctaLink: false
+name: Bounce House 🦘
+body: Bounce the night away. And new this year is the obstacle bounce course!
 image: false
 featured: false
 itemType: 'activities'
-display_order: 2
+sponsor_id: murfin
+display_order: 1

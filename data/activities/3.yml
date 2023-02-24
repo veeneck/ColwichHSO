@@ -1,12 +1,7 @@
-title: Face Painting
-title_attribute: "3."
-icon: "🎨"
-description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
-details: false
-detailsLink: false
-ctaText: false
-ctaLink: false
+name: Face Painting 🎨
+body: Add a little Carnival spirit to your face with colorful paintings.
 image: false
 featured: false
 itemType: 'activities'
-display_order: 3
+sponsor_id: csc
+display_order: 1

@@ -1,12 +1,7 @@
-title: Photo Booth
-title_attribute: "4."
-icon: "📷"
-description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
-details: false
-detailsLink: false
-ctaText: false
-ctaLink: false
+name: Photo Booth 📷
+body: Remember the night with photos of your family and friends in the Photo Booth.
 image: false
 featured: false
 itemType: 'activities'
-display_order: 4
+sponsor_id: jumpstart
+display_order: 1

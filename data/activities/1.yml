@@ -1,12 +1,7 @@
-title: Dessert Walk
-title_attribute: "1."
-icon: "🧁"
-description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
-details: false
-detailsLink: false
-ctaText: false
-ctaLink: false
+name: Dessert Walk 🧁
+body: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
 image: false
 featured: false
 itemType: 'activities'
+sponsor_id: multisports
 display_order: 1

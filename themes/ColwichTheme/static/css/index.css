@@ -1098,7 +1098,6 @@ img {
 }
 
 .content_list ul .content_sponsor img {
-  filter: grayscale(100%);
   width: 150px;
   height: 80px;
   object-fit: contain;
