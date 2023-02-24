@@ -4,6 +4,7 @@ title: "The Banner Package"
 description: "Your name and logo on a dedicated banner in a high traffic area. You'll also be the sponsor of an additional HSO event!"
 icon: "🪧"
 price: "$1,000"
+sold_out: true
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%241%2C000%20-%20The%20Banner%20Package"
 learnUrl: "/sponsor/bannerpackage"
 perks:

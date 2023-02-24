@@ -1666,6 +1666,15 @@ ul.sponsor_item li a.bottom {
   font-weight: bold;
 }
 
+.sponsor_price del {
+  color: #cecece;
+}
+
+.soldout {
+  text-transform: uppercase;
+  font-size: 50%;
+}
+
 a.details {
   font-size: 100%;
   font-weight: normal;

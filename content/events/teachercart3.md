@@ -12,6 +12,8 @@ ctalink: calendar
 ctaicon: hearthand
 image: "/images/flyers/TeacherAppreciationMay.jpg"
 custom_class: "show_image event_appreciation"
+aliases:
+    - /appreciation
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md

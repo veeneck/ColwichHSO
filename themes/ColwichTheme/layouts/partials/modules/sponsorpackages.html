@@ -33,13 +33,19 @@
 
 {{ else }}
 
-<p class="more">If you're intersted in this package, you can purchase online using the button below. We accept payment by check or card. Please have a look at our <a href="#section1">other packages</a> and our sponsor <a href="#section2">FAQ</a> for more information.</p>
+	{{ if ($var.Get "package").sold_out }}
 
-{{ $packageTitle :=  replace ($var.Get "package").title "The " "" }}
-{{ $buttonString := print "Purchase " $packageTitle }}
+	{{ else }}
 
-<div class="moduleCTA">
-{{ partial "button.html"  (dict "link" ($var.Get "package").formUrl "class" "primary" "icon" "donate" "text" $buttonString) }}
-</div>
+		<p class="more">If you're intersted in this package, you can purchase online using the button below. We accept payment by check or card. Please have a look at our <a href="#section1">other packages</a> and our sponsor <a href="#section2">FAQ</a> for more information.</p>
+
+		{{ $packageTitle :=  replace ($var.Get "package").title "The " "" }}
+		{{ $buttonString := print "Purchase " $packageTitle }}
+
+		<div class="moduleCTA">
+		{{ partial "button.html"  (dict "link" ($var.Get "package").formUrl "class" "primary" "icon" "donate" "text" $buttonString) }}
+		</div>
+
+	{{ end }}
 
 {{ end }}

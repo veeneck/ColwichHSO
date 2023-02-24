@@ -7,12 +7,14 @@ pageImage: "https://colwichhso.com/images/flyers/ConferenceMealOpenGraph.jpg"
 url: "/meals2"
 fullUrl: "https://colwichhso.com/meals2"
 faq_category: meals
-page_status: comingsoon
+page_status: active
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: meal
-image: "/images/flyers/ConferenceMealWeb.jpg"
+image: "/images/flyers/ConferenceMealWeb2.jpg"
 custom_class: "show_image event_conference"
+aliases:
+    - /conference
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -21,9 +23,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/flyers/ConferenceMealWeb.jpg
-- /images/flyers/ConferenceMealWeb.jpg
-- /images/flyers/ConferenceMealWeb.jpg
-- /images/flyers/ConferenceMealWeb.jpg
+- /images/flyers/ConferenceMealWeb2.jpg
+- /images/flyers/ConferenceMealWeb2.jpg
+- /images/flyers/ConferenceMealWeb2.jpg
+- /images/flyers/ConferenceMealWeb2.jpg
 ---
 HSO supplies one meal for each teacher conference throughout the year. Contact us if you would like to donate any tasty goodies along with the meal.

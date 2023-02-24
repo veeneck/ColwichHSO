@@ -4,6 +4,7 @@ title: "The Flag Package"
 description: "Staked flags with your logo will line the Carnival entrance. Also includes year round promotion and more!"
 icon: "🚩"
 price: "$500"
+sold_out: true
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%24500%20-%20The%20Flag%20Package"
 learnUrl: "/sponsor/flagpackage"
 perks:
