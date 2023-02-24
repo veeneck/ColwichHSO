@@ -4,7 +4,9 @@
 		{{ if ne $el.itemType "raffle" }}
 			<li>
 				<div class="sponsor_price">
-					{{ if $el.sold_out }}
+					{{ if $el.learn_more_only }}
+						<b>{{ $el.price }}</b>
+					{{ else if $el.sold_out }}
 						<del>{{ $el.price }}</del> <b class="soldout">Sold Out</b>
 					{{ else }}
 						<b>{{ $el.price }}</b>
@@ -13,7 +15,7 @@
 				<h4><a href="{{ $el.learnUrl }}">{{ $el.title }} {{ $el.icon }}</a></h4>
 				<a class="details" href="{{ $el.learnUrl }}">↣ See <b>{{ len $el.perks }}</b> Benefits Included</a>
 				<p>{{ $el.description }}</p>
-				{{ if $el.sold_out }}
+				{{ if or $el.sold_out $el.learn_more_only }}
 					<a href="{{ $el.learnUrl }}" class="highlighter bottom">Learn More</a>
 				{{ else }}
 					<a href="{{ $el.formUrl }}" class="highlighter bottom">Purchase</a>

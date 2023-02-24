@@ -3630,6 +3630,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/menu\/BBQMeal.png" : {
+      "ft" : 32768,
+      "iS" : 5775511,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/BBQMeal.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/menu\/Chocolate.png" : {
       "ft" : 32768,
       "iS" : 3243432,
@@ -3674,6 +3687,19 @@
       "iS" : 6304912,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/HotDog.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/HotDogMeal.png.png" : {
+      "ft" : 32768,
+      "iS" : 5548823,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/HotDogMeal.png.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

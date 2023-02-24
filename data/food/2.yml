@@ -1,6 +1,6 @@
 title: Pulled Pork Sandwich
 icon: "🍔"
-description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
+description: "<b>$4.00</b> Delicious Pulled Pork Slow Cooked in BBQ Sauce. Served on a Bun."
 details: false
 detailsLink: false
 ctaText: false
@@ -8,4 +8,4 @@ ctaLink: false
 image: "/images/menu/bbq.png"
 featured: false
 itemType: 'activities'
-display_order: 2
+display_order: 3

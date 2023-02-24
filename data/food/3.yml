@@ -1,11 +1,11 @@
 title: Hot Dog Meal Deal!
 icon: "🌭 💰"
-description: Grab a spot on the dessert walk! If the wheel stops on your number, you win a prize!
+description: "<b>$4.00</b> For only $1.00 more, add a drink and side to your Hot Dog."
 details: false
 detailsLink: false
 ctaText: false
 ctaLink: false
-image: false
-featured: true
+image: "/images/menu/HotDogMeal.png"
+featured: false
 itemType: 'activities'
-display_order: 3
+display_order: 2
