@@ -797,6 +797,14 @@ img {
   animation-name: fadeOut;
 }
 
+.module.text_module {
+  padding-bottom: 0px;
+}
+@media (min-width: 1080px) {
+  .module.text_module {
+    padding-bottom: 75px;
+  }
+}
 @media (min-width: 1300px) {
   .module.text_module {
     margin-top: 100px;
@@ -829,7 +837,11 @@ img {
 
 .module.text_module p {
   line-height: 2em;
-  margin-top: 50px;
+}
+@media (min-width: 765px) {
+  .module.text_module p {
+    margin-top: 50px;
+  }
 }
 @media (min-width: 1080px) {
   .module.text_module p {
@@ -853,9 +865,14 @@ img {
 }
 
 .text_module .text_blob {
-  margin: 50px;
   box-sizing: border-box;
   width: 100%;
+  margin: 20px;
+}
+@media (min-width: 50em) {
+  .text_module .text_blob {
+    margin: 50px;
+  }
 }
 @media (min-width: 1080px) {
   .text_module .text_blob {
@@ -870,15 +887,19 @@ img {
   text-align: center;
   width: 100%;
   box-sizing: border-box;
+  display: none;
 }
 @media (min-width: 1080px) {
   .text_image {
     width: 50%;
+    display: block;
   }
 }
 
 .module.text_module img {
   width: 100%;
+  max-height: 500px;
+  object-fit: cover;
   border: 2px dashed #C93234;
   padding: 5px;
   border-radius: 4px;
@@ -1594,8 +1615,9 @@ ul.calendar_item li a {
 }
 .textsponsor div {
   text-align: center;
-  height: 80px;
-  padding: 30px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .textsponsor div a {
@@ -3898,8 +3920,13 @@ svg.ticket_cutout {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin: 50px 0px;
+  margin: 50px 0px 10px 0px;
   padding-bottom: 10px;
+}
+@media (min-width: 50em) {
+  .carnival_navigation ul {
+    margin: 50px 0px;
+  }
 }
 @media (min-width: 2000px) {
   .carnival_navigation ul {
@@ -3914,17 +3941,32 @@ svg.ticket_cutout {
   text-align: center;
 }
 
+.carnival_navigation li:last-child {
+  display: none;
+}
+@media (min-width: 50em) {
+  .carnival_navigation li:last-child {
+    display: block;
+  }
+}
+
 .carnival_navigation li a {
   text-decoration: none;
   color: #000;
 }
 
 .carnival_navigation li img {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   object-fit: contain;
   margin: 10px auto;
   filter: invert(86%) sepia(0%) saturate(898%) hue-rotate(339deg) brightness(100%) contrast(83%);
+}
+@media (min-width: 50em) {
+  .carnival_navigation li img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .carnival_navigation li.selected {

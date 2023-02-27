@@ -15,8 +15,12 @@
 	@include flex();
 	justify-content: space-evenly;
 	width: 100%;
-	margin: 50px 0px;
+	margin: 50px 0px 10px 0px;
 	padding-bottom: 10px;
+
+	@include contentFor(tablet-screen) {
+		margin: 50px 0px;
+	}
 
 	@include contentFor(xl-screen) {
 		margin-top: 100px;
@@ -30,6 +34,14 @@
 	text-align: center;
 }
 
+.carnival_navigation li:last-child {
+	display: none;
+
+	@include contentFor(tablet-screen) {
+		display: block;
+	}
+}
+
 
 .carnival_navigation li a {
 	text-decoration: none;
@@ -37,11 +49,16 @@
 }
 
 .carnival_navigation li img {
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	object-fit: contain;
 	margin: 10px auto;
 	filter: invert(86%) sepia(0%) saturate(898%) hue-rotate(339deg) brightness(100%) contrast(83%);
+
+	@include contentFor(tablet-screen) {
+		width: 50px;
+		height: 50px;
+	}
 }
 
 .carnival_navigation li.selected {

@@ -796,6 +796,14 @@ img {
   animation-name: fadeOut;
 }
 
+.module.text_module {
+  padding-bottom: 0px;
+}
+@media (min-width: 1080px) {
+  .module.text_module {
+    padding-bottom: 75px;
+  }
+}
 @media (min-width: 1300px) {
   .module.text_module {
     margin-top: 100px;
@@ -828,7 +836,11 @@ img {
 
 .module.text_module p {
   line-height: 2em;
-  margin-top: 50px;
+}
+@media (min-width: 765px) {
+  .module.text_module p {
+    margin-top: 50px;
+  }
 }
 @media (min-width: 1080px) {
   .module.text_module p {
@@ -852,9 +864,14 @@ img {
 }
 
 .text_module .text_blob {
-  margin: 50px;
   box-sizing: border-box;
   width: 100%;
+  margin: 20px;
+}
+@media (min-width: 50em) {
+  .text_module .text_blob {
+    margin: 50px;
+  }
 }
 @media (min-width: 1080px) {
   .text_module .text_blob {
@@ -869,15 +886,19 @@ img {
   text-align: center;
   width: 100%;
   box-sizing: border-box;
+  display: none;
 }
 @media (min-width: 1080px) {
   .text_image {
     width: 50%;
+    display: block;
   }
 }
 
 .module.text_module img {
   width: 100%;
+  max-height: 500px;
+  object-fit: cover;
   border: 2px dashed #C93234;
   padding: 5px;
   border-radius: 4px;
@@ -1593,8 +1614,9 @@ ul.calendar_item li a {
 }
 .textsponsor div {
   text-align: center;
-  height: 80px;
-  padding: 30px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .textsponsor div a {

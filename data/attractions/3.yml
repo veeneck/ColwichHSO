@@ -3,4 +3,4 @@ body: Make sure you arrive hungry! We've got a tasty menu for you.
 image: '/images/candy.png'
 featured: 1
 itemType: 'attractions'
-learn_url: /carnival/menu
+learn_url: /carnival/menu/#section1

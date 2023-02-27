@@ -1,4 +1,8 @@
 .module.text_module {
+	padding-bottom: 0px;
+	@include contentFor(normal-screen) {
+		padding-bottom: 75px;
+	}
 	@include contentFor(large-screen) {
 		margin-top: 100px;
 	}
@@ -27,7 +31,11 @@
 
 .module.text_module p {
 	line-height: 2em;
-	margin-top: 50px;
+
+	@include contentFor(mini-screen) {
+		margin-top: 50px;
+	}
+	
 	@include contentFor(normal-screen) {
 		line-height: 2.5em;
 	}
@@ -44,9 +52,13 @@
 }
 
 .text_module .text_blob {
-	margin: 50px;
 	box-sizing: border-box;
 	width: 100%;
+	margin: 20px;
+
+	@include contentFor(tablet-screen) {
+		margin: 50px;
+	}
 
 	@include contentFor(normal-screen) {
 		width: 50%;
@@ -60,14 +72,18 @@
 	text-align: center;
 	width: 100%;
 	box-sizing: border-box;
+	display: none;
 
 	@include contentFor(normal-screen) {
 		width: 50%;
+		display: block;
 	}
 }
 
 .module.text_module img {
 	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
 	border: 2px dashed $red;
 	padding: 5px;
 	border-radius: 4px;

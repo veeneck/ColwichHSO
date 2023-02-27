@@ -11,4 +11,3 @@ tier_min: 3
 tier_max: 10
 footer_text: Please check out the other omcpanies who support us etc etc etc.
 ---
-We couldn't throw a successful Carnival without the support of our generous sponsors.
