@@ -334,7 +334,7 @@ iframe {
 .inner_ticket:after {
 	bottom: 55px;
 	width: 175px;
-  content: "With Thanks to our Host!";
+  content: "Presented By";
   -webkit-transform: translateX(-50%) translateY(50%);
   -moz-transform: translateX(-50%) translateY(50%);
   transform: translateX(-50%) translateY(50%);
@@ -634,10 +634,10 @@ svg.ticket_cutout {
 }
 
 .carnivalhost img {
-	width: 100%;
+	width: 70%;
 	height: 80px;
 	object-fit: contain;
-	margin: 0px 0px 0px 0px;
+	margin: 0px auto 0px auto;
 	@include contentFor(mini-screen) {
 		height: 125px;
 	}
@@ -701,6 +701,13 @@ svg.ticket_cutout {
 }
 
 .event_carnival.sponsors {
+	padding-bottom: 0px;
+	@include contentFor(tablet-screen) {
+		padding-bottom: 75px;
+	}
+}
+
+.event_carnival.imagegroup {
 	padding-bottom: 0px;
 	@include contentFor(tablet-screen) {
 		padding-bottom: 75px;

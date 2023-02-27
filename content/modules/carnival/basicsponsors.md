@@ -10,4 +10,3 @@ has_footer: false
 tier_min: 0
 tier_max: 2
 ---
-This event is made possible with support from local businesses.

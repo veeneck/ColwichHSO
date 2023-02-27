@@ -3695,11 +3695,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/static\/images\/menu\/HotDogMeal.png.png" : {
+    "\/static\/images\/menu\/HotDogMeal.png" : {
       "ft" : 32768,
       "iS" : 5548823,
       "oA" : 0,
-      "oAP" : "\/static\/images\/menu\/HotDogMeal.png.png",
+      "oAP" : "\/static\/images\/menu\/HotDogMeal.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5307,6 +5307,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/static\/images\/sponsors\/cushman.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/sponsors\/cushmanfacility.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/cushmanfacility.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

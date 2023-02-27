@@ -10,4 +10,3 @@ has_footer: false
 tier_min: 0
 tier_max: 10
 ---
-We couldn't throw a successful Carnival without the support of our generous sponsors.
