@@ -699,3 +699,17 @@ svg.ticket_cutout {
 .event_carnival.imagegroup li div {
 	padding: 20px 15px 15px 15px;
 }
+
+.event_carnival.sponsors {
+	padding-bottom: 0px;
+	@include contentFor(tablet-screen) {
+		padding-bottom: 75px;
+	}
+}
+
+.event_carnival.imagegroup .content {
+	padding-top: 25px;
+	@include contentFor(tablet-screen) {
+		padding-top: 75px;
+	}
+}

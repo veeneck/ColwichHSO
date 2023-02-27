@@ -3898,6 +3898,24 @@ svg.ticket_cutout {
   padding: 20px 15px 15px 15px;
 }
 
+.event_carnival.sponsors {
+  padding-bottom: 0px;
+}
+@media (min-width: 50em) {
+  .event_carnival.sponsors {
+    padding-bottom: 75px;
+  }
+}
+
+.event_carnival.imagegroup .content {
+  padding-top: 25px;
+}
+@media (min-width: 50em) {
+  .event_carnival.imagegroup .content {
+    padding-top: 75px;
+  }
+}
+
 .carnival_navigation {
   background-color: #fff;
   padding-bottom: 0px !important;

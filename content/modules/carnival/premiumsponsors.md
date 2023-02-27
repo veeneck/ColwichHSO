@@ -9,5 +9,4 @@ has_header: true
 has_footer: false
 tier_min: 3
 tier_max: 10
-footer_text: Please check out the other omcpanies who support us etc etc etc.
 ---
