@@ -4102,6 +4102,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/prizeroom.jpg" : {
+      "ft" : 16384,
+      "iS" : 1130420,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/prizeroom.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/prizes.png" : {
       "ft" : 32768,
       "iS" : 11165237,
@@ -5147,6 +5160,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/SchoolMap.jpg" : {
+      "ft" : 16384,
+      "iS" : 331122,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/SchoolMap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/SchoolMap.png" : {
       "ft" : 32768,
       "iS" : 4377510,
@@ -5261,6 +5287,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/static\/images\/sponsors\/cmc.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/sponsors\/coolbird.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/coolbird.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -5441,6 +5477,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/static\/images\/suckerpull.jpg" : {
+      "ft" : 16384,
+      "iS" : 643056,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/suckerpull.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
     },
     "\/static\/images\/tents.jpg" : {
       "ft" : 16384,

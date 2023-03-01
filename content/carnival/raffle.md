@@ -15,6 +15,7 @@ modules:
 - modules/carnival/navigation.md
 - modules/carnival/comingsoon.md
 - modules/carnival/map.md
+- modules/carnival/sponsorlist.md
 - modules/common/carnivalfooter.md
 faq_category: carnival
 ---
