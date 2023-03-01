@@ -1,0 +1,7 @@
+name: Gone Fishing
+body: Have fun fishing, but replace the fish with candy.
+image: false
+featured: false
+itemType: 'games'
+sponsor_id: caring
+display_order: 7

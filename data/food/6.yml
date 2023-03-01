@@ -1,0 +1,11 @@
+title: Cotton Candy
+icon: "🍭"
+description: "<b>$2.00</b> No Carnival would be complete without this classic treat."
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: "/images/menu/CottonCandy.png"
+featured: false
+itemType: 'activities'
+display_order: 6

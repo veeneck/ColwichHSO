@@ -1,0 +1,7 @@
+name: Axe Throw
+body: Throw an axe at the target, and win the tickets.
+image: false
+featured: false
+itemType: 'games'
+sponsor_id: weigand
+display_order: 5

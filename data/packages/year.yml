@@ -4,6 +4,8 @@ title: "The Year Rounder"
 description: "Sponsor HSO for an entire year! In addition to Carnival placement, you'll be the sponsor of the HSO newsletter, Coin Wars, and more!"
 icon: "📣"
 price: "$5,000+"
+sold_out: true
+learn_more_only: true
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%245%2C000%20-%20The%20Year%20Rounder"
 learnUrl: "/sponsor/yearpackage" 
 perks:

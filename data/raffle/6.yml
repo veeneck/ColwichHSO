@@ -1,0 +1,12 @@
+title: Home Sweet Home
+title_attribute: false
+icon: "☕"
+description: You deserve an easy Saturday morning. Head out for a meal at <a href="https://homegrownkitchen.com">Homegrown</a> ($35 gift card), and then relax at home with a blanket, cup, and weighted massage wrap.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/7.jpg
+featured: false
+itemType: 'raffle'
+display_order: 1

@@ -1,0 +1,7 @@
+name: Candy Count 🍬
+body: Who can guess how many pieces of candy are in the jar? Closest wins!
+image: false
+featured: false
+itemType: 'activities'
+sponsor_id: cushman
+display_order: 1

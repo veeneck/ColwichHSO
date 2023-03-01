@@ -1,0 +1,7 @@
+name: Nerf Targets
+body: Shoot Nerf targets and win tickets.
+image: false
+featured: false
+itemType: 'games'
+sponsor_id: littlestars
+display_order: 2

@@ -6,6 +6,9 @@
 			<img src="{{ $el.image }}" loading="lazy" alt="Image for {{ $el.name }}" />
 			<h4>{{ $el.name }}</h4>
 			<p>{{ $el.body | safeHTML }}</p>
+			{{ if $el.learn_url }}
+				<a href="{{ $el.learn_url }}" class="highlighter bottom">Learn More</a>
+			{{ end }}
 		</div>
 	</li>
 {{ end }}

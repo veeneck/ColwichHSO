@@ -1,0 +1,7 @@
+name: Duck Pond
+body: Catch three ducks and add ticket numbers together.
+image: false
+featured: false
+itemType: 'games'
+sponsor_id: css
+display_order: 6

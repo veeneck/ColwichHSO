@@ -1,7 +1,12 @@
-name: Sports Fun!
-body: Everything a sports junkie needs including a Basketball, Football, Disc Golf, Big League Chew, Badminton set and more! Burn off more energy with a $25 <a href="https://allstarwichita.com">All Star Sports</a> gift card. Then refill the tank with <a href="https://freddysusa.com">Freddy's</a> coupons & sunflower seeds.
-price: '$000+'
-identifier: '4'
+title: Sports Fun!
+title_attribute: false
+icon: "🏀"
+description: Everything a sports junkie needs including a Basketball, Football, Disc Golf, Big League Chew, Badminton set and more! Burn off more energy with a $25 <a href="https://allstarwichita.com">All Star Sports</a> gift card. Then refill the tank with <a href="https://freddysusa.com">Freddy's</a> coupons & sunflower seeds.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/4.jpg
+featured: false
 itemType: 'raffle'
-shout: 'fivesix'
-grouping: 4
+display_order: 1

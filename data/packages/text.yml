@@ -4,6 +4,8 @@ title: "The Text Package"
 description: "Have your Company Name included on the sponsor list which can be found on the banner, the Carnival website, and event flyers."
 icon: "📋"
 price: "$100"
+sold_out: true
+learn_more_only: true
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%24100%20-%20The%20Text%20Package"
 learnUrl: "/sponsor/textpackage"
 perks:

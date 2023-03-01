@@ -3,5 +3,9 @@ languageCode = 'en-us'
 title = 'Colwich Home & School Organization'
 description = 'Learn more about the HSO program at CES, upcoming events, and find out how you can contribute.'
 theme = "ColwichTheme"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [Params]
 	calendarURL = "webcal://calendar.google.com/calendar/ical/r396gjmq9slavbd7qt8b1bd288%40group.calendar.google.com/public/basic.ics"

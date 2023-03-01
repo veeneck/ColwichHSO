@@ -1,0 +1,92 @@
+.module.text_module {
+	padding-bottom: 0px;
+	@include contentFor(normal-screen) {
+		padding-bottom: 75px;
+	}
+	@include contentFor(large-screen) {
+		margin-top: 100px;
+	}
+}
+
+.module.text_module .content {
+	width: 90%;
+	margin: 0 auto;
+
+	@include contentFor(normal-screen) {
+		width: 1000px;
+	}
+
+	@include contentFor(large-screen) {
+		width: 80vw;
+	}
+
+	@include contentFor(xl-screen) {
+		width: 1600px;
+	}
+}
+
+.text_module h3 {
+	width: auto !important;
+}
+
+.module.text_module p {
+	line-height: 2em;
+
+	@include contentFor(mini-screen) {
+		margin-top: 50px;
+	}
+	
+	@include contentFor(normal-screen) {
+		line-height: 2.5em;
+	}
+}
+
+.module.text_module div.textContent {
+	@include flex();
+	flex-wrap: wrap;
+	align-items: center;
+
+	@include contentFor(normal-screen) {
+		flex-wrap: nowrap;
+	}
+}
+
+.text_module .text_blob {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 20px;
+
+	@include contentFor(tablet-screen) {
+		margin: 50px;
+	}
+
+	@include contentFor(normal-screen) {
+		width: 50%;
+	}
+}
+
+.text_image {
+	border: 20px solid #fff;
+	border-radius: 4px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	display: none;
+
+	@include contentFor(normal-screen) {
+		width: 50%;
+		display: block;
+	}
+}
+
+.module.text_module img {
+	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
+	border: 2px dashed $red;
+	padding: 5px;
+	border-radius: 4px;
+	margin: 0px;
+	box-sizing: border-box;
+}

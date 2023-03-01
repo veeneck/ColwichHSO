@@ -1,18 +1,40 @@
+{{ $.module.Content }}
+
 <ul>
 	{{ $sponsors := where site.RegularPages "Type" "sponsor" }}
-	{{ range $sponsors }}
+	{{ $min_tier := where $sponsors ".Params.tier" "ge" $.module.Params.tier_min }}
+	{{ $max_tier := where $sponsors ".Params.tier" "le" $.module.Params.tier_max }}
+	{{ $sponsorsInTier := $min_tier | intersect $max_tier }}
+	{{ range sort $sponsorsInTier ".Params.tier" "desc" }}
 		{{ if eq .Params.active true }}
-		<li>
-			<a href="{{ .Params.website }}" title="{{ .Params.title }}">
-			<img
-    			src="/images/sponsors/{{ .Params.logo }}"
-    			alt="{{ .Params.title }}" loading="lazy" />
-    		</a>
-		</li>
+			{{ if eq .Params.tier 1 }}
+				<li class="textsponsor">
+					<div>
+						<a href="{{ .Params.website }}" title="{{ .Params.title }}">
+						{{ .Params.title }}
+		    			</a>
+		    		</div>
+				</li>
+			{{ else }}
+				<li>
+					<a href="{{ .Params.website }}" title="{{ .Params.title }}">
+					<img
+		    			src="/images/sponsors/{{ .Params.logo }}"
+		    			alt="{{ .Params.title }}" loading="lazy" />
+		    		</a>
+				</li>
+			{{ end }}
 		{{ end }}
 	{{ end }}
 </ul>
+
+{{ if $.module.Params.footer_text }}
+<p>{{ $.module.Params.footer_text | safeHTML }}</p>
+{{ end }}
+
+{{ if $.module.Params.has_footer }}
 <p>We couldn't do this without a little help from our friends. Please show your support to the generous sponsors above!</p>
 <div class="moduleCTA">
 {{ partial "button.html"  (dict "link" "/sponsor" "class" "primary" "icon" "dove" "text" "Become a Sponsor") }}
 </div>
+{{ end }}
