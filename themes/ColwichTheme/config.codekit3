@@ -1084,11 +1084,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/candy.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/candy.webp" : {
+      "ft" : 8388608,
+      "iS" : 31484,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/candy.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/carnival.jpg" : {
@@ -1110,8 +1121,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/carnival.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -3081,11 +3092,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/CarnivalLogoWhite.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/logos\/CarnivalLogoWhite.webp" : {
+      "ft" : 8388608,
+      "iS" : 55546,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/logos\/CarnivalLogoWhite.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/logos\/ccf.png" : {
@@ -3619,28 +3641,50 @@
     },
     "\/static\/images\/menu\/bbq.png" : {
       "ft" : 32768,
-      "iS" : 5152528,
+      "iS" : 47150,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/bbq.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/bbq.webp" : {
+      "ft" : 8388608,
+      "iS" : 34228,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/bbq.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/BBQMeal.png" : {
+      "ft" : 32768,
+      "iS" : 42551,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/BBQMeal.png",
+      "oF" : 0,
+      "oIPL" : 1,
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
-    "\/static\/images\/menu\/BBQMeal.png" : {
-      "ft" : 32768,
-      "iS" : 5775511,
+    "\/static\/images\/menu\/BBQMeal.webp" : {
+      "ft" : 8388608,
+      "iS" : 34056,
       "oA" : 0,
-      "oAP" : "\/static\/images\/menu\/BBQMeal.png",
+      "oAP" : "\/static\/images\/menu\/BBQMeal.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-default",
-      "q" : 100,
       "rq" : 75
     },
     "\/static\/images\/menu\/Chocolate.png" : {
@@ -3649,11 +3693,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/Chocolate.png",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Chocolate.webp" : {
+      "ft" : 8388608,
+      "iS" : 10272,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Chocolate.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/menu\/CottonCandy.png" : {
@@ -3662,11 +3717,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/CottonCandy.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/CottonCandy.webp" : {
+      "ft" : 8388608,
+      "iS" : 49170,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/CottonCandy.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/menu\/FoodTruck.png" : {
@@ -3675,24 +3741,46 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/FoodTruck.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/menu\/FoodTruck.webp" : {
+      "ft" : 8388608,
+      "iS" : 31986,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/FoodTruck.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/menu\/HotDog.png" : {
       "ft" : 32768,
-      "iS" : 6304912,
+      "iS" : 48435,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/HotDog.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/HotDog.webp" : {
+      "ft" : 8388608,
+      "iS" : 25672,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/HotDog.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/menu\/HotDogMeal.png" : {
@@ -3701,11 +3789,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/HotDogMeal.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/HotDogMeal.webp" : {
+      "ft" : 8388608,
+      "iS" : 27372,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/HotDogMeal.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/menu\/Nacho.png" : {
@@ -3714,11 +3813,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/Nacho.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Nacho.webp" : {
+      "ft" : 8388608,
+      "iS" : 17988,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Nacho.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/menu\/Nacho2.png" : {
@@ -3727,11 +3837,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/Nacho2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Nacho2.webp" : {
+      "ft" : 8388608,
+      "iS" : 14654,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Nacho2.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/menu\/Pickle.png" : {
@@ -3740,11 +3861,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/Pickle.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Pickle.webp" : {
+      "ft" : 8388608,
+      "iS" : 30632,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Pickle.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/menu\/Pickle2.png" : {
@@ -3753,11 +3885,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/Pickle2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Pickle2.webp" : {
+      "ft" : 8388608,
+      "iS" : 36182,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Pickle2.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/menu\/Soda.png" : {
@@ -3766,11 +3909,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/Soda.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/menu\/Soda.webp" : {
+      "ft" : 8388608,
+      "iS" : 26518,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/menu\/Soda.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/parent.jpg" : {
@@ -4110,9 +4264,20 @@
       "oAP" : "\/static\/images\/prizeroom.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/prizeroom.webp" : {
+      "ft" : 8388608,
+      "iS" : 76182,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/prizeroom.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/prizes.png" : {
@@ -5168,7 +5333,7 @@
       "oAP" : "\/static\/images\/SchoolMap.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -5184,6 +5349,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/SchoolMap.webp" : {
+      "ft" : 8388608,
+      "iS" : 72190,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/SchoolMap.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/shelby.jpg" : {
@@ -5486,9 +5662,20 @@
       "oAP" : "\/static\/images\/suckerpull.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/suckerpull.webp" : {
+      "ft" : 8388608,
+      "iS" : 96906,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/suckerpull.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/tents.jpg" : {
