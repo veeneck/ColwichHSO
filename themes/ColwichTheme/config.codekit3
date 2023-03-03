@@ -1527,6 +1527,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/CarnivalOG.jpg" : {
+      "ft" : 16384,
+      "iS" : 216939,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/CarnivalOG.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/CarnivalOG.png" : {
       "ft" : 32768,
       "iS" : 452444,
@@ -3641,7 +3654,7 @@
     },
     "\/static\/images\/menu\/bbq.png" : {
       "ft" : 32768,
-      "iS" : 47150,
+      "iS" : 5152528,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/bbq.png",
       "oF" : 0,
@@ -3665,7 +3678,7 @@
     },
     "\/static\/images\/menu\/BBQMeal.png" : {
       "ft" : 32768,
-      "iS" : 42551,
+      "iS" : 5775511,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/BBQMeal.png",
       "oF" : 0,
