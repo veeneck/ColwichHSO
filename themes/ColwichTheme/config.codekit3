@@ -3678,7 +3678,7 @@
     },
     "\/static\/images\/menu\/BBQMeal.png" : {
       "ft" : 32768,
-      "iS" : 5775511,
+      "iS" : 42551,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/BBQMeal.png",
       "oF" : 0,
@@ -5662,6 +5662,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/static\/images\/sponsors\/weigand.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/sponsors\/weigandcompany.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/weigandcompany.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

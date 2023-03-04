@@ -1,5 +1,5 @@
 ---
-title: Little Stars Therapy
+title: Little Stars Therapy Services
 type: sponsor
 sponsor_id: littlestars
 website: "https://www.littlestarstherapyks.com"

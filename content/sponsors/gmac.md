@@ -1,5 +1,5 @@
 ---
-title: GMAC Construction
+title: G-Mac Construction
 type: sponsor
 sponsor_id: gmac
 website: "http://google.com"
