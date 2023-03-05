@@ -655,8 +655,21 @@ svg.ticket_cutout {
 	font-size: calc(rem(40px) / 1.7);
 }
 
+.sponsors.event_carnival.module {
+	@include contentFor(large-screen) {
+		margin-top: 75px;
+	}
+}
+
 .sponsors.event_carnival h3, .module.imagegroup.event_carnival h3  {
 	display: none;
+}
+
+.sponsors.event_carnival p {
+	display: none;
+	@include contentFor(mini-screen) {
+		display: block;
+	}
 }
 
 .module.imagegroup.event_carnival h2 {

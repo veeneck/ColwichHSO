@@ -1610,8 +1610,12 @@ ul.calendar_item li a {
   }
 }
 
+.sponsors ul a:hover {
+  cursor: pointer;
+}
+
 .sponsors ul a:hover img {
-  filter: none;
+  filter: brightness(0) invert(0);
 }
 
 .sponsors p {
@@ -3880,8 +3884,23 @@ svg.ticket_cutout {
   font-size: 1.4705882353rem;
 }
 
+@media (min-width: 1300px) {
+  .sponsors.event_carnival.module {
+    margin-top: 75px;
+  }
+}
+
 .sponsors.event_carnival h3, .module.imagegroup.event_carnival h3 {
   display: none;
+}
+
+.sponsors.event_carnival p {
+  display: none;
+}
+@media (min-width: 765px) {
+  .sponsors.event_carnival p {
+    display: block;
+  }
 }
 
 .module.imagegroup.event_carnival h2 {

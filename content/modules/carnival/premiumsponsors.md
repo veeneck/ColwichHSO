@@ -10,3 +10,4 @@ has_footer: false
 tier_min: 3
 tier_max: 10
 ---
+These amazing companies and charities who support our school.

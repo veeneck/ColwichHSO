@@ -1610,8 +1610,12 @@ ul.calendar_item li a {
   }
 }
 
+.sponsors ul a:hover {
+  cursor: pointer;
+}
+
 .sponsors ul a:hover img {
-  filter: none;
+  filter: brightness(0) invert(0);
 }
 
 .sponsors p {
