@@ -3,5 +3,5 @@ body: Throw a chicken, hit a target, win some tickets!
 image: false
 featured: false
 itemType: 'games'
-sponsor_id: ccf
+sponsor_id: lubbers
 display_order: 8
