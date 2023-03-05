@@ -3678,7 +3678,7 @@
     },
     "\/static\/images\/menu\/BBQMeal.png" : {
       "ft" : 32768,
-      "iS" : 42551,
+      "iS" : 5775511,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/BBQMeal.png",
       "oF" : 0,
@@ -3774,7 +3774,7 @@
     },
     "\/static\/images\/menu\/HotDog.png" : {
       "ft" : 32768,
-      "iS" : 48435,
+      "iS" : 6304912,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/HotDog.png",
       "oF" : 0,
@@ -3822,7 +3822,7 @@
     },
     "\/static\/images\/menu\/Nacho.png" : {
       "ft" : 32768,
-      "iS" : 2763301,
+      "iS" : 32776,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/Nacho.png",
       "oF" : 0,
@@ -5373,19 +5373,6 @@
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/static\/images\/SchoolMapSmall.png" : {
-      "ft" : 32768,
-      "iS" : 1181921,
-      "oA" : 0,
-      "oAP" : "\/static\/images\/SchoolMapSmall.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-default",
-      "q" : 100,
       "rq" : 75
     },
     "\/static\/images\/shelby.jpg" : {

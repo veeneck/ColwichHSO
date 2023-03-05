@@ -5,7 +5,7 @@
 	</div>
 
 	{{ if $.module.Params.image }}
-		<div class="text_image">
+		<div class="text_image {{ $.module.Params.custom_class }}">
 			<img src="{{ $.module.Params.image }}" />
 		</div>
 	{{ end }}
