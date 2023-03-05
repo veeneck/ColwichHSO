@@ -73,6 +73,13 @@
 	}
 }
 
+.textsponsor {
+	height: 170px;
+	@include contentFor(mini-screen) {
+		height: 190px;
+	}
+}
+
 .textsponsor div {
 	text-align: center;
 	position: relative;

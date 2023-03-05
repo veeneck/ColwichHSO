@@ -163,8 +163,8 @@ function loadTriggersForPage() {
         "calendar" : setCalendarTriggers,
         "achievements" : setAchievementTriggers,
         "donate" : setDonateTriggers,
-        "faq" : setFAQTriggers*/
-        "full_image" : setFullImageTrigger
+        "faq" : setFAQTriggers
+        "full_image" : setFullImageTrigger*/
     };
 
     const sections = document.getElementsByTagName('section');

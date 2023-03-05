@@ -5375,6 +5375,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/SchoolMapSmall.png" : {
+      "ft" : 32768,
+      "iS" : 1181921,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/SchoolMapSmall.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/shelby.jpg" : {
       "ft" : 16384,
       "iS" : 90386,
@@ -5666,6 +5679,14 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/static\/images\/sponsors\/weigandbanner.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/sponsors\/weigandbanner.pdf",
+      "oF" : 0
     },
     "\/static\/images\/sponsors\/weigandcompany.svg" : {
       "ft" : 2097152,

@@ -720,3 +720,10 @@ svg.ticket_cutout {
 		padding-top: 75px;
 	}
 }
+
+.event_carnival.faq {
+	margin-top: 50px;
+	@include contentFor(mini-screen) {
+		margin-top: 150px;
+	}
+}
