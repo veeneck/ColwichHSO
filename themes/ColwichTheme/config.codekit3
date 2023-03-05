@@ -3654,7 +3654,7 @@
     },
     "\/static\/images\/menu\/bbq.png" : {
       "ft" : 32768,
-      "iS" : 5152528,
+      "iS" : 47150,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/bbq.png",
       "oF" : 0,
@@ -3678,7 +3678,7 @@
     },
     "\/static\/images\/menu\/BBQMeal.png" : {
       "ft" : 32768,
-      "iS" : 5775511,
+      "iS" : 42551,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/BBQMeal.png",
       "oF" : 0,
@@ -5383,7 +5383,7 @@
       "oAP" : "\/static\/images\/SchoolMapSmall.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -5399,6 +5399,17 @@
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/SchoolMapSmall.webp" : {
+      "ft" : 8388608,
+      "iS" : 74774,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/SchoolMapSmall.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/shelby.jpg" : {
