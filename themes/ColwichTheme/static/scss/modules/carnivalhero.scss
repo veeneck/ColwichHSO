@@ -401,6 +401,11 @@ svg.ticket_cutout {
 	}
 
 	@include contentFor(large-screen) {
+		//background-position: 50% 30%;
+		//background-size: auto 525px;
+	}
+
+	@include contentFor(xl-screen) {
 		background-position: 50% 30%;
 		background-size: auto 525px;
 	}

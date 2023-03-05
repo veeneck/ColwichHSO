@@ -1,0 +1,286 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------------------------------*\
+    # Custom Fonts
+\*------------------------------------*/
+@font-face {
+  font-family: "ryeregular";
+  src: url("/fonts/rye-regular-webfont.woff2") format("woff2"), url("/fonts/rye-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "abril_fatfaceregular";
+  src: url("/fonts/abrilfatface-regular-webfont.woff2") format("woff2"), url("/fonts/abrilfatface-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Define the "system" font family */
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+/*------------------------------------*\
+    # Simple Typography Settings
+\*------------------------------------*/
+/*------------------------------------*\
+    # Type
+\*------------------------------------*/
+*, html, body {
+  font-size: 16px;
+  font-family: "abril_fatfaceregular", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+.event_carnival.h1, .event_carnival.h2, .event_carnival.h3, .event_carnival.h4, .event_carnival.h5, .event_carnival.h6 {
+  margin-top: 36px;
+  color: #186363;
+  line-height: 1.25em;
+  font-weight: 700;
+}
+.event_carnival.h1:first-child, .event_carnival.h2:first-child, .event_carnival.h3:first-child, .event_carnival.h4:first-child, .event_carnival.h5:first-child, .event_carnival.h6:first-child {
+  margin-top: 0;
+}
+
+.event_carnival.h1 {
+  font-size: 5rem;
+  margin-bottom: 24px;
+  font-family: "ryeregular", serif;
+}
+
+.event_carnival.h2 {
+  font-size: 3.8461538462rem;
+  margin-bottom: 18.4615384615px;
+  color: #D7504A;
+  font-family: "abril_fatfaceregular", serif;
+}
+
+.event_carnival.h3 {
+  font-size: 3.5714285714rem;
+  margin-bottom: 17.1428571429px;
+}
+
+.event_carnival.h4 {
+  font-size: 2.9411764706rem;
+  margin-bottom: 14.1176470588px;
+}
+
+.event_carnival.h5 {
+  font-size: 2.7777777778rem;
+  margin-bottom: 13.3333333333px;
+}
+
+.event_carnival.h6 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.l_letter {
+  font-size: 120%;
+}
+
+.xl_letter {
+  font-size: 140%;
+}
+
+.m_letter {
+  font-size: 75%;
+}
+
+.s_letter {
+  font-size: 50%;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.0625rem;
+  line-height: 1.5em;
+  color: #505050;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+a {
+  color: #459bd9;
+  transition: all 0.2s ease;
+}
+a:hover {
+  color: #1f6699;
+}
+
+ul,
+ol {
+  margin: 20px 0 0 20px;
+}
+ul li,
+ol li {
+  margin-top: 10px;
+  line-height: 1.5em;
+  color: #505050;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-top: 0;
+}
+
+ul li {
+  list-style: disc;
+}
+ul ul li {
+  list-style: circle;
+}
+
+ol li {
+  list-style: decimal;
+}
+
+hr {
+  height: 1px;
+  margin: 30px 0;
+  border: none;
+  background-color: #DADADA;
+}
+
+blockquote {
+  margin: 30px 0;
+  font-size: 1.4375rem;
+  line-height: 1.5em;
+  color: #505050;
+  text-align: center;
+  font-style: italic;
+}
+
+table {
+  width: 100%;
+  margin: 30px 0;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid #DADADA;
+  text-align: left;
+}
+
+th {
+  font-weight: 800;
+}
+
+th, td {
+  padding: 15px;
+}
+
+figure {
+  margin: 30px 0;
+}
+figure img {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 10px;
+  color: #6a6a6a;
+  font-size: 16px;
+}
+
+pre {
+  display: block;
+  margin: 0 0 40px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #DADADA;
+  overflow: auto;
+  border-radius: 3px;
+}
+pre code {
+  position: static;
+  padding: 0;
+  border: none;
+  line-height: 1.5em;
+}
+
+code {
+  position: relative;
+  top: -0.2em;
+  padding: 3px;
+  font-family: Courier New, Courier, monospace;
+  font-size: 0.8854166667rem;
+  color: #282828;
+  line-height: 1em;
+  pointer-events: none;
+  border: 1px solid #DADADA;
+  border-radius: 3px;
+}
+
+em,
+i,
+.italic {
+  font-style: italic;
+}
+
+strong,
+b,
+.bold {
+  font-weight: 800;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 30px 0;
+}

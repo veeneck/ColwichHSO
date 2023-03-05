@@ -824,7 +824,7 @@ img {
     width: 80vw;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .module.text_module .content {
     width: 1600px;
   }
@@ -940,7 +940,7 @@ img {
   margin-top: 0px;
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .module.imagegroup .content {
     width: 100%;
   }
@@ -969,7 +969,7 @@ img {
     width: 48%;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .imagegroup li {
     width: 23%;
   }
@@ -1350,7 +1350,7 @@ ul.calendar_item li, .calendar_full li {
     width: 30%;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   ul.calendar_item li, .calendar_full li {
     width: 23%;
   }
@@ -1364,7 +1364,7 @@ ul.calendar_item li, .calendar_full li {
     width: 30%;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .calendar_full li {
     width: 23%;
   }
@@ -1911,7 +1911,7 @@ a.details b {
     width: 600px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .hero .summary {
     font-size: 130%;
     line-height: 45px;
@@ -2059,7 +2059,7 @@ header {
     padding: 50px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   header {
     padding: 50px;
     justify-content: space-between;
@@ -2069,7 +2069,7 @@ header {
 header .logo {
   width: 50%;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   header .logo {
     width: 13%;
   }
@@ -2100,7 +2100,7 @@ header .donate {
   display: none;
   height: 0px;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   header .donate {
     display: inline-block;
     width: 13%;
@@ -2124,7 +2124,7 @@ header ul.nav {
   margin: 0px;
   width: 100%;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   header ul.nav {
     width: 100%;
     visibility: visible;
@@ -2209,7 +2209,7 @@ a.dropbtn:hover span {
   animation-delay: 0s;
   -webkit-transform-style: preserve-3d;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .dropdown-content {
     margin-left: -62px;
     margin-top: -5px;
@@ -2228,7 +2228,7 @@ a.dropbtn:hover span {
   display: block;
   font-weight: normal;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .dropdown-content a {
     color: #000;
   }
@@ -2238,7 +2238,7 @@ a.dropbtn:hover span {
   font-weight: bold;
 }
 
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -2300,7 +2300,7 @@ a.dropbtn:hover span {
 .mobileMenuItem .icon, .mobileMenuFB .icon {
   margin-left: 0px;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .mobileMenuItem .icon, .mobileMenuFB .icon {
     display: block;
     margin-top: 3px;
@@ -2316,7 +2316,7 @@ ul.nav li.mobileMenuFB span {
   color: #000;
   font-size: 100%;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   ul.nav li.mobileMenuFB span {
     display: none;
   }
@@ -2330,7 +2330,7 @@ div.menu-link {
   position: relative;
   text-align: right;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   div.menu-link {
     display: none;
     width: 0px;
@@ -2354,7 +2354,7 @@ div.menu-link {
 .firstView .nav {
   display: none;
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .firstView .nav {
     display: flex;
   }
@@ -2660,7 +2660,7 @@ section.module.featured_image.first {
     min-height: 550px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .heroImg img {
     min-height: 800px;
   }
@@ -2686,7 +2686,7 @@ section.module.featured_image.first {
     min-height: 550px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .polaroid picture {
     min-height: 800px;
   }
@@ -2773,7 +2773,7 @@ section.module.featured_image.first {
     height: 750px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .module.featured_image.add_border .heroImg img, .module.featured_image.add_border .polaroid img {
     height: 1000px;
   }
@@ -2935,7 +2935,7 @@ section.module {
     width: 90vw;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .module .content {
     width: 1600px;
   }
@@ -3083,7 +3083,7 @@ a.highlighter.active::before {
     padding: 15px 20px 15px 10px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1750px) {
   .buttonText {
     font-size: 120%;
   }
