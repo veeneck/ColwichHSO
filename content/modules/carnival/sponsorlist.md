@@ -10,3 +10,4 @@ has_footer: false
 tier_min: 0
 tier_max: 10
 ---
+The local businesses and charities who support our school!
