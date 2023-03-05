@@ -10,17 +10,11 @@
 	width: 100%;
 }
 
-.full_image picture {
+.full_image img {
 	width: 100%;
+	height: auto;
 	object-fit: contain;
 	margin: 0 auto;
 	border-radius: 4px;
 	box-shadow: 0 15px 60px rgba(62,62,62,.102);
-
-	@include contentFor(normal-screen) {
-		width: 100%;
-		height: auto;
-		object-fit: contain;
-		object-position: center center;
-	}
 }
