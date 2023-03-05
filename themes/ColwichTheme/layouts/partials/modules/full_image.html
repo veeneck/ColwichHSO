@@ -1,1 +1,14 @@
-<img src="{{ $.module.Params.image_url_small }}" srcset="{{ $.module.Params.image_url_small }} 1000w, {{ $.module.Params.image_url_large }} 2500w" alt="$.module.Params.title">
+<picture>
+  <source 
+    srcset="{{ $.module.Params.image_url_large }}"
+    media="(min-width: 1500px)"
+  />
+  <source 
+    srcset="{{ $.module.Params.image_url_medium }}"
+    media="(min-width: 800px)"
+  />
+  <img 
+    src="{{ $.module.Params.image_url_small }}" 
+    alt="$.module.Params.title"
+  />
+</picture>
