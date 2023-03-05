@@ -7,7 +7,7 @@ link: "/about/"
 subtitle: "Map."
 has_header: false
 has_footer: false
-image_url_small: "/images/SchoolMapSmall.png"
+image_url_small: "/images/SchoolMapSmall.jpg"
 image_url_medium: "/images/SchoolMap.jpg"
 image_url_large: "/images/SchoolMap.jpg"
 ---

@@ -3678,7 +3678,7 @@
     },
     "\/static\/images\/menu\/BBQMeal.png" : {
       "ft" : 32768,
-      "iS" : 42551,
+      "iS" : 5775511,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/BBQMeal.png",
       "oF" : 0,
@@ -5370,9 +5370,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/SchoolMap.webp",
       "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/SchoolMapSmall.jpg" : {
+      "ft" : 16384,
+      "iS" : 330360,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/SchoolMapSmall.jpg",
+      "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
+      "q" : 100,
       "rq" : 75
     },
     "\/static\/images\/SchoolMapSmall.png" : {
@@ -5570,6 +5583,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/static\/images\/sponsors\/hsonewlogo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/hsonewlogo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/static\/images\/sponsors\/icm.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -5669,6 +5692,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/static\/images\/sponsors\/SchoolMap.jpg" : {
+      "ft" : 16384,
+      "iS" : 468594,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/sponsors\/SchoolMap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
     },
     "\/static\/images\/sponsors\/weigand.svg" : {
       "ft" : 2097152,
@@ -6033,6 +6069,18 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/static\/scss\/css\/carnival_typography.css" : {
+      "aP" : 0,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/scss\/css\/carnival_typography-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/static\/scss\/css\/full_image.css" : {
       "aP" : 0,

@@ -1,7 +1,7 @@
 name: Photo Booth 📷
-body: Remember the night with photos of your family and friends in the Photo Booth.
+body: Remember the night with photos of your family and friends!
 image: false
 featured: false
 itemType: 'activities'
 sponsor_id: jumpstart
-display_order: 1
+display_order: 5
