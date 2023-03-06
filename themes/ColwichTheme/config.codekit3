@@ -3654,7 +3654,7 @@
     },
     "\/static\/images\/menu\/bbq.png" : {
       "ft" : 32768,
-      "iS" : 47150,
+      "iS" : 5152528,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/bbq.png",
       "oF" : 0,
@@ -5407,8 +5407,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/SchoolMapSmall.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
