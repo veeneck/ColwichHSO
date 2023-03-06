@@ -1880,6 +1880,30 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/HSOMeetingAprWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 314026,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMeetingAprWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/HSOMeetingAprWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 73262,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/HSOMeetingAprWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/HSOMeetingJanWeb.jpg" : {
       "ft" : 16384,
       "iS" : 639542,

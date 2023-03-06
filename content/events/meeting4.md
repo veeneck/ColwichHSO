@@ -10,9 +10,8 @@ faq_category: meeting
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: calendar
-image: "/images/flyers/HSOMeetingJanWeb.jpg"
+image: "/images/flyers/HSOMeetingAprWeb.jpg"
 custom_class: "show_image event_meeting"
-page_status: comingsoon
 aliases:
     - /fourthmeeting
 modules:
@@ -23,9 +22,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/flyers/HSOMeetingJanWeb.jpg
-- /images/flyers/HSOMeetingJanWeb.jpg
-- /images/flyers/HSOMeetingJanWeb.jpg
-- /images/flyers/HSOMeetingJanWeb.jpg
+- /images/flyers/HSOMeetingAprWeb.jpg
+- /images/flyers/HSOMeetingAprWeb.jpg
+- /images/flyers/HSOMeetingAprWeb.jpg
+- /images/flyers/HSOMeetingAprWeb.jpg
 ---
 Meet in the CES music room to help us plan out the next school year. Hope to see you there!
