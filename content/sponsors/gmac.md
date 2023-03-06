@@ -2,8 +2,8 @@
 title: G-Mac Construction
 type: sponsor
 sponsor_id: gmac
-website: "http://google.com"
-subtitle: "Business description."
+website: "https://www.facebook.com/people/G-MAC-Construction-Inc/100057261498064/"
+subtitle: "We are a concrete services and General contractor with over 35 years experience!"
 logo: "gmac.svg"
 active: true
 tier: 3
