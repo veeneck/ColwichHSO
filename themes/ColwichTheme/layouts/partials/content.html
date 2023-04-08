@@ -29,7 +29,7 @@
 
 		{{ else }}
 
-		<section id="section{{ $key }}" class="module {{ .Params.module_type }} {{ .Scratch.Get "first"  }} {{ $pageParams.custom_class }}">
+		<section id="section{{ $key }}" class="module {{ .Params.module_type }} {{ .Params.hide_mobile }} {{ .Scratch.Get "first"  }} {{ $pageParams.custom_class }}">
 
 		{{ end }}
 

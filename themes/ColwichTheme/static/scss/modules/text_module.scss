@@ -1,3 +1,10 @@
+.hideMobile {
+	display: none;
+	@include contentFor(tablet-screen) {
+		display: block;
+	}
+}
+
 .module.text_module {
 	padding-bottom: 0px;
 	@include contentFor(normal-screen) {

@@ -1,0 +1,12 @@
+title: Create
+title_attribute: false
+icon: "🖌️"
+description: Bring out your craftiness with a free session at <a href="https://wichita.colormemine.com" target="_blank">Color Me Mine!</a> Take a break at <a href="https://www.freddys.com" target="_blank">Freddy’s</a> with a meal for 4 and dessert before trying your skills at home.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/20.jpg
+featured: false
+itemType: 'raffle'
+display_order: 1
