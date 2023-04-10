@@ -1,0 +1,12 @@
+title: Explore
+title_attribute: false
+icon: "🧭"
+description: Satisfy your curiosity with a trip for 4 to <a href="https://exploration.org" target="_blank">Exploration Place</a> including digital dome theater tickets. Then top off the day with 4 free Blizzards from <a href="https://www.dairyqueen.com/en-us/" target="_blank">Dairy Queen.</a>
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/23.jpg
+featured: false
+itemType: 'raffle'
+display_order: 1
