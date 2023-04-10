@@ -3710,7 +3710,7 @@
     },
     "\/static\/images\/menu\/BBQMeal.png" : {
       "ft" : 32768,
-      "iS" : 5775511,
+      "iS" : 42551,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/BBQMeal.png",
       "oF" : 0,
@@ -3806,7 +3806,7 @@
     },
     "\/static\/images\/menu\/HotDog.png" : {
       "ft" : 32768,
-      "iS" : 48435,
+      "iS" : 6304912,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/HotDog.png",
       "oF" : 0,
@@ -3854,7 +3854,7 @@
     },
     "\/static\/images\/menu\/Nacho.png" : {
       "ft" : 32768,
-      "iS" : 32776,
+      "iS" : 2763301,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/Nacho.png",
       "oF" : 0,
@@ -4412,7 +4412,7 @@
     },
     "\/static\/images\/raffle\/2.jpg" : {
       "ft" : 16384,
-      "iS" : 896447,
+      "iS" : 1129807,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2.jpg",
@@ -4460,7 +4460,7 @@
     },
     "\/static\/images\/raffle\/4.jpg" : {
       "ft" : 16384,
-      "iS" : 1105695,
+      "iS" : 472964,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.4~imageoptim.jpg",
@@ -4545,7 +4545,7 @@
     },
     "\/static\/images\/raffle\/8.jpg" : {
       "ft" : 16384,
-      "iS" : 330227,
+      "iS" : 707102,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.8~imageoptim.jpg",
@@ -4737,7 +4737,7 @@
     },
     "\/static\/images\/raffle\/16.jpg" : {
       "ft" : 16384,
-      "iS" : 457417,
+      "iS" : 904499,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/16.jpg",
@@ -4761,7 +4761,7 @@
     },
     "\/static\/images\/raffle\/17.jpg" : {
       "ft" : 16384,
-      "iS" : 206374,
+      "iS" : 382259,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.17~imageoptim.jpg",
@@ -5020,6 +5020,30 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/28.jpg" : {
+      "ft" : 16384,
+      "iS" : 1019609,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/28.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/28.webp" : {
+      "ft" : 8388608,
+      "iS" : 271796,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/28.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },

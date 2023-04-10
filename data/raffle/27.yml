@@ -1,0 +1,12 @@
+title: Hockey Night
+title_attribute: false
+icon: "🏒"
+description: The perfect sports night with 4 VIP tickets to a <a href="https://www.wichitathunder.com" target="_blank">Wichita Thunder</a> hockey game! $30 at <a href="https://www.barnrds.com/barnads-store-menu-wichita.html" target="_blank">Barn'rds</a> will keep you fueled up and ready to cheer.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/27.jpg
+featured: false
+itemType: 'raffle'
+display_order: 10
