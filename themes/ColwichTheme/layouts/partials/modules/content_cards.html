@@ -4,7 +4,7 @@
 <ul class="content_cards_data">
 	{{ $dataSet := index site.Data $.module.Params.data_type }}
 	{{ range $index, $el := (sort $dataSet "display_order") }}
-		<li {{ if $el.featured  }}class="special_item"{{ end }}>
+		<li id="card{{ $el.title }}" {{ if $el.featured  }}class="special_item"{{ end }}>
 			{{ if $el.title_attribute }}
 				<div class="card_title_attribute">
 					<b>{{ $el.title_attribute }}</b>

@@ -3686,7 +3686,7 @@
     },
     "\/static\/images\/menu\/bbq.png" : {
       "ft" : 32768,
-      "iS" : 5152528,
+      "iS" : 47150,
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/bbq.png",
       "oF" : 0,
@@ -4460,7 +4460,7 @@
     },
     "\/static\/images\/raffle\/4.jpg" : {
       "ft" : 16384,
-      "iS" : 472964,
+      "iS" : 865138,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.4~imageoptim.jpg",
@@ -4484,7 +4484,7 @@
     },
     "\/static\/images\/raffle\/5.jpg" : {
       "ft" : 16384,
-      "iS" : 308078,
+      "iS" : 580799,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.5~imageoptim.jpg",
@@ -4545,7 +4545,7 @@
     },
     "\/static\/images\/raffle\/8.jpg" : {
       "ft" : 16384,
-      "iS" : 707102,
+      "iS" : 330227,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.8~imageoptim.jpg",
@@ -4641,7 +4641,7 @@
     },
     "\/static\/images\/raffle\/12.jpg" : {
       "ft" : 16384,
-      "iS" : 418894,
+      "iS" : 908894,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.12~imageoptim.jpg",
@@ -4761,7 +4761,7 @@
     },
     "\/static\/images\/raffle\/17.jpg" : {
       "ft" : 16384,
-      "iS" : 206374,
+      "iS" : 382259,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.17~imageoptim.jpg",
@@ -4905,7 +4905,7 @@
     },
     "\/static\/images\/raffle\/23.jpg" : {
       "ft" : 16384,
-      "iS" : 756814,
+      "iS" : 368083,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/.23~imageoptim.jpg",
@@ -4929,7 +4929,7 @@
     },
     "\/static\/images\/raffle\/24.jpg" : {
       "ft" : 16384,
-      "iS" : 1200337,
+      "iS" : 561202,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/24.jpg",
@@ -6078,6 +6078,14 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
+    },
+    "\/static\/images\/raffle\/linnebur.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/linnebur.pdf",
+      "oF" : 0
     },
     "\/static\/images\/RafflePreSale.jpg" : {
       "ft" : 16384,
