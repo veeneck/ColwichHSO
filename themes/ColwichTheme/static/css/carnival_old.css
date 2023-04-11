@@ -2789,6 +2789,28 @@ section.module.featured_image.first {
   }
 }
 
+.module.alert .content {
+  text-align: center;
+  text-wrap: wrap;
+  background-color: #FFD7D7;
+  padding: 30px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.module.alert .content a {
+  background-color: #fff;
+}
+
+.module.alert {
+  padding-bottom: 0px;
+}
+@media (min-width: 1080px) {
+  .module.alert {
+    padding-bottom: 75px;
+  }
+}
+
 .footer {
   padding: 50px 0px;
   background-color: #000000;

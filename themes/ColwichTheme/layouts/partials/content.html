@@ -113,6 +113,10 @@
 				    {{ partial "modules/full_image.html" (dict "module" . ) }}
 				{{ end }}
 
+				{{ if (eq $type "alert") }}
+				    {{ partial "modules/alert.html" (dict "module" . ) }}
+				{{ end }}
+
 			</div>
 
 		</section>
