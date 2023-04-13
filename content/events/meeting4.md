@@ -2,7 +2,7 @@
 title: 4th HSO Meeting 🗓️
 description: Our fourth meeting of the year to set goals for the next school year.
 type: events
-event_date: 2023-04-25 6:00:00 +0000
+event_date: 2023-05-03 6:00:00 +0000
 url: "/meetings/05062023"
 fullUrl: "https://colwichhso.com/meetings/05062023"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
