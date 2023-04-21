@@ -14,7 +14,6 @@ stylesheet: "/css/carnival.css"
 modules:
 - modules/carnival/navigation.md
 - modules/carnival/rafflepresale.md
-- modules/common/alert.md
 - modules/carnival/raffleitems.md
 - modules/carnival/sponsorlist.md
 - modules/carnival/map.md
