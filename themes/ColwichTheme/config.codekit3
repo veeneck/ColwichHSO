@@ -4394,6 +4394,30 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/raffle\/.23~imageoptim.jpg" : {
+      "ft" : 16384,
+      "iS" : 405731,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/.23~imageoptim.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/.23~imageoptim.webp" : {
+      "ft" : 8388608,
+      "iS" : 121656,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/.23~imageoptim.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/raffle\/1.jpg" : {
       "ft" : 16384,
       "iS" : 537521,
@@ -4919,20 +4943,9 @@
       "oAP" : "\/static\/images\/raffle\/.23~imageoptim.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/static\/images\/raffle\/23.webp" : {
-      "ft" : 8388608,
-      "iS" : 98608,
-      "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/23.webp",
-      "oF" : 0,
-      "oIPL" : 1,
       "opt" : 1,
       "ou" : "lpckwebp-default",
+      "q" : 100,
       "rq" : 75
     },
     "\/static\/images\/raffle\/24.jpg" : {
