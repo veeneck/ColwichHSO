@@ -1,5 +1,5 @@
 ---
-page_status: comingsoon
+page_status: active
 title: 3rd HSO Meeting 🗓️
 description: Our third meeting of the year to work on Spring Carnival.
 type: events
@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/HSOMeetingJanWeb.jpg
 - /images/flyers/HSOMeetingJanWeb.jpg
 ---
-Meet at The Keg to help us plan out the Spring Carnival, and to fill out volunteer roles. Hope to see you there!
+Meet at The Keg to help us plan out the Spring Events, and to fill out volunteer roles. Hope to see you there!

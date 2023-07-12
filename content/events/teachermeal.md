@@ -1,5 +1,5 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Teacher Conference Meals 🍽️
 description: We supply one meal for the teachers conferences as a show of appreciation.
 type: events
