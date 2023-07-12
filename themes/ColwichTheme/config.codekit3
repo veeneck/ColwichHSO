@@ -2000,7 +2000,7 @@
       "oAP" : "\/static\/images\/flyers\/HSOMeetingSeptWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -2011,8 +2011,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/HSOMeetingSeptWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -2723,6 +2723,14 @@
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
+    },
+    "\/static\/images\/flyers\/UniformSaleWeb.jpg.sb-39485eed-dQds1B" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/UniformSaleWeb.jpg.sb-39485eed-dQds1B",
+      "oF" : 0
     },
     "\/static\/images\/flyers\/UniformSaleWeb.webp" : {
       "ft" : 8388608,

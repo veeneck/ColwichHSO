@@ -1,8 +1,9 @@
 ---
+page_status: comingsoon
 title: Colwich Christmas Festival 🎄
 description: Come out to Veterans Park and Sacred Heart REC for Santa + Activities!
 type: events
-event_date: 2022-12-11 4:30:00 +0000
+event_date: 2023-12-11 4:30:00 +0000
 url: "/christmas"
 fullUrl: "https://colwichhso.com/christmas"
 pageImage: "https://colwichhso.com/images/flyers/ColwichChristmasOG.jpg"
