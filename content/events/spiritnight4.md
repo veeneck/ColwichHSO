@@ -2,7 +2,7 @@
 title: Spirit Night 🎉
 description: When eating at our partner restaurant, a portion of your meal will go back to Colwich HSO.
 type: events
-event_date: 2023-03-15 1:00:00 +0000
+event_date: 2024-03-15 1:00:00 +0000
 url: "/spiritnight4"
 fullUrl: "https://colwichhso.com/spiritnight4"
 page_status: comingsoon

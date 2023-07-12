@@ -1,15 +1,15 @@
 ---
+page_status: comingsoon
 title: 3rd HSO Meeting 🗓️
 description: Our third meeting of the year to work on Spring Carnival.
 type: events
-event_date: 2023-01-10 6:00:00 +0000
-url: "/meetings/01062023"
-fullUrl: "https://colwichhso.com/meetings/01062023"
+event_date: 2024-01-09 6:00:00 +0000
+url: "/meetings/01092024"
+fullUrl: "https://colwichhso.com/meetings/01092024"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeeting3OpenGraph.jpg"
 faq_category: meeting
 image: "/images/flyers/HSOMeetingJanWeb.jpg"
 custom_class: "show_image event_meeting"
-formEmbed: zml0mmx1e2794z
 aliases:
     - /thirdmeeting
 modules:
