@@ -10,7 +10,7 @@ aliases:
     - /signup
 subtitle: Volunteer Application
 shoutout: We Need Your Help! 🤚🏽
-overview: The school year is almost here, so we're looking for summer volunteers to kick things off. Please look at the time slots below.
+overview: The school year is almost here, so we're looking for summer volunteers to kick things off. Please look at the time slots below. Make sure to **submit at the bottom of the page**. Thanks so much!
 modules:
 - modules/common/sponsors.md
 - modules/common/footer.md
