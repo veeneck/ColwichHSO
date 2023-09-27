@@ -1,9 +1,9 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Trunk or Treat 🎃
 description: HSO will head out and support the community this halloween.
 type: events
-event_date: 2023-10-29 1:00:00 +0000
+event_date: 2023-10-28 1:00:00 +0000
 url: "/trunkortreat"
 fullUrl: "https://colwichhso.com/trunkortreat"
 pageImage: "https://colwichhso.com/images/flyers/TrunkOrTreatOG.jpg"
