@@ -2785,6 +2785,30 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/flyers\/WinterMarketWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 349490,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/WinterMarketWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/WinterMarketWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 82038,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/WinterMarketWeb.webp",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/icons\/.calendar~imageoptim.svg" : {
       "ft" : 2097152,
       "miP" : 0,
