@@ -1,5 +1,5 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Barn'rds Spirit Night 🎉
 description: Head on over to Barn'rds where a portion of your meal will go back to Colwich HSO.
 type: events

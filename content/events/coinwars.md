@@ -3,7 +3,7 @@ page_status: comingsoon
 title: Coin War 🪙
 description: Coin War is a fundraiser game to be competed between grade levels/home rooms. 
 type: events
-event_date: 2023-11-14 1:00:00 +0000
+event_date: 2024-03-04 1:00:00 +0000
 url: "/coinwars"
 fullUrl: "https://colwichhso.com/coinwars"
 pageImage: "https://colwichhso.com/images/flyers/CoinWarsOG.jpg"

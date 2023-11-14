@@ -1,9 +1,9 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Teacher Appreciation 😍
 description: We resupply the cart in the teachers lounge with treats, drinks, supplies and more.
 type: events
-event_date: 2023-12-12 08:00:00 +0000
+event_date: 2023-12-11 08:00:00 +0000
 pageImage: "https://colwichhso.com/images/flyers/TeacherAppreciationOpenGraph.jpg"
 url: "/appreciation2"
 fullUrl: "https://colwichhso.com/appreciation2"
