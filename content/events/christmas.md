@@ -3,7 +3,7 @@ page_status: active
 title: Colwich Christmas Festival 🎄
 description: Come out to Veterans Park and Sacred Heart REC for Santa + Activities!
 type: events
-event_date: 2023-12-10 5:00:00 +0000
+event_date: 2023-12-10 5:30:00 +0000
 url: "/christmas"
 fullUrl: "https://colwichhso.com/christmas"
 pageImage: "https://colwichhso.com/images/flyers/ColwichChristmasOG.jpg"
@@ -26,4 +26,4 @@ polaroid:
 - /images/flyers/ColwichChristmasWeb.jpg
 - /images/flyers/ColwichChristmasWeb.jpg
 ---
-Starting in Veterans Park at 5:00 PM is the Candy Cane Hunt, Tree Lighting and Caroling. Then, head over to the REC for photos with Santa, cookies and hot chocolate, crafts and more!
+Candy Cane Hunt begins in the park at 5:30. Games, crafts, treats and more to follow. Bring in a decorated cookie for the kids cookie contest. Judging begins at 6:00. Visit with Santa from 5:30 - 6:30!
