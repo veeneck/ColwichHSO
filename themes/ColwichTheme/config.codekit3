@@ -892,8 +892,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/auction\/2.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -905,7 +905,7 @@
       "oAP" : "\/static\/images\/auction\/5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -1130,7 +1130,7 @@
       "oAP" : "\/static\/images\/carnival.webp",
       "oF" : 0,
       "oIPL" : 1,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -1926,7 +1926,7 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/HSOMeetingJanWeb.jpg",
-      "oF" : 0,
+      "oF" : 1,
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-default",
@@ -3267,8 +3267,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/cmc.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -3413,8 +3413,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/logos\/hsologo.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -3724,8 +3724,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/meeting.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -3760,7 +3760,7 @@
       "oAP" : "\/static\/images\/menu\/BBQMeal.png",
       "oF" : 0,
       "oIPL" : 1,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
@@ -3772,8 +3772,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/menu\/BBQMeal.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -3869,7 +3869,7 @@
       "oAP" : "\/static\/images\/menu\/HotDog.webp",
       "oF" : 0,
       "oIPL" : 1,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -4149,8 +4149,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/photos\/books.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -4352,11 +4352,22 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/presale.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/presale.webp" : {
+      "ft" : 8388608,
+      "iS" : 76984,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/presale.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/prizeroom.jpg" : {
@@ -4396,6 +4407,41 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/prizes.webp" : {
+      "ft" : 8388608,
+      "iS" : 236682,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/prizes.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/.3~imageoptim.jpg" : {
+      "ft" : 16384,
+      "iS" : 466429,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/.3~imageoptim.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/raffle\/.3~imageoptim.webp" : {
+      "ft" : 8388608,
+      "iS" : 152878,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/raffle\/.3~imageoptim.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/raffle\/.4~imageoptim.jpg" : {
       "ft" : 16384,
       "iS" : 468628,
@@ -4429,19 +4475,6 @@
       "oIPL" : 0,
       "opt" : 0,
       "ou" : "lpckwebp-default",
-      "rq" : 75
-    },
-    "\/static\/images\/raffle\/.23~imageoptim.jpg" : {
-      "ft" : 16384,
-      "iS" : 405731,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/static\/images\/raffle\/.23~imageoptim.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-default",
-      "q" : 100,
       "rq" : 75
     },
     "\/static\/images\/raffle\/.23~imageoptim.webp" : {
@@ -4871,8 +4904,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/18.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -5124,8 +5157,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2022\/1.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -5220,8 +5253,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2022\/5.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -5617,7 +5650,7 @@
       "oAP" : "\/static\/images\/raffle\/2022\/22.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -5628,8 +5661,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2022\/22.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -5676,8 +5709,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2022\/24.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -5868,8 +5901,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2022\/32.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -5881,7 +5914,7 @@
       "oAP" : "\/static\/images\/raffle\/2022\/33.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -6049,7 +6082,7 @@
       "oAP" : "\/static\/images\/raffle\/2022\/IMG_3234.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -6132,8 +6165,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/raffle\/2022\/IMG_3245.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -6581,9 +6614,20 @@
       "oAP" : "\/static\/images\/sponsors\/jpgs\/csc.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/sponsors\/jpgs\/csc.webp" : {
+      "ft" : 8388608,
+      "iS" : 75856,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/sponsors\/jpgs\/csc.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/sponsors\/jpgs\/CSS Logo.jpg" : {
@@ -6594,9 +6638,20 @@
       "oAP" : "\/static\/images\/sponsors\/jpgs\/CSS Logo.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/sponsors\/jpgs\/CSS Logo.webp" : {
+      "ft" : 8388608,
+      "iS" : 32676,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/sponsors\/jpgs\/CSS Logo.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/sponsors\/jpgs\/css.jpg" : {
@@ -6724,9 +6779,20 @@
       "oAP" : "\/static\/images\/sponsors\/jpgs\/multicrete.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/sponsors\/jpgs\/multicrete.webp" : {
+      "ft" : 8388608,
+      "iS" : 60882,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/sponsors\/jpgs\/multicrete.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/sponsors\/jpgs\/multisports.jpg" : {
@@ -7692,7 +7758,7 @@
   "projectAttributes" : {
     "creationDate" : 670759587.51948202,
     "displayValue" : "ColwichTheme",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_orange",
     "iconImageWasSetByUser" : 0,
     "lastBuiltDate" : 671198261.13013601

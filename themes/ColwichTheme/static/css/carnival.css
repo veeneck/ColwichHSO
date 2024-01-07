@@ -3502,7 +3502,7 @@ iframe {
 }
 @media (min-width: 1300px) {
   .inner_ticket:before,
-.inner_ticket:after {
+  .inner_ticket:after {
     font-size: 15px;
     outline: 2px dashed #C93234;
     border: 5px solid #fff;
@@ -3510,7 +3510,7 @@ iframe {
 }
 @media (min-width: 1750px) {
   .inner_ticket:before,
-.inner_ticket:after {
+  .inner_ticket:after {
     font-size: 20px;
   }
 }
