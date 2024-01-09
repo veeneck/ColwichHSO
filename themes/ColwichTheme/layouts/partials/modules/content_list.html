@@ -13,7 +13,16 @@
 				{{ end }}
 			</div>
 			<div class="desc">
-				<h4><b class="perkOrder">{{ add $index 1 }}.</b> {{ $el.name}} {{ if $el.featured }}⭐{{ end }}</h4>
+				<h4>
+					<b class="perkOrder">
+						{{ if $el.perkOrderDesc  }}
+							{{ $el.perkOrderDesc }}
+						{{ else }}
+							{{ add $index 1 }}.
+						{{ end }}
+					</b> 
+					{{ $el.name}} {{ if $el.featured }}⭐{{ end }}
+				</h4>
 				<p>{{ $el.body | safeHTML }}</p>
 			</div>
 			{{ if $el.sponsor_id  }}

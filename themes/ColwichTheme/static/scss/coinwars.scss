@@ -26,6 +26,24 @@
 	border: 1px solid #fff;
 }
 
+.event_coinwars .desc .perkOrder {
+	color: #fff;
+	background-color: #0C2A51;
+	padding: 7px;
+	margin-right: 7px;
+	display: inline-block;
+	font-size: 90%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	@include contentFor(large-screen) {
+		display: none;
+	}
+}
+
+.event_coinwars .special_item .desc .perkOrder {
+	background-color: #38823D;
+}
+
 
 /* NAV */
 
