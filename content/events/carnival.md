@@ -6,7 +6,7 @@ event_date: 2023-04-28 1:00:00 +0000
 url: "/carnival"
 fullUrl: "https://colwichhso.com/carnival"
 pageImage: "https://colwichhso.com/images/flyers/CarnivalOG.jpg"
-page_status: active
+page_status: comingsoon
 custom_class: "event_carnival"
 ctaicon: tent
 image: "/images/flyers/ParentsNightOutWebOct.jpg"
