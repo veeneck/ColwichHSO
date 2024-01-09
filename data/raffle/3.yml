@@ -1,7 +1,12 @@
-name: Game Night
-body: Monopoly, Dominos and Clue are just a few games you'll be enjoying from this basket. Also has treats, snacks, and a $30 gift card to <a href="https://www.regmovies.com">Regal Movies.</a> 
-price: '$000+'
-identifier: '3'
+title: Family Fun Night
+title_attribute: false
+icon: "🎲"
+description: Enjoy 1 hour of court time and 2 appetizers at <a href="https://chickennpickle.com/location/wichita/" target="_blank">Chicken N Pickle,</a> or make your own party with karaoke, board games, a tent, and snacks. Taco, Cat, Goat, Cheese, Pizza anyone?
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/2.jpg
+featured: false
 itemType: 'raffle'
-shout: 'threefour'
-grouping: 4
+display_order: 3

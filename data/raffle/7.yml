@@ -1,6 +1,12 @@
-name: Home Sweet Home
-body: You deserve an easy Saturday morning. Head out for a meal at <a href="https://homegrownkitchen.com">Homegrown</a> ($35 gift card), and then relax at home with a blanket, cup, and weighted massage wrap.
-price: '$000+'
-identifier: '7'
+title: Swag & Cash
+title_attribute: false
+icon: "⚡"
+description: <a href="https://www.linderandassociates.com" target="_blank">Linder and Associates</a> have you covered with a hat, 2 shirts, a cup and coozie. To sweeten the pot, they've thrown in $100 in cash as well! This basket is the <a href="#section2">Door Prize.</a>
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/7.jpg
+featured: false
 itemType: 'raffle'
-grouping: 3
+display_order: 10

@@ -1,0 +1,105 @@
+.event_coinwars .perkOrder {
+	font-size: 175%;
+}
+
+.event_coinwars.content_list .content_list_data li.special_item {
+	border: 1px solid #75B76C;
+}
+
+.event_coinwars .special_item .perk {
+	background-color: #38823D;
+}
+
+.event_coinwars .perk {
+	background-color: #3F6790;
+}
+
+.event_coinwars.altBG {
+	background-color: #406790;
+}
+
+.event_coinwars.altBG h2 {
+	color: #AAE6A1;
+}
+
+.module.text_module.event_coinwars img {
+	border: 1px solid #fff;
+}
+
+
+/* NAV */
+
+.coinwars_navigation {
+  	background-color: #fff;
+  	padding-bottom: 0px !important;
+  	z-index: 10;
+}
+
+.coinwars_navigation.stuck {
+	position: -webkit-sticky; 
+	position: sticky;
+	top: -1px; 
+	box-shadow: 0 4px 2px -2px rgba(62,62,62,.102);
+}
+
+.coinwars_navigation ul {
+	@include flex();
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 50px 0px 10px 0px;
+	padding-bottom: 10px;
+
+	@include contentFor(tablet-screen) {
+		margin: 50px 0px;
+	}
+
+	@include contentFor(xl-screen) {
+		margin-top: 100px;
+	}
+}
+
+.coinwars_navigation li {
+	width: 25%;
+	box-sizing: border-box;
+	list-style: none;
+	text-align: center;
+}
+
+.coinwars_navigation li:last-child {
+	display: none;
+
+	@include contentFor(tablet-screen) {
+		display: block;
+	}
+}
+
+
+.coinwars_navigation li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.coinwars_navigation li img {
+	width: 35px;
+	height: 35px;
+	object-fit: contain;
+	margin: 10px auto;
+	/*filter: invert(86%) sepia(0%) saturate(898%) hue-rotate(339deg) brightness(100%) contrast(83%);*/
+
+	@include contentFor(tablet-screen) {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.coinwars_navigation li.selected {
+	font-weight: bold;
+}
+
+.coinwars_navigation li.selected img {
+	/*filter: invert(29%) sepia(55%) saturate(2151%) hue-rotate(331deg) brightness(88%) contrast(100%);*/
+}
+
+.coinwars_navigation li a:hover {
+	font-weight: bold;
+}

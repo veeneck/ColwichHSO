@@ -1,0 +1,8 @@
+name: Silly Hat Day
+body: Everyone can wear an odd hat to school!
+image: false
+featured: true
+itemType: 'schoolprizes'
+sponsor_id: gmac
+display_order: 2
+perkOrderDesc: $1,000

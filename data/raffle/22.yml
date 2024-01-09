@@ -1,6 +1,12 @@
-name: Andale Love
-body: Andale sweat shirt and t-shirt, <a href="https://allstarwichita.com">All Star Sports</a> Mini Golf for 4, <a href="https://www.dairyqueen.com">Dairy Queen</a> $20 gift card, coffee cup and Andale sticker.
-price: '$000+'
-identifier: '22'
+title: Go WSU
+title_attribute: false
+icon: "🏆"
+description: With snacks and a new hat in hand, take a party of 4 to the ball field and watch the <a href="https://www.wichita.edu" target="_blank">WSU</a> men and women compete. Make time to redeem your $40 in VIP Vouchers at <a href="https://www.abuelos.com" target="_blank">Abuelo’s!</a> 
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/22.jpg
+featured: false
 itemType: 'raffle'
-grouping: 6
+display_order: 10

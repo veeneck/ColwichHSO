@@ -1,6 +1,12 @@
-name: Moooooooo
-body:  Eat more chicken at your favorite food chain with 10 food item cards. Go all in with a new T-shirt, stuffed animal, cup, & pouch.
-price: '$000+'
-identifier: '28'
+title: Fork Up
+title_attribute: false
+icon: "🍴"
+description: Up your silverware game with 2 complete sets from <a href="https://www.knork.net" target="_blank">Knork!</a>. Bring them on the go in your Off to Lunch Thermal Bag and Large Utility Tote by <a href="http://www.mythirtyone.com/cgage" target="_blank">Thirty-One</a> courtesy of Chris Gage.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/28.jpg
+featured: false
 itemType: 'raffle'
-grouping: 8
+display_order: 10

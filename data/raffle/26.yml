@@ -1,6 +1,12 @@
-name: Cowboy Fun
-body: 2 family passes to <a href="https://www.oldcowtown.org/Pages/default.aspx">Cowtown</a>, 1 family pass for Rodeo and $10 in Rodeo concessions. Horse stuffed animal and a book to boot.
-price: '$000+'
-identifier: '26'
+title: Love My Car
+title_attribute: false
+icon: "🚘"
+description: Take care of your ride with $50 at <a href="https://www.oreillyauto.com" target="_blank">O’Reilly Auto Parts,</a> 3 MVP trips to <a href="https://clubcarwash.com" target="_blank">Club Car Wash,</a> and other accessories. When hungry, redeem a $10 <a href="https://www.gambinosoriginal.com" target="_blank">Gambino's Original</a> gift card.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/26.jpg
+featured: false
 itemType: 'raffle'
-grouping: 8
+display_order: 10

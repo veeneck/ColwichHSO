@@ -1,6 +1,12 @@
-name: Morning Brew
-body: Customize your own mug at <a href="https://wichita.colormemine.com">Color Me Mine</a>. Then turn on your new coffee sign, and grab some delicious Starbucks with a $25 gift card to enjoy in your freshly painted mug.
-price: '$000+'
-identifier: '14'
+title: Chikin & Space
+title_attribute: false
+icon: "🐔🪐"
+description: Have a fun day out with 2 All Day Mission Passes to the <a href="https://cosmo.org" target="_blank">Cosmosphere!</a> Stop by <a href="https://www.chick-fil-a.com" target="_blank">Chik-Fil-A</a> on the way home to redeem 13 food cards in your newly won swag.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/14.jpg
+featured: false
 itemType: 'raffle'
-grouping: 1
+display_order: 8

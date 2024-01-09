@@ -1,6 +1,12 @@
-name: Good Eats
-body: Take these two $15 gift cards ($30 total) and enjoy your <a href="https://homegrownkitchen.com">Homegrown</a> breakfast or lunch. Knorks provided for some custom cutlery.
-price: '$000+'
-identifier: '19'
+title: Art Lover
+title_attribute: false
+icon: "🎨"
+description: Get inspired with a year long family membership to the <a href="https://wam.org" target="_blank">Wichita Art Museum!</a> Enjoy 6 smoothies at <a href="https://www.tropicalsmoothiecafe.com" target="_blank">Tropical Smoothie Cafe</a> before creating your own masterpiece.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/19.jpg
+featured: false
 itemType: 'raffle'
-grouping: 2
+display_order: 10

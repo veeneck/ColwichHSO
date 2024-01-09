@@ -1,13 +1,13 @@
 ---
 title: The Logo Package 🌅
-description: Upgrade that text to a logo! It will also be on display as the main sponsor of one Carnival game or activity.
+description: Upgrade that text to a logo! It will also be on display as a Raffle Basket sponsor.
 type: redesign
 pageImage: "https://colwichhso.com/images/flyers/SponsorLogoOpenGraph.jpg"
 url: "/sponsor/logopackage"
 fullUrl: "https://colwichhso.com/sponsor/logopackage"
 subtitle: $250 HSO Sponsorship
 shoutout: The Logo Package 🌅
-overview: Upgrade that text to a logo! It will also be on display as the main sponsor of one Carnival game or activity.
+overview: Upgrade that text to a logo! It will also be promoted on the website as a Raffle Basket sponsor.
 custom_class: "show_image event_sponsor"
 data_type: "logopackage"
 faq_category: "sponsorpackage"

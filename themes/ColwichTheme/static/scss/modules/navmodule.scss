@@ -1,0 +1,75 @@
+.carnival_navigation {
+  	background-color: #fff;
+  	padding-bottom: 0px !important;
+  	z-index: 10;
+}
+
+.carnival_navigation.stuck {
+	position: -webkit-sticky; 
+	position: sticky;
+	top: -1px; 
+	box-shadow: 0 4px 2px -2px rgba(62,62,62,.102);
+}
+
+.carnival_navigation ul {
+	@include flex();
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 50px 0px 10px 0px;
+	padding-bottom: 10px;
+
+	@include contentFor(tablet-screen) {
+		margin: 50px 0px;
+	}
+
+	@include contentFor(xl-screen) {
+		margin-top: 100px;
+		margin-bottom: 100px;
+	}
+}
+
+.carnival_navigation li {
+	width: 25%;
+	box-sizing: border-box;
+	list-style: none;
+	text-align: center;
+}
+
+.carnival_navigation li:last-child {
+	display: none;
+
+	@include contentFor(tablet-screen) {
+		display: block;
+	}
+}
+
+
+.carnival_navigation li a {
+	text-decoration: none;
+	color: #000;
+}
+
+.carnival_navigation li img {
+	width: 35px;
+	height: 35px;
+	object-fit: contain;
+	margin: 10px auto;
+	filter: invert(86%) sepia(0%) saturate(898%) hue-rotate(339deg) brightness(100%) contrast(83%);
+
+	@include contentFor(tablet-screen) {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+.carnival_navigation li.selected {
+	font-weight: bold;
+}
+
+.carnival_navigation li.selected img {
+	filter: invert(29%) sepia(55%) saturate(2151%) hue-rotate(331deg) brightness(88%) contrast(100%);
+}
+
+.carnival_navigation li a:hover {
+	font-weight: bold;
+}

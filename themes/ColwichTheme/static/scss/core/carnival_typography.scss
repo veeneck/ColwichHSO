@@ -105,7 +105,7 @@ $border-color: #DADADA;
 
 
 // Headers
-h1, h2, h3, h4, h5, h6 {
+.event_carnival.h1, .event_carnival.h2, .event_carnival.h3, .event_carnival.h4, .event_carnival.h5, .event_carnival.h6 {
     margin-top: $header-margin * 1.5;
     color: $header-color;
     line-height: $header-line-height;
@@ -116,36 +116,36 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-h1 {
+.event_carnival.h1 {
     font-size: $header-size;
     margin-bottom: $header-margin;
     font-family: $circus-font;
 
 }
 
-h2 {
+.event_carnival.h2 {
     font-size: calc($header-size / 1.3);
     margin-bottom: calc($header-margin / 1.3);
     color: $header-alt-color;
     font-family: $font-family;
 }
 
-h3 {
+.event_carnival.h3 {
     font-size: calc($header-size / 1.4);
     margin-bottom: calc($header-margin / 1.4);
 }
 
-h4 {
+.event_carnival.h4 {
     font-size: calc($header-size / 1.7);
     margin-bottom: calc($header-margin / 1.7);
 }
 
-h5 {
+.event_carnival.h5 {
     font-size: calc($header-size / 1.8);
     margin-bottom: calc($header-margin / 1.8);
 }
 
-h6 {
+.event_carnival.h6 {
     font-size: calc($header-size / 2);
     margin-bottom: calc($header-margin / 2);
 }

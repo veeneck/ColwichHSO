@@ -1,0 +1,8 @@
+name: Teacher Coffee Bar
+body: A special morning treat for teachers with freshly brewed coffee and pastries.
+image: false
+featured: false
+itemType: 'schoolprizes'
+sponsor_id: multisports
+display_order: 4
+perkOrderDesc: $2,000

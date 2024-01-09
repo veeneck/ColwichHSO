@@ -1,0 +1,8 @@
+name: Raffle Tickets
+body: Each student wins 5 tickets to place in their favorite raffle baskets.
+image: false
+featured: true
+itemType: 'schoolprizes'
+sponsor_id: cmc
+display_order: 1
+perkOrderDesc: $500

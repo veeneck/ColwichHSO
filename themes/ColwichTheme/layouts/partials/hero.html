@@ -14,7 +14,7 @@
 
 			<p><b>{{ dateFormat "January 2" .Params.event_date }}</b></p>
 			<h1>{{ .Params.title }}</h1>
-			<p class="summary"><mark>{{ .Content | safeHTML }}</mark></p>
+			<p class="summary"><mark>{{ .Content | $.Page.RenderString | replaceRE `<p>\s*</p>` "" | safeHTML }}</mark></p>
 
 		{{ else }}
 

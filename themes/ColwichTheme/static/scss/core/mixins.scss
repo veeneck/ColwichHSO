@@ -6,7 +6,7 @@
 @mixin contentFor($point) {
     // Full design
     @if $point == xl-screen {
-        @media (min-width: 2000px) {
+        @media (min-width: 1750px) {
             @content;
         }
     }

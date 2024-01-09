@@ -1,6 +1,12 @@
-name: Dress Up!
-body:  Your little one will shower you with excitement when you come home with a new doll ready to be dressed up.
-price: '$000+'
-identifier: '15'
+title: Pamper Mom
+title_attribute: false
+icon: "👩"
+description: Mom will surely love the day off with a massage or facial at <a href="https://handandstone.com/locations/ks-wichita-west" target="_blank">Hand & Stone</a> followed by $25 for brunch at <a href="https://eathomegrown.com" target="_blank">Homegrown.</a> She'll also enjoy a cup and belt bag from <a href="http://molbelleboutique.com" target="_blank">MOLbelle Boutique.</a>
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/15.jpg
+featured: false
 itemType: 'raffle'
-grouping: 1
+display_order: 10

@@ -1,6 +1,12 @@
-name: A Morning Out
-body:  Take the family out to <a href="https://exploration.org">Exploration Place</a>(4 guest passes) and enjoy <a href="https://www.barnrds.com">Barn'rds</a> with a $20 gift card on the way home.
-price: '$000+'
-identifier: '20'
+title: Create
+title_attribute: false
+icon: "🖌️"
+description: Bring out your craftiness with a free session at <a href="https://wichita.colormemine.com" target="_blank">Color Me Mine!</a> Take a break at <a href="https://www.freddys.com" target="_blank">Freddy’s</a> with a meal for 4 and dessert before trying your skills at home.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/20.jpg
+featured: false
 itemType: 'raffle'
-grouping: 8
+display_order: 10

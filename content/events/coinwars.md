@@ -1,8 +1,9 @@
 ---
-title: Coin War 🪙
-description: Coin War is a fundraiser game to be competed between grade levels/home rooms. 
+page_status: active
+title: Coin Wars 🪙
+description: Coin Wars is a fundraiser game to be competed between grade levels/home rooms. 
 type: events
-event_date: 2022-11-14 1:00:00 +0000
+event_date: 2024-03-04 1:00:00 +0000
 url: "/coinwars"
 fullUrl: "https://colwichhso.com/coinwars"
 pageImage: "https://colwichhso.com/images/flyers/CoinWarsOG.jpg"
@@ -11,15 +12,20 @@ image: "/images/flyers/CoinWarsWeb.jpg"
 faq_category: coinwars
 modules:
 - modules/common/featured_image.md
+- modules/coinwars/navigation.md
+- modules/coinwars/details.md
+- modules/coinwars/leaderboard.md
+- modules/coinwars/premiumsponsors.md
+- modules/coinwars/dailywinners.md
+- modules/coinwars/schoolprizes.md
+- modules/coinwars/raffleitems.md
+- modules/coinwars/basicsponsors.md
 - modules/common/faq.md
-- modules/common/calendar.md
-- modules/common/sponsors.md
-- modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
 - /images/flyers/CoinWarsWeb.jpg
-- /images/flyers/CoinWarsWeb.jpg
-- /images/flyers/CoinWarsWeb.jpg
+- /images/flyers/CoinWarsWebBack.jpg
+- /images/flyers/CoinWarsWebBack.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-Coin War 2022 was a huge success! We exceeded our goal, and raised **$5,387.52** with an average of $21.21 per student. Thank you so much! Check out [the class leaderboards and learn more](#section1).
+Coin Wars 2024 is here! From **March 4th** through **March 8th**, classes will compete to raise donations for the school! There are a lot of prizes to be won, so scroll down and **[check out the rules and rewards]()** below!

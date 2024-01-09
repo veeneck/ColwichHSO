@@ -1,29 +1,25 @@
 itemType: flagpackage
 order: 3
 title: "The Flag Package"
-description: "Staked flags with your logo will line the Carnival entrance. Also includes year round promotion and more!"
+description: "Staked flags with your logo will line the School entrance during Coin Wars. Also includes year round promotion and more!"
 icon: "🚩"
 price: "$500"
-sold_out: true
+sold_out: false
+learn_more_only: false
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%24500%20-%20The%20Flag%20Package"
 learnUrl: "/sponsor/flagpackage"
 perks:
   - title: "Digital Recognition" 
-    description: "Your Company <b>Logo</b> will appear on the Carnival website, the Sponsors section of our website, and on select Carnival emails." 
+    description: "Your Company <b>Logo</b> will appear on the Coin Wars website, the Sponsors section of our website, and on select Coin Wars emails." 
   - title: "Banner in Gym" 
-    description: "Your Company Logo will appear on the Logo banner, which is displayed during Carnival and hung in the <b>school gym for the year</b>." 
+    description: "Your Company Logo will appear on the Logo banner, which is hung in the <b>school gym for the year</b>." 
   - title: "Staked Flag Banners" 
-    description: "We'll line the school with 12x18 flag banners for the week leading up to Carnival."  
+    description: "We'll line the school with 12x18 flag banners for the week of Coin Wars."  
     featured: "true"
-  - title: "Sponsor a Game or Activity" 
-    description: "Your Logo will occupy a pedestal that accomodates a 8.5x14 print out in front of a game, and on the Carnival site." 
+  - title: "Sponsor a School Prize" 
+    description: "Your Logo will be tied with a School Prize that is unlocked during the Coin Wars competition." 
   - title: "HSO Website" 
     description: "Your logo will appear on the HSO website for the <b>entire year</b> in the sponsor section on each page." 
     featured: "true"
-  - title: "HSO Newsletter" 
-    description: "Your company name will be the joint sponsor of <b>1</b> HSO Newsletter during the year" 
-    featured: "true"
   - title: "Facebook Promotion" 
     description: "Dedicated promotion to your business on Facebook." 
-  - title: "Carnival Admission Tickets" 
-    description: "This package includes <b>6</b> admission tickets to the Carnival." 

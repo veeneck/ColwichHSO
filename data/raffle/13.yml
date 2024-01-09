@@ -1,6 +1,12 @@
-name: Cookies!
-body: A cookie for you, and you, and you. 6 bowls, cookie cutters and measuring cups will help you spread the cookie love.
-price: '$000+'
-identifier: '13'
+title: Baby Doll Bathtime
+title_attribute: false
+icon: "👶🏻"
+description: Handmade bath towel, wash cloths, robe, slippers and more thanks to <a href="mailto:jwetta@aol.com">Jan Wetta.</a> Also includes Melissa and Doug bathtub and other accessories.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/13.jpg
+featured: false
 itemType: 'raffle'
-grouping: 5
+display_order: 10

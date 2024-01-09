@@ -2,7 +2,7 @@
 title: Dessert Social 🍪
 description: Join us for tasty treats and socializing before school starts!
 type: events
-event_date: 2022-08-16 17:30:00 +0000
+event_date: 2023-08-15 06:00:00 +0000
 url: "/dessert"
 fullUrl: "https://colwichhso.com/dessert"
 pageImage: "https://colwichhso.com/images/flyers/DessertSocialOpenGraph.jpg"
@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/IceCreamSocialWeb.jpg
 - /images/flyers/IceCreamSocialWeb.jpg
 ---
-Back to School night! We hope to see you on **August 16th** between 6:00pm-7:00pm. Stop by after meeting your teachers to enjoy dessert with the community.
+Back to School night! We hope to see you on **August 15th** between 6:00pm-7:00pm. Stop by after meeting your teachers to enjoy dessert with the community.

@@ -1,6 +1,12 @@
-name: Get Moving
-body: Scoot to <a href="https://allstarwichita.com">All Star Sports</a> ($25 gift card) on a new Halo Scooter. Fuel up with a $25 gift card to Undisputed Nutrition.
-price: '$000+'
-identifier: '21'
+title: Out To The Ball Game
+title_attribute: false
+icon: "⚾"
+description: Get your sunflower seeds ready and head out to the ball field with <a href="https://www.milb.com/wichita" target="_blank">Wichita Wind Surge</a> tickets for 4. Dinner for 4 + appetizers and dessert included courtesy of <a href="https://walk-ons.com" target="_blank">Walk-Ons!</a>
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/21.jpg
+featured: false
 itemType: 'raffle'
-grouping: 6
+display_order: 10

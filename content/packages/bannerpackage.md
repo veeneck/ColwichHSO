@@ -1,13 +1,13 @@
 ---
 title: The Banner Package 🪧
-description: Your name and logo on a dedicated banner in a high traffic area. You'll also be the sponsor of an additional HSO event!
+description: Your name and logo on a dedicated banner hung in the school gym all year. You'll also be the sponsor of a School Prize!
 type: redesign
 pageImage: "https://colwichhso.com/images/flyers/SponsorBannerOpenGraph.jpg"
 url: "/sponsor/bannerpackage"
 fullUrl: "https://colwichhso.com/sponsor/bannerpackage"
 subtitle: $1,000 HSO Sponsorship
 shoutout: The Banner Package 🪧
-overview: Your name and logo on a dedicated banner in a high traffic area. You'll also be the sponsor of an additional HSO event!
+overview: Your name and logo on a dedicated banner hung in the school gym all year. You'll also be the sponsor of a School Prize!
 custom_class: "show_image event_sponsor"
 data_type: "bannerpackage"
 faq_category: "sponsorpackage"

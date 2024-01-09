@@ -1,0 +1,7 @@
+name: Kindergarten - Butterfield
+body: Butterfield's class is currently in <b>1st</b> place with <b>$45.36</b>!
+image: "/images/dailywinners/1st.png"
+featured: true
+itemType: 'leaderboard'
+display_order: 1
+perkOrderDesc: $45.36

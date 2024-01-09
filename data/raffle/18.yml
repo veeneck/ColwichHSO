@@ -1,6 +1,12 @@
-name: Roll Tribe
-body: Show off your Andale pride with a Yeti cup, Coozie, hat, gloves and license plate. Finish your collection with a $20 Gift card to the Booster Barn. 
-price: '$000+'
-identifier: '18'
+title: Say Cheese
+title_attribute: false
+icon: "📸"
+description: Get a headstart on your Graduation, Christmas, or any other photos you may need this year with a mini session at <a href="https://www.rusticcreekphotography.com" target="_blank">Rustic Creek Photography!</a>
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/18.jpg
+featured: false
 itemType: 'raffle'
-grouping: 6
+display_order: 10

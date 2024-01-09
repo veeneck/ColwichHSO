@@ -33,7 +33,7 @@
 
 {{ else }}
 
-	{{ if ($var.Get "package").sold_out }}
+	{{ if or ($var.Get "package").sold_out ($var.Get "package").learn_more_only }}
 
 	{{ else }}
 

@@ -1,25 +1,24 @@
 itemType: textpackage
 order: 1
 title: "The Text Package"
-description: "Have your Company Name included on the sponsor list which can be found on the banner, the Carnival website, and event flyers."
+description: "Have your Company Name included on the sponsor list which can be found on the banner, the Coin Wars website, and on Facebook."
 icon: "📋"
 price: "$100"
+sold_out: false
+learn_more_only: false
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%24100%20-%20The%20Text%20Package"
 learnUrl: "/sponsor/textpackage"
 perks:
   - title: "Digital Recognition" 
-    description: "Your Company Name will appear on the Carnival website, the Sponsors section of our website, and on select Carnival emails." 
+    description: "Your Company Name will appear on the Coin Wars website, the Sponsors section of our website, and on select Coin Wars emails." 
     image: "DigitalText" 
   - title: "Banner in Gym" 
-    description: "Your Company Name will appear on the print banner, which is displayed during Carnival and hung in the <b>school gym for the year</b>." 
+    description: "Your Company Name will appear on the print banner, which is hung in the <b>school gym for the year</b>." 
     image: "TextBanner" 
     featured: "true"
   - title: "Print Flyers" 
-    description: "Select print material to promote Carnival will include the sponsors lists as well. This includes flyers around town." 
+    description: "Select print material to promote Coin Wars will include the sponsors lists as well." 
     image: "Flyers" 
   - title: "Facebook Promotion" 
     description: "We will jointly promote your business with other sponsors on Facebook." 
     image: "Social" 
-  - title: "Carnival Admission Tickets" 
-    description: "This package includes <b>2</b> admission tickets to the Carnival." 
-    image: "Tickets" 

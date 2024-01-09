@@ -1,6 +1,12 @@
-name: Cake Starter
-body: After devouring your <a href="https://www.facebook.com/SimplySundayCakes/">Simply Sunday Cakes</a> ($50 gift card), turn on the oven for some more baking with two <a href="http://sherylrust.my.tupperware.com">Tupperware</a> bowls from Sheryl Rust, and various baking accessories.
-price: '$000+'
-identifier: '12'
+title: Date Night
+title_attribute: false
+icon: "👩‍❤️‍👨"
+description: Get $50 off of custom golf games at the new <a href="https://topgolf.com/us/wichita/" target="_blank">Top Golf</a> Wichita location before spending the night at the historic <a href="https://www.druryhotels.com/locations/wichita-ks/drury-plaza-hotel-broadview-wichita" target="_blank">Broadview Drury Plaza Hotel!</a>
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/12.jpg
+featured: false
 itemType: 'raffle'
-grouping: 5
+display_order: 7

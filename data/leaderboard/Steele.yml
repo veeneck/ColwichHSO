@@ -1,0 +1,7 @@
+name: 1st Grade - Steele
+body: Steele's class is currently in <b>4th</b> place with <b>$34.15</b>!
+image: false
+featured: false
+itemType: 'leaderboard'
+display_order: 4
+perkOrderDesc: $34.15

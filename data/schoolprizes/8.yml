@@ -1,0 +1,8 @@
+name: Bounce Houses
+body: Bounces Houses will be in the gym and each class will get a turn.
+image: false
+featured: false
+itemType: 'schoolprizes'
+sponsor_id: jumpstart
+display_order: 8
+perkOrderDesc: $5,000
