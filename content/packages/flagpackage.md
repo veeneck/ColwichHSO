@@ -1,19 +1,19 @@
 ---
 title: The Flag Package 🚩
-description: "Staked flags with your logo will line the School entrance during Coin Wars. Also includes year round promotion and more!"
+description: "Staked flags with your logo will be displayed in the grass by the School entrance during Coin Wars. Also includes year round promotion and more!"
 type: redesign
 pageImage: "https://colwichhso.com/images/flyers/SponsorFlagOpenGraph.jpg"
 url: "/sponsor/flagpackage"
 fullUrl: "https://colwichhso.com/sponsor/flagpackage"
 subtitle: $500 HSO Sponsorship
 shoutout: The Flag Package 🚩
-overview: Staked flags with your logo will line the School entrance during Coin Wars. Also includes year round promotion and more!
+overview: Staked flags with your logo will be displayed in the grass by the School entrance during Coin Wars. Also includes year round promotion and more!
 custom_class: "show_image event_sponsor"
 data_type: "flagpackage"
 faq_category: "sponsorpackage"
 learn_link: "#section0"
 ctatext: Purchase Flag Package
-ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%24500%20-%20The%20Flag%20Package"
+ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2024-sponsorship&field1=%24500%20-%20The%20Flag%20Package"
 ctaicon: donate
 modules:
 - modules/common/sponsorpackage.md
