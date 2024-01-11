@@ -1,7 +1,7 @@
 itemType: flagpackage
 order: 3
 title: "The Flag Package"
-description: "Staked flags with your logo will be displayed in the grass by the School entrance during Coin Wars. Also includes year round promotion!"
+description: "A 12x18 staked flag banner with your logo will line the school yard during Coin Wars. Also includes year round promotion!"
 icon: "🚩"
 price: "$500"
 sold_out: false
@@ -14,7 +14,7 @@ perks:
   - title: "Banner in Gym" 
     description: "Your Company Logo will appear on the Logo banner, which is hung in the <b>school gym for the year</b>." 
   - title: "Staked Flag Banners" 
-    description: "We'll line the grass entrance by the school with 12x18 flag banners for the week of Coin Wars."  
+    description: "A 12x18 staked flag banner with your logo will line the school yard during Coin Wars!"
     featured: "true"
   - title: "Sponsor a School Prize" 
     description: "Your Logo will be tied with a School Prize that is unlocked during the Coin Wars competition." 
