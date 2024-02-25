@@ -1843,8 +1843,13 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/CoinWarsWebBack.webp",
       "oF" : 0,
+<<<<<<< Updated upstream
       "oIPL" : 0,
       "opt" : 0,
+=======
+      "oIPL" : 1,
+      "opt" : 1,
+>>>>>>> Stashed changes
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -7042,6 +7047,35 @@
       "q" : 100,
       "rq" : 75
     },
+<<<<<<< Updated upstream
+=======
+    "\/static\/images\/sponsors\/jpgs\/ungles.png" : {
+      "ft" : 32768,
+      "iS" : 17932,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/sponsors\/jpgs\/ungles.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/sponsors\/jpgs\/visionhomes.png" : {
+      "ft" : 32768,
+      "iS" : 117614,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/sponsors\/jpgs\/visionhomes.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+>>>>>>> Stashed changes
     "\/static\/images\/sponsors\/jpgs\/weigand.jpg" : {
       "ft" : 16384,
       "iS" : 600844,
@@ -7201,6 +7235,29 @@
       "q" : 100,
       "rq" : 75
     },
+<<<<<<< Updated upstream
+=======
+    "\/static\/images\/sponsors\/ungles.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/ungles.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/static\/images\/sponsors\/visionhomes.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/visionhomes.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+>>>>>>> Stashed changes
     "\/static\/images\/sponsors\/weigand.svg" : {
       "ft" : 2097152,
       "miP" : 0,

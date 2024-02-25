@@ -1,0 +1,12 @@
+<ul>
+	<li {{ if eq $.page.url "/carnival" }}class="selected"{{ end }}>
+		<a href="/carnival"><img src="/images/icons/ferriswheel.svg" />Home</a>
+	</li>
+	<li {{ if eq $.page.url "/carnival/games" }}class="selected"{{ end }}>
+		<a href="/carnival/games#section0"><img src="/images/icons/dice.svg" />Games</a></li>
+	<li {{ if eq $.page.url "/carnival/raffle" }}class="selected"{{ end }}>
+		<a href="/carnival/raffle#section0"><img src="/images/icons/ticket.svg" />Raffle</a></li>
+	<li {{ if eq $.page.url "/carnival/menu" }}class="selected"{{ end }}>
+		<a href="/carnival/menu#section0"><img src="/images/icons/burger.svg" />Food</a></li>
+	<li><a href="/forms/volunteer"><img src="/images/icons/volunteer.svg" />Volunteer</a></li>
+</ul>

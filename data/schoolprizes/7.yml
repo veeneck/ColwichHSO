@@ -1,8 +1,17 @@
+<<<<<<< Updated upstream
 name: School Assembly
 body: Everyone will gather in the gym for entertainment.
 image: false
 featured: false
 itemType: 'schoolprizes'
 sponsor_id: lubbers
+=======
+name: Glow Party in PE
+body: Bring out the neon lights during PE!
+image: false
+featured: false
+itemType: 'schoolprizes'
+sponsor_id: ccf
+>>>>>>> Stashed changes
 display_order: 7
 perkOrderDesc: $4,000

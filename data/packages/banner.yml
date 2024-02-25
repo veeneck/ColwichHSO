@@ -4,7 +4,11 @@ title: "The Banner Package"
 description: "Your name and logo on a dedicated banner hung in the gym all year. You'll also be the sponsor of a School Prize!"
 icon: "🪧"
 price: "$1,000"
+<<<<<<< Updated upstream
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%241%2C000%20-%20The%20Banner%20Package"
+=======
+formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2024-sponsorship&field1=%241%2C000%20-%20The%20Banner%20Package"
+>>>>>>> Stashed changes
 learnUrl: "/sponsor/bannerpackage"
 perks:
   - title: "Digital Recognition" 
@@ -13,7 +17,11 @@ perks:
     description: "You'll have a full sized banner with your Company Logo on display in the school gym all year." 
     featured: "true"
   - title: "Staked Flag Banners" 
+<<<<<<< Updated upstream
     description: "We'll line the school with 12x18 flag banners for the week of Coin Wars." 
+=======
+    description: "A 12x18 staked flag banner with your logo will line the school yard during Coin Wars!" 
+>>>>>>> Stashed changes
   - title: "Sponsor a School Prize" 
     description: "Your Logo will be tied with a School Prize that is unlocked during the Coin Wars competition." 
     featured: "true" 

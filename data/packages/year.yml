@@ -6,7 +6,11 @@ icon: "🏦"
 price: "$5,000+"
 sold_out: false
 learn_more_only: false
+<<<<<<< Updated upstream
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%245%2C000%20-%20The%20Year%20Rounder"
+=======
+formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2024-sponsorship&field1=%245%2C000%20-%20The%20Dollar%20Match"
+>>>>>>> Stashed changes
 learnUrl: "/sponsor/yearpackage" 
 perks:
   - title: "Our Goal of $5,000" 

@@ -12,7 +12,11 @@ custom_class: "show_image event_sponsor"
 data_type: "yearpackage"
 faq_category: "sponsorpackage"
 ctatext: Purchase Dollar Match
+<<<<<<< Updated upstream
 ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%245%2C000%20-%20The%20Year%20Rounder"
+=======
+ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2024-sponsorship&field1=%245%2C000%20-%20The%20Dollar%20Match"
+>>>>>>> Stashed changes
 ctaicon: donate
 learn_link: "#section0"
 modules:

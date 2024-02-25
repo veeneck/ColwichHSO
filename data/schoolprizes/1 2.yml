@@ -1,0 +1,8 @@
+name: Raffle Tickets
+body: Each student wins 5 raffle tickets to place in their favorite raffle baskets.
+image: false
+featured: false
+itemType: 'schoolprizes'
+sponsor_id: 
+display_order: 1
+perkOrderDesc: $500
