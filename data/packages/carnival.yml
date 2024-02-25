@@ -6,11 +6,7 @@ icon: "🪙"
 price: "$2,500"
 sold_out: false
 learn_more_only: false
-<<<<<<< Updated upstream
-formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2023-sponsorship&field1=%242%2C500%20-%20The%20Carnival%20Host"
-=======
 formUrl: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2024-sponsorship&field1=%242%2C500%20-%20The%20Coin%20Wars%20Host"
->>>>>>> Stashed changes
 learnUrl: "/sponsor/hostpackage"
 perks:
   - title: "Top Logo Placement" 
@@ -19,11 +15,7 @@ perks:
   - title: "Dedicated Banner" 
     description: "You'll have a full sized banner with your Company Logo on display in the school gym all year."
   - title: "Staked Flag Banners" 
-<<<<<<< Updated upstream
-    description: "We'll line the school with 12x18 flag banners during Coin Wars." 
-=======
     description: "A 12x18 staked flag banner with your logo will line the school yard during Coin Wars!" 
->>>>>>> Stashed changes
   - title: "Digital Marquee" 
     description: "You'll enjoy <b>1</b> week of promotion on the digital marquee in front of the school leading up to Coin Wars."
     featured: "true" 
