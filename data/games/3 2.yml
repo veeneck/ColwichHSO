@@ -1,7 +1,0 @@
-name: Climbing Wall
-body: Touch the top of the wall and get a ticket!
-image: false
-featured: false
-itemType: 'games'
-sponsor_id: icm
-display_order: 4

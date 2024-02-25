@@ -1,14 +1,8 @@
 name: Silly Hat Day
 body: Everyone can wear an odd hat to school!
 image: false
-<<<<<<< Updated upstream
-featured: true
-itemType: 'schoolprizes'
-sponsor_id: gmac
-=======
 featured: false
 itemType: 'schoolprizes'
 sponsor_id: 
->>>>>>> Stashed changes
 display_order: 2
 perkOrderDesc: $1,000

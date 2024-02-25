@@ -4,11 +4,7 @@ type: sponsor
 sponsor_id: hopedental
 website: "https://www.mounthopedental.com"
 subtitle: "Mount Hope Dental is a multidisciplinary practice encompassing all areas of dentistry."
-<<<<<<< Updated upstream
-active: true
-=======
 active: false
->>>>>>> Stashed changes
 tier: 1
 ---
 Module content text assuming that there is a sub page.

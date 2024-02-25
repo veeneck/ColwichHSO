@@ -1,8 +1,0 @@
-name: PreK4 PM - Walker
-body: "Standings will be updated throughout the competition."
-#image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
-itemType: 'leaderboard'
-display_order: 3
-perkOrderDesc: $0.00

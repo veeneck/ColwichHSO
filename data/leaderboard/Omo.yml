@@ -1,12 +1,3 @@
-<<<<<<< Updated upstream
-name: 3rd Grade - Omo
-body: Omo's class is currently in <b>6th</b> place with <b>$22.18</b>!
-image: false
-featured: false
-itemType: 'leaderboard'
-display_order: 6
-perkOrderDesc: $22.18
-=======
 name: 4th Grade - Omo
 body: "Standings will be updated throughout the competition."
 image: false
@@ -14,4 +5,3 @@ featured: false
 itemType: 'leaderboard'
 display_order: 10
 perkOrderDesc: $0.00
->>>>>>> Stashed changes

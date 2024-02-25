@@ -1,12 +1,3 @@
-<<<<<<< Updated upstream
-name: Kindergarten - Butterfield
-body: Butterfield's class is currently in <b>1st</b> place with <b>$45.36</b>!
-image: "/images/dailywinners/1st.png"
-featured: true
-itemType: 'leaderboard'
-display_order: 1
-perkOrderDesc: $45.36
-=======
 name: 1st Grade - C Butterfield
 body: ###Butterfield's class is currently in <b>1st</b> place with <b>$45.36</b>!
 body: "Standings will be updated throughout the competition."
@@ -16,4 +7,3 @@ featured: false
 itemType: 'leaderboard'
 display_order: 5
 perkOrderDesc: $0.00
->>>>>>> Stashed changes
