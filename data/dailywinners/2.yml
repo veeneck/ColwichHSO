@@ -1,5 +1,10 @@
 name: Tuesday
+<<<<<<< Updated upstream
 body: Mrs. Kincaid's <b>4th grade</b> class raised <b>$23.27</b> average per student on Tuesday!
 image: '/images/dailywinners/tuesday.jpg'
+=======
+body: The winning class for Tuesday, March 5th will be announced shortly.
+image: '/images/dailywinners/wednesday.jpg'
+>>>>>>> Stashed changes
 featured: 2
 itemType: 'dailywinners'

@@ -1,8 +1,14 @@
 name: Popsicle Party
 body: Popsicles for everyone during an upcoming lunch day.
 image: false
+<<<<<<< Updated upstream
 featured: true
 itemType: 'schoolprizes'
 sponsor_id: icm
+=======
+featured: false
+itemType: 'schoolprizes'
+sponsor_id: 
+>>>>>>> Stashed changes
 display_order: 3
 perkOrderDesc: $1,500

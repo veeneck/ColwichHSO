@@ -3,6 +3,10 @@ body: Who wants to see Principal Burke dress up as something funny?
 image: false
 featured: false
 itemType: 'schoolprizes'
+<<<<<<< Updated upstream
 sponsor_id: gmac
+=======
+sponsor_id: lionsclub
+>>>>>>> Stashed changes
 display_order: 6
 perkOrderDesc: $3,000

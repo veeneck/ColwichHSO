@@ -1,0 +1,8 @@
+name: Teacher Sonic Drink Day
+body: A special treat for teachers with their favorite drink from Sonic!
+image: false
+featured: false
+itemType: 'schoolprizes'
+sponsor_id: icm
+display_order: 4
+perkOrderDesc: $2,000

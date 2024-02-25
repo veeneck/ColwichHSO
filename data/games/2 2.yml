@@ -1,0 +1,7 @@
+name: Plinko
+body: Win tickets based on where your Plinko lands.
+image: false
+featured: false
+itemType: 'games'
+sponsor_id: gmac
+display_order: 3

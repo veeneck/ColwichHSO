@@ -1,0 +1,8 @@
+name: Dollar Match!
+body: A private donor will dollar match all donations up to $5,000!
+image: false
+featured: true
+itemType: 'schoolprizes'
+sponsor_id: hso
+display_order: 9
+perkOrderDesc: BONUS

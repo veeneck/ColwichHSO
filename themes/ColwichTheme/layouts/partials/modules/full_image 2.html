@@ -1,0 +1,14 @@
+<picture>
+  <source 
+    srcset="{{ $.module.Params.image_url_large }}"
+    media="(min-width: 1500px)"
+  />
+  <source 
+    srcset="{{ $.module.Params.image_url_medium }}"
+    media="(min-width: 1025px)"
+  />
+  <img 
+    src="{{ $.module.Params.image_url_small }}" 
+    alt="{{ $.module.Params.title }}"
+  />
+</picture>

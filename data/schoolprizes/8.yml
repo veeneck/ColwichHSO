@@ -1,8 +1,17 @@
+<<<<<<< Updated upstream
 name: Bounce Houses
 body: Bounces Houses will be in the gym and each class will get a turn.
 image: false
 featured: false
 itemType: 'schoolprizes'
 sponsor_id: jumpstart
+=======
+name: Field Day Extras
+body: Bounces Houses and additional fun added to field day!
+image: false
+featured: false
+itemType: 'schoolprizes'
+sponsor_id: weigand
+>>>>>>> Stashed changes
 display_order: 8
 perkOrderDesc: $5,000

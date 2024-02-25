@@ -1,0 +1,11 @@
+title: Hot Dog Meal
+icon: "🌭"
+description: "<b>$4.00</b> Add a drink and side to your Hot Dog."
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: "/images/menu/HotDogMeal.png"
+featured: false
+itemType: 'activities'
+display_order: 2

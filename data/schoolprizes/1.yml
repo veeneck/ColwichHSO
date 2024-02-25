@@ -1,8 +1,16 @@
 name: Raffle Tickets
+<<<<<<< Updated upstream
 body: Each student wins 5 tickets to place in their favorite raffle baskets.
 image: false
 featured: true
 itemType: 'schoolprizes'
 sponsor_id: cmc
+=======
+body: Each student wins 5 raffle tickets to place in their favorite raffle baskets.
+image: false
+featured: false
+itemType: 'schoolprizes'
+sponsor_id: 
+>>>>>>> Stashed changes
 display_order: 1
 perkOrderDesc: $500

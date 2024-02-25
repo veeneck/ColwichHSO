@@ -3,6 +3,10 @@ body: Each class gets to watch a movie during the school day.
 image: false
 featured: false
 itemType: 'schoolprizes'
+<<<<<<< Updated upstream
 sponsor_id: css
+=======
+sponsor_id: cmc
+>>>>>>> Stashed changes
 display_order: 5
 perkOrderDesc: $2,500

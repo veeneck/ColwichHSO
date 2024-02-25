@@ -1,0 +1,12 @@
+title: Coming Soon
+title_attribute: false
+icon: "🏖️"
+description: We're finalizing raffle items right now! Check back for updates.
+details: false
+detailsLink: false
+ctaText: false
+ctaLink: false
+image: /images/raffle/4.jpg
+featured: false
+itemType: 'comingsoon'
+display_order: 1

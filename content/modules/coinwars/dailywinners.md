@@ -10,4 +10,8 @@ has_header: true
 hide_cta: true
 custom_message: true
 ---
+<<<<<<< Updated upstream
 Daily winners are the class with the highest average per student **on that day**. They win an additional **5** raffle tickets per student, and get to enjoy lunch in the classroom!
+=======
+Daily winners are the class with the highest average per student **on that day**. They win an additional **5** raffle tickets per student, and get to pick a prize from the prize table!
+>>>>>>> Stashed changes

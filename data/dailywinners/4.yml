@@ -1,5 +1,9 @@
 name: Thursday
+<<<<<<< Updated upstream
 body: The winning class for Monday, March 4th will be announced shortly.
+=======
+body: The winning class for Thursday, March 7th will be announced shortly.
+>>>>>>> Stashed changes
 image: '/images/dailywinners/thursday.jpg'
 featured: 4
 itemType: 'dailywinners'
