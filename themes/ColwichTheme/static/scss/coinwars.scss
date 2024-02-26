@@ -1,3 +1,5 @@
+@import "core/mixins.scss";
+
 .event_coinwars .perkOrder {
 	font-size: 175%;
 }
@@ -122,4 +124,40 @@
 
 .coinwars_navigation li a:hover {
 	font-weight: bold;
+}
+
+.leaderboard .desc p {
+	display: none;
+	@include contentFor(tablet-screen) {
+		display: block;
+	}
+}
+
+.leaderboard .desc h4 {
+	margin-bottom: 0px;
+	@include contentFor(tablet-screen) {
+		margin-bottom: 10px;
+	}
+}
+
+section.module.leaderboard, section.module.raffleitems {
+	padding-bottom: 10px;
+	@include contentFor(tablet-screen) {
+		padding-bottom: 75px;
+	}
+}
+
+section.module.sponsors {
+	padding-bottom: 10px;
+	@include contentFor(tablet-screen) {
+		padding-bottom: 75px;
+	}
+}
+
+.module.schoolprizes h2, .module.schoolprizes h3, .module.raffleitems h3, .module.raffleitems h3 {
+	display: block;
+}
+
+.module.raffleitems h3 {
+	margin-bottom: 25px;
 }

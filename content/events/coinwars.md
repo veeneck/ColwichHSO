@@ -28,5 +28,5 @@ polaroid:
 - /images/flyers/CoinWarsWebBack.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-Coin Wars 2024 is here! From **March 4th** through **March 8th**, classes will compete to raise donations for the school! There are a lot of prizes to be won, so scroll down and **[check out the rules and rewards](#section2)** below!
+From **March 4th** through **March 8th**, classes will compete to raise donations for the school! There are tons of prizes to be won, so **[check out the rules and rewards](#section2)** below!
 
