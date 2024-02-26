@@ -2066,9 +2066,20 @@
       "oAP" : "\/static\/images\/flyers\/CoinWarsBackPage.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/CoinWarsBackPage.webp" : {
+      "ft" : 8388608,
+      "iS" : 70726,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/CoinWarsBackPage.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/flyers\/CoinWarsOG.jpg" : {
