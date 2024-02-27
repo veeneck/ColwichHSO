@@ -1,8 +1,0 @@
-name: MS - Ast
-body: "Standings will be updated throughout the competition."
-#image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
-itemType: 'leaderboard'
-display_order: 11
-perkOrderDesc: $0.00
