@@ -9643,6 +9643,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/static\/images\/sponsors\/mounthope.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/static\/images\/sponsors\/mounthope.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/static\/images\/sponsors\/multicrete.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -10073,18 +10083,6 @@
       "sC" : 0,
       "tS" : 0
     },
-    "\/static\/scss\/carnival_old.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/static\/scss\/carnival_old-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/static\/scss\/carnival_old.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -10099,18 +10097,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/static\/scss\/carnival.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/static\/scss\/carnival-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/static\/scss\/carnival.scss" : {
       "aP" : 0,
@@ -10304,18 +10290,6 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/static\/scss\/css\/sponsorpackages-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/static\/scss\/index.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/static\/scss\/index-min.css",
       "oF" : 0,
       "pg" : 0
     },
