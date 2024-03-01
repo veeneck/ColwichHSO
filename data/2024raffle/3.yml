@@ -1,12 +1,12 @@
-title: Relax
+title: Sports Fan
 title_attribute: false
-icon: "💆🏽‍♀️"
-description: Unwind and treat yourself to a 60 min massage from <a href="https://www.facebook.com/TherapeuticMassageByRachel/" target="_blank">Therapeutic Massage by Rachel.</a> Then enjoy bath bombs, salts, lotion and more at home!
-details: false
-detailsLink: false
+icon: "🥎"
+description: 'Stay active with -- the <a href="https://www.urbanair.com">Urban Air</a> ultimate prize pack; a day at <a href="https://chickennpickle.com">Chicken & Pickle</a>; a <a href="https://goshockers.com">WSU</a> game; a visit to <a href="https://topgolf.com/us/wichita/">Top Golf</a>; and <a href="https://www.milb.com/wichita">Wind Surge</a> tickets! 10 <a href="https://www.chick-fil-a.com">Chick-fil-A</a> vouchers and more included!'
+details: Coordinated Systems & Supplies
+detailsLink: http://www.cssprint.com
 ctaText: false
 ctaLink: false
-image: /images/raffle/11.jpg
+image: /images/raffle/2024/3.jpg
 featured: false
 itemType: '2024raffle'
 display_order: 10 
