@@ -1,7 +1,7 @@
 name: 2nd Grade - Ast
 body: "Standings will be updated throughout the competition."
-image: false
-featured: false
+image: /images/dailywinners/3rd.png
+featured: true
 itemType: 'leaderboard'
-display_order: 7
-perkOrderDesc: $0.00
+display_order: 3
+perkOrderDesc: $4.67

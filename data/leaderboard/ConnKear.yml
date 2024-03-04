@@ -4,5 +4,5 @@ body: "Standings will be updated throughout the competition."
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 14
-perkOrderDesc: $0.00
+display_order: 15
+perkOrderDesc: $0.02
