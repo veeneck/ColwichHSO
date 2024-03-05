@@ -1,7 +1,7 @@
 name: Life Skills - Ries
-body: "Standings will be updated throughout the competition."
-#image: false
-featured: false
+body: "Dollar amounts are average per student."
+image: /images/dailywinners/2nd.png
+featured: true
 itemType: 'leaderboard'
-display_order: 16
-perkOrderDesc: $0.01
+display_order: 2
+perkOrderDesc: $16.82

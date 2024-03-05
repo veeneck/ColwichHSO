@@ -1,8 +1,8 @@
 name: MS - M Butterfield
-body: "Standings will be updated throughout the competition."
+body: "Dollar amounts are average per student."
 #image: "/images/dailywinners/3rd.png"
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 9
-perkOrderDesc: $0.65
+display_order: 7
+perkOrderDesc: $7.91

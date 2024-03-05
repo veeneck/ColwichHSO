@@ -1,8 +1,8 @@
 name: MS - Heimerman
-body: "Standings will be updated throughout the competition."
+body: "Dollar amounts are average per student."
 #image: "/images/dailywinners/3rd.png"
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 11
-perkOrderDesc: $0.50
+display_order: 12
+perkOrderDesc: $4.47

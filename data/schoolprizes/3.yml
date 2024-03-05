@@ -1,7 +1,7 @@
 name: Popsicle Party
 body: Popsicles for everyone during an upcoming lunch day.
 image: false
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: icm
 display_order: 3

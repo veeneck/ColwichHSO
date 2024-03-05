@@ -1,7 +1,7 @@
 name: PreK3 AM - Weins
-body: "Standings will be updated throughout the competition."
+body: "Dollar amounts are average per student."
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 8
-perkOrderDesc: $1.69
+display_order: 13
+perkOrderDesc: $3.29

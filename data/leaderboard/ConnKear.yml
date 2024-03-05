@@ -1,8 +1,8 @@
 name: MS - Kear
-body: "Standings will be updated throughout the competition."
+body: "Dollar amounts are average per student."
 #image: "/images/dailywinners/3rd.png"
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 15
-perkOrderDesc: $0.02
+display_order: 14
+perkOrderDesc: $2.30

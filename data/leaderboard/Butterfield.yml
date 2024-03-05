@@ -1,9 +1,8 @@
 name: 1st Grade - C Butterfield
 body: ###Butterfield's class is currently in <b>1st</b> place with <b>$45.36</b>!
-body: "Standings will be updated throughout the competition."
-#image: "/images/dailywinners/3rd.png"
+body: "Dollar amounts are average per student."
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 6
-perkOrderDesc: $2.64
+display_order: 4
+perkOrderDesc: $13.70

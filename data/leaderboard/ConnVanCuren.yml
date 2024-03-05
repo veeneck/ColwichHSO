@@ -1,8 +1,8 @@
 name: MS - VanCuren
-body: "Standings will be updated throughout the competition."
+body: "Dollar amounts are average per student."
 #image: "/images/dailywinners/3rd.png"
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 13
-perkOrderDesc: $0.49
+display_order: 15
+perkOrderDesc: $1.88

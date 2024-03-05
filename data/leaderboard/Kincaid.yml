@@ -1,7 +1,7 @@
 name: 4th Grade - Kincaid
-body: "Standings will be updated throughout the competition."
-image: /images/dailywinners/2nd.png
-featured: true
+body: "Dollar amounts are average per student."
+image: false
+featured: false
 itemType: 'leaderboard'
-display_order: 2
-perkOrderDesc: $5.88
+display_order: 5
+perkOrderDesc: $13.39
