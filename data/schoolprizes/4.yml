@@ -1,7 +1,7 @@
 name: Teacher Sonic Drink Day
 body: A special treat for teachers with their favorite drink from Sonic!
 image: false
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: cmc
 display_order: 4

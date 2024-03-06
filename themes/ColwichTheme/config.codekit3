@@ -1868,6 +1868,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/dailywinners\/wednesdaywinner.jpg" : {
+      "ft" : 16384,
+      "iS" : 77213,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/dailywinners\/wednesdaywinner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/donations.jpg" : {
       "ft" : 16384,
       "iS" : 593327,

@@ -1,7 +1,7 @@
 name: 4th Grade - Kincaid
 body: "Dollar amounts are average per student."
-image: false
-featured: false
+image: /images/dailywinners/1st.png
+featured: true
 itemType: 'leaderboard'
-display_order: 5
-perkOrderDesc: $13.39
+display_order: 1
+perkOrderDesc: $38.07

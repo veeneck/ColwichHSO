@@ -1,7 +1,7 @@
 name: Principal Dress Up
 body: Who wants to see Principal Burke dress up as something funny?
 image: false
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: ccf
 display_order: 6
