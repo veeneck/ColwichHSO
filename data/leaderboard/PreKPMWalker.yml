@@ -1,8 +1,8 @@
 name: PreK4 PM - Walker
 body: "Dollar amounts are average per student."
 #image: "/images/dailywinners/3rd.png"
-image: /images/dailywinners/3rd.png
-featured: true
+image: false
+featured: false
 itemType: 'leaderboard'
-display_order: 3
-perkOrderDesc: $24.45
+display_order: 4
+perkOrderDesc: $31.39

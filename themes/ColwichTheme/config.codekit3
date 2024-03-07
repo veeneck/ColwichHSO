@@ -1759,6 +1759,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/static\/images\/dailywinners\/thursdaywinner.jpg" : {
+      "ft" : 16384,
+      "iS" : 103141,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/dailywinners\/thursdaywinner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/dailywinners\/tuesday 2.jpg" : {
       "ft" : 16384,
       "iS" : 47607,

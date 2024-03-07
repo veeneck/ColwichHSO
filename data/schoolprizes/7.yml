@@ -1,7 +1,7 @@
 name: Glow Party in PE
 body: Bring out the neon lights during PE!
 image: false
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: littlestars
 display_order: 7

@@ -1,7 +1,7 @@
 name: Life Skills - Ries
 body: "Dollar amounts are average per student."
-image: false
-featured: false
+image: /images/dailywinners/2nd.png
+featured: true
 itemType: 'leaderboard'
-display_order: 4
-perkOrderDesc: $23.87
+display_order: 2
+perkOrderDesc: $42.16

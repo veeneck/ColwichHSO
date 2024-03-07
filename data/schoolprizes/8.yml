@@ -1,7 +1,7 @@
 name: Field Day Extras
 body: Bounces Houses and additional fun added to field day!
 image: false
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: weigand
 display_order: 8
