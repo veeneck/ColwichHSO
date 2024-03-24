@@ -2910,6 +2910,30 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/static\/images\/flyers\/SpiritNightChickFilAWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 456790,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/SpiritNightChickFilAWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/SpiritNightChickFilAWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 109310,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/SpiritNightChickFilAWeb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
     "\/static\/images\/flyers\/SpiritNightGambinosOG.jpg" : {
       "ft" : 16384,
       "iS" : 99693,
@@ -3164,6 +3188,30 @@
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TeacherAppreciationWeekWeb.jpg" : {
+      "ft" : 16384,
+      "iS" : 259159,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TeacherAppreciationWeekWeb.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/flyers\/TeacherAppreciationWeekWeb.webp" : {
+      "ft" : 8388608,
+      "iS" : 59050,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/flyers\/TeacherAppreciationWeekWeb.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },

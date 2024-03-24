@@ -2,15 +2,16 @@
 title: Spirit Night 🎉
 description: When eating at our partner restaurant, a portion of your meal will go back to Colwich HSO.
 type: events
-event_date: 2024-03-15 1:00:00 +0000
+event_date: 2024-04-04 1:00:00 +0000
 url: "/spiritnight4"
 fullUrl: "https://colwichhso.com/spiritnight4"
-page_status: comingsoon
+page_status: active
 custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: confetti
-image: "/images/flyers/ParentsNightOutWebOct.jpg"
+image: "/images/flyers/SpiritNightChickFilAWeb.jpg"
+faq_category: spiritnight
 modules:
 - modules/common/featured_image.md
 - modules/common/faq.md
@@ -19,9 +20,9 @@ modules:
 - modules/common/donate.md
 - modules/common/footer.md
 polaroid: 
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
-- /images/flyers/ParentsNightOutWebOct.jpg
+- /images/flyers/SpiritNightChickFilAWeb.jpg
+- /images/flyers/SpiritNightChickFilAWeb.jpg
+- /images/flyers/SpiritNightChickFilAWeb.jpg
+- /images/flyers/SpiritNightChickFilAWeb.jpg
 ---
-This is where the full text description of the event will go.
+Eat at Chick-Fil-A and mention "Spirit Night" at the register any time between 3pm-10pm on April 4th, and 20% of sales will go back to HSO! Use the code "community" for mobile orders.
