@@ -4,8 +4,8 @@ description: Fill out this form to stay informed about officer opportunities.
 type: forms
 date: 2022-06-03 14:59:46 +0000
 pageImage: "https://colwichhso.com/images/flyers/VolunteerOpenGraph.jpg"
-url: "/forms/officer"
-fullUrl: "https://colwichhso.com/forms/officer"
+url: "/officer"
+fullUrl: "https://colwichhso.com/officer"
 aliases:
     - /signup
 subtitle: Officer Application
