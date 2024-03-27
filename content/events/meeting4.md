@@ -28,4 +28,4 @@ polaroid:
 - /images/flyers/HSOMeetingAprWeb.jpg
 - /images/flyers/HSOMeetingAprWeb.jpg
 ---
-Meet in the CES music room to help us plan out the next school year. Hope to see you there!
+Meet at The Keg to help us plan out the next school year. Hope to see you there!
