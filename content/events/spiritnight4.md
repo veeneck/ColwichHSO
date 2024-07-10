@@ -2,10 +2,10 @@
 title: Spirit Night 🎉
 description: When eating at our partner restaurant, a portion of your meal will go back to Colwich HSO.
 type: events
-event_date: 2024-04-04 1:00:00 +0000
+event_date: 2025-04-04 1:00:00 +0000
 url: "/chickfila"
 fullUrl: "https://colwichhso.com/chickfila"
-page_status: active
+page_status: comingsoon
 custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar
 ctalink: calendar

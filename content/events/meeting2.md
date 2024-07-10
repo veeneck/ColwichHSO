@@ -2,9 +2,9 @@
 title: 2nd HSO Meeting 🗓️
 description: Our second meeting of the year to plan winter events.
 type: events
-event_date: 2023-11-14 18:00:00 +0000
-url: "/meetings/11062023"
-fullUrl: "https://colwichhso.com/meetings/11062023"
+event_date: 2024-11-14 18:30:00 +0000
+url: "/meetings/11142024"
+fullUrl: "https://colwichhso.com/meetings/11142024"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeeting2OpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
@@ -27,4 +27,4 @@ polaroid:
 - /images/flyers/HSOMeetingNovWeb.jpg
 - /images/flyers/HSOMeetingNovWeb.jpg
 ---
-Meet in the CES music room to help us plan out the winter events, and to fill out volunteer roles. Hope to see you there!
+Meet in the CES Library to help us plan out the winter events, and to fill out volunteer roles. Hope to see you there!

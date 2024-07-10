@@ -1,9 +1,9 @@
 ---
-page_status: active
+page_status: comingsoon
 title: Coffee With Cardinals ☕ 
 description: Get to know your teachers, school and fellow students at the beginning of the school year.
 type: events
-event_date: 2023-10-12 07:45:00 +0000
+event_date: 2024-10-12 07:45:00 +0000
 url: "/coffee"
 fullUrl: "https://colwichhso.com/coffee"
 pageImage: "https://colwichhso.com/images/flyers/CoffeeWithCardinalsOpenGraph.jpg"

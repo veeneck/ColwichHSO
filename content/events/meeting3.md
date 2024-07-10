@@ -3,9 +3,9 @@ page_status: active
 title: 3rd HSO Meeting 🗓️
 description: Our third meeting of the year to work on Coin Wars.
 type: events
-event_date: 2024-01-09 6:00:00 +0000
-url: "/meetings/01092024"
-fullUrl: "https://colwichhso.com/meetings/01092024"
+event_date: 2025-01-16 6:30:00 +0000
+url: "/meetings/01162025"
+fullUrl: "https://colwichhso.com/meetings/01162025"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeeting3OpenGraph.jpg"
 faq_category: meeting
 image: "/images/flyers/HSOMeetingJanWeb.jpg"
@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/HSOMeetingJanWeb.jpg
 - /images/flyers/HSOMeetingJanWeb.jpg
 ---
-Meet in the CES Music Room to help us plan out the Spring Events, and to fill out volunteer roles. Hope to see you there!
+Meet in the CES Library to help us plan out the Spring Events, and to fill out volunteer roles. Hope to see you there!
