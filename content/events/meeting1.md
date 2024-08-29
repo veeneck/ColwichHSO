@@ -24,4 +24,4 @@ polaroid:
 - /images/flyers/HSOMeetingSeptWeb.jpg
 - /images/flyers/HSOMeetingSeptWeb.jpg
 ---
-Meet in the CES Library on Sept 12th at 6:30pm to help plan out the fall events, and to fill out volunteer roles. Hope to see you there!
+Meet @ The Nest in Colwich Elementary on Sept 12th at 6:30pm to help plan out the fall events, and to fill out volunteer roles. Enter through door 3 on the east side! Hope to see you there!
