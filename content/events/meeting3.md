@@ -25,4 +25,4 @@ polaroid:
 - /images/flyers/HSOMeetingJanWeb.jpg
 - /images/flyers/HSOMeetingJanWeb.jpg
 ---
-Meet in the CES Library to help us plan out the Spring Events, and to fill out volunteer roles. Hope to see you there!
+Meet in the CES Nest to help us plan out the Spring Events, and to fill out volunteer roles. Hope to see you there!

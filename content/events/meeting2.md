@@ -27,4 +27,4 @@ polaroid:
 - /images/flyers/HSOMeetingNovWeb.jpg
 - /images/flyers/HSOMeetingNovWeb.jpg
 ---
-Meet in the CES Library to help us plan out the winter events, and to fill out volunteer roles. Hope to see you there!
+Meet at The Gathering Space to help us plan out the winter events, and to fill out volunteer roles. Hope to see you there!
