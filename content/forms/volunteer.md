@@ -10,7 +10,7 @@ aliases:
     - /signup
 subtitle: Volunteer Application
 shoutout: We Need Your Help! 🤚🏽
-overview: We've got a few of summer events that are in need of volunteers! Please look at the time slots below. Make sure to **submit at the bottom of the page**. Thanks so much!
+overview: Fall events are coming and we are in need of volunteers! Please look at the time slots below. Make sure to **submit at the bottom of the page**. Thanks so much!
 modules:
 - modules/common/sponsors.md
 - modules/common/footer.md
