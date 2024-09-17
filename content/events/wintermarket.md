@@ -1,9 +1,9 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Winter Market ❄️ 
 description: Join us for local goods and a bake sale this Winter!
 type: events
-event_date: 2024-11-11 11:00:00 +0000
+event_date: 2024-11-16 11:00:00 +0000
 url: "/wintermarket"
 fullUrl: "https://colwichhso.com/wintermarket"
 pageImage: "https://colwichhso.com/images/flyers/WinterMarketWeb.jpg"
@@ -22,4 +22,4 @@ polaroid:
 - /images/flyers/WinterMarketWeb.jpg
 - /images/flyers/WinterMarketWeb.jpg
 ---
-Come and join us in the CES Old Gym on Saturday, November 11th from 11:00am to 3:00pm for a Winter Market Wonderland! You can find unique gifts, support local shops, find hand crafted items, and grab a bite at the bake sale.
+Come and join us in the CES Old Gym on Saturday, November 16th from 11:00am to 3:00pm for a Winter Market Wonderland! You can find unique gifts, support local shops, find hand crafted items, and grab a bite at the bake sale.

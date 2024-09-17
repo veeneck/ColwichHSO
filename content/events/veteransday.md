@@ -1,9 +1,9 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Veterans Day Reception 🎖️
 description: This small event recognizes our local veterans.
 type: events
-event_date: 2024-11-10 10:00:00 +0000
+event_date: 2024-11-11 10:00:00 +0000
 url: "/veteransday"
 fullUrl: "https://colwichhso.com/veteransday"
 pageImage: "https://colwichhso.com/images/flyers/VeteransDayOG.jpg"
@@ -26,4 +26,4 @@ polaroid:
 - /images/flyers/VeteransDayWeb.jpg
 - /images/flyers/VeteransDayWeb.jpg
 ---
-Join CES to honor our Veterans on November 10th at 10am. After the ceremony, HSO will provide food and drink for a light reception.
+Join CES to honor our Veterans on November 11th at 10am. After the ceremony, HSO will provide food and drink for a light reception.

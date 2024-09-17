@@ -1,9 +1,9 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Coffee With Cardinals ☕ 
 description: Get to know your teachers, school and fellow students at the beginning of the school year.
 type: events
-event_date: 2024-10-12 07:45:00 +0000
+event_date: 2024-10-25 07:45:00 +0000
 url: "/coffee"
 fullUrl: "https://colwichhso.com/coffee"
 pageImage: "https://colwichhso.com/images/flyers/CoffeeWithCardinalsOpenGraph.jpg"
@@ -22,4 +22,4 @@ polaroid:
 - /images/flyers/CoffeeWithCardinalsWeb.jpg
 - /images/flyers/CoffeeWithCardinalsWeb.jpg
 ---
-The 2023-24 school year has begun. Take a moment on October 12th, and join us for some coffee & donuts between 7:45am - 8:25am. A chance to meet fellow school families in the old gym and cafeteria.
+The 2024-25 school year has begun. Take a moment on October 25th, and join us for some coffee & donuts between 7:45am - 8:30am. A chance to meet fellow school families in the old gym and cafeteria.
