@@ -3907,6 +3907,32 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/static\/images\/jayni.jpeg" : {
+      "ft" : 16384,
+      "iS" : 26781,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/jayni.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/jayni.jpg" : {
+      "ft" : 16384,
+      "iS" : 18666,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/jayni.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/static\/images\/jeralynnhowell 2.jpg" : {
       "ft" : 16384,
       "iS" : 66869,
