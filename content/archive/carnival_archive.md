@@ -1,7 +1,7 @@
 ---
 title: Spring Carnival 2023 🎪
 description: There are plenty of games for the kids to enjoy, raffles to be won, and money to be raised for CES.
-type: events
+type: nonapplicable ###used to be events
 event_date: 2025-04-28 1:00:00 +0000
 url: "/carnival"
 fullUrl: "https://colwichhso.com/carnival"

@@ -3138,8 +3138,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/TeacherAppreciationMay.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -3199,7 +3199,7 @@
       "oAP" : "\/static\/images\/flyers\/TeacherAppreciationWeekWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -3210,8 +3210,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/TeacherAppreciationWeekWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
