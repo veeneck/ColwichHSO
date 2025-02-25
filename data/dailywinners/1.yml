@@ -1,5 +1,8 @@
 name: Monday
-body: Mrs. Steele's <b>1st grade</b> class raised <b>$11.14</b> average per student on Monday!
-image: '/images/dailywinners/mondaywinner.jpg'
+###body: <b>Life Skills - Ries</b> raised <b>$16.81</b> average per student on Tuesday!
+###image: '/images/dailywinners/tuesdaywinner.jpg'
+body: Stay tuned to see which class raises the most per student on Monday!
+image: '/images/dailywinners/wednesday.jpg'
 featured: 1
 itemType: 'dailywinners'
+sponsor_id: icm

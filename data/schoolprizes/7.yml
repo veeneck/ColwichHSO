@@ -1,8 +1,8 @@
-name: Glow Party in PE
-body: Bring out the neon lights during PE!
+name: Dunk Tank
+body: Bring your throwing arm and dunk some staff.
 image: false
-featured: true
+featured: false
 itemType: 'schoolprizes'
-sponsor_id: littlestars
+sponsor_id: guardian
 display_order: 7
 perkOrderDesc: $4,000

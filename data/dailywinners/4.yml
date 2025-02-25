@@ -1,5 +1,8 @@
 name: Thursday
-body: <b>Life Skills - Ries</b> raised <b>$18.29</b> average per student on Thursday!
-image: '/images/dailywinners/thursdaywinner.jpg'
+###ody: <b>Life Skills - Ries</b> raised <b>$18.29</b> average per student on Thursday!
+###image: '/images/dailywinners/thursdaywinner.jpg'
+body: Stay tuned to see which class raises the most per student on Thursday!
+image: '/images/dailywinners/wednesday.jpg'
 featured: 4
 itemType: 'dailywinners'
+sponsor_id: lionsclub

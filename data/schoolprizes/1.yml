@@ -1,8 +1,8 @@
 name: Raffle Tickets
 body: Each student wins 5 raffle tickets to place in their favorite raffle baskets.
 image: false
-featured: true
+featured: false
 itemType: 'schoolprizes'
-sponsor_id: caring
+sponsor_id: advantageglass
 display_order: 1
 perkOrderDesc: $500

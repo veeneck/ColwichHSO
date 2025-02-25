@@ -1,5 +1,8 @@
 name: Wednesday
-body: <b>4th Grade - Kincaid</b> raised <b>$24.68</b> average per student on Wednesday!
-image: '/images/dailywinners/wednesdaywinner.jpg'
+###body: <b>4th Grade - Kincaid</b> raised <b>$24.68</b> average per student on Wednesday!
+###image: '/images/dailywinners/wednesdaywinner.jpg'
+body: Stay tuned to see which class raises the most per student on Wednesday!
+image: '/images/dailywinners/wednesday.jpg'
 featured: 3
 itemType: 'dailywinners'
+sponsor_id: bamowing

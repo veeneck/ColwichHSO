@@ -1,10 +1,11 @@
 ---
-title: Spexarth Acoustics Inc
+title: "Wild to the Fence"
 type: sponsor
-sponsor_id: spexarth
+sponsor_id: wildfence
 website: ""
 subtitle: ""
-active: false
-tier: 1
+logo: "wildtothefence.svg"
+active: true
+tier: 2
 ---
 Module content text assuming that there is a sub page.

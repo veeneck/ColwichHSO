@@ -1,8 +1,8 @@
 name: Popsicle Party
 body: Popsicles for everyone during an upcoming lunch day.
 image: false
-featured: true
+featured: false
 itemType: 'schoolprizes'
-sponsor_id: icm
+sponsor_id: carmichael
 display_order: 3
 perkOrderDesc: $1,500

@@ -6,6 +6,18 @@
 			<img src="{{ $el.image }}" loading="lazy" alt="Image for {{ $el.name }}" />
 			<h4>{{ $el.name }}</h4>
 			<p>{{ $el.body | safeHTML }}</p>
+
+			{{ if $el.sponsor_id  }}
+				{{ $sponsors := where site.RegularPages "Type" "sponsor" }}
+				{{ range $sponsor := where $sponsors ".Params.sponsor_id" "eq" $el.sponsor_id }}
+					<span class="dailywinner_sponsor">
+						<a href="{{ $sponsor.Params.website }}">
+							<img src="/images/sponsors/{{ $sponsor.Params.logo }}" />
+						</a>
+					</span>
+				{{ end }}
+			{{end}}
+
 			{{ if $el.learn_url }}
 				<a href="{{ $el.learn_url }}" class="highlighter bottom">Learn More</a>
 			{{ end }}

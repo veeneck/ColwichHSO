@@ -1,7 +1,7 @@
-name: Field Day Extras
-body: Bounces Houses and additional fun added to field day!
+name: Tanganyika Assembly
+body: We'll bring the zoo to the school!
 image: false
-featured: true
+featured: false
 itemType: 'schoolprizes'
 sponsor_id: weigand
 display_order: 8
