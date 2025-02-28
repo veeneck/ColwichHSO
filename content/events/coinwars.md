@@ -1,9 +1,9 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Coin Wars 🪙
 description: Coin Wars is a fundraiser game to be competed between grade levels/home rooms. 
 type: events
-event_date: 2025-03-04 1:00:00 +0000
+event_date: 2025-03-10 1:00:00 +0000
 url: "/coinwars"
 fullUrl: "https://colwichhso.com/coinwars"
 pageImage: "https://colwichhso.com/images/flyers/CoinWarsOG.jpg"
@@ -28,5 +28,5 @@ polaroid:
 - /images/flyers/CoinWarsWebBack.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-From **March 4th** through **March 8th**, classes will compete to raise donations for the school! There are tons of prizes to be won, so **[check out the rules and rewards](#section2)** below!
+From **March 10th** through **March 14th**, classes will compete to raise donations for the school! There are tons of prizes to be won, so **[check out the rules and rewards](#section2)** below!
 
