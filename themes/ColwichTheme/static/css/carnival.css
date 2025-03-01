@@ -1079,12 +1079,7 @@ img {
   width: 150px;
   margin: 15px auto;
   object-fit: contain;
-  height: 80px;
-}
-@media (min-width: 1300px) {
-  .imagegroup .dailywinner_sponsor img {
-    height: 100px;
-  }
+  height: 90px;
 }
 
 .module.content_list.first {
@@ -1149,7 +1144,7 @@ img {
 
 .content_list ul .content_sponsor img {
   width: 150px;
-  height: 80px;
+  height: 90px;
   object-fit: contain;
   margin: 0px auto 25px auto;
 }

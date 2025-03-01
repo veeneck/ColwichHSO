@@ -146,8 +146,5 @@
 	width: 150px;
     margin: 15px auto;
     object-fit: contain;
-    height: 80px;
-    @include contentFor(large-screen) {
-    	height: 100px;
-    }
+   	height: 90px;
 }
