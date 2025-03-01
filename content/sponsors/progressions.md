@@ -7,5 +7,6 @@ subtitle: "TO HELP, TO HEAL & TO MAKE PEOPLE FEEL BEAUTIFUL"
 logo: "progressions.svg"
 active: true
 tier: 3
+custom_class: "round"
 ---
 Module content text assuming that there is a sub page.

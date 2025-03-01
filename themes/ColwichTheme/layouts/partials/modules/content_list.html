@@ -30,7 +30,7 @@
  				{{ range $sponsor := where $sponsors ".Params.sponsor_id" "eq" $el.sponsor_id }}
  					<div class="content_sponsor">
  						<a href="{{ $sponsor.Params.website }}">
- 							<img src="/images/sponsors/{{ $sponsor.Params.logo }}" />
+ 							<img class="{{ $sponsor.Params.custom_class }}" src="/images/sponsors/{{ $sponsor.Params.logo }}" />
  						</a>
  					</div>
  				{{ end }}

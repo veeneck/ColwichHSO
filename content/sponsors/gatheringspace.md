@@ -7,5 +7,6 @@ subtitle: "We are a Gathering Space grounded in Christian values of Love, Integr
 logo: "gatheringspace.svg"
 active: true
 tier: 3
+custom_class: "round"
 ---
 Module content text assuming that there is a sub page.
