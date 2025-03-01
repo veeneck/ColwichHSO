@@ -144,7 +144,10 @@
 
 .imagegroup .dailywinner_sponsor img {
 	width: 150px;
-    margin: 0 auto;
+    margin: 15px auto;
     object-fit: contain;
     height: 80px;
+    @include contentFor(large-screen) {
+    	height: 100px;
+    }
 }

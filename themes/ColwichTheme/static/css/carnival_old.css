@@ -1078,9 +1078,14 @@ img {
 }
 .imagegroup .dailywinner_sponsor img {
   width: 150px;
-  margin: 0 auto;
+  margin: 15px auto;
   object-fit: contain;
   height: 80px;
+}
+@media (min-width: 1300px) {
+  .imagegroup .dailywinner_sponsor img {
+    height: 100px;
+  }
 }
 
 .module.content_list.first {
