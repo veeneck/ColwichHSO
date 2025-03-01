@@ -59,6 +59,14 @@
 	}
 }
 
+.content_list ul .content_sponsor img.round {
+	height: 100px;
+	margin: 0px auto 20px auto;
+	@include contentFor(mini-screen) {
+		margin: 20px;
+	}
+}
+
 .content_list ul .content_sponsor a {
 	text-decoration: none;
 	background-color: #fff;
