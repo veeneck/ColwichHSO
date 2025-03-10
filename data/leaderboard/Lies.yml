@@ -1,7 +1,8 @@
 name: 2nd Grade - Lies
-body: "Dollar amounts are average per student."
-image: false
-featured: false
+body: Lies is currently in <b>1st</b> place with <b>$26.95</b>!
+###body: "Dollar amounts are average per student."
+image: "/images/dailywinners/1st.png"
+featured: true
 itemType: 'leaderboard'
-display_order: 7
-perkOrderDesc: $0.00
+display_order: 1
+perkOrderDesc: $26.95
