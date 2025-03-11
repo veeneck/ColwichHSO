@@ -1,7 +1,7 @@
 name: Teacher Drink Day
 body: A special treat for teachers with their favorite drinks!
 image: false
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: pearson
 display_order: 4

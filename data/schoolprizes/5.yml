@@ -1,7 +1,7 @@
 name: Movie Day
 body: Each class gets to watch a movie during the school day.
 image: false
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: progressions
 display_order: 5

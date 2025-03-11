@@ -1,8 +1,8 @@
 name: MS - M Butterfield
-body: M Butterfield's class is currently in <b>2nd</b> place with <b>$8.19</b>!
-###body: "Dollar amounts are average per student."
-image: "/images/dailywinners/2nd.png"
-featured: true
+###body: M Butterfield's class is currently in <b>2nd</b> place with <b>$8.19</b>!
+body: "Dollar amounts are average per student."
+image: false
+featured: false
 itemType: 'leaderboard'
-display_order: 2
-perkOrderDesc: $8.19
+display_order: 6
+perkOrderDesc: $12.78
