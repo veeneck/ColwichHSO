@@ -1,7 +1,7 @@
 name: Principal Tape Up
 body: Ever wanted to tape Mr. Burke to a wall? Now is your chance.
-image: false
-featured: false
+image: true
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: gatheringspace
 display_order: 6

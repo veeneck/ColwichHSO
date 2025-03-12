@@ -1,7 +1,7 @@
 name: Dunk Tank
 body: Bring your throwing arm and dunk some staff.
-image: false
-featured: false
+image: true
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: guardian
 display_order: 7

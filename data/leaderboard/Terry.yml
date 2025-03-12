@@ -1,9 +1,9 @@
 name: Kindergarten - Terry
-body: ###Butterfield's class is currently in <b>1st</b> place with <b>$45.36</b>!
-body: "Dollar amounts are average per student."
-#image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
+body: Terry's class is currently in <b>2nd</b> place with <b>$32.89</b>!
+###body: "Dollar amounts are average per student."
+image: "/images/dailywinners/2nd.png"
+###image: true
+featured: true
 itemType: 'leaderboard'
-display_order: 4
-perkOrderDesc: $18.90
+display_order: 2
+perkOrderDesc: $32.89

@@ -1,8 +1,8 @@
 name: PreK4 AM - Walker
-body: PreK4 AM - Walker's class is currently in <b>2nd</b> place with <b>$21.57</b>!
-###body: "Dollar amounts are average per student."
-image: "/images/dailywinners/2nd.png"
-featured: true
+###body: PreK4 AM - Walker's class is currently in <b>2nd</b> place with <b>$21.57</b>!
+body: "Dollar amounts are average per student."
+image: false
+featured: false
 itemType: 'leaderboard'
-display_order: 2
-perkOrderDesc: $21.57
+display_order: 5
+perkOrderDesc: $25.48

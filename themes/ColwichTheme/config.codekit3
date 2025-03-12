@@ -1865,7 +1865,7 @@
       "oAP" : "\/static\/images\/dailywinners\/wednesday.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
@@ -1876,8 +1876,8 @@
       "oA" : 0,
       "oAP" : "\/static\/images\/dailywinners\/wednesday.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },

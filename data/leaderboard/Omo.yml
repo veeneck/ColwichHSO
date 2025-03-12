@@ -1,9 +1,9 @@
 name: 3rd Grade - Omo
 body: "Dollar amounts are average per student."
-body: 3rd Grade - Omo's class is currently in <b>3rd</b> place with <b>$20.44</b>!
+body: 3rd Grade - Omo's class is currently in <b>3rd</b> place with <b>$30.79</b>!
 ###body: "Dollar amounts are average per student."
 image: "/images/dailywinners/3rd.png"
 featured: true
 itemType: 'leaderboard'
 display_order: 3
-perkOrderDesc: $20.44
+perkOrderDesc: $30.79
