@@ -1754,9 +1754,20 @@
       "oAP" : "\/static\/images\/dailywinners\/thursday.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/static\/images\/dailywinners\/thursday.webp" : {
+      "ft" : 8388608,
+      "iS" : 11130,
+      "oA" : 0,
+      "oAP" : "\/static\/images\/dailywinners\/thursday.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
       "rq" : 75
     },
     "\/static\/images\/dailywinners\/thursdaywinner.jpg" : {

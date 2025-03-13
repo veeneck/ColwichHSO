@@ -1,7 +1,7 @@
 name: Tanganyika Assembly
 body: We'll bring the zoo to the school!
-image: false
-featured: false
+image: true
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: weigand
 display_order: 8
