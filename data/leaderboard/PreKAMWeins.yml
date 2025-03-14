@@ -1,9 +1,7 @@
 name: PreK3 AM - Wiens
-###body: "Dollar amounts are average per student."
-body: PreK3 AM - Wiens is currently in <b>3rd</b> place with <b>$41.36</b>!
-###body: "Dollar amounts are average per student."
-image: "/images/dailywinners/3rd.png"
-featured: true
+body: "Dollar amounts are average per student."
+image: false
+featured: false
 itemType: 'leaderboard'
-display_order: 3
-perkOrderDesc: $41.36
+display_order: 7
+perkOrderDesc: $43.15

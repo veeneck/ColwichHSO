@@ -4,5 +4,5 @@ body: "Dollar amounts are average per student."
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 12
+display_order: 14
 perkOrderDesc: $12.50
