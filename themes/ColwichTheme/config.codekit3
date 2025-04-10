@@ -15,7 +15,7 @@
       "uuidString" : "796B71ED-EA78-49E2-B6F2-903332BE54A2"
     }
   ],
-  "creatorBuild" : "34564",
+  "creatorBuild" : "34689",
   "files" : {
     "\/archetypes\/default.html" : {
       "cB" : 0,
@@ -10576,151 +10576,131 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/static\/css\/carnival_old.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/carnival.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/static\/css\/carnival.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/coinwars.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/static\/css\/coinwars.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/core\/animations.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/animations.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/core\/carnival_core.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/carnival_core.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/core\/carnival_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/static\/scss\/css\/carnival_typography.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/core\/core.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/core.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/core\/mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/mixins.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/core\/reset.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/reset.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/core\/typography.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/typography.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/css\/carnival_typography 2.css" : {
       "aP" : 1,
@@ -10786,376 +10766,326 @@
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/static\/css\/index.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/alert.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/alert.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/calendar.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/calendar.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/carnivalhero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/carnivalhero.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/carnivalnavigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/carnivalnavigation.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/content_cards.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/content_cards.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/content_list.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/content_list.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/donate.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/donate.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/faq.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/faq.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/footer.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/framework.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/framework.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/full_image.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/full_image.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/hero.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/hero.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/imagegroup.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/imagegroup.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/images.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/images.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/meetings.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/meetings.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/minutes.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/minutes.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/navigation.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/navmodule.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/navmodule.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/sponsorpackages.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/sponsorpackages.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/sponsors.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/sponsors.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/sponsortiers.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/sponsortiers.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/modules\/text_module.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/static\/scss\/css\/text_module.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/wufoo.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/static\/css\/wufoo.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/static\/scss\/wufoofull.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
-      "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/static\/css\/wufoofull.css",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 1,
+      "pg" : 0
     },
     "\/theme.toml" : {
       "cB" : 0,
@@ -11476,8 +11406,6 @@
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "cssoForceMediaMerge" : 0,
-    "cssoRestructure" : 1,
     "environmentVariableEntries" : [
       "NODE_ENV:::production"
     ],
@@ -11678,10 +11606,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -11733,10 +11657,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -11879,7 +11799,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -11964,7 +11885,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -12332,7 +12254,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -12623,11 +12546,9 @@
       "autoOutputPathReplace1" : "sass",
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 2,
-      "compilerType" : 0,
       "cssoStyle" : 0,
-      "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 0,
+      "outputStyle" : 1,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
@@ -12742,6 +12663,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
+    "sassWarningStyle" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
@@ -12762,6 +12684,7 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
