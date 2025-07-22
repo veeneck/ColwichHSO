@@ -1,9 +1,9 @@
 ---
-page_status: active
+page_status: comingsoon
 title: Winter Market ❄️ 
 description: Join us for local goods and a bake sale this Winter!
 type: events
-event_date: 2024-11-16 10:00:00 +0000
+event_date: 2025-11-16 10:00:00 +0000
 url: "/wintermarket"
 fullUrl: "https://colwichhso.com/wintermarket"
 pageImage: "https://colwichhso.com/images/flyers/WinterMarketWeb.jpg"

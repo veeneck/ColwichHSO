@@ -1,5 +1,5 @@
 ---
-page_status: coming_soon
+page_status: comingsoon
 title: Gambino's Spirit Night 🎉
 description: Head on over to Gambino's where a portion of your meal will go back to Colwich HSO.
 type: events

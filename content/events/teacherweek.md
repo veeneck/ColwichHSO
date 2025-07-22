@@ -5,7 +5,7 @@ type: events
 event_date: 2025-05-05 1:00:00 +0000
 url: "/teacherweek"
 fullUrl: "https://colwichhso.com/teacherweek"
-page_status: active
+page_status: comingsoon
 custom_class: "show_image event_coinwars"
 ctatext: Add To Your Calendar
 ctalink: calendar

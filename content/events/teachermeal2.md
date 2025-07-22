@@ -7,7 +7,7 @@ pageImage: "https://colwichhso.com/images/flyers/ConferenceMealOpenGraph.jpg"
 url: "/meals2"
 fullUrl: "https://colwichhso.com/meals2"
 faq_category: meals
-page_status: active
+page_status: comingsoon
 ctatext: Add To Your Calendar
 ctalink: calendar
 ctaicon: meal

@@ -6,7 +6,7 @@ event_date: 2025-02-26 1:00:00 +0000
 url: "/carousel"
 fullUrl: "https://colwichhso.com/carousel"
 pageImage: "https://colwichhso.com/images/flyers/SpiritNightCarouselOG.jpg"
-page_status: active
+page_status: comingsoon
 faq_category: spiritnight
 custom_class: "show_image event_spirit"
 ctatext: Add To Your Calendar
