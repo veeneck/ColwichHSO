@@ -1,9 +1,9 @@
 ---
-page_status: active
+page_status: coming_soon
 title: Gambino's Spirit Night 🎉
 description: Head on over to Gambino's where a portion of your meal will go back to Colwich HSO.
 type: events
-event_date: 2024-09-10 1:00:00 +0000
+event_date: 2024-09-25 1:00:00 +0000
 url: "/gambinos"
 fullUrl: "https://colwichhso.com/gambinos"
 pageImage: "https://colwichhso.com/images/flyers/SpiritNightGambinosOG.jpg"
