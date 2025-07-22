@@ -1,13 +1,13 @@
 ---
-title: Colwich HSO 2024-2025 Calendar 🗓️
+title: Colwich HSO 2025-2026 Calendar 🗓️
 description: Take a look at what we have planned for the upcoming school year.
 type: events
 date: 2022-06-03 14:59:46 +0000
 url: "/calendar"
 fullUrl: "https://colwichhso.com/calendar"
-subtitle: 2024-2025 Calendar
+subtitle: 2025-2026 Calendar
 shoutout: Sync Up With Our Yearly Event Schedule 🗓️
-overview: Click below to download our 2024-2025 calendar, which will keep your phone or computer in sync with our yearly events.
+overview: Click below to download our 2025-2026 calendar, which will keep your phone or computer in sync with our yearly events.
 ctatext: Sync Your Calendar
 ctalink: calendar
 ctaicon: calendar

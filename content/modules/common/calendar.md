@@ -1,5 +1,5 @@
 ---
-title: 2024-2025 Schedule
+title: 2025-2026 Schedule
 id: modules/common/calendar.md
 type: module
 module_type: calendar

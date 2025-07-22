@@ -2,8 +2,9 @@
 title: CES Used Uniform Sale 👕
 description: Prepare for the new school year with our used uniform sales. 
 type: events
-event_date: 2024-07-31 08:00:00 +0000
+event_date: 2025-07-29 08:00:00 +0000
 url: "/uniform"
+page_status: active
 fullUrl: "https://colwichhso.com/uniform"
 pageImage: "https://colwichhso.com/images/flyers/UniformSaleOpenGraph.jpg"
 faq_category: uniform
@@ -25,4 +26,4 @@ polaroid:
 - /images/flyers/UniformSaleWeb.jpg
 - /images/flyers/UniformSaleWeb.jpg
 ---
-Prepare for the new school year with our used uniform sales. Stop by during enrollment on **July 31st**, from **8am** to **6pm**, to shop used uniforms.
+Prepare for the new school year with our used uniform sales. Stop by on **July 29th** and **July 30th**, from **8am** to **Noon**, to shop used uniforms.
