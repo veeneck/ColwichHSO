@@ -2,9 +2,9 @@
 title: 2nd HSO Meeting 🗓️
 description: Our second meeting of the year to plan winter events.
 type: events
-event_date: 2024-11-14 18:30:00 +0000
-url: "/meetings/11142024"
-fullUrl: "https://colwichhso.com/meetings/11142024"
+event_date: 2025-11-13 18:30:00 +0000
+url: "/meetings/11132025"
+fullUrl: "https://colwichhso.com/meetings/11132025"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeeting2OpenGraph.jpg"
 faq_category: meeting
 ctatext: Add To Your Calendar
@@ -27,4 +27,4 @@ polaroid:
 - /images/flyers/HSOMeetingNovWeb.jpg
 - /images/flyers/HSOMeetingNovWeb.jpg
 ---
-Meet at The Gathering Space to help us plan out the winter events, and to fill out volunteer roles. Hope to see you there!
+6:30 meeting at The Gathering Space to help us plan out the winter events, and to fill out volunteer roles. Hope to see you there!

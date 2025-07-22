@@ -2,9 +2,9 @@
 title: 1st HSO Meeting 🗓️
 description: Our first meeting of the year to kick things off.
 type: events
-event_date: 2024-09-12 18:30:00 +0000
-url: "/meetings/09122024"
-fullUrl: "https://colwichhso.com/meetings/09122024"
+event_date: 2025-09-11 18:30:00 +0000
+url: "/meetings/09112025"
+fullUrl: "https://colwichhso.com/meetings/09112025"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
 faq_category: meeting
 image: "/images/flyers/HSOMeetingSeptWeb.jpg"
@@ -24,4 +24,4 @@ polaroid:
 - /images/flyers/HSOMeetingSeptWeb.jpg
 - /images/flyers/HSOMeetingSeptWeb.jpg
 ---
-Meet @ The Nest in Colwich Elementary on Sept 12th at 6:30pm to help plan out the fall events, and to fill out volunteer roles. Enter through door 3 on the east side! Hope to see you there!
+Meet @ The Nest in Colwich Elementary on Sept 11th at 6:30pm to help plan out the fall events, and to fill out volunteer roles. Enter through door 3 on the east side! Hope to see you there!
