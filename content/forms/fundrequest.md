@@ -6,7 +6,7 @@ url: /forms/funds
 fullUrl: https://colwichhso.com/forms/funds
 subtitle: Teacher Request For Funds
 shoutout: We've Got You Covered 🏦
-overview: Teachers, HSO would love to be able to fund your request for field trips, classroom projects, or other financial needs. We're trying to streamline this for the 2025-206 school year. Please read the new [Fund Request FAQ](#section0), and then submit the form below!
+overview: Teachers, HSO would love to be able to fund your request for field trips, classroom projects, or other financial needs. Please read the [Fund Request FAQ](#section0), and then submit the form below!
 faq_category: fundrequest
 formEmbed: qjmf0o41hoz3ib
 aliases:
