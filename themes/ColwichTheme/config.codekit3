@@ -2923,13 +2923,13 @@
     },
     "\/static\/images\/flyers\/SpiritNightChickFilAWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 456790,
+      "iS" : 272552,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/static\/images\/flyers\/SpiritNightChickFilAWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
