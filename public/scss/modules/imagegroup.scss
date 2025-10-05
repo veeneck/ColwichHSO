@@ -1,0 +1,150 @@
+
+.imagegroup.first {
+	margin-top: 0px;
+}
+
+.module.imagegroup .content {
+	@include contentFor(xl-screen) {
+		width: 100%;
+	}
+}
+
+.imagegroup ul {
+	@include flex();
+	flex-wrap: wrap;
+	padding: 0px;
+	margin-left: 0px;
+	justify-content: center;
+
+	@include contentFor(normal-screen) {
+
+	}
+}
+
+.imagegroup li {
+	list-style: none;
+	padding: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+
+	@include contentFor(mini-screen) {
+		width: 48%;
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		
+	}
+
+	@include contentFor(xl-screen) {
+		width: 23%;
+	}
+}
+
+.imagegroup .content {
+	padding-top: 75px;
+}
+.counter {
+	background-color: $gold;
+	border-radius: 50%;
+	border: 2px solid #000;
+	width: 40px;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	margin: -55px auto 0px auto;
+	color: #000;
+}
+
+.imagegroup li div {
+	padding: 20px 10px 20px 10px;
+	border-radius: 4px;
+	position: relative;
+	font-weight: bold;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+}
+
+.imagegroup li:nth-child(1)  div {
+    background-color: #fff;
+    color: blue;
+}
+
+.imagegroup li:nth-child(2) div {
+    background-color: #fff;
+    color: $darkRed;
+}
+
+.imagegroup li:nth-child(3) div {
+    background-color: #fff;
+    color: green;
+}
+
+.imagegroup li:nth-child(4) div {
+    background-color: #fff;
+    color: brown;
+}
+
+.imagegroup li img {
+	margin: 0px;
+	border-radius: 4px 4px 0px 0px;
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+	border-top: 5px solid #fff;
+	border-left: 5px solid #fff;
+	border-right: 5px solid #fff;
+	box-sizing: border-box;
+
+
+	@include contentFor(normal-screen) {
+		height: 350px;
+	}
+}
+
+.imagegroup .moduleCTA {
+	margin-top: 50px;
+}
+
+.imagegroup li p {
+	font-weight: normal;
+	text-align: left;
+	padding: 10px;
+	width: 100%;
+	line-height: 30px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.imagegroup p {
+	width: 90%;
+	margin: 50px auto 0px auto;
+	line-height: 40px;
+	text-align: center;
+
+	@include contentFor(mini-screen) {
+		width: 700px;
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: 800px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
+}
+
+.imagegroup .dailywinner_sponsor img {
+	width: 150px;
+    margin: 15px auto;
+    object-fit: contain;
+   	height: 100px;
+}

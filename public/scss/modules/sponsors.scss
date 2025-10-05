@@ -1,0 +1,107 @@
+.sponsors ul {
+	@include flex();
+	justify-content: center;
+	padding: 0px;
+	margin-left: 0px;
+	flex-wrap: wrap;
+}
+
+.sponsors li {
+	list-style: none;
+	margin: 1%;
+	width: 45%;
+	padding: 30px;
+	box-sizing: border-box;
+		border-radius: 5px;
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+
+	@include contentFor(mini-screen) {
+		width: 48%;
+	}
+
+	@include contentFor(tablet-screen) {
+		width: 31%;
+	}
+
+	@include contentFor(large-screen) {
+		margin: 30px;
+		width: 200px;
+	}
+}
+
+.sponsors ul img {
+	//filter: grayscale(100%);
+	width: 100%;
+	height: 90px;
+	object-fit: contain;
+	margin: 15px auto;
+	@include contentFor(mini-screen) {
+		width: 60%;
+	}
+	@include contentFor(tablet-screen) {
+		margin: 25px auto;
+		width: 75%;
+	}
+	@include contentFor(large-screen) {
+		width: 100%;
+	}
+}
+
+.sponsors ul img.round {
+	height: 110px;
+	margin: 5px auto;
+
+	@include contentFor(tablet-screen) {
+		margin: 15px auto;
+	}
+}
+
+.sponsors ul a:hover {
+	cursor: pointer;
+}
+
+.sponsors ul a:hover img {
+	
+}
+
+.sponsors p {
+	text-align: center;
+	width: 90%;
+	margin: 50px auto;
+	line-height: 40px;
+
+	@include contentFor(mini-screen) {
+		width: 700px;
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		width: 800px;
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
+}
+
+.textsponsor {
+	height: 170px;
+	@include contentFor(mini-screen) {
+		height: 190px;
+	}
+}
+
+.textsponsor div {
+	text-align: center;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.textsponsor div a {
+	color: #000;
+	text-decoration: none;
+}

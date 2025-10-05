@@ -1,0 +1,107 @@
+.module.faq {
+
+	margin-top: 30px;
+
+	@include contentFor(mini-screen) {
+
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		
+	}
+
+	@include contentFor(xl-screen) {
+	}
+}
+
+.module.faq.first {
+	@include contentFor(large-screen) {
+		margin-top: -200px;
+	}
+}
+
+.faq .content {
+	column-count: 1;
+  	-webkit-column-count: 1;
+  	column-gap: 10px;
+ 	 -webkit-column-gap: 10px;
+	padding: 0px;
+	margin-left: 0px;
+
+	@include contentFor(mini-screen) {
+		column-count: 1;
+  		-webkit-column-count: 1;
+  		 column-gap: 30px;
+ 		 -webkit-column-gap: 30px;
+	}
+
+	@include contentFor(normal-screen) {
+
+	}
+
+	@include contentFor(large-screen) {
+		
+	}
+
+	@include contentFor(xl-screen) {
+
+	}
+}
+
+.faq code {
+	word-break: break-all;
+}
+
+.faqCardContainer {
+	width: 90%;
+	margin-left: 5%;
+	box-sizing: border-box;
+	height: auto;
+	break-inside: avoid;
+  	-webkit-column-break-inside: avoid;
+  	background-color: #fff;
+
+	@include contentFor(mini-screen) {
+		margin-left: 0px;
+		width: 100%;
+	}
+}
+
+.faqCard {
+	box-shadow: 0 15px 60px rgba(62,62,62,.102);
+	padding: 30px;
+	border-radius: 5px;
+
+	@include contentFor(normal-screen) {
+		padding: 40px;
+	}
+}
+
+.faq .content div:not(:first-child) {
+	  margin-top: 10px;
+
+	  @include contentFor(mini-screen) {
+	  	margin-top: 30px;
+	  }
+}
+
+.faq h4 {
+	color: $red;
+	font-size: 130%;
+
+	@include contentFor(mini-screen) {
+		font-size: 140%;
+	}
+}
+
+.faq ul li {
+	font-size: 120%;
+}
+
+.faq ul {
+	margin-left: 50px;
+}

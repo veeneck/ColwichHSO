@@ -1,0 +1,67 @@
+// PX to REM - Usage: font-size: rem(37px);
+@function rem($px, $base: $base-font-size) {
+    @return calc($px / $base) * 1rem;
+}
+
+@mixin contentFor($point) {
+    // Full design
+    @if $point == xl-screen {
+        @media (min-width: 1750px) {
+            @content;
+        }
+    }
+    // Full design
+    @else if $point == large-screen {
+        @media (min-width: 1300px) {
+            @content;
+        }
+    }
+    // Large enough for full page, but still condensed-
+    @else if $point == normal-screen {
+        @media (min-width: 1080px) {
+            @content;
+        }
+    }
+    // iPad landscape. iPad portrait would be ~48em
+   @else if $point == tablet-screen {
+        @media (min-width: 50em) {
+            @content;
+        }
+    }
+    // iPad landscape. iPad portrait would be ~48em
+   @else if $point == mini-screen {
+        @media (min-width: 765px) {
+            @content;
+        }
+    }
+    // Large phones / small tablets. iPhone X falls under 35em in portrait mode
+    @else if $point == condensed-screen {
+        @media (min-width: 35em) {
+            @content;
+        }
+    }
+}
+
+/// Convenient helper to use flexbox.
+@mixin flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+/// Use with @extend %clearfix to break floats, etc.
+%clearfix {
+    *zoom: 1;
+
+    &:before, &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}

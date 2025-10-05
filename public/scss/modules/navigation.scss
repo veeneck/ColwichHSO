@@ -1,0 +1,479 @@
+/*-----------------MAIN NAV LAYOUT---------------*/
+
+
+header {
+    padding: 20px;
+    @include flex();
+    font-weight: bold;
+    position: relative;
+    z-index: 11;
+
+    @include contentFor(large-screen) {
+        padding: 50px;
+    }
+
+    @include contentFor(xl-screen) {
+        padding: 50px;
+        justify-content: space-between;
+    }
+}
+
+header .logo {
+    width: 50%;
+
+    @include contentFor(xl-screen) {
+        width: 13%;
+    }
+}
+
+.logo img {
+    width: 125px;
+    margin: 0px;
+
+    @include contentFor(mini-screen) {
+        width: 150px;
+    }
+
+    @include contentFor(normal-screen) {
+        width: 175px;
+    }
+
+    @include contentFor(large-screen) {
+        width: 200px;
+    }
+
+    @include contentFor(xl-screen) {
+
+    }
+}
+
+// Only show donate button on XL screen.
+header .donate {
+    width: 0%;
+    text-align: right;
+    display: none;
+    height: 0px;
+
+    @include contentFor(xl-screen) {
+        display: inline-block;
+        width: 13%;
+    }
+}
+
+// Only show navigation menu on XL screen.
+header ul.nav {
+    width: 50%;
+    text-align: center;
+    font-size: 120%;
+    visibility: hidden;
+    position: relative;
+    z-index: 3;
+    @include flex();
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 100%;
+
+    @include contentFor(xl-screen) {
+        width: 100%;
+        visibility: visible;
+        height: 50px;
+        align-content: center;
+    }
+}
+
+
+/*-----------------NAV MENU STYLE---------------*/
+
+nav[role=navigation] {
+    @extend %clearfix;
+    width: 0px;
+    height: 0px;
+    @include contentFor(normal-screen) {
+        width: 100%;
+    }
+    -webkit-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-transform-style: preserve-3d;
+}
+
+ul.nav li {
+    list-style: none;
+    margin: 0px 20px;
+    height: 0px;
+}
+
+nav.open ul.nav li {
+    width: 100%;
+}
+
+ul.nav li span {
+    font-size: 65%;
+    padding-left: 5px;
+    color: $gold;
+    text-stroke: 2px red;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*-----------------FIRST LEVEL DROP DOWNS---------------*/
+
+dropbtn {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.dropbtn:hover {
+    color: #000;
+}
+
+a.dropbtn:hover span {
+    color: $red;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 160px;
+    z-index: 1;
+    background-color: $red;
+    width: 260px;
+    padding: 10px;
+    text-align: left;
+
+    @include contentFor(xl-screen) {
+        margin-left: -62px;
+        margin-top: -5px;
+        box-shadow: 0 15px 60px rgba(62,62,62,.102);
+        position: absolute;
+        border-radius: 4px;
+        padding: 30px;
+        background-color: #fff;
+    }
+
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-transform-style: preserve-3d;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+
+   @include contentFor(xl-screen) {
+    color: #000;
+   }
+}
+
+.dropdown-content a:hover {
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    @include contentFor(xl-screen) {
+        display: block;
+    }
+}
+
+/*----------------------- MOIBLE MENU STYLING ------------------------------ */
+
+.open .subopen .dropdown-content {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  @include flex(); 
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 50px;
+
+    @include contentFor(mini-screen) {
+       padding-left: 20%;
+    }
+}
+
+.open .subopen a {
+    width: 100%;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.dropdown-content a.backBtn {
+    display: none;
+}
+
+.open .subopen .backBtn {
+    display: block;
+}
+
+.open .subopen .backBtn {
+    font-weight: normal;
+}
+
+.mobileMenuItem {
+    display: none;
+
+    @include contentFor(normal-screen) {
+        display: none;
+    }
+}
+
+
+.mobileMenuItem .icon, .mobileMenuFB .icon {
+    margin-left: 0px;
+
+    @include contentFor(xl-screen) {
+        display: block;
+        margin-top: 3px;
+    }
+}
+
+.open .mobileMenuItem {  
+    display: block;
+}
+
+
+
+ul.nav li.mobileMenuFB span {
+    display: inline-block;
+    color: #000;
+    font-size: 100%;
+
+    @include contentFor(xl-screen) {
+        display: none;
+    }
+}
+
+
+/*----------------------- Hamburger Functionality ------------------------------ */
+
+/// Credit: https://codepen.io/bradfrost/pen/sHvaz
+
+div.menu-link {
+    padding: 1em;
+    color: $darkRed;
+    width: 50%;
+    position: relative;
+    text-align: right;
+
+    @include contentFor(xl-screen) {
+        display: none;
+        width: 0px;
+    }
+}
+
+.firstView {
+    transition: none !important;
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important;
+    animation-name: none !important;
+    visibility: hidden !important;
+     @include contentFor(normal-screen) {
+        visibility: visible !important;
+    }
+}
+
+// attempts to fix the flickering bug where the nav shows on initial load and then hides because of the transitions
+.firstView .nav {
+    display: none;
+    @include contentFor(xl-screen) {
+        display: flex;
+    }
+}
+
+
+// When we want nav to appear, change the height
+nav[role=navigation].open {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+     -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    @include contentFor(normal-screen) {
+        -webkit-animation-name: none;
+        animation-name: none;
+    }
+    visibility: visible;
+    //z-index: 5;
+}
+
+nav[role=navigation].closed {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp;
+      -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+ul.nav {
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-transform-style: preserve-3d;
+}
+
+.closed ul.nav {
+    -webkit-animation-name: fadeOutUp !important;
+    animation-name: fadeOutUp  !important;
+    -webkit-animation-delay: 0s   !important;
+    animation-delay: 0s   !important;
+
+    @include contentFor(normal-screen) {
+        -webkit-animation-name: none !important;
+        animation-name: none  !important;
+    }
+}
+
+.open ul.nav {
+    visibility: visible;
+    margin-top: -20px;
+    width: 100%;
+    padding-left: 50px;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-delay: 0.1s;
+     animation-delay: 0.1s;
+
+
+    @include contentFor(mini-screen) {
+        padding-left: 20%;
+    }
+
+    @include contentFor(normal-screen) {
+         -webkit-animation-name: none;
+        animation-name: none;
+    }
+
+    @include contentFor(large-screen) {
+        
+    }
+
+    @include contentFor(xl-screen) {
+
+    }
+
+    height: 100%;
+    align-content: center;
+    text-align: left;
+
+}
+
+.open ul.nav li {
+    display: block !important;
+    margin: 25px 0px;
+}
+
+/*----------------- Hamburger Animation -----------------*/
+
+/// Credit: https://codepen.io/mblode/pen/evjfn
+
+
+@mixin btn($left, $top) {
+    transition-duration: 0.5s;
+}
+
+@mixin icon($height, $width) {
+    transition-duration: 0.5s;
+    position: absolute;
+    height: $height;
+    width: $width;
+    top: 45%;
+    right: 0px;
+    background-color: $red;
+    border: 1px solid #000;
+}
+
+@mixin icon-before($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $red;
+    content: "";
+    top: $top - 1;
+    left: -1px;
+    border: 1px solid #000;
+}
+
+@mixin icon-after($height, $width, $top) {
+    transition-duration: 0.5s;
+    position: absolute;
+    width: $width;
+    height: $height;
+    background-color: $red;
+    content: "";
+    top: $top - 1;
+    left: -1px;
+    border: 1px solid #000;
+}
+
+div.menu-link {
+    @include btn(30px, 15px);
+    @include contentFor(normal-screen) {
+         @include btn(20px, 20px);
+    }
+
+    .icon {
+        filter: none;
+        @include icon(4px, 30px);
+
+        &:before {
+            @include icon-before(4px, 30px, -10px);
+        }
+
+        &:after {
+            @include icon-after(4px, 30px, 10px);
+        }
+    }
+
+    &.open {
+        .icon {
+            transition-duration: 0.5s;
+            background: transparent;
+            border: none;
+
+            &:before {
+                transform: rotateZ(45deg) scaleX(1.25) translate(6.5px, 6.5px);
+            }
+
+            &:after {
+                transform: rotateZ(-45deg) scaleX(1.25) translate(6px, -6px);
+            }
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}
