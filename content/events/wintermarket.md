@@ -1,5 +1,5 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Winter Market ❄️ 
 description: Join us for local goods and a bake sale this Winter!
 type: events

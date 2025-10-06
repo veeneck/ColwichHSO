@@ -2989,6 +2989,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/forms\/volunteer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/forms\/volunteer.html",
+      "oF" : 0
+    },
     "\/content\/forms\/volunteer.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -10662,7 +10670,7 @@
       "oAP" : "\/public\/images\/flyers\/WinterMarketWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -23033,14 +23041,14 @@
     },
     "\/themes\/ColwichTheme\/static\/images\/flyers\/WinterMarketWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 432215,
+      "iS" : 121454,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/WinterMarketWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -23050,8 +23058,8 @@
       "oA" : 0,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/WinterMarketWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
