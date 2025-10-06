@@ -1,5 +1,5 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Veterans Day Reception 🎖️
 description: This small event recognizes our local veterans.
 type: events

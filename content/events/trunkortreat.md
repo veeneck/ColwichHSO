@@ -1,5 +1,5 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Trunk or Treat 🎃
 description: HSO will head out and support the community this halloween.
 type: events
