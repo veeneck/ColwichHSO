@@ -22853,8 +22853,8 @@
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/TrunkOrTreatWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -22864,8 +22864,8 @@
       "oA" : 0,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/TrunkOrTreatWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
