@@ -234,6 +234,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/events\/christmas.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/events\/christmas.html",
+      "oF" : 0
+    },
     "\/content\/events\/christmas.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -271,6 +279,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/events\/coinwars.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/events\/coinwars.html",
+      "oF" : 0
     },
     "\/content\/events\/coinwars.md" : {
       "cB" : 0,
@@ -386,6 +402,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/events\/spiritnight.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/events\/spiritnight.html",
+      "oF" : 0
+    },
     "\/content\/events\/spiritnight.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -480,6 +504,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/events\/teachercart2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/events\/teachercart2.html",
+      "oF" : 0
     },
     "\/content\/events\/teachercart2.md" : {
       "cB" : 0,
@@ -6704,6 +6736,30 @@
       "oAP" : "\/public\/donate\/index.html",
       "oF" : 0
     },
+    "\/public\/events\/christmas\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/events\/christmas\/index.html",
+      "oF" : 0
+    },
+    "\/public\/events\/coinwars\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/events\/coinwars\/index.html",
+      "oF" : 0
+    },
+    "\/public\/events\/spiritnight\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/events\/spiritnight\/index.html",
+      "oF" : 0
+    },
     "\/public\/faq\/appreciationweek\/q1\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -9469,7 +9525,7 @@
       "oAP" : "\/public\/images\/flyers\/ColwichChristmasWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -9480,8 +9536,8 @@
       "oA" : 0,
       "oAP" : "\/public\/images\/flyers\/ColwichChristmasWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -10476,7 +10532,7 @@
       "oAP" : "\/public\/images\/flyers\/TrunkOrTreatWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -10487,8 +10543,8 @@
       "oA" : 0,
       "oAP" : "\/public\/images\/flyers\/TrunkOrTreatWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -10681,8 +10737,8 @@
       "oA" : 0,
       "oAP" : "\/public\/images\/flyers\/WinterMarketWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -21840,14 +21896,14 @@
     },
     "\/themes\/ColwichTheme\/static\/images\/flyers\/ColwichChristmasWeb.jpg" : {
       "ft" : 16384,
-      "iS" : 291770,
+      "iS" : 756283,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/ColwichChristmasWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-default",
       "q" : 100,
       "rq" : 75
     },
@@ -21857,8 +21913,8 @@
       "oA" : 0,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/ColwichChristmasWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },

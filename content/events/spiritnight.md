@@ -1,9 +1,9 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Gambino's Spirit Night 🎉
 description: Head on over to Gambino's where a portion of your meal will go back to Colwich HSO.
 type: events
-event_date: 2024-09-25 1:00:00 +0000
+event_date: 2025-12-17 1:00:00 +0000
 url: "/gambinos"
 fullUrl: "https://colwichhso.com/gambinos"
 pageImage: "https://colwichhso.com/images/flyers/SpiritNightGambinosOG.jpg"
@@ -16,7 +16,6 @@ custom_class: "show_image event_spirit"
 aliases:
     - /spiritnight
 modules:
-- modules/common/featured_image.md
 - modules/common/faq.md
 - modules/common/calendar.md
 - modules/common/sponsors.md
@@ -28,4 +27,4 @@ polaroid:
 - /images/flyers/SpiritNightGambinosWeb.jpg
 - /images/flyers/SpiritNightGambinosWeb.jpg
 ---
-Mention Colwich Elementary when you grab a meal at Gambino's Original in Colwich, or use online code Colwich2024, anytime on Septmber 10th. A portion of sales are donated back to HSO!
+Mention Colwich Elementary when you grab a meal at Gambino's Original in Colwich, or use online code Colwich2025, from 11am - 8pm on December 17th. A portion of sales are donated back to HSO!

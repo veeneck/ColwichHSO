@@ -1,9 +1,9 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Colwich Christmas Festival 🎄
 description: Come out to Veterans Park and Sacred Heart REC for Santa + Activities!
 type: events
-event_date: 2025-12-08 5:00:00 +0000
+event_date: 2025-12-07 5:00:00 +0000
 url: "/christmas"
 fullUrl: "https://colwichhso.com/christmas"
 pageImage: "https://colwichhso.com/images/flyers/ColwichChristmasOG.jpg"
@@ -26,4 +26,4 @@ polaroid:
 - /images/flyers/ColwichChristmasWeb.jpg
 - /images/flyers/ColwichChristmasWeb.jpg
 ---
-Candy Cane Hunt begins in the park at 5:00. Games, crafts, treats and more to follow at CES North Gym! Visit with Santa from 5:30 - 6:30!
+Candy Cane Hunt begins in the park at 5:00. Games, crafts, treats and more to follow at CES North Gym! Visit with Santa from 5:00 - 6:30!
