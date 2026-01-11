@@ -13,7 +13,7 @@ data_type: "logopackage"
 faq_category: "sponsorpackage"
 learn_link: "#section0"
 ctatext: Purchase Logo Package
-ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2025-sponsorship&field1=%24250%20-%20The%20Logo%20Package"
+ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2026-sponsorship&field1=%24250%20-%20The%20Logo%20Package"
 ctaicon: donate
 modules:
 - modules/common/sponsorpackage.md

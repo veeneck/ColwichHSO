@@ -12,7 +12,7 @@ custom_class: "show_image event_sponsor"
 data_type: "hostpackage"
 faq_category: "sponsorpackage"
 ctatext: Purchase Coin Wars Host
-ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2025-sponsorship&field1=%242%2C500%20-%20The%20Coin%20Wars%20Host"
+ctalink: "https://colwichhso.wufoo.com/forms/?formname=colwich-hso-2026-sponsorship&field1=%242%2C500%20-%20The%20Coin%20Wars%20Host"
 ctaicon: donate
 learn_link: "#section0"
 modules:
