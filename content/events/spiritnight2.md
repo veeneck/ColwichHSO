@@ -3,7 +3,7 @@ page_status: comingsoon
 title: Barn'rds Spirit Night 🎉
 description: Head on over to Barn'rds where a portion of your meal will go back to Colwich HSO.
 type: events
-event_date: 2024-12-10 1:00:00 +0000
+event_date: 2026-12-10 1:00:00 +0000
 url: "/barnrds"
 fullUrl: "https://colwichhso.com/barnrds"
 custom_class: "show_image event_spirit"

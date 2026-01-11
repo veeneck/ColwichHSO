@@ -2,7 +2,7 @@
 title: Conference Meals 🍽️
 description: We supply one meal for the teachers conferences as a show of appreciation.
 type: events
-event_date: 2025-02-19 1:00:00 +0000
+event_date: 2026-02-19 1:00:00 +0000
 pageImage: "https://colwichhso.com/images/flyers/ConferenceMealOpenGraph.jpg"
 url: "/meals2"
 fullUrl: "https://colwichhso.com/meals2"
