@@ -1,6 +1,8 @@
 name: Monday
-body: <b>2nd Grade - Lies</b> raised <b>$26.95</b> average per student on Monday!
-image: '/images/dailywinners/monday.jpg'
+###body: <b>2nd Grade - Lies</b> raised <b>$26.95</b> average per student on Monday!
+body: The daily winner for Monday will be announced here.
+###image: '/images/dailywinners/monday.jpg'
+image: '/images/dailywinners/Thursday 2.jpg'
 featured: 1
 itemType: 'dailywinners'
 sponsor_id: icm

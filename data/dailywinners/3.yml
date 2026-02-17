@@ -1,7 +1,9 @@
 name: Wednesday
-body: <b>PreK3 AM - Wiens</b> raised <b>$14.58</b> average per student on Wednesday!
+###body: <b>PreK3 AM - Wiens</b> raised <b>$14.58</b> average per student on Wednesday!
 ###body: Stay tuned to see which class raises the most per student on Wednesday!
-image: '/images/dailywinners/wednesday.jpg'
+###image: '/images/dailywinners/wednesday.jpg'
+body: The daily winner for Wednesday will be announced here.
+image: '/images/dailywinners/Thursday 2.jpg'
 featured: 3
 itemType: 'dailywinners'
 sponsor_id: bamowing

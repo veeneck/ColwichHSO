@@ -2559,6 +2559,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/faq\/sponsorpackages\/q1.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/faq\/sponsorpackages\/q1.html",
+      "oF" : 0
+    },
     "\/content\/faq\/sponsorpackages\/q1.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2577,6 +2585,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/faq\/sponsorpackages\/q2.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/faq\/sponsorpackages\/q2.html",
+      "oF" : 0
     },
     "\/content\/faq\/sponsorpackages\/q2.md" : {
       "cB" : 0,
@@ -2654,6 +2670,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/faq\/sponsorpackages\/q6.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/faq\/sponsorpackages\/q6.html",
+      "oF" : 0
+    },
     "\/content\/faq\/sponsorpackages\/q6.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -2691,6 +2715,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/faq\/sponsorpackages\/q8.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/faq\/sponsorpackages\/q8.html",
+      "oF" : 0
     },
     "\/content\/faq\/sponsorpackages\/q8.md" : {
       "cB" : 0,
@@ -3536,6 +3568,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/modules\/coinwars\/details.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/modules\/coinwars\/details.html",
+      "oF" : 0
+    },
     "\/content\/modules\/coinwars\/details.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -3611,6 +3651,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/modules\/coinwars\/raffleitems.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/modules\/coinwars\/raffleitems.html",
+      "oF" : 0
     },
     "\/content\/modules\/coinwars\/raffleitems.md" : {
       "cB" : 0,
@@ -4030,6 +4078,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/packages\/bannerpackage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/packages\/bannerpackage.html",
+      "oF" : 0
+    },
     "\/content\/packages\/bannerpackage.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4048,6 +4104,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/packages\/carnivalpackage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/packages\/carnivalpackage.html",
+      "oF" : 0
     },
     "\/content\/packages\/carnivalpackage.md" : {
       "cB" : 0,
@@ -4068,6 +4132,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/packages\/flagpackage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/packages\/flagpackage.html",
+      "oF" : 0
+    },
     "\/content\/packages\/flagpackage.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4086,6 +4158,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/packages\/logopackage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/packages\/logopackage.html",
+      "oF" : 0
     },
     "\/content\/packages\/logopackage.md" : {
       "cB" : 0,
@@ -4106,6 +4186,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/packages\/textpackage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/packages\/textpackage.html",
+      "oF" : 0
+    },
     "\/content\/packages\/textpackage.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4124,6 +4212,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/packages\/yearpackage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/packages\/yearpackage.html",
+      "oF" : 0
     },
     "\/content\/packages\/yearpackage.md" : {
       "cB" : 0,
@@ -4258,6 +4354,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/redesign\/sponsors.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/redesign\/sponsors.html",
+      "oF" : 0
+    },
     "\/content\/redesign\/sponsors.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4334,6 +4438,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/advantage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/advantage.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/advantage.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4352,6 +4464,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/bamowing.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/bamowing.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/bamowing.md" : {
       "cB" : 0,
@@ -4505,6 +4625,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/csc.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/csc.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/csc.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4561,6 +4689,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/gatheringspace.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/gatheringspace.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/gatheringspace.md" : {
       "cB" : 0,
@@ -4676,6 +4812,33 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/jillian.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/jillian.html",
+      "oF" : 0
+    },
+    "\/content\/sponsors\/jillian.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/jillian.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/content\/sponsors\/jumpstart.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4733,6 +4896,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/linder.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/linder.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/linder.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4751,6 +4922,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/lionsclub.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/lionsclub.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/lionsclub.md" : {
       "cB" : 0,
@@ -4790,6 +4969,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/lubbers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/lubbers.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/lubbers.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4809,6 +4996,41 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/mies.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/mies.html",
+      "oF" : 0
+    },
+    "\/content\/sponsors\/mies.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/mies.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/content\/sponsors\/mthope.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/mthope.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/mthope.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4827,6 +5049,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/multicrete.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/multicrete.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/multicrete.md" : {
       "cB" : 0,
@@ -4866,6 +5096,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/pearson.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/pearson.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/pearson.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4885,6 +5123,41 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/phoenix.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/phoenix.html",
+      "oF" : 0
+    },
+    "\/content\/sponsors\/phoenix.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/phoenix.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/content\/sponsors\/progressions.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/progressions.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/progressions.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4903,6 +5176,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/simplysunday.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/simplysunday.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/simplysunday.md" : {
       "cB" : 0,
@@ -4941,6 +5222,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/stmargarets.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/stmargarets.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/stmargarets.md" : {
       "cB" : 0,
@@ -4999,6 +5288,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/visionhomes.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/visionhomes.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/visionhomes.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -5036,6 +5333,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/wildfence.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/wildfence.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/wildfence.md" : {
       "cB" : 0,
@@ -5110,6 +5415,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/data\/2024raffle\/7.yml",
+      "oF" : 0
+    },
+    "\/data\/2026raffle\/1.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/data\/2026raffle\/1.yml",
       "oF" : 0
     },
     "\/data\/achievements\/1.yml" : {
@@ -17401,6 +17714,54 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/public\/images\/sponsors\/mies_and_sons_vector_art.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/images\/sponsors\/mies_and_sons_vector_art.pdf",
+      "oF" : 0
+    },
+    "\/public\/images\/sponsors\/mies.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/mies.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/mies2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/mies2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/mies3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/mies3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/mies4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/mies4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/public\/images\/sponsors\/mounthope.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -19303,6 +19664,14 @@
       "oAP" : "\/public\/sponsors\/invenergy\/index.html",
       "oF" : 0
     },
+    "\/public\/sponsors\/jillian\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/sponsors\/jillian\/index.html",
+      "oF" : 0
+    },
     "\/public\/sponsors\/jumpstart\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -19359,6 +19728,14 @@
       "oAP" : "\/public\/sponsors\/lubbers\/index.html",
       "oF" : 0
     },
+    "\/public\/sponsors\/mies\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/sponsors\/mies\/index.html",
+      "oF" : 0
+    },
     "\/public\/sponsors\/mthope\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -19389,6 +19766,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/sponsors\/pearson\/index.html",
+      "oF" : 0
+    },
+    "\/public\/sponsors\/phoenix\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/sponsors\/phoenix\/index.html",
       "oF" : 0
     },
     "\/public\/sponsors\/progressions\/index.html" : {
@@ -29773,6 +30158,54 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/lubbersnew.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies_and_sons_vector_art.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies_and_sons_vector_art.pdf",
+      "oF" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies4.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

@@ -5,7 +5,7 @@ sponsor_id: progressions
 website: "http://www.progressionssalonanddayspa.com"
 subtitle: "TO HELP, TO HEAL & TO MAKE PEOPLE FEEL BEAUTIFUL"
 logo: "progressions.svg"
-active: true
+active: false
 tier: 3
 custom_class: "round"
 ---

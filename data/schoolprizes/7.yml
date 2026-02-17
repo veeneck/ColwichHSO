@@ -1,8 +1,8 @@
-name: Dunk Tank
-body: Bring your throwing arm and dunk some staff.
+name: Human Sundae
+body: Turn Principal Burke into a human sundae!
 image: true
-featured: true
+featured: false
 itemType: 'schoolprizes'
 sponsor_id: guardian
 display_order: 7
-perkOrderDesc: $4,000
+perkOrderDesc: $6,000

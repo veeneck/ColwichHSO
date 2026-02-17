@@ -1,7 +1,7 @@
 name: Silly Hat Day
 body: Everyone can wear an odd hat to school!
 image: false
-featured: true
+featured: false
 itemType: 'schoolprizes'
 sponsor_id: caring
 display_order: 2

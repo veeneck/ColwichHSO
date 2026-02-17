@@ -5,7 +5,7 @@ id: modules/coinwars/raffleitems.md
 type: module
 module_type: content_cards
 ###data_type: 2024raffle
-data_type: 2024raffle
+data_type: 2026raffle
 has_header: true
 module_class: raffleitems
 ---

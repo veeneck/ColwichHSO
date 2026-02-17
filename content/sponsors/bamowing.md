@@ -5,7 +5,7 @@ sponsor_id: bamowing
 website: ""
 subtitle: "Jump Start proudly offers Simply Better Gasoline at all area locations."
 logo: "bamowing.svg"
-active: true
+active: false
 custom_class: "round"
 tier: 3
 ---

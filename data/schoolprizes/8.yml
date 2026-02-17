@@ -1,8 +1,8 @@
-name: Tanganyika Assembly
-body: We'll bring the zoo to the school!
+name: Foam Party
+body: Bring out the foam and water for a school party!
 image: true
-featured: true
+featured: false
 itemType: 'schoolprizes'
 sponsor_id: weigand
 display_order: 8
-perkOrderDesc: $5,000
+perkOrderDesc: $7,500

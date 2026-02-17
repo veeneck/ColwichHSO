@@ -1,6 +1,8 @@
 name: Tuesday
-body: <b>3rd Grade - Omo</b> raised <b>$17.24</b> average per student on Tuesday!
-image: '/images/dailywinners/tuesday.jpg'
+###body: <b>3rd Grade - Omo</b> raised <b>$17.24</b> average per student on Tuesday!
+###image: '/images/dailywinners/tuesday.jpg'
+body: The daily winner for Tuesday will be announced here.
+image: '/images/dailywinners/Thursday 2.jpg'
 featured: 2
 itemType: 'dailywinners'
 sponsor_id: ccf
