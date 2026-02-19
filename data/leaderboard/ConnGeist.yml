@@ -1,7 +1,8 @@
-name: 2nd Grade - Stroud
+name: MS - Geist
 body: "Dollar amounts are average per student."
+#image: "/images/dailywinners/3rd.png"
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 11
+display_order: 14
 perkOrderDesc: $0.00

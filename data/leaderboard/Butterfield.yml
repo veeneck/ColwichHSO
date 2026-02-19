@@ -1,9 +1,9 @@
-name: Kindergarten - C Butterfield
+name: Kindergarten - Butterfield
 ###body: C Butterfield's class is currently in <b>3rd</b> place with <b>$5.91</b>!
 body: "Dollar amounts are average per student."
 ###image: "/images/dailywinners/3rd.png"
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 9
+display_order: 4
 perkOrderDesc: $0.00

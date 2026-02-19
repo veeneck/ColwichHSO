@@ -1,9 +1,0 @@
-name: Kindergarten - Terry
-###ody: Terry's class is currently in <b>2nd</b> place with <b>$67.62</b>!
-body: "Dollar amounts are average per student."
-###image: "/images/dailywinners/2nd.png"
-image: false
-featured: false
-itemType: 'leaderboard'
-display_order: 2
-perkOrderDesc: $0.00

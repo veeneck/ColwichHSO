@@ -1,9 +1,9 @@
-name: MS - Rice
+name: Kindergarten - Marx
+###body: C Butterfield's class is currently in <b>3rd</b> place with <b>$5.91</b>!
 body: "Dollar amounts are average per student."
-###body: MS - Rice is currently in <b>3rd</b> place with <b>$65.32</b>!
 ###image: "/images/dailywinners/3rd.png"
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 13
+display_order: 5
 perkOrderDesc: $0.00

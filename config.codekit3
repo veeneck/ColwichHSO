@@ -6010,12 +6010,12 @@
       "oAP" : "\/data\/leaderboard\/Butterfield.yml",
       "oF" : 0
     },
-    "\/data\/leaderboard\/ConnButterfield.yml" : {
+    "\/data\/leaderboard\/ConnGeist.yml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/data\/leaderboard\/ConnButterfield.yml",
+      "oAP" : "\/data\/leaderboard\/ConnGeist.yml",
       "oF" : 0
     },
     "\/data\/leaderboard\/ConnHeimerman.yml" : {
@@ -6026,12 +6026,20 @@
       "oAP" : "\/data\/leaderboard\/ConnHeimerman.yml",
       "oF" : 0
     },
-    "\/data\/leaderboard\/ConnKear.yml" : {
+    "\/data\/leaderboard\/ConnKraus.yml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/data\/leaderboard\/ConnKear.yml",
+      "oAP" : "\/data\/leaderboard\/ConnKraus.yml",
+      "oF" : 0
+    },
+    "\/data\/leaderboard\/ConnPogue.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/data\/leaderboard\/ConnPogue.yml",
       "oF" : 0
     },
     "\/data\/leaderboard\/ConnRice.yml" : {
@@ -6040,14 +6048,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/data\/leaderboard\/ConnRice.yml",
-      "oF" : 0
-    },
-    "\/data\/leaderboard\/ConnVanCuren.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/data\/leaderboard\/ConnVanCuren.yml",
       "oF" : 0
     },
     "\/data\/leaderboard\/Cothran.yml" : {
@@ -6074,12 +6074,12 @@
       "oAP" : "\/data\/leaderboard\/Lies.yml",
       "oF" : 0
     },
-    "\/data\/leaderboard\/Omo.yml" : {
+    "\/data\/leaderboard\/Marx.yml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/data\/leaderboard\/Omo.yml",
+      "oAP" : "\/data\/leaderboard\/Marx.yml",
       "oF" : 0
     },
     "\/data\/leaderboard\/PreKAMWalker.yml" : {
@@ -6106,28 +6106,20 @@
       "oAP" : "\/data\/leaderboard\/PreKPMWalker.yml",
       "oF" : 0
     },
-    "\/data\/leaderboard\/Ries.yml" : {
+    "\/data\/leaderboard\/Seiler.yml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/data\/leaderboard\/Ries.yml",
+      "oAP" : "\/data\/leaderboard\/Seiler.yml",
       "oF" : 0
     },
-    "\/data\/leaderboard\/Stroud.yml" : {
+    "\/data\/leaderboard\/Stanton.yml" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/data\/leaderboard\/Stroud.yml",
-      "oF" : 0
-    },
-    "\/data\/leaderboard\/Terry.yml" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/data\/leaderboard\/Terry.yml",
+      "oAP" : "\/data\/leaderboard\/Stanton.yml",
       "oF" : 0
     },
     "\/data\/leadership\/1.yml" : {
