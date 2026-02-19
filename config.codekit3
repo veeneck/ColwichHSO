@@ -1267,6 +1267,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/faq\/coinwars\/q4.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/faq\/coinwars\/q4.html",
+      "oF" : 0
+    },
     "\/content\/faq\/coinwars\/q4.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -1305,6 +1313,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/faq\/coinwars\/q6.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/faq\/coinwars\/q6.html",
+      "oF" : 0
+    },
     "\/content\/faq\/coinwars\/q6.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -1323,6 +1339,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/faq\/coinwars\/q7.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/faq\/coinwars\/q7.html",
+      "oF" : 0
     },
     "\/content\/faq\/coinwars\/q7.md" : {
       "cB" : 0,
@@ -3549,6 +3573,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/modules\/coinwars\/dailywinners.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/modules\/coinwars\/dailywinners.html",
+      "oF" : 0
+    },
     "\/content\/modules\/coinwars\/dailywinners.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -3678,6 +3710,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/modules\/coinwars\/schoolprizes.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/modules\/coinwars\/schoolprizes.html",
+      "oF" : 0
     },
     "\/content\/modules\/coinwars\/schoolprizes.md" : {
       "cB" : 0,
@@ -4492,6 +4532,41 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/cardinal.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/cardinal.html",
+      "oF" : 0
+    },
+    "\/content\/sponsors\/cardinal.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/cardinal.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/content\/sponsors\/caring.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/caring.html",
+      "oF" : 0
+    },
     "\/content\/sponsors\/caring.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -4690,6 +4765,33 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/sponsors\/fourstar.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/fourstar.html",
+      "oF" : 0
+    },
+    "\/content\/sponsors\/fourstar.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/fourstar.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/content\/sponsors\/gatheringspace.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4838,6 +4940,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/jumpstart.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/jumpstart.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/jumpstart.md" : {
       "cB" : 0,
@@ -5015,6 +5125,33 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/content\/sponsors\/mies.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/content\/sponsors\/milling.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/milling.html",
+      "oF" : 0
+    },
+    "\/content\/sponsors\/milling.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/milling.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -5249,6 +5386,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/sponsors\/tbplumbing.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/sponsors\/tbplumbing.html",
+      "oF" : 0
     },
     "\/content\/sponsors\/tbplumbing.md" : {
       "cB" : 0,
@@ -11629,6 +11774,16 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/public\/images\/logos\/cardinal_ethanol.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/logos\/cardinal_ethanol.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/public\/images\/logos\/CarnivalLogoWhite 2.png" : {
       "ft" : 32768,
       "iS" : 55910,
@@ -16513,6 +16668,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/public\/images\/sponsors\/cardinal_ethanol.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/cardinal_ethanol.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/public\/images\/sponsors\/caringkansas.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -16586,6 +16751,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/public\/images\/sponsors\/ccflogo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/ckmedical.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/ckmedical.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -16740,6 +16915,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/public\/images\/sponsors\/cushmanfacility.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/fourstar.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/fourstar.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -17714,6 +17899,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/public\/images\/sponsors\/medical-staffing-01.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/medical-staffing-01.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/public\/images\/sponsors\/mies_and_sons_vector_art.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -17757,6 +17952,26 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/public\/images\/sponsors\/mies4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/milling.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/milling.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/milling2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/milling2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -19520,6 +19735,14 @@
       "oAP" : "\/public\/sponsors\/bamowing\/index.html",
       "oF" : 0
     },
+    "\/public\/sponsors\/cardinal\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/sponsors\/cardinal\/index.html",
+      "oF" : 0
+    },
     "\/public\/sponsors\/caring\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -19598,6 +19821,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/sponsors\/cushman\/index.html",
+      "oF" : 0
+    },
+    "\/public\/sponsors\/fourstar\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/sponsors\/fourstar\/index.html",
       "oF" : 0
     },
     "\/public\/sponsors\/gatheringspace\/index.html" : {
@@ -19734,6 +19965,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/public\/sponsors\/mies\/index.html",
+      "oF" : 0
+    },
+    "\/public\/sponsors\/milling\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/sponsors\/milling\/index.html",
       "oF" : 0
     },
     "\/public\/sponsors\/mthope\/index.html" : {
@@ -24077,6 +24316,16 @@
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
+    },
+    "\/themes\/ColwichTheme\/static\/images\/logos\/cardinal_ethanol.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/logos\/cardinal_ethanol.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/themes\/ColwichTheme\/static\/images\/logos\/CarnivalLogoWhite 2.png" : {
       "ft" : 32768,
@@ -28962,6 +29211,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/cardinal_ethanol.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/cardinal_ethanol.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/themes\/ColwichTheme\/static\/images\/sponsors\/caringkansas.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -29035,6 +29294,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/ccflogo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/ckmedical.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/ckmedical.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -29189,6 +29458,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/cushmanfacility.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/fourstar.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/fourstar.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -30206,6 +30485,26 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/mies4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/milling.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/milling.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/milling2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/milling2.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
