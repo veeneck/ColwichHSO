@@ -27,5 +27,5 @@ polaroid:
 - /images/flyers/CoinWarsWebBack.jpg
 - /images/flyers/CoinWarsWeb.jpg
 ---
-From **March 9th** through **March 13th**, classes will compete to raise donations for the school! There are tons of prizes to be won, so **[check out the rules and rewards](#section2)** below!
+From **March 9th** through **March 13th**, classes will compete to raise donations for the school! There are tons of prizes to be won, so **[check out the rules and rewards](#section1)** below!
 
