@@ -1,5 +1,5 @@
 ---
-page_status: comingsoon
+page_status: active
 title: Coin Wars 🪙
 description: Coin Wars is a fundraiser game to be competed between grade levels/home rooms. 
 type: events
