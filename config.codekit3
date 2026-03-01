@@ -16922,6 +16922,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/public\/images\/sponsors\/fourstarnocardinal.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/fourstarnocardinal.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/public\/images\/sponsors\/gatheringspace.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -18094,6 +18104,46 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/public\/images\/sponsors\/smctextstacked.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/smctextstacked.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/smcwithtext.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/smcwithtext.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/tbplumbing.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/tbplumbing.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/public\/images\/sponsors\/tbplumbing2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/tbplumbing2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/public\/images\/sponsors\/ungles 2.svg" : {
       "ft" : 2097152,
@@ -29465,6 +29515,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/fourstarnocardinal.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/fourstarnocardinal.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/themes\/ColwichTheme\/static\/images\/sponsors\/gatheringspace.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -30627,6 +30687,46 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/smctextstacked.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/smctextstacked.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/smcwithtext.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/smcwithtext.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/tbplumbing.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/tbplumbing.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/tbplumbing2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/tbplumbing2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/themes\/ColwichTheme\/static\/images\/sponsors\/ungles 2.svg" : {
       "ft" : 2097152,
