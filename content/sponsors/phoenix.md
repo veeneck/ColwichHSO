@@ -1,5 +1,5 @@
 ---
-title: "Pheonix Supply, Inc"
+title: "Phoenix Supply, Inc"
 type: sponsor
 sponsor_id: pheonix
 website: "http://www.phoenixsupplyinc.com"

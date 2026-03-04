@@ -3627,6 +3627,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/content\/modules\/coinwars\/leaderboard.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/modules\/coinwars\/leaderboard.html",
+      "oF" : 0
+    },
     "\/content\/modules\/coinwars\/leaderboard.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -9938,7 +9946,7 @@
       "oAP" : "\/public\/images\/flyers\/CoinWarsWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -9949,8 +9957,8 @@
       "oA" : 0,
       "oAP" : "\/public\/images\/flyers\/CoinWarsWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -9986,7 +9994,7 @@
       "oAP" : "\/public\/images\/flyers\/CoinWarsWebBack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -9997,8 +10005,8 @@
       "oA" : 0,
       "oAP" : "\/public\/images\/flyers\/CoinWarsWebBack.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -16922,6 +16930,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/public\/images\/sponsors\/fourstarcardinal.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/fourstarcardinal.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/public\/images\/sponsors\/fourstarnocardinal.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -18105,6 +18123,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/public\/images\/sponsors\/smcstacked2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/public\/images\/sponsors\/smcstacked2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/public\/images\/sponsors\/smctextstacked.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -19150,6 +19178,18 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/public\/scss\/carnival_old.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/scss\/carnival_old-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/public\/scss\/carnival_old.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -19161,6 +19201,18 @@
       "oAP" : "\/public\/scss\/carnival_old.css",
       "oF" : 0,
       "oS" : 0,
+      "pg" : 0
+    },
+    "\/public\/scss\/carnival.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/scss\/carnival-min.css",
+      "oF" : 0,
       "pg" : 0
     },
     "\/public\/scss\/carnival.scss" : {
@@ -19337,6 +19389,18 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/public\/scss\/css\/sponsorpackages-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/public\/scss\/index.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/public\/scss\/index-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -22531,10 +22595,10 @@
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/CoinWarsWeb.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-lossless",
       "q" : 100,
-      "rq" : 75
+      "rq" : 100
     },
     "\/themes\/ColwichTheme\/static\/images\/flyers\/CoinWarsWeb.webp" : {
       "ft" : 8388608,
@@ -22542,8 +22606,8 @@
       "oA" : 0,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/CoinWarsWeb.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
@@ -22579,10 +22643,10 @@
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/CoinWarsWebBack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
+      "opt" : 1,
+      "ou" : "lpckwebp-lossless",
       "q" : 100,
-      "rq" : 75
+      "rq" : 100
     },
     "\/themes\/ColwichTheme\/static\/images\/flyers\/CoinWarsWebBack.webp" : {
       "ft" : 8388608,
@@ -22590,7 +22654,7 @@
       "oA" : 0,
       "oAP" : "\/themes\/ColwichTheme\/static\/images\/flyers\/CoinWarsWebBack.webp",
       "oF" : 0,
-      "oIPL" : 0,
+      "oIPL" : 1,
       "opt" : 0,
       "ou" : "lpckwebp-default",
       "rq" : 75
@@ -30687,6 +30751,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/themes\/ColwichTheme\/static\/images\/sponsors\/smcstacked2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/sponsors\/smcstacked2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/themes\/ColwichTheme\/static\/images\/sponsors\/smctextstacked.svg" : {
       "ft" : 2097152,

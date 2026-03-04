@@ -11,6 +11,7 @@ custom_class: "show_image event_coinwars"
 image: "/images/flyers/CoinWarsWeb.jpg"
 faq_category: coinwars
 modules:
+- modules/common/featured_image.md
 - modules/coinwars/navigation.md
 - modules/coinwars/details.md
 - modules/coinwars/leaderboard.md
