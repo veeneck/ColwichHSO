@@ -49,6 +49,13 @@
 	background-color: #38823D;
 }
 
+#section0.event_coinwars {
+    display: none !important;
+    @include contentFor(normal-screen) {
+        display: block !important;
+    }
+}
+
 /* NAV */
 
 .coinwars_navigation {

@@ -224,7 +224,7 @@ a {
   transition: all 0.2s ease;
 }
 a:hover {
-  color: #1f6699;
+  color: rgb(31.2142857143, 101.8571428571, 152.7857142857);
 }
 
 ul,
@@ -299,7 +299,7 @@ figure img {
 
 figcaption {
   margin-top: 10px;
-  color: #1a1a1a;
+  color: rgb(25.5, 25.5, 25.5);
   font-size: 16px;
 }
 
@@ -307,7 +307,7 @@ pre {
   display: block;
   margin: 0 0 40px 0;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: rgb(248.6, 248.6, 248.6);
   border: 1px solid #DADADA;
   overflow: auto;
   border-radius: 3px;
@@ -325,7 +325,7 @@ code {
   padding: 3px;
   font-family: Courier New, Courier, monospace;
   font-size: 0.9895833333rem;
-  color: #282828;
+  color: rgb(39.5, 39.5, 39.5);
   line-height: 1em;
   pointer-events: none;
   border: 1px solid #DADADA;
@@ -1123,14 +1123,16 @@ img {
 
 .content_list .desc {
   width: 100%;
-  padding: 25px;
-  box-sizing: border-box;
 }
 @media (min-width: 765px) {
   .content_list .desc {
     flex: 1;
     width: auto;
   }
+}
+.content_list .desc {
+  padding: 25px;
+  box-sizing: border-box;
 }
 
 .content_sponsor {
@@ -2174,6 +2176,13 @@ header ul.nav {
 nav[role=navigation] {
   width: 0px;
   height: 0px;
+}
+@media (min-width: 1080px) {
+  nav[role=navigation] {
+    width: 100%;
+  }
+}
+nav[role=navigation] {
   -webkit-animation-duration: 0.2s;
   animation-duration: 0.2s;
   -webkit-animation-fill-mode: both;
@@ -2181,11 +2190,6 @@ nav[role=navigation] {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   -webkit-transform-style: preserve-3d;
-}
-@media (min-width: 1080px) {
-  nav[role=navigation] {
-    width: 100%;
-  }
 }
 
 ul.nav li {
@@ -2238,13 +2242,6 @@ a.dropbtn:hover span {
   width: 260px;
   padding: 10px;
   text-align: left;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-transform-style: preserve-3d;
 }
 @media (min-width: 1750px) {
   .dropdown-content {
@@ -2256,6 +2253,15 @@ a.dropbtn:hover span {
     padding: 30px;
     background-color: #fff;
   }
+}
+.dropdown-content {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-transform-style: preserve-3d;
 }
 
 .dropdown-content a {
@@ -2407,13 +2413,15 @@ nav[role=navigation].open {
   background-color: #fff;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  visibility: visible;
 }
 @media (min-width: 1080px) {
   nav[role=navigation].open {
     -webkit-animation-name: none;
     animation-name: none;
   }
+}
+nav[role=navigation].open {
+  visibility: visible;
 }
 
 nav[role=navigation].closed {
@@ -2455,9 +2463,6 @@ ul.nav {
   animation-name: fadeInDown;
   -webkit-animation-delay: 0.1s;
   animation-delay: 0.1s;
-  height: 100%;
-  align-content: center;
-  text-align: left;
 }
 @media (min-width: 765px) {
   .open ul.nav {
@@ -2470,6 +2475,12 @@ ul.nav {
     animation-name: none;
   }
 }
+.open ul.nav {
+  height: 100%;
+  align-content: center;
+  text-align: left;
+}
+
 .open ul.nav li {
   display: block !important;
   margin: 25px 0px;
@@ -3106,6 +3117,15 @@ nav[role=navigation]:after {
 
 .event_coinwars .special_item .desc .perkOrder {
   background-color: #38823D;
+}
+
+#section0.event_coinwars {
+  display: none !important;
+}
+@media (min-width: 1080px) {
+  #section0.event_coinwars {
+    display: block !important;
+  }
 }
 
 /* NAV */

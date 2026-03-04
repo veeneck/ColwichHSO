@@ -7,7 +7,7 @@
       "uuidString" : "D8DE42CA-7DA8-49E5-8956-67B3658873E8"
     }
   ],
-  "creatorBuild" : "34892",
+  "creatorBuild" : "34903",
   "files" : {
     "\/.hugo_build.lock" : {
       "cB" : 0,
@@ -1247,6 +1247,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/content\/faq\/coinwars\/q3.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/content\/faq\/coinwars\/q3.html",
+      "oF" : 0
     },
     "\/content\/faq\/coinwars\/q3.md" : {
       "cB" : 0,
@@ -19198,7 +19206,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/scss\/carnival_old.css",
+      "oAP" : "\/public\/css\/carnival_old.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19223,7 +19231,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/scss\/carnival.css",
+      "oAP" : "\/public\/css\/carnival.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19236,7 +19244,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/coinwars.css",
+      "oAP" : "\/public\/css\/coinwars.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19249,7 +19257,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/core\/animations.css",
+      "oAP" : "\/public\/scss\/css\/animations.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19262,7 +19270,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/core\/carnival_core.css",
+      "oAP" : "\/public\/scss\/css\/carnival_core.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19275,7 +19283,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/scss\/core\/carnival_typography.css",
+      "oAP" : "\/public\/scss\/css\/carnival_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19288,7 +19296,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/core\/core.css",
+      "oAP" : "\/public\/scss\/css\/core.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19301,7 +19309,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/core\/mixins.css",
+      "oAP" : "\/public\/scss\/css\/mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19314,7 +19322,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/core\/reset.css",
+      "oAP" : "\/public\/scss\/css\/reset.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19327,7 +19335,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/core\/typography.css",
+      "oAP" : "\/public\/scss\/css\/typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19412,7 +19420,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/scss\/index.css",
+      "oAP" : "\/public\/css\/index.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19425,7 +19433,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/alert.css",
+      "oAP" : "\/public\/scss\/css\/alert.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19438,7 +19446,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/calendar.css",
+      "oAP" : "\/public\/scss\/css\/calendar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19451,7 +19459,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/carnivalhero.css",
+      "oAP" : "\/public\/scss\/css\/carnivalhero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19464,7 +19472,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/carnivalnavigation.css",
+      "oAP" : "\/public\/scss\/css\/carnivalnavigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19477,7 +19485,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/content_cards.css",
+      "oAP" : "\/public\/scss\/css\/content_cards.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19490,7 +19498,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/content_list.css",
+      "oAP" : "\/public\/scss\/css\/content_list.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19503,7 +19511,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/donate.css",
+      "oAP" : "\/public\/scss\/css\/donate.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19516,7 +19524,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/faq.css",
+      "oAP" : "\/public\/scss\/css\/faq.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19529,7 +19537,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/footer.css",
+      "oAP" : "\/public\/scss\/css\/footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19542,7 +19550,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/framework.css",
+      "oAP" : "\/public\/scss\/css\/framework.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19555,7 +19563,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/full_image.css",
+      "oAP" : "\/public\/scss\/css\/full_image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19568,7 +19576,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/hero.css",
+      "oAP" : "\/public\/scss\/css\/hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19581,7 +19589,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/imagegroup.css",
+      "oAP" : "\/public\/scss\/css\/imagegroup.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19594,7 +19602,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/images.css",
+      "oAP" : "\/public\/scss\/css\/images.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19607,7 +19615,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/meetings.css",
+      "oAP" : "\/public\/scss\/css\/meetings.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19620,7 +19628,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/minutes.css",
+      "oAP" : "\/public\/scss\/css\/minutes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19633,7 +19641,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/navigation.css",
+      "oAP" : "\/public\/scss\/css\/navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19646,7 +19654,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/navmodule.css",
+      "oAP" : "\/public\/scss\/css\/navmodule.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19659,7 +19667,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/sponsorpackages.css",
+      "oAP" : "\/public\/scss\/css\/sponsorpackages.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19672,7 +19680,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/sponsors.css",
+      "oAP" : "\/public\/scss\/css\/sponsors.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19685,7 +19693,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/sponsortiers.css",
+      "oAP" : "\/public\/scss\/css\/sponsortiers.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19698,7 +19706,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/public\/scss\/modules\/text_module.css",
+      "oAP" : "\/public\/scss\/css\/text_module.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19711,7 +19719,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/scss\/wufoo.css",
+      "oAP" : "\/public\/css\/wufoo.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -19724,7 +19732,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/public\/scss\/wufoofull.css",
+      "oAP" : "\/public\/css\/wufoofull.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31179,6 +31187,18 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/themes\/ColwichTheme\/static\/scss\/carnival_old.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/carnival_old-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/themes\/ColwichTheme\/static\/scss\/carnival_old.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -31187,9 +31207,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/carnival_old.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/css\/carnival_old.css",
       "oF" : 0,
       "oS" : 0,
+      "pg" : 0
+    },
+    "\/themes\/ColwichTheme\/static\/scss\/carnival.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/carnival-min.css",
+      "oF" : 0,
       "pg" : 0
     },
     "\/themes\/ColwichTheme\/static\/scss\/carnival.scss" : {
@@ -31200,7 +31232,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/carnival.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/css\/carnival.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31213,7 +31245,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/coinwars.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/css\/coinwars.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31226,7 +31258,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/core\/animations.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/animations.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31239,7 +31271,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/core\/carnival_core.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/carnival_core.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31252,7 +31284,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/core\/carnival_typography.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/carnival_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31265,7 +31297,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/core\/core.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/core.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31278,7 +31310,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/core\/mixins.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31291,7 +31323,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/core\/reset.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/reset.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31304,7 +31336,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/core\/typography.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31369,6 +31401,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/themes\/ColwichTheme\/static\/scss\/index.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/index-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/themes\/ColwichTheme\/static\/scss\/index.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -31377,7 +31421,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/index.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/css\/index.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31390,7 +31434,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/alert.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/alert.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31403,7 +31447,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/calendar.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/calendar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31416,7 +31460,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/carnivalhero.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/carnivalhero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31429,7 +31473,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/carnivalnavigation.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/carnivalnavigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31442,7 +31486,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/content_cards.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/content_cards.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31455,7 +31499,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/content_list.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/content_list.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31468,7 +31512,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/donate.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/donate.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31481,7 +31525,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/faq.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/faq.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31494,7 +31538,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/footer.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31507,7 +31551,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/framework.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/framework.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31520,7 +31564,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/full_image.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/full_image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31533,7 +31577,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/hero.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31546,7 +31590,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/imagegroup.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/imagegroup.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31559,7 +31603,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/images.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/images.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31572,7 +31616,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/meetings.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/meetings.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31585,7 +31629,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/minutes.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/minutes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31598,7 +31642,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/navigation.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31611,7 +31655,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/navmodule.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/navmodule.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31624,7 +31668,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/sponsorpackages.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/sponsorpackages.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31637,7 +31681,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/sponsors.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/sponsors.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31650,7 +31694,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/sponsortiers.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/sponsortiers.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31663,7 +31707,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/modules\/text_module.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/css\/text_module.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31676,7 +31720,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/wufoo.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/css\/wufoo.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -31689,7 +31733,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/themes\/ColwichTheme\/static\/scss\/wufoofull.css",
+      "oAP" : "\/themes\/ColwichTheme\/static\/css\/wufoofull.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -32023,44 +32067,16 @@
         "active" : 0,
         "optionString" : "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
       },
-      "array-bracket-newline" : {
-        "active" : 0,
-        "optionString" : "{'multiline': true, 'minItems': null}"
-      },
-      "array-bracket-spacing" : {
-        "active" : 0,
-        "optionString" : "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
-      },
       "array-callback-return" : {
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
-      },
-      "array-element-newline" : {
-        "active" : 0,
-        "optionString" : "'always'"
       },
       "arrow-body-style" : {
         "active" : 0,
         "optionString" : "'as-needed', {'requireReturnForObjectLiteral': false}"
       },
-      "arrow-parens" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "arrow-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': true}"
-      },
       "block-scoped-var" : {
         "active" : 0
-      },
-      "block-spacing" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "brace-style" : {
-        "active" : 0,
-        "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
       "camelcase" : {
         "active" : 0,
@@ -32074,25 +32090,9 @@
         "active" : 0,
         "optionString" : "{'exceptMethods': [], 'enforceForClassFields': true}"
       },
-      "comma-dangle" : {
-        "active" : 1,
-        "optionString" : "'never'"
-      },
-      "comma-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
-      },
-      "comma-style" : {
-        "active" : 0,
-        "optionString" : "'last'"
-      },
       "complexity" : {
         "active" : 0,
         "optionString" : "20"
-      },
-      "computed-property-spacing" : {
-        "active" : 0,
-        "optionString" : "'never', {'enforceForClassMembers': true}"
       },
       "consistent-return" : {
         "active" : 0,
@@ -32118,17 +32118,9 @@
       "default-param-last" : {
         "active" : 0
       },
-      "dot-location" : {
-        "active" : 0,
-        "optionString" : "'object'"
-      },
       "dot-notation" : {
         "active" : 0,
         "optionString" : "{'allowKeywords': false}"
-      },
-      "eol-last" : {
-        "active" : 0,
-        "optionString" : "'always'"
       },
       "eqeqeq" : {
         "active" : 0,
@@ -32136,10 +32128,6 @@
       },
       "for-direction" : {
         "active" : 1
-      },
-      "func-call-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
       },
       "func-name-matching" : {
         "active" : 0,
@@ -32152,18 +32140,6 @@
       "func-style" : {
         "active" : 0,
         "optionString" : "'expression'"
-      },
-      "function-call-argument-newline" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "function-paren-newline" : {
-        "active" : 0,
-        "optionString" : "'multiline'"
-      },
-      "generator-star-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': false}"
       },
       "getter-return" : {
         "active" : 1,
@@ -32188,41 +32164,9 @@
         "active" : 0,
         "optionString" : "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
       },
-      "implicit-arrow-linebreak" : {
-        "active" : 0,
-        "optionString" : "'beside'"
-      },
-      "indent" : {
-        "active" : 0,
-        "optionString" : "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
-      },
       "init-declarations" : {
         "active" : 0,
         "optionString" : "'always',  {'ignoreForLoopInit': true}"
-      },
-      "jsx-quotes" : {
-        "active" : 0,
-        "optionString" : "'prefer-double'"
-      },
-      "key-spacing" : {
-        "active" : 0,
-        "optionString" : "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
-      },
-      "keyword-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
-      },
-      "linebreak-style" : {
-        "active" : 0,
-        "optionString" : "'unix'"
-      },
-      "lines-around-comment" : {
-        "active" : 0,
-        "optionString" : "{'beforeBlockComment': true}"
-      },
-      "lines-between-class-members" : {
-        "active" : 0,
-        "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
       "logical-assignment-operators" : {
         "active" : 0,
@@ -32235,10 +32179,6 @@
       "max-depth" : {
         "active" : 0,
         "optionString" : "{'max': 4}"
-      },
-      "max-len" : {
-        "active" : 0,
-        "optionString" : "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
       },
       "max-lines" : {
         "active" : 0,
@@ -32260,25 +32200,9 @@
         "active" : 0,
         "optionString" : "{'max': 10}, {'ignoreTopLevelFunctions': true}"
       },
-      "max-statements-per-line" : {
-        "active" : 0,
-        "optionString" : "{'max': 1}"
-      },
-      "multiline-ternary" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
       "new-cap" : {
         "active" : 0,
         "optionString" : "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
-      },
-      "new-parens" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "newline-per-chained-call" : {
-        "active" : 0,
-        "optionString" : "{'ignoreChainWithDepth': 2}"
       },
       "no-alert" : {
         "active" : 0
@@ -32311,10 +32235,6 @@
       "no-cond-assign" : {
         "active" : 1,
         "optionString" : "'except-parens'"
-      },
-      "no-confusing-arrow" : {
-        "active" : 0,
-        "optionString" : "{'allowParens': true, 'onlyOneSimpleParam': false}"
       },
       "no-console" : {
         "active" : 0,
@@ -32411,19 +32331,9 @@
       "no-extra-label" : {
         "active" : 0
       },
-      "no-extra-parens" : {
-        "active" : 0,
-        "optionString" : "'all'"
-      },
-      "no-extra-semi" : {
-        "active" : 0
-      },
       "no-fallthrough" : {
         "active" : 1,
         "optionString" : "{'allowEmptyCase': false}"
-      },
-      "no-floating-decimal" : {
-        "active" : 0
       },
       "no-func-assign" : {
         "active" : 1
@@ -32494,28 +32404,12 @@
         "active" : 1,
         "optionString" : "{'allowEscape': false}"
       },
-      "no-mixed-operators" : {
-        "active" : 0,
-        "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
-      },
-      "no-mixed-spaces-and-tabs" : {
-        "active" : 0,
-        "optionString" : ""
-      },
       "no-multi-assign" : {
         "active" : 0,
         "optionString" : "{'ignoreNonDeclaration': false}"
       },
-      "no-multi-spaces" : {
-        "active" : 0,
-        "optionString" : "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
-      },
       "no-multi-str" : {
         "active" : 0
-      },
-      "no-multiple-empty-lines" : {
-        "active" : 0,
-        "optionString" : "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
       },
       "no-negated-condition" : {
         "active" : 0
@@ -32531,9 +32425,6 @@
       },
       "no-new-native-nonconstructor" : {
         "active" : 1
-      },
-      "no-new-symbol" : {
-        "active" : 0
       },
       "no-new-wrappers" : {
         "active" : 0
@@ -32628,10 +32519,6 @@
       "no-sparse-arrays" : {
         "active" : 1
       },
-      "no-tabs" : {
-        "active" : 0,
-        "optionString" : "{allowIndentationTabs: false}"
-      },
       "no-template-curly-in-string" : {
         "active" : 0
       },
@@ -32643,10 +32530,6 @@
       },
       "no-throw-literal" : {
         "active" : 0
-      },
-      "no-trailing-spaces" : {
-        "active" : 0,
-        "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
       "no-unassigned-vars" : {
         "active" : 0
@@ -32711,6 +32594,9 @@
         "active" : 0,
         "optionString" : "{'functions': true, 'classes': true, 'variables': true, 'allowNamedExports': false}"
       },
+      "no-useless-assignment" : {
+        "active" : 1
+      },
       "no-useless-backreference" : {
         "active" : 1
       },
@@ -32752,27 +32638,8 @@
         "active" : 0,
         "optionString" : "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
       },
-      "no-whitespace-before-property" : {
-        "active" : 0
-      },
       "no-with" : {
         "active" : 1
-      },
-      "nonblock-statement-body-position" : {
-        "active" : 0,
-        "optionString" : "'beside'"
-      },
-      "object-curly-newline" : {
-        "active" : 0,
-        "optionString" : "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
-      },
-      "object-curly-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "object-property-newline" : {
-        "active" : 0,
-        "optionString" : "{'allowAllPropertiesOnSameLine': true}"
       },
       "object-shorthand" : {
         "active" : 0,
@@ -32782,25 +32649,9 @@
         "active" : 0,
         "optionString" : "'always'"
       },
-      "one-var-declaration-per-line" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
       "operator-assignment" : {
         "active" : 0,
         "optionString" : "'always'"
-      },
-      "operator-linebreak" : {
-        "active" : 0,
-        "optionString" : "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
-      },
-      "padded-blocks" : {
-        "active" : 0,
-        "optionString" : "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
-      },
-      "padding-line-between-statements" : {
-        "active" : 0,
-        "optionString" : "{blankLine: 'always', prev:'*', next:'return'}"
       },
       "prefer-arrow-callback" : {
         "active" : 0
@@ -32844,17 +32695,12 @@
       "prefer-template" : {
         "active" : 0
       },
-      "quote-props" : {
-        "active" : 0,
-        "optionString" : "'always'"
-      },
-      "quotes" : {
-        "active" : 0,
-        "optionString" : "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+      "preserve-caught-error" : {
+        "active" : 1,
+        "optionString" : "{'requireCatchParameter': false}"
       },
       "radix" : {
-        "active" : 0,
-        "optionString" : "'always'"
+        "active" : 0
       },
       "require-atomic-updates" : {
         "active" : 0,
@@ -32870,22 +32716,6 @@
       "require-yield" : {
         "active" : 1
       },
-      "rest-spread-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "semi" : {
-        "active" : 0,
-        "optionString" : "'always', {'omitLastInOneLineBlock': false}"
-      },
-      "semi-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
-      },
-      "semi-style" : {
-        "active" : 0,
-        "optionString" : "'last'"
-      },
       "sort-imports" : {
         "active" : 0,
         "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
@@ -32898,48 +32728,12 @@
         "active" : 0,
         "optionString" : "{'ignoreCase': false}"
       },
-      "space-before-blocks" : {
-        "active" : 0,
-        "optionString" : "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
-      },
-      "space-before-function-paren" : {
-        "active" : 0,
-        "optionString" : "{'anonymous': 'always', 'named': 'never'}"
-      },
-      "space-in-parens" : {
-        "active" : 0,
-        "optionString" : "'never', {'exceptions': []}"
-      },
-      "space-infix-ops" : {
-        "active" : 0,
-        "optionString" : "{'int32Hint': false}"
-      },
-      "space-unary-ops" : {
-        "active" : 0,
-        "optionString" : "{'words': true, 'nonwords': false, 'overrides': {}}"
-      },
-      "spaced-comment" : {
-        "active" : 0,
-        "optionString" : "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
-      },
       "strict" : {
         "active" : 0,
         "optionString" : "'safe'"
       },
-      "switch-colon-spacing" : {
-        "active" : 0,
-        "optionString" : "{'after': true, 'before': false}"
-      },
       "symbol-description" : {
         "active" : 0
-      },
-      "template-curly-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
-      },
-      "template-tag-spacing" : {
-        "active" : 0,
-        "optionString" : "'never'"
       },
       "unicode-bom" : {
         "active" : 0,
@@ -32955,17 +32749,6 @@
       },
       "vars-on-top" : {
         "active" : 0
-      },
-      "wrap-iife" : {
-        "active" : 0,
-        "optionString" : "'outside'"
-      },
-      "wrap-regex" : {
-        "active" : 0
-      },
-      "yield-star-spacing" : {
-        "active" : 0,
-        "optionString" : "{'before': false, 'after': true}"
       },
       "yoda" : {
         "active" : 0,
@@ -33273,7 +33056,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
-    "sassWarningStyle" : 1,
+    "sassWarningStyle" : 2,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
