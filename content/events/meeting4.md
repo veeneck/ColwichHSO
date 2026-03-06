@@ -3,7 +3,7 @@ page_status: active
 title: 4th HSO Meeting 🗓️
 description: Our fourth meeting of the year to set goals for the next school year.
 type: events
-event_date: 2026-04-09 6:30:00 +0000
+event_date: 2026-04-16 6:30:00 +0000
 url: "/meetings/04092026"
 fullUrl: "https://colwichhso.com/meetings/04092026"
 pageImage: "https://colwichhso.com/images/flyers/HSOMeetingOpenGraph.jpg"
