@@ -1,10 +1,12 @@
-title: Raffle Items Coming Soon!
+title: Explore Baking
 title_attribute: false
-icon: "🥳"
-description: We are assembling our raffle backets. Check back soon!
+icon: "🍪"
+description: two all access passes to exploration place, cookbook, cookie and cake mix, sprinkles, baking cups, cookie cutters, rolling pin
+details: Vision Homes
+detailsLink: https://visionhomesks.com
 ctaText: false
 ctaLink: false
-image: false
+image: /images/raffle/2026/1.jpg
 featured: false
 itemType: '2026raffle'
 display_order: 1
