@@ -6210,6 +6210,14 @@
       "oAP" : "\/data\/leaderboard\/PreKPMWalker.yml",
       "oF" : 0
     },
+    "\/data\/leaderboard\/Ries.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/data\/leaderboard\/Ries.yml",
+      "oF" : 0
+    },
     "\/data\/leaderboard\/Seiler.yml" : {
       "cB" : 0,
       "ft" : 8192,
