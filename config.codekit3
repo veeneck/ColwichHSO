@@ -9617,6 +9617,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/public\/images\/dailywinners\/mondaywinner.png" : {
+      "ft" : 32768,
+      "iS" : 26554,
+      "oA" : 0,
+      "oAP" : "\/public\/images\/dailywinners\/mondaywinner.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/public\/images\/dailywinners\/thursday 2.jpg" : {
       "ft" : 16384,
       "iS" : 39528,
@@ -22599,6 +22612,19 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/themes\/ColwichTheme\/static\/images\/dailywinners\/mondaywinner.png" : {
+      "ft" : 32768,
+      "iS" : 26554,
+      "oA" : 0,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/dailywinners\/mondaywinner.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/themes\/ColwichTheme\/static\/images\/dailywinners\/thursday 2.jpg" : {
