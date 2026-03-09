@@ -1,6 +1,6 @@
 name: Kindergarten - Marx
-body: Marx is currently in <b>1st</b> place with <b>$15.76</b>!
-body: "Dollar amounts are average per student."
+body: K - Marx is currently in <b>1st</b> place with <b>$15.76</b>!
+###body: "Dollar amounts are average per student."
 image: "/images/dailywinners/1st.png"
 ###image: false
 featured: true
