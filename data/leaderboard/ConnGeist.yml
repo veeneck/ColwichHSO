@@ -1,8 +1,9 @@
 name: MS - Geist
-body: "Dollar amounts are average per student."
-#image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
+###body: "Dollar amounts are average per student."
+body: "MS - Geist's class is currently in <b>3rd</b> place with <b>$8.47</b>!"
+image: "/images/dailywinners/3rd.png"
+###mage: false
+featured: true
 itemType: 'leaderboard'
-display_order: 14
-perkOrderDesc: $0.00
+display_order: 3
+perkOrderDesc: $8.47

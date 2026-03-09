@@ -1,9 +1,9 @@
 name: Kindergarten - Marx
-###body: C Butterfield's class is currently in <b>3rd</b> place with <b>$5.91</b>!
+body: Marx is currently in <b>1st</b> place with <b>$15.76</b>!
 body: "Dollar amounts are average per student."
-###image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
+image: "/images/dailywinners/1st.png"
+###image: false
+featured: true
 itemType: 'leaderboard'
-display_order: 5
-perkOrderDesc: $0.00
+display_order: 1
+perkOrderDesc: $15.76
