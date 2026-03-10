@@ -1,9 +1,9 @@
 name: MS - Rice
-body: "Dollar amounts are average per student."
-###body: MS - Rice is currently in <b>3rd</b> place with <b>$65.32</b>!
-###image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
+###body: "Dollar amounts are average per student."
+body: MS - Rice is currently in <b>3rd</b> place with <b>$12.05</b>!
+image: "/images/dailywinners/3rd.png"
+###image: false
+featured: true
 itemType: 'leaderboard'
-display_order: 9
-perkOrderDesc: $2.67
+display_order: 3
+perkOrderDesc: $12.05

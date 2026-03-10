@@ -1,9 +1,9 @@
 name: 3rd Grade - Stanton
-body: "3rd Grade - Stanton's class is currently in <b>2nd</b> place with <b>$10.83</b>!"
+body: "3rd Grade - Stanton's class is currently in <b>2nd</b> place with <b>$18.58</b>!"
 ###body: "Dollar amounts are average per student."
 ###image: false
 image: "/images/dailywinners/2nd.png"
 featured: true
 itemType: 'leaderboard'
 display_order: 2
-perkOrderDesc: $10.83
+perkOrderDesc: $18.58

@@ -3,6 +3,6 @@ body: "Dollar amounts are average per student."
 image: false
 featured: false
 itemType: 'leaderboard'
-display_order: 8
-perkOrderDesc: $3.29
+display_order: 4
+perkOrderDesc: $11.76
 #sponsor_id: vision
