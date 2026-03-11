@@ -9815,6 +9815,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/public\/images\/dailywinners\/wednesdaywinner.png" : {
+      "ft" : 32768,
+      "iS" : 123551,
+      "oA" : 0,
+      "oAP" : "\/public\/images\/dailywinners\/wednesdaywinner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/public\/images\/donations.jpg" : {
       "ft" : 16384,
       "iS" : 593149,
@@ -22823,6 +22836,19 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/themes\/ColwichTheme\/static\/images\/dailywinners\/wednesdaywinner.png" : {
+      "ft" : 32768,
+      "iS" : 123551,
+      "oA" : 0,
+      "oAP" : "\/themes\/ColwichTheme\/static\/images\/dailywinners\/wednesdaywinner.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/themes\/ColwichTheme\/static\/images\/donations.jpg" : {
