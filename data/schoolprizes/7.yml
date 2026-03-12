@@ -1,7 +1,7 @@
 name: Human Sundae
 body: Turn Principal Burke into a human sundae!
 image: true
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: advantageglass
 display_order: 7

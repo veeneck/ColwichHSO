@@ -1,10 +1,10 @@
 name: Thursday
-###body: <b>MS - Rice</b> raised <b>$25.55</b> average per student on Thursday!
+body: <b>1st Grade - Cothran</b> raised <b>$19.94</b> average per student on Thursday!
 ###image: '/images/dailywinners/thursdaywinner.jpg'
 ###body: Stay tuned to see which class raises the most per student on Thursday!
 ###image: '/images/dailywinners/thursday.jpg'
-body: The daily winner for Thursday will be announced here.
-image: '/images/dailywinners/Thursday 2.jpg'
+###body: The daily winner for Thursday will be announced here.
+image: '/images/dailywinners/thursdaywinner.png'
 featured: 4
 itemType: 'dailywinners'
 sponsor_id: cardinal

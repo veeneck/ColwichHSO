@@ -1,7 +1,7 @@
 name: Colwich Keychains
 body: A CES keychain for each student to show their school spirit!
 image: true
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: guardian
 display_order: 6

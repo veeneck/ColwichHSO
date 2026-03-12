@@ -1,10 +1,10 @@
 name: PreK4 PM - Walker / Davis
 ###body: "Dollar amounts are average per student."
-body: PreK4 PM - Walker / Davis is currently in <b>1st</b> place with <b>$32.58</b>!
-image: "/images/dailywinners/1st.png"
+body: PreK4 PM - Walker / Davis is currently in <b>2nd</b> place with <b>$45.89</b>!
+image: "/images/dailywinners/2nd.png"
 ###image: false
 featured: true
 itemType: 'leaderboard'
-display_order: 1
-perkOrderDesc: $32.58
+display_order: 2
+perkOrderDesc: $45.89
 #sponsor_id: tbplumbing

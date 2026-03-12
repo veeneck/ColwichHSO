@@ -1,9 +1,9 @@
 name: 1st Grade - Cothran
 ###body: "Dollar amounts are average per student."
 ###image: false
-body: 1st Grade - Cothran is currently in <b>2nd</b> place with <b>$26.73</b>!
-image: "/images/dailywinners/2nd.png"
+body: 1st Grade - Cothran is currently in <b>1st</b> place with <b>$46.67</b>!
+image: "/images/dailywinners/1st.png"
 featured: true
 itemType: 'leaderboard'
-display_order: 2
-perkOrderDesc: $26.73
+display_order: 1
+perkOrderDesc: $46.67
