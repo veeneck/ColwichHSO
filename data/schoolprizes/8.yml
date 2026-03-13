@@ -1,7 +1,7 @@
 name: Foam Party
 body: Bring out the foam and water for a school party!
 image: true
-featured: false
+featured: true
 itemType: 'schoolprizes'
 sponsor_id: weigand
 display_order: 8
