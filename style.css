@@ -3838,34 +3838,98 @@ body.page-coinwars .cw-dailies-note {
   align-self: center !important;
 }
 
+/* Mobile width: use full content width; less stacked padding / squish */
+@media (max-width: 767px) {
+  section.module.calendar .content,
+  section.module.sponsors .content,
+  section.module.page-faq .content,
+  .module.imagegroup.altBG .content,
+  .module.page-faq .content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box !important;
+  }
 
-/* Mobile: event + leadership cards fill content width (page side padding only) */
-@media (max-width: 599px) {
+  /* Sponsors section had extra horizontal padding on the section itself */
+  section.module.sponsors {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .event-timeline,
+  .event-group,
+  .event-cards {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
   .event-card-wrap {
     width: 100% !important;
     max-width: 100% !important;
     flex: 0 0 100% !important;
     margin: 0 0 12px 0 !important;
   }
+
   .event-month {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
-  .event-cards {
-    width: 100% !important;
+
+  .event-card {
+    padding: 20px 18px !important;
   }
-  .leadership-grid > li {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 0 0 16px 0 !important;
-  }
+
   .leadership-grid {
     width: 100% !important;
   }
-  /* Daily winners on coinwars use same leadership cells */
+  .leadership-grid > li,
   .cw-dailies .leadership-grid.cw-daily-grid > li {
     width: 100% !important;
     max-width: 100% !important;
-    padding: 0 0 16px 0 !important;
+    padding: 0 0 14px 0 !important;
+  }
+
+  /* FAQ accordion — fuller width, less tight */
+  .page-faq-list {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .page-faq-q {
+    padding: 16px 18px !important;
+    font-size: 1.05rem !important;
+    gap: 12px !important;
+  }
+  .page-faq-chevron {
+    margin-right: 2px !important;
+    padding-right: 2px !important;
+  }
+  .page-faq-a {
+    padding: 0 18px 18px !important;
+    font-size: 1rem !important;
+    line-height: 1.7 !important;
+  }
+
+}
+
+/* Lightbox FAQ: comfortable question/answer padding */
+.event-lightbox-faqs .lb-faq-q {
+  padding: 14px 16px !important;
+}
+.event-lightbox-faqs .lb-faq-a {
+  padding: 0 16px 16px !important;
+}
+.event-lightbox-faqs .lb-faq-chevron {
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+@media (max-width: 767px) {
+  .event-lightbox-faqs .lb-faq-q {
+    padding: 14px 16px !important;
+  }
+  .event-lightbox-faqs .lb-faq-a {
+    padding: 0 16px 16px !important;
   }
 }
