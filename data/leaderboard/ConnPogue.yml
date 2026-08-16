@@ -1,8 +1,0 @@
-name: MS - Pogue
-body: "Dollar amounts are average per student."
-#image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
-itemType: 'leaderboard'
-display_order: 14
-perkOrderDesc: $17.00

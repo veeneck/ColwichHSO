@@ -1,7 +1,0 @@
-name: Basketball Shot
-body: The further the shot, the more tickets you win.
-image: false
-featured: false
-itemType: 'games'
-sponsor_id: multisports
-display_order: 5

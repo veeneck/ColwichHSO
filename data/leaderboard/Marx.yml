@@ -1,9 +1,0 @@
-name: Kindergarten - Marx
-###body: K - Marx is currently in <b>3rd</b> place with <b>$23.79</b>!
-body: "Dollar amounts are average per student."
-###image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
-itemType: 'leaderboard'
-display_order: 7
-perkOrderDesc: $40.32

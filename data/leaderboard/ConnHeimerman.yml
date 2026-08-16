@@ -1,8 +1,0 @@
-name: MS - Heimerman
-body: "Dollar amounts are average per student."
-#image: "/images/dailywinners/3rd.png"
-image: false
-featured: false
-itemType: 'leaderboard'
-display_order: 15
-perkOrderDesc: $9.70

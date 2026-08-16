@@ -1,0 +1,70 @@
+# Colwich HSO — Netlify redirects
+# Publish directory = site root (this folder).
+# 404: put 404.html in the same root; Netlify serves it automatically for missing paths.
+
+# ========== Old live site → new site ==========
+
+# Main sections
+/calendar               /                               301
+/calendar/              /                               301
+/sponsor/               /sponsor.html                   301
+/coinwars/              /coinwars.html                  301
+/membership             /member.html                    301
+/membership/            /member.html                    301
+/marquee/               /marquee.html                   301
+/forms/funds            /fundrequest.html               301
+/forms/funds/           /fundrequest.html               301
+/forms/volunteer        /volunteer.html                 301
+/forms/volunteer/       /volunteer.html                 301
+/volunteer/             /about.html                     301
+/meetings               /about.html                     301
+/meetings/              /about.html                     301
+/faq                    /about.html                     301
+/faq/                   /about.html                     301
+
+# Event pages → home lightbox hashes
+/uniform                /#cesuseduniformsale            301
+/uniform/               /#cesuseduniformsale            301
+/dessert                /#dessertsocial                 301
+/dessert/               /#dessertsocial                 301
+/barnrds                /#barnrdsspiritnight            301
+/barnrds/               /#barnrdsspiritnight            301
+/coffee                 /#coffeewithcardinals           301
+/coffee/                /#coffeewithcardinals           301
+/appreciation1          /#teacherappreciation           301
+/appreciation1/         /#teacherappreciation           301
+/appreciation2          /#teacherappreciation2          301
+/appreciation2/         /#teacherappreciation2          301
+/chickfila              /#chickfilaspiritnight          301
+/chickfila/             /#chickfilaspiritnight          301
+/meals                  /#teacherconferencemeals        301
+/meals/                 /#teacherconferencemeals        301
+/meals2                 /#conferencemeals               301
+/meals2/                /#conferencemeals               301
+/trunkortreat           /#trunkortreat                  301
+/trunkortreat/          /#trunkortreat                  301
+/veteransday            /#veteransdayreception          301
+/veteransday/           /#veteransdayreception          301
+/wintermarket           /#wintermarket                  301
+/wintermarket/          /#wintermarket                  301
+/christmas              /#colwichchristmasfestival      301
+/christmas/             /#colwichchristmasfestival      301
+/gambinos               /#gambinosspiritnight           301
+/gambinos/              /#gambinosspiritnight           301
+/carousel               /#carouselskatenight            301
+/carousel/              /#carouselskatenight            301
+/teacherweek            /#teacherappreciationweek       301
+/teacherweek/           /#teacherappreciationweek       301
+
+# ========== Optional clean URLs (no .html in address bar) ==========
+# 200 = rewrite (URL stays pretty; file is served)
+/about                  /about.html                     200
+/about/                 /about.html                     200
+/sponsor                /sponsor.html                   200
+/coinwars               /coinwars.html                  200
+/member                 /member.html                    200
+/member/                /member.html                    200
+/marquee                /marquee.html                   200
+/fundrequest            /fundrequest.html               200
+/fundrequest/           /fundrequest.html               200
+/volunteer              /volunteer.html                 200
