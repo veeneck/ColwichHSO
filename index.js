@@ -103,7 +103,9 @@ document.querySelectorAll('#menu a').forEach(function (a) {
       }
       var startTime = (wrap.getAttribute('data-start-time') || '').trim();
       var endTime = (wrap.getAttribute('data-end-time') || '').trim();
+      // Card pill may already include " · time" — use date only here
       var dateLabel = dateEl ? dateEl.textContent.trim() : 'TBD';
+      dateLabel = dateLabel.split('\u00b7')[0].split('·')[0].trim();
       var timeLabel = '';
       if (startTime && endTime) timeLabel = startTime + ' – ' + endTime;
       else if (startTime) timeLabel = startTime;
@@ -175,9 +177,13 @@ document.querySelectorAll('#menu a').forEach(function (a) {
       if (lbTitle) lbTitle.textContent = (data.emoji ? data.emoji + ' ' : '') + (data.title || '');
 
       var body = '';
-      var dateLabel = data.date || 'TBD';
-      if (data.time) dateLabel = dateLabel + ' · ' + data.time;
-      body += '<div class="event-lightbox-date-inline">' + String(dateLabel).replace(/</g, '&lt;') + '</div>';
+      var day = String(data.date || 'TBD').replace(/</g, '&lt;');
+      var time = data.time ? String(data.time).replace(/</g, '&lt;') : '';
+      var dateHtml = '<span class="event-date-day">' + day + '</span>';
+      if (time) {
+        dateHtml += '<span class="event-date-sep"> · </span><span class="event-date-time">' + time + '</span>';
+      }
+      body += '<div class="event-lightbox-date-inline">' + dateHtml + '</div>';
       if (data.shortDesc) {
         body += '<p class="event-lightbox-short"><strong>' + data.shortDesc.replace(/</g, '&lt;') + '</strong></p>';
       }

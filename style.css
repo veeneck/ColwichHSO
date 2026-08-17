@@ -37,13 +37,16 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 20px 24px;
+      padding: 16px 12px;
       width: 100%;
       position: relative;
       z-index: 200;
       font-weight: bold;
       box-sizing: border-box;
       background: transparent;
+    }
+    @media (min-width: 768px) {
+      header.navigation { padding: 20px 24px; }
     }
     @media (min-width: 1300px) {
       header.navigation { padding: 36px 50px; }
@@ -4042,4 +4045,21 @@ section.module h3 {
     width: 60% !important;
     max-width: 60% !important;
   }
+}
+
+/* Date pill: heavier date, lighter time */
+.event-date-day,
+.event-lightbox-date-inline .event-date-day {
+  font-weight: 700;
+  color: #333;
+}
+.event-date-time,
+.event-date-sep,
+.event-lightbox-date-inline .event-date-time,
+.event-lightbox-date-inline .event-date-sep {
+  font-weight: 500;
+  color: #777;
+}
+.event-date-top .event-date-day {
+  font-weight: 700;
 }
