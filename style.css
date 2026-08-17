@@ -687,8 +687,8 @@
     }
     @media (min-width: 1025px) {
       section.module.calendar .content {
-        width: 60%;
-        max-width: 60%;
+        width: 80%;
+        max-width: 80%;
         padding: 0;
       }
     }
@@ -1177,8 +1177,8 @@
     }
     @media (min-width: 1025px) {
       section.module.sponsors .content {
-        width: 60%;
-        max-width: 60%;
+        width: 80%;
+        max-width: 80%;
         padding: 0;
       }
     }
@@ -1496,8 +1496,8 @@ section.module.imagegroup.altBG h3,
 }
 @media (min-width: 1025px) {
   .module.imagegroup.altBG .content {
-    width: 60%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 80%;
     padding: 0;
   }
 }
@@ -1653,8 +1653,8 @@ section.module.page-faq {
 }
 @media (min-width: 1025px) {
   .module.page-faq .content {
-    width: 60%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 80%;
     padding: 0;
   }
 }
@@ -1844,8 +1844,8 @@ section.module.page-faq {
 }
 @media (min-width: 1025px) {
   .module.sponsors.sponsor-page-list .content {
-    width: 60%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 80%;
     padding: 0;
   }
 }
@@ -2009,8 +2009,8 @@ section.module.hero.sponsor-hero {
 }
 @media (min-width: 1025px) {
   .module.sponsortiers .content {
-    width: 60%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 80%;
     padding: 0;
   }
 }
@@ -2130,8 +2130,8 @@ ul.sponsor_item li a.highlighter.bottom {
 @media (min-width: 1025px) {
   .pkg-lightbox-panel .event-lightbox-body.pkg-lb-body,
   .pkg-lb-body {
-    width: 60%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 80%;
     padding: 20px 0 56px;
   }
 }
@@ -2506,8 +2506,8 @@ body.page-coinwars {
 }
 @media (min-width: 1025px) {
   .cw-needtoknow .content {
-    width: 60%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 80%;
     padding: 0;
   }
 }
@@ -2532,8 +2532,8 @@ body.page-coinwars {
 }
 @media (min-width: 1025px) {
   .cw-list .content {
-    width: 60%;
-    max-width: 60%;
+    width: 80%;
+    max-width: 80%;
     padding: 0;
   }
 }
@@ -3978,4 +3978,45 @@ section.module {
 section.module h3 {
   max-width: 100%;
   box-sizing: border-box;
+}
+
+/* Mid screens (iPad landscape → small monitors): ~80% content width
+   Large screens: tighten to 60% */
+@media (min-width: 1025px) and (max-width: 1399px) {
+  section.module.calendar .content,
+  section.module.sponsors .content,
+  section.module.page-faq .content,
+  .module.imagegroup.altBG .content,
+  .module.page-faq .content,
+  .module.sponsors.sponsor-page-list .content,
+  .module.sponsortiers .content,
+  .cw-needtoknow .content,
+  .cw-list .content,
+  .cw-dailies .content {
+    width: 80% !important;
+    max-width: 80% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media (min-width: 1400px) {
+  section.module.calendar .content,
+  section.module.sponsors .content,
+  section.module.page-faq .content,
+  .module.imagegroup.altBG .content,
+  .module.page-faq .content,
+  .module.sponsors.sponsor-page-list .content,
+  .module.sponsortiers .content,
+  .cw-needtoknow .content,
+  .cw-list .content,
+  .cw-dailies .content {
+    width: 60% !important;
+    max-width: 60% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
