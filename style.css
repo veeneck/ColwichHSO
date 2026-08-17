@@ -432,21 +432,21 @@
     .hero h1 img,
     .hero h1 .mascot {
       display: inline-block !important;
-      height: 0.75em !important;
+      height: 1.15em !important;
       width: auto !important;
       max-width: none;
       margin: 0 0 0 0.2em !important;
       vertical-align: middle;
       position: relative;
-      top: -0.05em;
+      top: -0.08em;
     }
     @media (max-width: 764px) {
       .hero h1 img,
       .hero h1 .mascot {
         display: inline-block !important;
-        height: 0.85em !important;
+        height: 1.2em !important;
         width: auto !important;
-        margin: 0 0 0 0.15em !important;
+        margin: 0 0 0 0.12em !important;
         vertical-align: middle;
       }
     }
