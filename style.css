@@ -1772,9 +1772,9 @@ section.module.page-faq {
 }
 @media (min-width: 1025px) {
   .wufooForm {
-    /* ~10% narrower than sponsors/FAQ column */
-    width: 50%;
-    max-width: 50%;
+    /* Match other modules: 80% on iPad landscape / small monitors */
+    width: 80%;
+    max-width: 80%;
     min-width: 0;
     margin-bottom: 0;
   }
@@ -1782,8 +1782,13 @@ section.module.page-faq {
 @media (min-width: 1300px) {
   .wufooForm {
     border: 20px solid #fff;
-    width: 50%;
-    max-width: 50%;
+  }
+}
+@media (min-width: 1400px) {
+  .wufooForm {
+    /* Match other modules: 60% on large screens */
+    width: 60%;
+    max-width: 60%;
   }
 }
 
@@ -4018,5 +4023,23 @@ section.module h3 {
     padding-right: 0 !important;
     margin-left: auto !important;
     margin-right: auto !important;
+  }
+}
+
+/* Wufoo forms — same content width as other modules */
+@media (min-width: 1025px) and (max-width: 1399px) {
+  .wufooForm {
+    width: 80% !important;
+    max-width: 80% !important;
+  }
+  .form-embed-wrap {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (min-width: 1400px) {
+  .wufooForm {
+    width: 60% !important;
+    max-width: 60% !important;
   }
 }
