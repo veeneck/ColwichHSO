@@ -1,9 +1,9 @@
 # Colwich HSO — Netlify redirects
 # Publish directory = site root (this folder).
 # 404: put 404.html in the same root; Netlify serves it automatically for missing paths.
-
+ 
 # ========== Old live site → new site ==========
-
+ 
 # Main sections
 /calendar               /                               301
 /calendar/              /                               301
@@ -21,14 +21,14 @@
 /meetings/              /about.html                     301
 /faq                    /about.html                     301
 /faq/                   /about.html                     301
-
+ 
 # Event pages → home lightbox hashes
 /uniform                /#cesuseduniformsale            301
 /uniform/               /#cesuseduniformsale            301
 /dessert                /#dessertsocial                 301
 /dessert/               /#dessertsocial                 301
-/barnrds                /#barnrdsspiritnight            301
-/barnrds/               /#barnrdsspiritnight            301
+/barnrds                /                               301
+/barnrds/               /                               301
 /coffee                 /#coffeewithcardinals           301
 /coffee/                /#coffeewithcardinals           301
 /appreciation1          /#teacherappreciation           301
@@ -55,7 +55,7 @@
 /carousel/              /#carouselskatenight            301
 /teacherweek            /#teacherappreciationweek       301
 /teacherweek/           /#teacherappreciationweek       301
-
+ 
 # ========== Optional clean URLs (no .html in address bar) ==========
 # 200 = rewrite (URL stays pretty; file is served)
 /about                  /about.html                     200
