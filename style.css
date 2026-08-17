@@ -13,6 +13,7 @@
     html {
       scroll-behavior: smooth;
       width: 100%;
+      max-width: 100%;
       overflow-x: hidden;
     }
     body {
@@ -22,7 +23,10 @@
       background: #fff;
       -webkit-font-smoothing: antialiased;
       width: 100%;
+      max-width: 100%;
       min-width: 0;
+      overflow-x: hidden;
+      position: relative;
     }
     img { max-width: 100%; height: auto; display: block; }
     a { color: var(--red); text-decoration: none; }
@@ -404,18 +408,21 @@
       .hero h1 {
         font-size: 250%;
         width: 700px;
+        max-width: 100%;
       }
     }
     @media (min-width: 1080px) {
       .hero h1 {
         font-size: 350%;
         width: 900px;
+        max-width: 100%;
       }
     }
     @media (min-width: 1300px) {
       .hero h1 {
         font-size: 450%;
         width: 900px;
+        max-width: 100%;
       }
     }
 
@@ -482,7 +489,8 @@
         display: block !important;
         min-height: 400px;
         height: auto;
-        overflow: visible;
+        overflow-x: hidden;
+        overflow-y: visible;
         padding-bottom: 125px;
       }
       section.module.featured_image.first { margin-top: -150px; }
@@ -1242,8 +1250,8 @@
       font-size: 1.1875rem;
       color: #000;
     }
-    @media (min-width: 765px) { .sponsors p { width: 700px; } }
-    @media (min-width: 1300px) { .sponsors p { width: 800px; } }
+    @media (min-width: 765px) { .sponsors p { width: 700px; max-width: 100%; } }
+    @media (min-width: 1300px) { .sponsors p { width: 800px; max-width: 100%; } }
 
     
     section.module.sponsors .moduleCTA {
@@ -3953,4 +3961,21 @@ body.page-coinwars .cw-dailies-note {
   .event-lightbox-faqs .lb-faq-a {
     padding: 0 16px 16px !important;
   }
+}
+
+/* Prevent horizontal scroll (Chrome / iPad) */
+html, body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+.module.featured_image,
+.polaroid,
+section.module {
+  max-width: 100%;
+}
+.hero h1,
+.sponsors p,
+section.module h3 {
+  max-width: 100%;
+  box-sizing: border-box;
 }
