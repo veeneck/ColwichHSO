@@ -422,10 +422,10 @@
     .hero h1 img,
     .hero h1 .mascot {
       display: inline-block !important;
-      height: 0.55em !important;
+      height: 0.75em !important;
       width: auto !important;
       max-width: none;
-      margin: 0 0 0 0.15em !important;
+      margin: 0 0 0 0.2em !important;
       vertical-align: middle;
       position: relative;
       top: -0.05em;
@@ -433,9 +433,11 @@
     @media (max-width: 764px) {
       .hero h1 img,
       .hero h1 .mascot {
-        display: block !important;
-        height: 40px !important;
-        margin: 12px auto 0 !important;
+        display: inline-block !important;
+        height: 0.85em !important;
+        width: auto !important;
+        margin: 0 0 0 0.15em !important;
+        vertical-align: middle;
       }
     }
 
@@ -3838,8 +3840,21 @@ body.page-coinwars .cw-dailies-note {
   align-self: center !important;
 }
 
-/* Mobile width: use full content width; less stacked padding / squish */
+/* Mobile: section side padding only (no stacked content padding); full-width cards */
 @media (max-width: 767px) {
+  /* Base sections were padding: 64px 32px — that 32px was squeezing cards */
+  section.module {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Hero: 15px left/right so title text wraps less */
+  section.module.hero {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  /* Content: no extra horizontal padding (section already provides it) */
   section.module.calendar .content,
   section.module.sponsors .content,
   section.module.page-faq .content,
@@ -3847,15 +3862,14 @@ body.page-coinwars .cw-dailies-note {
   .module.page-faq .content {
     width: 100% !important;
     max-width: 100% !important;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     box-sizing: border-box !important;
   }
 
-  /* Sponsors section had extra horizontal padding on the section itself */
   section.module.sponsors {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 
   .event-timeline,
@@ -3891,7 +3905,6 @@ body.page-coinwars .cw-dailies-note {
     padding: 0 0 14px 0 !important;
   }
 
-  /* FAQ accordion — fuller width, less tight */
   .page-faq-list {
     width: 100% !important;
     margin-left: 0 !important;
@@ -3912,6 +3925,14 @@ body.page-coinwars .cw-dailies-note {
     line-height: 1.7 !important;
   }
 
+  /* Space below Become a Sponsor before footer */
+  section.module.sponsors .moduleCTA {
+    margin-bottom: 40px !important;
+    padding-bottom: 8px !important;
+  }
+  section.module.sponsors {
+    padding-bottom: 48px !important;
+  }
 }
 
 /* Lightbox FAQ: comfortable question/answer padding */
