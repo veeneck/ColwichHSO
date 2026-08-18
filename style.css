@@ -15,12 +15,13 @@
       width: 100%;
       max-width: 100%;
       overflow-x: hidden;
+      background: #000;
     }
     body {
       font-family: "Rubik", system-ui, sans-serif;
       color: var(--black);
       line-height: 1.5;
-      background: #fff;
+      background: #000;
       -webkit-font-smoothing: antialiased;
       width: 100%;
       max-width: 100%;
